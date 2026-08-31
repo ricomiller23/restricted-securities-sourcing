@@ -58,7 +58,7 @@ export const getActiveMarketDate = () => {
   return `${y}-${m}-${dayStr}`;
 };
 
-export const getDatasetFreshness = (issuersCount = 1704) => {
+export const getDatasetFreshness = (issuersCount = 3209) => {
   const activeMarketDate = getActiveMarketDate();
   const est = getEasternTime();
 

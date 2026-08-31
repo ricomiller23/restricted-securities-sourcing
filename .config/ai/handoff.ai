@@ -1,11 +1,10 @@
 # Handoff
 
-- **Current Branch**: `feature/0.006-delisted-crm-optimizations-and-telemetry`
-- **Active Spec**: `specs/0/0.006-delisted-crm-optimizations-and-telemetry/`
+- **Current Branch**: `feature/0.007-sec-edgar-delisted-ingestion-and-dataset-expansion`
+- **Active Spec**: `specs/0/0.007-sec-edgar-delisted-ingestion-and-dataset-expansion/`
 - **Completed Tasks**:
-  - Phase 1: Upgraded `vite` to `^6.4.3` and confirmed 0 vulnerabilities via `npm audit` in `delisted-crm-database`.
-  - Phase 2: Created `Launch Delisted CRM.command` with milestone latency loggers and active polling.
-  - Phase 3: Created `delisted-crm-database/src/utils/freshness.js` with 24-hour market calendar resolver.
-  - Phase 4: Created `TelemetryModal.jsx` and added 24h Freshness & Telemetry badges to `Navbar.jsx`.
-  - Phase 5: Verified `npm run build` in `delisted-crm-database` compiles cleanly in 1.47s.
-- **Recommended Next Action**: Ready to commit, push branch, and create Pull Request for Spec 0.006.
+  - Phase 1: Built `delisted-crm-database/scripts/ingest_sec_edgar_delistings.js` parsing master index archives (2023–2026).
+  - Phase 2: Ingested 8,133 raw Form 25 / Form 15 filings, expanding unique corporate issuers from 1,704 to **3,209 issuers**.
+  - Phase 3: Upgraded client storage key to `DELISTED_CRM_DATABASE_V12_EXPANDED` with state preservation.
+  - Phase 4: Verified `npm run build` in `delisted-crm-database` (compiled in 1.55s).
+- **Recommended Next Action**: Ready to commit, push branch, and create Pull Request for Spec 0.007.

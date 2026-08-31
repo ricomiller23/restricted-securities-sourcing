@@ -72,7 +72,7 @@ export default function TelemetryModal({ isOpen, onClose, totalIssuers }) {
             <div className="bg-slate-800/50 border border-slate-700/50 rounded-xl p-3 text-center">
               <div className="text-slate-400 text-[11px] uppercase tracking-wider font-semibold">Total Issuers</div>
               <div className="text-cyan-400 font-extrabold text-xl mt-1">
-                {totalIssuers ? totalIssuers.toLocaleString() : "1,704"}
+                {totalIssuers ? totalIssuers.toLocaleString() : "3,209"}
               </div>
             </div>
 

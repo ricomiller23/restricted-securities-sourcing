@@ -46,3 +46,10 @@
 - **24-Hour Freshness Guarantee**: Created `delisted-crm-database/src/utils/freshness.js` certifying 1,704+ delisted issuer records within the active market window.
 - **Telemetry & Observability UI**: Built `TelemetryModal.jsx` and integrated live latency and 24h Freshness badges into `Navbar.jsx`.
 - **Sync Pipeline**: Configured `"sync:daily"` in `delisted-crm-database/package.json`.
+- **Pull Request**: PR #6 merged into `main`.
+
+## 2026-08-31 - Feature 0.007: Direct SEC EDGAR Delisted Ingestion & Dataset Expansion
+- **SEC Master Index Ingestion**: Created `delisted-crm-database/scripts/ingest_sec_edgar_delistings.js` parsing master index archives (2023–2026) for Form 25 and Form 15 filings (8,133 filings processed).
+- **Expanded Master Catalog**: Deduplicated unique corporate issuers from 1,704 to **3,209 corporate issuers** (+88.3% expansion).
+- **Local Storage Auto-Migration**: Upgraded `LOCAL_STORAGE_KEY` to `DELISTED_CRM_DATABASE_V12_EXPANDED` with state preservation.
+- **Validation**: Tested client build with 3,209 live records (compiled in 1.55s).

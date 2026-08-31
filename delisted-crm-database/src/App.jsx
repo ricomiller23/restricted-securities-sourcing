@@ -11,7 +11,8 @@ import ExecutiveDossierModal from "./components/ExecutiveDossierModal";
 
 import { ALL_GLOBAL_ISSUERS } from "./data/global_issuers_seed";
 
-const LOCAL_STORAGE_KEY = "DELISTED_CRM_DATABASE_V11_GLOBAL";
+const LOCAL_STORAGE_KEY = "DELISTED_CRM_DATABASE_V12_EXPANDED";
+const PREV_LOCAL_STORAGE_KEY = "DELISTED_CRM_DATABASE_V11_GLOBAL";
 
 export default function App() {
   const [issuers, setIssuers] = useState(() => {
@@ -19,7 +20,29 @@ export default function App() {
       const stored = localStorage.getItem(LOCAL_STORAGE_KEY);
       if (stored) {
         const parsed = JSON.parse(stored);
-        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+        if (Array.isArray(parsed) && parsed.length >= ALL_GLOBAL_ISSUERS.length) return parsed;
+      }
+
+      // Migrate any custom status/notes from previous local storage
+      const prevStored = localStorage.getItem(PREV_LOCAL_STORAGE_KEY);
+      if (prevStored) {
+        try {
+          const prevParsed = JSON.parse(prevStored);
+          if (Array.isArray(prevParsed)) {
+            const userEditMap = new Map();
+            prevParsed.forEach(item => {
+              if (item.status && item.status !== 'new') {
+                userEditMap.set(item.cik || item.id, { status: item.status, notes: item.notes });
+              }
+            });
+            if (userEditMap.size > 0) {
+              return ALL_GLOBAL_ISSUERS.map(item => {
+                const edit = userEditMap.get(item.cik || item.id);
+                return edit ? { ...item, status: edit.status, notes: edit.notes || item.notes } : item;
+              });
+            }
+          }
+        } catch (err) {}
       }
     } catch (e) {
       console.error("Failed loading local storage CRM state:", e);
