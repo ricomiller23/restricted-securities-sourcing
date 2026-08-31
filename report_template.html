@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cross-Exchange Comparative Report: London, Australia & Frankfurt Low-Priced Securities</title>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 14mm 12mm 14mm 12mm;
+    }
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1e293b;
+      background: #ffffff;
+      line-height: 1.45;
+      font-size: 9.5pt;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 10px;
+      margin-bottom: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .title-area h1 {
+      font-size: 16pt;
+      font-weight: 800;
+      color: #0f172a;
+      margin: 0 0 4px 0;
+      letter-spacing: -0.02em;
+    }
+    .title-area .subtitle {
+      font-size: 9pt;
+      color: #475569;
+      font-weight: 500;
+    }
+    .meta-badge {
+      font-size: 8pt;
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-align: right;
+      color: #334155;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 11pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 14px 0 6px 0;
+      padding-bottom: 3px;
+      border-bottom: 1px solid #e2e8f0;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    h3 {
+      font-size: 9.5pt;
+      font-weight: 700;
+      color: #1e293b;
+      margin: 8px 0 4px 0;
+    }
+    p {
+      margin: 0 0 6px 0;
+      color: #334155;
+      text-align: justify;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 12px 0;
+      font-size: 8pt;
+    }
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 5px 6px;
+      vertical-align: top;
+    }
+    th {
+      background: #f8fafc;
+      font-weight: 700;
+      color: #0f172a;
+      text-align: left;
+    }
+    tr:nth-child(even) {
+      background: #fdfdfd;
+    }
+    .badge {
+      display: inline-block;
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-size: 7pt;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .badge-uk { background: #e0e7ff; color: #3730a3; border: 1px solid #c7d2fe; }
+    .badge-aus { background: #dcfce7; color: #166534; border: 1px solid #bbf7d0; }
+    .badge-ger { background: #fce7f3; color: #9d174d; border: 1px solid #fbcfe8; }
+    .badge-us { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+    
+    a {
+      color: #2563eb;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+    .app-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .app-card {
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 8px;
+      background: #f8fafc;
+    }
+    .app-card-title {
+      font-size: 8.5pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 3px;
+    }
+    .app-card-link {
+      font-size: 7.5pt;
+      word-break: break-all;
+      display: block;
+      margin-top: 4px;
+    }
+    .page-break {
+      page-break-before: always;
+    }
+    .callout {
+      background: #f8fafc;
+      border-left: 3px solid #3b82f6;
+      padding: 6px 10px;
+      margin: 8px 0;
+      font-size: 8.5pt;
+      border-radius: 0 4px 4px 0;
+    }
+    .footer {
+      margin-top: 14px;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 6px;
+      font-size: 7.5pt;
+      color: #64748b;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="title-area">
+      <h1>Cross-Exchange Securities & Statutory Comparative Report</h1>
+      <div class="subtitle">Global Low-Priced Securities Restructuring, Shell CRM, Distress Outreach & Insider Signal Intelligence</div>
+    </div>
+    <div class="meta-badge">
+      London | Australia | Frankfurt<br>
+      Live Vercel Production Deployments
+    </div>
+  </div>
+
+  <!-- EXECUTIVE SUMMARY -->
+  <div class="callout">
+    <strong>Executive Purpose:</strong> This document serves as the master legal and technical operational manual for 12 live cloud applications deployed across the <strong>London Stock Exchange (LSE / AIM)</strong>, <strong>Australian Securities Exchange (ASX)</strong>, and <strong>Frankfurt Stock Exchange (FWB / Deutsche Börse)</strong>. Every platform addresses low-priced, distressed, and special situations securities using jurisdiction-specific statutory filings.
+  </div>
+
+  <!-- STATUTORY EQUIVALENCE MASTER TABLE -->
+  <h2>1. Statutory & Regulatory Filing Equivalency Matrix</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 22%;">Investment Strategy</th>
+        <th style="width: 26%;">🇬🇧 London (LSE / AIM)</th>
+        <th style="width: 26%;">🇦🇺 Australia (ASX)</th>
+        <th style="width: 26%;">🇩🇪 Frankfurt (FWB / Xetra)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>App 1: Restructuring & SEC 3(a)(10) Candidates</strong></td>
+        <td>
+          <span class="badge badge-uk">Companies Act 2006</span><br>
+          • <strong>Part 26 Schemes of Arrangement</strong><br>
+          • <strong>Part 26A Restructuring Plans</strong> (CIGA 2020 Cross-Class Cram Down)<br>
+          • <em>Venue:</em> High Court of Justice (Rolls Building, London)
+        </td>
+        <td>
+          <span class="badge badge-aus">Corporations Act 2001</span><br>
+          • <strong>Part 5.1 s411 Creditor Schemes</strong><br>
+          • <strong>Part 5.3A DOCA</strong> (Deed of Company Arrangement)<br>
+          • <em>Venue:</em> Supreme Court of NSW / Federal Court
+        </td>
+        <td>
+          <span class="badge badge-ger">StaRUG & InsO</span><br>
+          • <strong>StaRUG Restrukturierungsplan</strong><br>
+          • <strong>§§ 217 ff. InsO Insolvenzplan</strong> (Debt-to-Equity Swaps & Kapitalschnitt)<br>
+          • <em>Venue:</em> Amtsgerichte / Restrukturierungsgerichte
+        </td>
+      </tr>
+      <tr>
+        <td><strong>App 2: Suspended Shell CRM & Delisting Clocks</strong></td>
+        <td>
+          <span class="badge badge-uk">AIM Rules for Companies</span><br>
+          • <strong>AIM Rule 15 Cash Shells</strong> (6-Mo RTO Deadline)<br>
+          • <strong>AIM Rule 40 Suspensions</strong> (Loss of NOMAD)<br>
+          • <strong>AIM Rule 41</strong> (6-Month Cancellation Clock)
+        </td>
+        <td>
+          <span class="badge badge-aus">ASX Listing Rules</span><br>
+          • <strong>LR Chapter 17 Suspended Shells</strong><br>
+          • <strong>LR 17.12 Clock</strong> (2-Year Automatic Removal)<br>
+          • Chapters 1 & 2 Re-compliance RTOs
+        </td>
+        <td>
+          <span class="badge badge-ger">BörsG & Freiverkehr</span><br>
+          • <strong>BörsG § 39 Delisting</strong><br>
+          • <strong>Freiverkehr Segment Downgrades</strong> (Scale to Basic Board)<br>
+          • Clean <em>Börsenmäntel</em> (AG Shells)
+        </td>
+      </tr>
+      <tr>
+        <td><strong>App 3: Capital Distress & Runway Outreach</strong></td>
+        <td>
+          <span class="badge badge-uk">CA 2006 & UK MAR</span><br>
+          • <strong>Section 656 CA 2006</strong> (Mandatory EGM within 28 days for 50%+ capital loss)<br>
+          • UK MAR Art. 17 RNS Working Capital Alerts<br>
+          • Cash Runway &lt; 2.0 Quarters Screener
+        </td>
+        <td>
+          <span class="badge badge-aus">ASX Continuous Disclosure</span><br>
+          • <strong>Appendix 5B / 4C Item 8.6</strong> (&lt; 2.0 Quarters Runway Mandatory Reporting)<br>
+          • S708 Sophisticated Investor Placements<br>
+          • Emergency Bridge & Convertible Notes
+        </td>
+        <td>
+          <span class="badge badge-ger">AktG & EU MAR</span><br>
+          • <strong>§ 92 AktG</strong> (Mandatory EGM for 50%+ loss of share capital)<br>
+          • Art. 17 MAR Ad-Hoc Capital Loss Alerts<br>
+          • Distressed Convertible Debt Standstills
+        </td>
+      </tr>
+      <tr>
+        <td><strong>App 4: Insider Scouting & Major Holdings</strong></td>
+        <td>
+          <span class="badge badge-uk">FCA & UK MAR</span><br>
+          • <strong>UK MAR Art. 19 PDMR Dealings</strong> (3-Day)<br>
+          • <strong>FCA DTR 5 TR-1</strong> (3%, 4%, 5%, 6%... 10%+)<br>
+          • <strong>Section 570 CA 2006</strong> Dilution Radar
+        </td>
+        <td>
+          <span class="badge badge-aus">Corporations Act & ASX</span><br>
+          • <strong>Appendix 3Y Director Interest</strong> (5-Day)<br>
+          • <strong>Form 603 / 604</strong> (5%+ Substantial Holding)<br>
+          • <strong>LR 7.1 / 7.1A</strong> (15% + 10% Dilution Capacity)
+        </td>
+        <td>
+          <span class="badge badge-ger">BaFin & WpHG</span><br>
+          • <strong>EU MAR Art. 19 Directors' Dealings</strong> (3-Day)<br>
+          • <strong>§§ 33, 34 WpHG</strong> (3%, 5%, 10%, 15%, 25%+)<br>
+          • <strong>§ 186 AktG</strong> 10% Cash Placement Disapplication
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- PAGE BREAK -->
+  <div class="page-break"></div>
+
+  <!-- SECTION 2: DEEP DIVE INTO STRATEGIES -->
+  <h2>2. Functional Deep Dive by Investment Strategy</h2>
+
+  <h3>A. Strategy 1: Cross-Border Restructuring & SEC Section 3(a)(10) Recognition</h3>
+  <p>
+    Under <strong>Section 3(a)(10) of the US Securities Act of 1933</strong>, shares issued in exchange for outstanding creditor claims or debt securities are exempt from registration if approved following a formal fairness hearing by an authorized judicial body. 
+    In the UK, <strong>Part 26 Schemes</strong> and <strong>Part 26A Restructuring Plans</strong> (*CIGA 2020*) sanctioned by the High Court of Justice in London hold decades of formal SEC No-Action precedent. In Australia, <strong>Part 5.1 s411 Schemes</strong> and <strong>Part 5.3A DOCAs</strong> fulfill the exact same fairness standard before Supreme and Federal Courts. In Germany, <strong>StaRUG</strong> and <strong>§ 225a InsO Insolvency Plans</strong> provide binding cross-class cram down (*Debt-to-Equity*) mechanisms recognized across European and US cross-border capital structures.
+  </p>
+
+  <h3>B. Strategy 2: Delisted & Suspended Entities CRM (Reverse Takeovers & Removal Clocks)</h3>
+  <p>
+    Shell companies and suspended vehicles represent prime targets for non-dilutive backdoor listings (RTOs). On the <strong>London Stock Exchange (AIM)</strong>, companies disposing of operations are classified as <strong>AIM Rule 15 Cash Shells</strong> and must complete an RTO within <strong>6 months</strong> or face trading suspension and cancellation under <strong>AIM Rule 41</strong>. On the <strong>ASX</strong>, <strong>Listing Rule 17.12</strong> establishes a strict <strong>2-year automatic removal countdown clock</strong> from suspension. In <strong>Frankfurt</strong>, clean German AG vehicles (*Börsenmäntel*) offer expedited quotation access across the <em>Freiverkehr</em> (Basic Board and Scale) segments.
+  </p>
+
+  <h3>C. Strategy 3: Balance Sheet Distress Screener & Capital Outreach</h3>
+  <p>
+    Statutory distress triggers alert investors to urgent liquidity needs prior to formal insolvency:
+  </p>
+  <ul>
+    <li><strong>UK Section 656 Companies Act 2006:</strong> When a public company's net assets fall to $\le 50\%$ of called-up share capital, directors are legally obligated to convene an EGM within 28 days to consider emergency recapitalization.</li>
+    <li><strong>German § 92 AktG:</strong> Management (*Vorstand*) must immediately convene an Extraordinary General Meeting the moment half the share capital is lost.</li>
+    <li><strong>Australian Appendix 5B/4C Item 8.6:</strong> Exploration and technology companies reporting <strong>&lt; 2.0 quarters of cash runway</strong> must formally detail their capital raising plans to the ASX.</li>
+  </ul>
+
+  <h3>D. Strategy 4: Insider Signal Scouting, Major Holdings & Dilution Radars</h3>
+  <p>
+    Tracking high-conviction insider buying alongside major institutional accumulations:
+  </p>
+  <ul>
+    <li><strong>Director Dealings:</strong> UK MAR Article 19 (PDMRs), Australian Appendix 3Y, and German EU MAR Article 19 require open-market trades by board members to be disclosed within 3 to 5 business days.</li>
+    <li><strong>Substantial Shareholder Infiltration:</strong> UK TR-1 and German WpHG mandate disclosures starting at <strong>3%</strong> (and every 1% increment thereafter in the UK), while Australia's Form 603 triggers at <strong>5%</strong>.</li>
+    <li><strong>Dilution Radar:</strong> Monitors annual statutory pre-emption rights disapplication authorities (UK Section 570 CA 2006, ASX LR 7.1/7.1A 15%+10% placement capacity, and German § 186 AktG 10% non-pre-emptive placement limits).</li>
+  </ul>
+
+  <!-- MASTER DIRECTORY OF LIVE APPLICATIONS -->
+  <h2>3. Complete Master Live Production Directory (12 Deployed Applications)</h2>
+  <p>All 12 applications are live, verified with <code>HTTP/2 200</code> responses, mobile-optimized, and deployed on Vercel:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 25%;">Exchange Suite</th>
+        <th style="width: 25%;">App 1: Restructuring / 3(a)(10)</th>
+        <th style="width: 25%;">App 2: Suspended Shell CRM</th>
+        <th style="width: 25%;">App 3: Distress Outreach</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>🇬🇧 London Stock Exchange (LSE / AIM)</strong></td>
+        <td>
+          <a href="https://london-future-3a10-candidates.vercel.app" target="_blank">london-future-3a10-candidates.vercel.app</a><br>
+          <span style="font-size: 7pt; color: #64748b;">Part 26/26A Schemes & High Court</span>
+        </td>
+        <td>
+          <a href="https://london-delisted-crm-database.vercel.app" target="_blank">london-delisted-crm-database.vercel.app</a><br>
+          <span style="font-size: 7pt; color: #64748b;">AIM Rule 15 Shells & Rule 41</span>
+        </td>
+        <td>
+          <a href="https://london-filings-outreach.vercel.app" target="_blank">london-filings-outreach.vercel.app</a><br>
+          <span style="font-size: 7pt; color: #64748b;">Section 656 CA 2006 & RNS</span>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>🇦🇺 Australian Securities Exchange (ASX)</strong></td>
+        <td>
+          <a href="https://australia-future-3a10-candidates.vercel.app" target="_blank">australia-future-3a10-candidates.vercel.app</a><br>
+          <span style="font-size: 7pt; color: #64748b;">Part 5.1 Schemes & DOCA</span>
+        </td>
+        <td>
+          <a href="https://australia-delisted-crm-database.vercel.app" target="_blank">australia-delisted-crm-database.vercel.app</a><br>
+          <span style="font-size: 7pt; color: #64748b;">LR 17.12 Delisted Shells CRM</span>
+        </td>
+        <td>
+          <a href="https://australia-filings-outreach.vercel.app" target="_blank">australia-filings-outreach.vercel.app</a><br>
+          <span style="font-size: 7pt; color: #64748b;">Appendix 5B/4C Item 8.6</span>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>🇩🇪 Frankfurt Stock Exchange (FWB / Xetra)</strong></td>
+        <td>
+          <a href="https://frankfort-future-3a10-candidates.vercel.app" target="_blank">frankfort-future-3a10-candidates.vercel.app</a><br>
+          <span style="font-size: 7pt; color: #64748b;">StaRUG & InsO Restrukturierung</span>
+        </td>
+        <td>
+          <a href="https://frankfort-delisted-crm-database.vercel.app" target="_blank">frankfort-delisted-crm-database.vercel.app</a><br>
+          <span style="font-size: 7pt; color: #64748b;">BörsG § 39 & AG-Mäntel</span>
+        </td>
+        <td>
+          <a href="https://frankfort-filings-outreach.vercel.app" target="_blank">frankfort-filings-outreach.vercel.app</a><br>
+          <span style="font-size: 7pt; color: #64748b;">§ 92 AktG & Art. 17 MAR</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 25%;">Exchange Suite</th>
+        <th style="width: 75%;">App 4: Insider Scouting & Major Holdings (3%+ / 5%+)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>🇬🇧 London (LSE)</strong></td>
+        <td>
+          <a href="https://london-edgar-insider-scout.vercel.app" target="_blank">https://london-edgar-insider-scout.vercel.app</a> — <em>UK MAR Art. 19 PDMR Dealings & FCA DTR 5 TR-1 Major Holdings (3%+)</em>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>🇦🇺 Australia (ASX)</strong></td>
+        <td>
+          <a href="https://australia-edgar-insider-scout.vercel.app" target="_blank">https://australia-edgar-insider-scout.vercel.app</a> — <em>ASX Appendix 3Y Director Trades & Form 603 Substantial Holders (5%+)</em>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>🇩🇪 Frankfurt (FWB)</strong></td>
+        <td>
+          <a href="https://frankfort-edgar-insider-scout.vercel.app" target="_blank">https://frankfort-edgar-insider-scout.vercel.app</a> — <em>EU MAR Art. 19 Directors' Dealings & §§ 33, 34 WpHG Stimmrechtsmitteilungen (3%+)</em>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <span>Global Securities Restructuring & Regulatory Intelligence Network</span>
+    <span>Generated August 2026 • Verified Production Deployments</span>
+  </div>
+
+</body>
+</html>

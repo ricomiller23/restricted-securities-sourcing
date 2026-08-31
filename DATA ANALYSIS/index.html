@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0a0e1a">
+    <title>Wildberries Infrastructure Analysis | Deep Dive Intelligence Dashboard</title>
+    <meta name="description" content="Comprehensive analysis of Wildberries distribution infrastructure, Ukrainian strike campaign impact, and Russian economic projections.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet for Maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-overlay">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <h2 class="loader-title">WILDBERRIES INTELLIGENCE</h2>
+            <p class="loader-subtitle">Initializing Analysis Engine...</p>
+            <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="app" class="app hidden">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-inner">
+                <div class="header-left">
+                    <div class="logo-mark">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect width="32" height="32" rx="8" fill="url(#logoGrad)"/>
+                            <path d="M8 16L12 8L16 18L20 10L24 16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 22L12 14L16 24L20 16L24 22" stroke="rgba(255,255,255,0.4)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs><linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#8B5CF6"/><stop offset="1" stop-color="#EC4899"/></linearGradient></defs>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="header-title">WILDBERRIES INFRASTRUCTURE ANALYSIS</h1>
+                        <p class="header-subtitle">Deep Dive Intelligence Dashboard • Ukraine Strike Campaign Impact Assessment</p>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="live-indicator">
+                        <span class="live-dot"></span>
+                        <span>DATA AS OF AUG 2026</span>
+                    </div>
+                    <div class="header-stat">
+                        <span class="header-stat-value" id="headerDestroyed">20+</span>
+                        <span class="header-stat-label">FACILITIES HIT</span>
+                    </div>
+                    <div class="header-stat">
+                        <span class="header-stat-value danger" id="headerCapacity">~22%</span>
+                        <span class="header-stat-label">CAPACITY LOST</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="nav-tabs">
+            <button class="nav-tab active" data-tab="overview">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                Overview
+            </button>
+            <button class="nav-tab" data-tab="map">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z"/><path d="M8 2v16"/><path d="M16 6v16"/></svg>
+                Geospatial Map
+            </button>
+            <button class="nav-tab" data-tab="timeline">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                Strike Timeline
+            </button>
+            <button class="nav-tab" data-tab="economic">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                Economic Impact
+            </button>
+            <button class="nav-tab" data-tab="projections">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                Projections
+            </button>
+        </nav>
+
+        <!-- Tab Content -->
+        <main class="main-content">
+            <!-- ===== OVERVIEW TAB ===== -->
+            <section id="tab-overview" class="tab-panel active">
+                <!-- Key Metrics Row -->
+                <div class="metrics-grid">
+                    <div class="metric-card glass" data-animate="fade-up" style="--delay: 0">
+                        <div class="metric-icon purple">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>
+                        </div>
+                        <div class="metric-info">
+                            <span class="metric-value counter" data-target="200">0</span><span class="metric-suffix">+</span>
+                            <span class="metric-label">Total Facilities</span>
+                        </div>
+                        <div class="metric-detail">5.2M sq/m total capacity</div>
+                    </div>
+                    <div class="metric-card glass" data-animate="fade-up" style="--delay: 1">
+                        <div class="metric-icon red">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        </div>
+                        <div class="metric-info">
+                            <span class="metric-value counter" data-target="20">0</span><span class="metric-suffix">+</span>
+                            <span class="metric-label">Facilities Struck</span>
+                        </div>
+                        <div class="metric-detail">Since July 18, 2026</div>
+                    </div>
+                    <div class="metric-card glass" data-animate="fade-up" style="--delay: 2">
+                        <div class="metric-icon orange">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+                        </div>
+                        <div class="metric-info">
+                            <span class="metric-value">1.18M</span>
+                            <span class="metric-label">Sq/m Destroyed</span>
+                        </div>
+                        <div class="metric-detail">~22% of total capacity</div>
+                    </div>
+                    <div class="metric-card glass" data-animate="fade-up" style="--delay: 3">
+                        <div class="metric-icon blue">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                        </div>
+                        <div class="metric-info">
+                            <span class="metric-value">₽200B</span>
+                            <span class="metric-label">Est. Direct Losses</span>
+                        </div>
+                        <div class="metric-detail">$2.2B USD equivalent</div>
+                    </div>
+                </div>
+
+                <!-- Company Profile + Capacity Gauge -->
+                <div class="grid-2col">
+                    <div class="card glass" data-animate="fade-up" style="--delay: 4">
+                        <div class="card-header">
+                            <h3>Company Profile</h3>
+                            <span class="badge purple">Russia's Largest E-Commerce</span>
+                        </div>
+                        <div class="profile-grid">
+                            <div class="profile-item">
+                                <span class="profile-label">Founded</span>
+                                <span class="profile-value">2004</span>
+                            </div>
+                            <div class="profile-item">
+                                <span class="profile-label">GMV (2025)</span>
+                                <span class="profile-value">₽6.1T (~$67B)</span>
+                            </div>
+                            <div class="profile-item">
+                                <span class="profile-label">Market Share</span>
+                                <span class="profile-value">~46%</span>
+                            </div>
+                            <div class="profile-item">
+                                <span class="profile-label">Total Debt</span>
+                                <span class="profile-value danger">₽1.3T</span>
+                            </div>
+                            <div class="profile-item">
+                                <span class="profile-label">Employees</span>
+                                <span class="profile-value">~150,000</span>
+                            </div>
+                            <div class="profile-item">
+                                <span class="profile-label">Active Sellers</span>
+                                <span class="profile-value">800K+</span>
+                            </div>
+                            <div class="profile-item">
+                                <span class="profile-label">Pickup Points</span>
+                                <span class="profile-value">40,000+</span>
+                            </div>
+                            <div class="profile-item">
+                                <span class="profile-label">Parent Entity</span>
+                                <span class="profile-value">RWB Group</span>
+                            </div>
+                        </div>
+                        <div class="profile-note">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                            Together with Ozon, controls ~77% of Russian e-commerce market
+                        </div>
+                    </div>
+
+                    <div class="card glass" data-animate="fade-up" style="--delay: 5">
+                        <div class="card-header">
+                            <h3>Infrastructure Capacity Status</h3>
+                            <span class="badge red">CRITICAL</span>
+                        </div>
+                        <div class="gauge-container">
+                            <canvas id="capacityGauge"></canvas>
+                        </div>
+                        <div class="gauge-labels">
+                            <div class="gauge-label-item">
+                                <span class="gauge-dot operational"></span>
+                                <span>Operational: ~4.02M sq/m</span>
+                            </div>
+                            <div class="gauge-label-item">
+                                <span class="gauge-dot damaged"></span>
+                                <span>Damaged/Destroyed: ~1.18M sq/m</span>
+                            </div>
+                        </div>
+                        <div class="capacity-bar-container">
+                            <div class="capacity-bar-header">
+                                <span>Warehouse Capacity Utilization</span>
+                                <span class="danger">78% remaining</span>
+                            </div>
+                            <div class="capacity-bar">
+                                <div class="capacity-bar-fill operational" style="width: 78%"></div>
+                                <div class="capacity-bar-fill destroyed" style="width: 22%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destruction by Region Chart + Strike Frequency -->
+                <div class="grid-2col">
+                    <div class="card glass" data-animate="fade-up" style="--delay: 6">
+                        <div class="card-header">
+                            <h3>Strikes by Region</h3>
+                        </div>
+                        <canvas id="regionChart" height="280"></canvas>
+                    </div>
+                    <div class="card glass" data-animate="fade-up" style="--delay: 7">
+                        <div class="card-header">
+                            <h3>Strike Frequency (Jul–Aug 2026)</h3>
+                        </div>
+                        <canvas id="strikeFrequencyChart" height="280"></canvas>
+                    </div>
+                </div>
+
+                <!-- Wildberries vs Ozon Market Share -->
+                <div class="card glass full-width" data-animate="fade-up" style="--delay: 8">
+                    <div class="card-header">
+                        <h3>Russian E-Commerce Market Share Impact</h3>
+                        <span class="badge orange">SHIFTING</span>
+                    </div>
+                    <canvas id="marketShareChart" height="140"></canvas>
+                </div>
+            </section>
+
+            <!-- ===== GEOSPATIAL MAP TAB ===== -->
+            <section id="tab-map" class="tab-panel">
+                <div class="card glass full-width map-card" data-animate="fade-up">
+                    <div class="card-header">
+                        <h3>Wildberries Facility Map</h3>
+                        <div class="map-legend">
+                            <span class="legend-item"><span class="legend-dot destroyed"></span>Destroyed/Damaged</span>
+                            <span class="legend-item"><span class="legend-dot operational"></span>Operational (Major Hubs)</span>
+                            <span class="legend-item"><span class="legend-dot range-circle"></span>Ukrainian Drone Range</span>
+                        </div>
+                    </div>
+                    <div id="facilityMap" class="facility-map"></div>
+                    <div class="map-stats-row">
+                        <div class="map-stat">
+                            <span class="map-stat-value">3,000+ km</span>
+                            <span class="map-stat-label">Current UA Drone Range</span>
+                        </div>
+                        <div class="map-stat">
+                            <span class="map-stat-value">2,095 km</span>
+                            <span class="map-stat-label">Farthest Strike (Yekaterinburg)</span>
+                        </div>
+                        <div class="map-stat">
+                            <span class="map-stat-value danger">~85%</span>
+                            <span class="map-stat-label">Facilities Within Drone Range</span>
+                        </div>
+                        <div class="map-stat">
+                            <span class="map-stat-value">4,000 km</span>
+                            <span class="map-stat-label">Projected Range (Late 2026)</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== TIMELINE TAB ===== -->
+            <section id="tab-timeline" class="tab-panel">
+                <div class="card glass full-width" data-animate="fade-up">
+                    <div class="card-header">
+                        <h3>Cumulative Destruction Timeline</h3>
+                        <span class="badge red">ACCELERATING</span>
+                    </div>
+                    <canvas id="cumulativeChart" height="220"></canvas>
+                </div>
+
+                <div class="card glass full-width" data-animate="fade-up" style="--delay: 1">
+                    <div class="card-header">
+                        <h3>Strike Event Log</h3>
+                    </div>
+                    <div class="timeline-container" id="timelineEvents">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+
+                <div class="grid-2col">
+                    <div class="card glass" data-animate="fade-up" style="--delay: 2">
+                        <div class="card-header">
+                            <h3>Strike Distance from Ukraine Over Time</h3>
+                        </div>
+                        <canvas id="distanceOverTimeChart" height="280"></canvas>
+                    </div>
+                    <div class="card glass" data-animate="fade-up" style="--delay: 3">
+                        <div class="card-header">
+                            <h3>Capacity Erosion Trajectory</h3>
+                        </div>
+                        <canvas id="capacityErosionChart" height="280"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== ECONOMIC IMPACT TAB ===== -->
+            <section id="tab-economic" class="tab-panel">
+                <div class="metrics-grid">
+                    <div class="metric-card glass" data-animate="fade-up" style="--delay: 0">
+                        <div class="metric-icon red">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                        </div>
+                        <div class="metric-info">
+                            <span class="metric-value">₽200B</span>
+                            <span class="metric-label">Direct Warehouse Losses</span>
+                        </div>
+                    </div>
+                    <div class="metric-card glass" data-animate="fade-up" style="--delay: 1">
+                        <div class="metric-icon orange">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 16v1a2 2 0 01-2 2H3a2 2 0 01-2-2V7a2 2 0 012-2h2m5.66 0H14a2 2 0 012 2v3.34l1 1L23 7v10"/></svg>
+                        </div>
+                        <div class="metric-info">
+                            <span class="metric-value">₽1.3T</span>
+                            <span class="metric-label">Total Company Debt</span>
+                        </div>
+                    </div>
+                    <div class="metric-card glass" data-animate="fade-up" style="--delay: 2">
+                        <div class="metric-icon purple">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>
+                        </div>
+                        <div class="metric-info">
+                            <span class="metric-value">800K+</span>
+                            <span class="metric-label">Sellers Impacted</span>
+                        </div>
+                    </div>
+                    <div class="metric-card glass" data-animate="fade-up" style="--delay: 3">
+                        <div class="metric-icon blue">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                        </div>
+                        <div class="metric-info">
+                            <span class="metric-value danger">25%</span>
+                            <span class="metric-label">Of RU Budget Deficit to Rebuild</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-2col">
+                    <div class="card glass" data-animate="fade-up" style="--delay: 4">
+                        <div class="card-header">
+                            <h3>Economic Cascade Effects</h3>
+                        </div>
+                        <div class="cascade-flow">
+                            <div class="cascade-node root">
+                                <span class="cascade-icon">💥</span>
+                                <span>Warehouse Destruction</span>
+                            </div>
+                            <div class="cascade-branch">
+                                <div class="cascade-node level1">
+                                    <span class="cascade-icon">📦</span>
+                                    <span>Inventory Loss</span>
+                                    <small>Tens of thousands of sellers lose stock</small>
+                                </div>
+                                <div class="cascade-node level1">
+                                    <span class="cascade-icon">🚚</span>
+                                    <span>Delivery Delays</span>
+                                    <small>Bottlenecks at remaining facilities</small>
+                                </div>
+                                <div class="cascade-node level1">
+                                    <span class="cascade-icon">📉</span>
+                                    <span>Revenue Decline</span>
+                                    <small>Significant drop in GMV throughput</small>
+                                </div>
+                            </div>
+                            <div class="cascade-branch">
+                                <div class="cascade-node level2">
+                                    <span class="cascade-icon">🏦</span>
+                                    <span>Banking Exposure</span>
+                                    <small>Sberbank, VTB face debt restructuring</small>
+                                </div>
+                                <div class="cascade-node level2">
+                                    <span class="cascade-icon">💰</span>
+                                    <span>Inflation Pressure</span>
+                                    <small>Regional supply chain failures</small>
+                                </div>
+                                <div class="cascade-node level2">
+                                    <span class="cascade-icon">🏛️</span>
+                                    <span>State Budget Strain</span>
+                                    <small>Potential bailout = ~25% budget deficit</small>
+                                </div>
+                            </div>
+                            <div class="cascade-branch">
+                                <div class="cascade-node level3 danger-node">
+                                    <span class="cascade-icon">⚠️</span>
+                                    <span>Systemic Economic Risk</span>
+                                    <small>Consumer economy disruption visible to citizens</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card glass" data-animate="fade-up" style="--delay: 5">
+                        <div class="card-header">
+                            <h3>Financial Impact Breakdown</h3>
+                        </div>
+                        <canvas id="financialBreakdownChart" height="300"></canvas>
+                    </div>
+                </div>
+
+                <div class="card glass full-width" data-animate="fade-up" style="--delay: 6">
+                    <div class="card-header">
+                        <h3>Sector-Wide Ripple Effects</h3>
+                    </div>
+                    <canvas id="rippleEffectChart" height="200"></canvas>
+                </div>
+            </section>
+
+            <!-- ===== PROJECTIONS TAB ===== -->
+            <section id="tab-projections" class="tab-panel">
+                <div class="card glass full-width" data-animate="fade-up">
+                    <div class="card-header">
+                        <h3>Projected Capacity Loss Scenarios</h3>
+                        <div class="scenario-toggle">
+                            <button class="scenario-btn active" data-scenario="moderate">Moderate</button>
+                            <button class="scenario-btn" data-scenario="aggressive">Aggressive</button>
+                            <button class="scenario-btn" data-scenario="deescalation">De-escalation</button>
+                        </div>
+                    </div>
+                    <canvas id="projectionChart" height="250"></canvas>
+                    <div class="projection-summary" id="projectionSummary">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+
+                <div class="grid-2col">
+                    <div class="card glass" data-animate="fade-up" style="--delay: 1">
+                        <div class="card-header">
+                            <h3>Ukrainian Drone Range Expansion</h3>
+                        </div>
+                        <canvas id="droneRangeChart" height="280"></canvas>
+                        <div class="range-insight">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                            At 4,000km range, virtually all Russian logistics infrastructure falls within reach. By 2027, projected 5,000–10,000km range covers all of Russia.
+                        </div>
+                    </div>
+                    <div class="card glass" data-animate="fade-up" style="--delay: 2">
+                        <div class="card-header">
+                            <h3>GDP Impact Projection</h3>
+                        </div>
+                        <canvas id="gdpImpactChart" height="280"></canvas>
+                        <div class="range-insight warning">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+                            While direct losses are &lt;0.1% of GDP, the concentration in a single platform controlling 46% of e-commerce creates outsized systemic risk.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card glass full-width" data-animate="fade-up" style="--delay: 3">
+                    <div class="card-header">
+                        <h3>Vulnerability Assessment Matrix</h3>
+                    </div>
+                    <div class="vulnerability-matrix" id="vulnerabilityMatrix">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Data compiled from open-source intelligence: The Moscow Times, The Guardian, Business Insider, Newsweek, RFE/RL, Kyiv Independent, Censor.net, Straits Times, United24 Media, Atlantic Council</p>
+            <p>Analysis generated August 2026 • Projections are scenario-based estimates for informational purposes</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

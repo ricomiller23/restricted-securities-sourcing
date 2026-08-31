@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FINRA Enforcement Counsel Roster - Alpine Securities & Scottsdale Capital Advisors</title>
+<style>
+  @page {
+    size: letter;
+    margin: 0.75in 0.8in;
+    @bottom-right {
+      content: counter(page);
+    }
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a202c;
+    line-height: 1.5;
+    font-size: 10.5pt;
+    margin: 0;
+    padding: 0;
+  }
+
+  .memo-header {
+    border-bottom: 2.5px solid #0f2d59;
+    padding-bottom: 14px;
+    margin-bottom: 22px;
+  }
+
+  .memo-title {
+    font-size: 20pt;
+    font-weight: 800;
+    color: #0f2d59;
+    letter-spacing: -0.5px;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+  }
+
+  .memo-subtitle {
+    font-size: 11pt;
+    color: #4a5568;
+    font-weight: 500;
+    margin: 0 0 14px 0;
+  }
+
+  .meta-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    row-gap: 4px;
+    font-size: 9.5pt;
+    background-color: #f7fafc;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border-left: 4px solid #0f2d59;
+  }
+
+  .meta-label {
+    font-weight: 700;
+    color: #4a5568;
+    text-transform: uppercase;
+    font-size: 8.5pt;
+    letter-spacing: 0.5px;
+  }
+
+  .meta-value {
+    color: #1a202c;
+  }
+
+  h2 {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #0f2d59;
+    border-bottom: 1.5px solid #cbd5e0;
+    padding-bottom: 4px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+
+  .intro-text {
+    font-size: 9.5pt;
+    color: #4a5568;
+    margin-bottom: 16px;
+    line-height: 1.45;
+  }
+
+  .attorney-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    page-break-inside: avoid;
+  }
+
+  .card-header {
+    background-color: #f1f5f9;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .attorney-name {
+    font-size: 11.5pt;
+    font-weight: 700;
+    color: #0f2d59;
+    margin: 0;
+  }
+
+  .attorney-role {
+    font-size: 9pt;
+    font-weight: 600;
+    color: #2b6cb0;
+    margin: 0;
+  }
+
+  .card-body {
+    padding: 10px 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-size: 9.5pt;
+  }
+
+  .info-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-label {
+    font-size: 8pt;
+    font-weight: 700;
+    color: #718096;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+  }
+
+  .info-val {
+    color: #2d3748;
+    word-break: break-word;
+  }
+
+  .info-val.cases {
+    color: #1a202c;
+    font-weight: 500;
+  }
+
+  .status-badge {
+    display: inline-block;
+    font-size: 7.5pt;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+
+  .badge-current {
+    background-color: #def7ec;
+    color: #03543f;
+  }
+
+  .badge-transition {
+    background-color: #feecdc;
+    color: #9c4221;
+  }
+
+  .badge-deceased {
+    background-color: #f3f4f6;
+    color: #4b5563;
+  }
+
+  .general-box {
+    margin-top: 24px;
+    padding: 12px 14px;
+    background-color: #edf2f7;
+    border-radius: 6px;
+    border: 1px solid #cbd5e0;
+    font-size: 9pt;
+    page-break-inside: avoid;
+  }
+
+  .general-box-title {
+    font-weight: 700;
+    color: #0f2d59;
+    margin-bottom: 6px;
+    font-size: 9.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .general-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .footer {
+    margin-top: 30px;
+    font-size: 8pt;
+    color: #a0aec0;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 8px;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+</style>
+</head>
+<body>
+
+<div class="memo-header">
+  <div class="memo-title">Legal Memorandum</div>
+  <div class="memo-subtitle">Roster & Contact Directory of FINRA Enforcement Counsel</div>
+  <div class="meta-grid">
+    <div class="meta-label">To:</div>
+    <div class="meta-value">Counsel of Record</div>
+    <div class="meta-label">Subject:</div>
+    <div class="meta-value">FINRA Department of Enforcement Attorneys — Actions Concerning Alpine Securities Corp. & Scottsdale Capital Advisors</div>
+    <div class="meta-label">Date:</div>
+    <div class="meta-value">August 17, 2026</div>
+    <div class="meta-label">Source:</div>
+    <div class="meta-value">FINRA Office of Hearing Officers (OHO), National Adjudicatory Council (NAC), and SEC Records</div>
+  </div>
+</div>
+
+<p class="intro-text">
+This memorandum compiles the attorneys from the Financial Industry Regulatory Authority (FINRA) Department of Enforcement who have been listed as counsel of record in disciplinary, expedited, and hearing panel proceedings against <strong>Alpine Securities Corporation</strong> (CRD No. 14952) and <strong>Scottsdale Capital Advisors Corp.</strong> (CRD No. 118786).
+</p>
+
+<!-- SECTION 1 -->
+<h2>1. Enforcement Counsel: Alpine Securities Corporation Matters</h2>
+
+<div class="attorney-card">
+  <div class="card-header">
+    <span class="attorney-name">Savvas A. Foukas, Esq.</span>
+    <span class="attorney-role">Senior Litigation Counsel, FINRA Enforcement</span>
+  </div>
+  <div class="card-body">
+    <div class="info-block">
+      <span class="info-label">Direct Contact</span>
+      <span class="info-val"><strong>Email:</strong> savvas.foukas@finra.org</span>
+      <span class="info-val"><strong>Phone:</strong> (732) 596-2557</span>
+      <span class="info-val"><strong>Office:</strong> 581 Main Street, 7th Floor, Woodbridge, NJ 07095</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Proceeding & Role</span>
+      <span class="info-val cases">Office of Hearing Officers (OHO) Disciplinary & Expedited Proceedings vs. Alpine Securities Corp.</span>
+      <span class="status-badge badge-current">Active Senior Litigation Counsel</span>
+    </div>
+  </div>
+</div>
+
+<div class="attorney-card">
+  <div class="card-header">
+    <span class="attorney-name">Jennifer L. Crawford, Esq.</span>
+    <span class="attorney-role">Senior Regional Counsel / Litigation Counsel, FINRA Enforcement</span>
+  </div>
+  <div class="card-body">
+    <div class="info-block">
+      <span class="info-label">Direct Contact</span>
+      <span class="info-val"><strong>Email:</strong> jennifer.crawford@finra.org</span>
+      <span class="info-val"><strong>Phone:</strong> (301) 590-6500 (Enforcement Switchboard)</span>
+      <span class="info-val"><strong>Office:</strong> 1735 K Street NW, Washington, DC 20006</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Proceeding & Role</span>
+      <span class="info-val cases">FINRA Disciplinary & Expedited Actions vs. Alpine Securities Corp.</span>
+      <span class="status-badge badge-current">Active Enforcement Counsel</span>
+    </div>
+  </div>
+</div>
+
+<div class="attorney-card">
+  <div class="card-header">
+    <span class="attorney-name">Loyd Gattis, Esq.</span>
+    <span class="attorney-role">Counsel, FINRA Enforcement</span>
+  </div>
+  <div class="card-body">
+    <div class="info-block">
+      <span class="info-label">Direct Contact</span>
+      <span class="info-val"><strong>Email:</strong> loyd.gattis@finra.org</span>
+      <span class="info-val"><strong>Phone:</strong> (816) 421-5700</span>
+      <span class="info-val"><strong>Office:</strong> 120 West 12th Street, Suite 800, Kansas City, MO 64105</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Proceeding & Role</span>
+      <span class="info-val cases">Office of Hearing Officers (OHO) Proceedings vs. Alpine Securities Corp.</span>
+      <span class="status-badge badge-current">Active Enforcement Counsel</span>
+    </div>
+  </div>
+</div>
+
+<div class="attorney-card">
+  <div class="card-header">
+    <span class="attorney-name">Michelle Galloway, Esq.</span>
+    <span class="attorney-role">Senior Counsel, FINRA Enforcement</span>
+  </div>
+  <div class="card-body">
+    <div class="info-block">
+      <span class="info-label">Direct Contact</span>
+      <span class="info-val"><strong>Email:</strong> michelle.galloway@finra.org</span>
+      <span class="info-val"><strong>Phone:</strong> (301) 590-6500</span>
+      <span class="info-val"><strong>Office:</strong> 1735 K Street NW, Washington, DC 20006</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Proceeding & Role</span>
+      <span class="info-val cases">OHO Disciplinary Actions vs. Alpine Securities Corp.</span>
+      <span class="status-badge badge-current">Active Enforcement Counsel</span>
+    </div>
+  </div>
+</div>
+
+<div class="attorney-card">
+  <div class="card-header">
+    <span class="attorney-name">Michael P. Manning, Esq.</span>
+    <span class="attorney-role">Senior Litigation Counsel, FINRA Enforcement</span>
+  </div>
+  <div class="card-body">
+    <div class="info-block">
+      <span class="info-label">Direct Contact</span>
+      <span class="info-val"><strong>Email:</strong> michael.manning@finra.org</span>
+      <span class="info-val"><strong>Phone:</strong> (301) 590-6500</span>
+      <span class="info-val"><strong>Office:</strong> 1735 K Street NW, Washington, DC 20006</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Proceeding & Role</span>
+      <span class="info-val cases">Regulatory Compliance & OHO Proceedings vs. Alpine Securities Corp.</span>
+      <span class="status-badge badge-current">Active Litigation Counsel</span>
+    </div>
+  </div>
+</div>
+
+<div class="page-break"></div>
+
+<!-- SECTION 2 -->
+<h2>2. Enforcement Counsel: Scottsdale Capital Advisors Matters</h2>
+
+<div class="attorney-card">
+  <div class="card-header">
+    <span class="attorney-name">Gregory R. Firehock, Esq.</span>
+    <span class="attorney-role">Senior Litigation Counsel, FINRA Enforcement</span>
+  </div>
+  <div class="card-body">
+    <div class="info-block">
+      <span class="info-label">Direct Contact</span>
+      <span class="info-val"><strong>Email:</strong> gregory.firehock@finra.org</span>
+      <span class="info-val"><strong>Phone:</strong> (215) 209-2812</span>
+      <span class="info-val"><strong>Office:</strong> 1601 Market Street, 27th Floor, Philadelphia, PA 19103-2339</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Proceeding & Role</span>
+      <span class="info-val cases"><em>Dept. of Enforcement v. Scottsdale Capital Advisors Corp.</em> (No. 2014041724601 — Section 5 & Supervision)</span>
+      <span class="status-badge badge-current">Active Senior Litigation Counsel</span>
+    </div>
+  </div>
+</div>
+
+<div class="attorney-card">
+  <div class="card-header">
+    <span class="attorney-name">Laura Leigh Blackston, Esq.</span>
+    <span class="attorney-role">Senior Regional Counsel, FINRA Enforcement</span>
+  </div>
+  <div class="card-body">
+    <div class="info-block">
+      <span class="info-label">Direct Contact</span>
+      <span class="info-val"><strong>Email:</strong> laura.blackston@finra.org</span>
+      <span class="info-val"><strong>Phone:</strong> (504) 412-2408 | <strong>Fax:</strong> (504) 522-4077</span>
+      <span class="info-val"><strong>Office:</strong> Energy Centre, Suite 850, 1100 Poydras Street, New Orleans, LA 70163</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Proceeding & Role</span>
+      <span class="info-val cases"><em>Dept. of Enforcement v. Scottsdale Capital Advisors Corp.</em> (No. 2014041724601)</span>
+      <span class="status-badge badge-current">Active Senior Regional Counsel</span>
+    </div>
+  </div>
+</div>
+
+<div class="attorney-card">
+  <div class="card-header">
+    <span class="attorney-name">Jeffrey D. Pariser, Esq. (1965–2023)</span>
+    <span class="attorney-role">Former Chief Litigation Counsel, FINRA Enforcement</span>
+  </div>
+  <div class="card-body">
+    <div class="info-block">
+      <span class="info-label">Contact / Record</span>
+      <span class="info-val"><strong>Status:</strong> Deceased (May 2023)</span>
+      <span class="info-val"><strong>Historical Office:</strong> FINRA Headquarters, Washington, DC</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Proceeding & Role</span>
+      <span class="info-val cases">Lead Counsel in <em>Dept. of Enforcement v. Scottsdale Capital Advisors Corp.</em> (No. 2014041724601)</span>
+      <span class="status-badge badge-deceased">Historical Counsel of Record</span>
+    </div>
+  </div>
+</div>
+
+<div class="attorney-card">
+  <div class="card-header">
+    <span class="attorney-name">Heather L. Freiburger, Esq.</span>
+    <span class="attorney-role">Former FINRA Enforcement Counsel | Currently SEC Division of Enforcement</span>
+  </div>
+  <div class="card-body">
+    <div class="info-block">
+      <span class="info-label">Current Contact (SEC)</span>
+      <span class="info-val"><strong>Email:</strong> freiburgerh@sec.gov</span>
+      <span class="info-val"><strong>Phone:</strong> (303) 844-1000</span>
+      <span class="info-val"><strong>Office:</strong> SEC Denver Regional Office, 1961 Stout Street, Suite 1700, Denver, CO 80294</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Proceeding & Role</span>
+      <span class="info-val cases"><em>Dept. of Enforcement v. Scottsdale Capital Advisors Corp.</em> (No. 2014041724601)</span>
+      <span class="status-badge badge-transition">Transitioned to SEC Enforcement</span>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 3 -->
+<h2>3. Joint / Expedited Proceedings (Alpine & Scottsdale Affiliates)</h2>
+
+<div class="attorney-card">
+  <div class="card-header">
+    <span class="attorney-name">Jonathan Golomb, Esq.</span>
+    <span class="attorney-role">Senior Special Counsel / Litigation Counsel, FINRA Enforcement</span>
+  </div>
+  <div class="card-body">
+    <div class="info-block">
+      <span class="info-label">Direct Contact</span>
+      <span class="info-val"><strong>Email:</strong> jonathan.golomb@finra.org</span>
+      <span class="info-val"><strong>Phone:</strong> (202) 728-8000</span>
+      <span class="info-val"><strong>Office:</strong> 1735 K Street NW, Washington, DC 20006</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Proceeding & Role</span>
+      <span class="info-val cases">Expedited Proceeding No. FPI190002 / CMA Orders (Ownership & Trust Review)</span>
+      <span class="status-badge badge-current">Active Litigation Counsel</span>
+    </div>
+  </div>
+</div>
+
+<div class="attorney-card">
+  <div class="card-header">
+    <span class="attorney-name">Meredith MacVicar, Esq.</span>
+    <span class="attorney-role">Former FINRA Regulatory Operations Counsel | Currently SEC Division of Trading & Markets</span>
+  </div>
+  <div class="card-body">
+    <div class="info-block">
+      <span class="info-label">Current Contact (SEC)</span>
+      <span class="info-val"><strong>Email:</strong> macvicarm@sec.gov</span>
+      <span class="info-val"><strong>Phone:</strong> (202) 551-5777 / (202) 551-5100</span>
+      <span class="info-val"><strong>Office:</strong> SEC Headquarters, 100 F Street NE, Washington, DC 20549</span>
+    </div>
+    <div class="info-block">
+      <span class="info-label">Proceeding & Role</span>
+      <span class="info-val cases">Expedited Proceeding No. FPI190002 / Continuing Membership Application (CMA) Matters</span>
+      <span class="status-badge badge-transition">Transitioned to SEC Trading & Markets</span>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 4 -->
+<div class="general-box">
+  <div class="general-box-title">General FINRA Enforcement Headquarters & Filing Channels</div>
+  <div class="general-grid">
+    <div>
+      <strong>FINRA Headquarters:</strong><br>
+      1735 K Street NW, Washington, DC 20006<br>
+      Telephone: (202) 728-8000 / (301) 590-6500
+    </div>
+    <div>
+      <strong>Electronic Filing & Service:</strong><br>
+      Department of Enforcement: <code>EnforcementNotice@finra.org</code><br>
+      Office of Hearing Officers (OHO): <code>OHOFilings@finra.org</code>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  CONFIDENTIAL & PRIVILEGED LEGAL WORK PRODUCT • PREPARED FOR LEGAL COUNSEL • AUGUST 2026
+</div>
+
+</body>
+</html>

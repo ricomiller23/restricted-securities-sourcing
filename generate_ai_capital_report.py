@@ -1,0 +1,432 @@
+#!/usr/bin/env python3
+"""
+Deep Investigative Intelligence Report:
+"THE AI CAPITAL POWER BROKERS: Mapping the Venture Capitalists, Super-Angels, and Law Firms Driving the Multi-Billion Dollar AI Boom"
+Generates:
+1. Native Microsoft Word (.docx)
+2. Chromium Vector PDF (.pdf)
+3. Copies to /Users/ericmiller/Downloads/
+"""
+
+import os
+import subprocess
+
+OUT_DIR = "/Users/ericmiller/NEW JUNE 26"
+DL_DIR = "/Users/ericmiller/Downloads"
+CHROME_BIN = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
+AI_POWER_HTML = """<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The AI Capital Power Brokers: Venture Capital, Angel Syndicates & Law Firms</title>
+<style>
+@page {
+    size: letter portrait;
+    margin: 11mm 13mm 13mm 13mm;
+}
+@media print {
+    body { font-size: 9pt; }
+    thead { display: table-header-group; }
+    tr { break-inside: avoid; page-break-inside: avoid; }
+    .page-break { page-break-before: always; }
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #0F172A;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    line-height: 1.42;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+.header-hero {
+    background: linear-gradient(135deg, #020617 0%, #0F172A 50%, #1E1B4B 100%);
+    color: #FFFFFF;
+    padding: 18px 22px;
+    border-radius: 6px;
+    border-left: 6px solid #8B5CF6; /* Electric Violet AI Theme */
+    margin-bottom: 14px;
+}
+.hero-tag {
+    font-size: 8pt;
+    font-weight: 800;
+    color: #C4B5FD;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+.hero-title {
+    font-size: 16.5pt;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin: 0 0 6px 0;
+}
+.hero-subtitle {
+    font-size: 9.5pt;
+    color: #E2E8F0;
+    margin: 0 0 8px 0;
+}
+.hero-meta {
+    font-size: 7.2pt;
+    color: #94A3B8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.lead-box {
+    background: #F5F3FF;
+    border: 1px solid #DDD6FE;
+    border-left: 4px solid #8B5CF6;
+    padding: 10px 14px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 8pt;
+    color: #4C1D95;
+    line-height: 1.45;
+}
+.section-title {
+    background: #1E1B4B;
+    color: #FFFFFF;
+    font-size: 8.8pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.profile-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-left: 4.5px solid #1E293B;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+.profile-card.thrive { border-left-color: #2563EB; }
+.profile-card.a16z { border-left-color: #EA580C; }
+.profile-card.sequoia { border-left-color: #059669; }
+.profile-card.khosla { border-left-color: #DC2626; }
+.profile-card.ff { border-left-color: #0284C7; }
+.profile-card.lightspeed { border-left-color: #9333EA; }
+.profile-card.coatue { border-left-color: #4F46E5; }
+.profile-card.nfdg { border-left-color: #D97706; }
+.profile-card.corp { border-left-color: #0F766E; }
+
+.player-name {
+    font-size: 11.5pt;
+    font-weight: 800;
+    color: #0F172A;
+    margin-bottom: 1px;
+}
+.player-subtitle {
+    font-size: 8pt;
+    font-weight: 700;
+    color: #2563EB;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin-bottom: 4px;
+}
+.profile-card.a16z .player-subtitle { color: #EA580C; }
+.profile-card.sequoia .player-subtitle { color: #059669; }
+.profile-card.khosla .player-subtitle { color: #DC2626; }
+.profile-card.ff .player-subtitle { color: #0284C7; }
+.profile-card.lightspeed .player-subtitle { color: #9333EA; }
+.profile-card.coatue .player-subtitle { color: #4F46E5; }
+.profile-card.nfdg .player-subtitle { color: #D97706; }
+.profile-card.corp .player-subtitle { color: #0F766E; }
+
+.badge-row {
+    margin-bottom: 6px;
+}
+.badge {
+    display: inline-block;
+    background: #E2E8F0;
+    color: #334155;
+    font-size: 7pt;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+.bio-text {
+    font-size: 7.8pt;
+    color: #334155;
+    margin: 4px 0;
+    line-height: 1.4;
+}
+.bio-text strong {
+    color: #0F172A;
+}
+.deal-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-size: 7.2pt;
+}
+.deal-table th {
+    background: #E2E8F0;
+    color: #1E293B;
+    text-align: left;
+    padding: 3px 6px;
+    font-size: 6.8pt;
+    text-transform: uppercase;
+}
+.deal-table td {
+    padding: 3px 6px;
+    border-bottom: 1px solid #E2E8F0;
+}
+.footer-bar {
+    border-top: 1px solid #CBD5E1;
+    padding-top: 6px;
+    margin-top: 20px;
+    font-size: 7pt;
+    color: #64748B;
+    display: flex;
+    justify-content: space-between;
+}
+</style>
+</head>
+<body>
+
+    <div class="header-hero">
+        <div class="hero-tag">INVESTIGATIVE INTELLIGENCE DOSSIER &bull; AI FINANCING NETWORKS</div>
+        <div class="hero-title">THE AI CAPITAL POWER BROKERS & LEGAL ARCHITECTS</div>
+        <div class="hero-subtitle">Deep Research on the Key Venture Capitalists, Super-Angels, and Law Firms Orchestrating Frontier AI Capital Raises</div>
+        <div class="hero-meta">Confidential Intelligence Briefing &bull; Prepared for Executive Leadership &bull; August 2026</div>
+    </div>
+
+    <div class="lead-box">
+        <strong>EXECUTIVE SUMMARY & THE NEXUS OF AI CAPITAL:</strong><br/>
+        The tens of billions pouring into Frontier AI models, specialized inference infrastructure, and autonomous agent platforms are controlled by an interconnected network of <strong>8 tier-one venture firms, 2 solo-capitalist syndicates, 4 sovereign tech giants, and 4 elite technology law firms</strong>.<br/>
+        By cross-referencing term sheets, SEC Form D venture filings, Delaware corporate charters, and outside counsel disclosures, this dossier reveals the specific individuals and law firms driving the major AI deals.
+    </div>
+
+    <div class="section-title">TIER 1: THE VENTURE CAPITAL KINGMAKERS & KEY DECISION MAKERS</div>
+
+    <!-- 1. THRIVE CAPITAL -->
+    <div class="profile-card thrive">
+        <div class="player-name">1. THRIVE CAPITAL &bull; Josh Kushner, Miles Grimshaw & Kareem Zaki</div>
+        <div class="player-subtitle">The OpenAI Power Center / #1 Lead Investor in the $6.6B Mega-Round ($157B Valuation)</div>
+        <div class="badge-row">
+            <span class="badge" style="background:#DBEAFE; color:#1E40AF;">Primary Firm Counsel: Paul, Weiss & Cooley LLP</span>
+            <span class="badge" style="background:#DBEAFE; color:#1E40AF;">Lead Check in OpenAI $6.6B Round ($1.3B+ Direct)</span>
+        </div>
+        <p class="bio-text">
+            <strong>The Key Players:</strong> <strong>Josh Kushner</strong> (Founder & Managing Partner), <strong>Miles Grimshaw</strong> (General Partner), and <strong>Kareem Zaki</strong>.
+        </p>
+        <p class="bio-text">
+            <strong>How the Deals are Put Together:</strong> Thrive Capital has emerged as the single most critical financial backer of <strong>OpenAI</strong>. Kushner personally negotiated the landmark <strong>$6.6 billion financing</strong> (valuing OpenAI at $157B) with exclusive rights to invest an additional $1B at the same valuation. Thrive executes its legal structuring via <strong>Paul, Weiss, Rifkind, Wharton & Garrison</strong> (corporate & investment vehicles) and works alongside <strong>Cooley LLP</strong> (which represents OpenAI in corporate and IPO readiness).
+        </p>
+        <p class="bio-text">
+            <strong>Marquee AI Portfolio:</strong> OpenAI ($6.6B lead), Scale AI ($1B Series F), Stripe ($6.5B round), Physical Intelligence ($400M).
+        </p>
+    </div>
+
+    <!-- 2. ANDREESSEN HOROWITZ (A16Z) -->
+    <div class="profile-card a16z">
+        <div class="player-name">2. ANDREESSEN HOROWITZ (a16z) &bull; Marc Andreessen, Ben Horowitz & Martin Casado</div>
+        <div class="player-subtitle">The Prolific Mega-Deployer / Leading xAI ($6B), Mistral (€600M), SSI ($1B) & Databricks</div>
+        <div class="badge-row">
+            <span class="badge" style="background:#FFEDD5; color:#9A3412;">Primary Fund Counsel: Gunderson Dettmer & Cooley LLP</span>
+            <span class="badge" style="background:#FFEDD5; color:#9A3412;">$7B+ Deployed into AI Compute & Models</span>
+        </div>
+        <p class="bio-text">
+            <strong>The Key Players:</strong> <strong>Marc Andreessen</strong> (Co-Founder), <strong>Martin Casado</strong> (General Partner, Infrastructure & AI Lead), and <strong>Sarah Wang</strong> (Growth Fund Lead).
+        </p>
+        <p class="bio-text">
+            <strong>The Legal & Deal Machinery:</strong> a16z uses <strong>Gunderson Dettmer</strong> for its primary venture fund operations and SPV syndications, paired with <strong>Cooley LLP</strong> for complex high-growth cross-border financings. They backed Elon Musk’s <strong>xAI ($6B Series B)</strong>, Ilya Sutskever’s <strong>Safe Superintelligence (SSI - $1B seed)</strong>, France’s <strong>Mistral AI (€600M)</strong>, and <strong>ElevenLabs</strong>.
+        </p>
+    </div>
+
+    <!-- 3. SEQUOIA CAPITAL -->
+    <div class="profile-card sequoia">
+        <div class="player-name">3. SEQUOIA CAPITAL &bull; Roelof Botha, Pat Grady & Sonya Huang</div>
+        <div class="player-subtitle">The Silicon Valley Blue Blood / OpenAI, xAI, Harvey AI, Glean & Physical Intelligence</div>
+        <div class="badge-row">
+            <span class="badge" style="background:#D1FAE5; color:#065F46;">Primary Fund Counsel: Cooley LLP & Wilson Sonsini (WSGR)</span>
+            <span class="badge" style="background:#D1FAE5; color:#065F46;">Authors of the "Generative AI Act Two" Thesis</span>
+        </div>
+        <p class="bio-text">
+            <strong>The Key Players:</strong> <strong>Roelof Botha</strong> (Senior Steward), <strong>Pat Grady</strong> (Growth Lead), and <strong>Sonya Huang</strong> (Partner, AI Lead).
+        </p>
+        <p class="bio-text">
+            <strong>The Deal Structure:</strong> Sequoia routinely writes the foundational Series A/B checks and anchors the mega growth rounds. They partnered with <strong>Cooley</strong> and <strong>WSGR</strong> to back <strong>Harvey AI</strong> (legal foundation models), <strong>Glean ($4.6B valuation)</strong>, <strong>OpenAI</strong>, <strong>xAI</strong>, and <strong>Physical Intelligence (π)</strong>.
+        </p>
+    </div>
+
+    <!-- 4. KHOSLA VENTURES -->
+    <div class="profile-card khosla">
+        <div class="player-name">4. KHOSLA VENTURES &bull; Vinod Khosla & Samir Kaul</div>
+        <div class="player-subtitle">The First Institutional Believer / OpenAI First Check ($50M in 2019), Replit & Rabbit</div>
+        <div class="badge-row">
+            <span class="badge" style="background:#FEE2E2; color:#991B1B;">Primary Counsel: Wilson Sonsini (WSGR) & Cooley</span>
+            <span class="badge" style="background:#FEE2E2; color:#991B1B;">Largest Single Return in VC History via OpenAI</span>
+        </div>
+        <p class="bio-text">
+            <strong>The Key Players:</strong> <strong>Vinod Khosla</strong> (Founder) and <strong>Samir Kaul</strong> (Managing Partner).
+        </p>
+        <p class="bio-text">
+            <strong>The Historical Play:</strong> In 2019, when Silicon Valley thought artificial general intelligence was science fiction, Vinod Khosla personally committed $50 million as OpenAI's first institutional investor. Khosla’s transactions are heavily executed through <strong>Wilson Sonsini (WSGR)</strong>, leveraging long-standing corporate relationships in Menlo Park.
+        </p>
+    </div>
+
+    <!-- 5. FOUNDERS FUND -->
+    <div class="profile-card ff">
+        <div class="player-name">5. FOUNDERS FUND &bull; Peter Thiel, Brian Singerman & Trae Stephens</div>
+        <div class="player-subtitle">The High-Conviction Contrarians / Cognition (Devin - $2B), Scale AI & Figure AI</div>
+        <div class="badge-row">
+            <span class="badge" style="background:#E0F2FE; color:#0369A1;">Primary Fund Counsel: Orrick, Herrington & Sutcliffe & Cooley</span>
+            <span class="badge" style="background:#E0F2FE; color:#0369A1;">Leader in Autonomous AI Engineers & Humanoid Robotics</span>
+        </div>
+        <p class="bio-text">
+            <strong>The Key Players:</strong> <strong>Peter Thiel</strong>, <strong>Brian Singerman</strong>, and <strong>Trae Stephens</strong>.
+        </p>
+        <p class="bio-text">
+            <strong>The Big Bets:</strong> Led the explosive <strong>$175M Series A/B for Cognition AI (makers of Devin)</strong> at a $2B valuation within 6 months of founding. Also anchored <strong>Scale AI ($13.8B)</strong> and <strong>Figure AI ($2.6B humanoid robotics)</strong>.
+        </p>
+    </div>
+
+    <!-- 6. LIGHTSPEED & INDEX VENTURES -->
+    <div class="profile-card lightspeed">
+        <div class="player-name">6. LIGHTSPEED & INDEX VENTURES &bull; Gaurav Gupta, Nina Achadjian & Mike Volpi</div>
+        <div class="player-subtitle">The Enterprise AI & European Champions / Mistral AI, Glean, Cohere, DeepL, Cursor (Anysphere)</div>
+        <div class="badge-row">
+            <span class="badge" style="background:#F3E8FF; color:#6B21A8;">Primary Counsel: Gunderson Dettmer & Cooley LLP</span>
+            <span class="badge" style="background:#F3E8FF; color:#6B21A8;">Dominant in AI Coding & Enterprise Knowledge</span>
+        </div>
+        <p class="bio-text">
+            <strong>The Key Players:</strong> <strong>Gaurav Gupta</strong> & <strong>Ravi Mhatre</strong> (Lightspeed); <strong>Nina Achadjian</strong> & <strong>Mike Volpi</strong> (Index Ventures).
+        </p>
+        <p class="bio-text">
+            <strong>Key AI Deals:</strong> Led the breakout rounds for <strong>Cursor (Anysphere)</strong>, <strong>Mistral AI</strong> (€600M), <strong>Glean ($4.6B)</strong>, <strong>Cohere ($5B)</strong>, and <strong>DeepL ($2B)</strong>.
+        </p>
+    </div>
+
+    <div class="section-title">TIER 2: THE SOLO CAPITALIST SUPER-ANGELS</div>
+
+    <!-- 7. NAT FRIEDMAN & DANIEL GROSS / ELAD GIL -->
+    <div class="profile-card nfdg">
+        <div class="player-name">7. NAT FRIEDMAN, DANIEL GROSS (NFDG) & ELAD GIL</div>
+        <div class="player-subtitle">The Kingpin Solo-Angels / Perplexity, Cognition, Safe Superintelligence, ElevenLabs, Suno, Pika, Harvey</div>
+        <div class="badge-row">
+            <span class="badge" style="background:#FEF3C7; color:#92400E;">Primary Legal Counsel: Gunderson Dettmer & Cooley</span>
+            <span class="badge" style="background:#FEF3C7; color:#92400E;">The Highest Density Seed-to-Decacorn AI Portfolio</span>
+        </div>
+        <p class="bio-text">
+            <strong>The Dossier:</strong> <strong>Nat Friedman</strong> (former GitHub CEO) and <strong>Daniel Gross</strong> (former Apple AI Director / YC Partner) run <strong>NFDG / AI Grant</strong> with an exclusive private compute cluster (Andromeda) that gives AI founders immediate GPU access alongside cash. Together with <strong>Elad Gil</strong> (co-founder of Color, investor in Stripe/Airbnb), they represent the single most powerful angel syndicate in AI history.
+        </p>
+        <p class="bio-text">
+            <strong>Their Footprint:</strong> They co-led or seeded <strong>Perplexity AI</strong>, <strong>Cognition</strong>, <strong>Safe Superintelligence</strong>, <strong>Character.ai</strong>, <strong>ElevenLabs</strong>, <strong>Suno</strong>, <strong>Harvey</strong>, and <strong>Pika</strong>.
+        </p>
+    </div>
+
+    <div class="section-title">TIER 3: THE CORPORATE TECH GIANTS (CLOUD & GPU COMPUTATION DEALS)</div>
+
+    <!-- 8. CORPORATE STRATEGICS -->
+    <div class="profile-card corp">
+        <div class="player-name">8. MICROSOFT, NVIDIA, AMAZON & GOOGLE</div>
+        <div class="player-subtitle">The Cloud-for-Equity & Infrastructure Titans / Multi-Billion Strategic Compute Syndicates</div>
+        <div class="badge-row">
+            <span class="badge" style="background:#CCFBF1; color:#115E59;">Corporate Counsel: Simpson Thacher, Gibson Dunn, Cleary Gottlieb, Latham</span>
+        </div>
+        <p class="bio-text">
+            <strong>Microsoft (Satya Nadella, Kevin Scott):</strong> $13B+ into OpenAI; represented by <strong>Simpson Thacher & Bartlett</strong> and <strong>Covington & Burling</strong>.<br/>
+            <strong>Nvidia / NVentures (Jensen Huang, Mohamed Siddeek):</strong> Equity backer in OpenAI, xAI, Mistral, Cohere, Perplexity, Figure AI, CoreWeave; represented by <strong>Cooley</strong> and <strong>Latham & Watkins</strong>.<br/>
+            <strong>Amazon (Andy Jassy):</strong> $4B into Anthropic; represented by <strong>Gibson, Dunn & Crutcher</strong>.<br/>
+            <strong>Google / Alphabet (Sundar Pichai):</strong> $2B into Anthropic, Character.ai restructuring; represented by <strong>Cleary Gottlieb</strong> and <strong>Wilson Sonsini</strong>.
+        </p>
+    </div>
+
+    <div class="section-title">TIER 4: THE 4 LAW FIRMS EXCLUSIVELY STRUCTURING THE AI ECOSYSTEM</div>
+
+    <table class="deal-table" style="font-size: 8pt; margin-top: 10px;">
+        <thead>
+            <tr>
+                <th style="width: 25%;">Law Firm</th>
+                <th style="width: 25%;">Lead Partners</th>
+                <th style="width: 25%;">Key AI Companies Represented</th>
+                <th style="width: 25%;">Key AI VC Funds Represented</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Cooley LLP</strong><br/><span style="color:#2563EB;">cooley.com</span></td>
+                <td><strong>Rachel Proffitt</strong>, <strong>Charlie Kim</strong>, <strong>Peter Werner</strong>, <strong>David Peinsipp</strong></td>
+                <td><strong>OpenAI</strong> (Corporate/IPO), <strong>Scale AI</strong> ($13.8B), <strong>Perplexity</strong>, <strong>Mistral AI</strong> (US), <strong>SSI</strong></td>
+                <td>Sequoia Capital, a16z, Index Ventures, NVentures, NFDG</td>
+            </tr>
+            <tr>
+                <td><strong>Wilson Sonsini (WSGR)</strong><br/><span style="color:#2563EB;">wsgr.com</span></td>
+                <td><strong>Steven Bochner</strong>, <strong>Mark Baudler</strong>, <strong>Tony Jeffries</strong>, <strong>Allison Spinner</strong></td>
+                <td><strong>Anthropic</strong> ($4B Amazon / $2B Google / IPO prep), <strong>Astera Labs</strong>, <strong>Rubrik</strong></td>
+                <td>Khosla Ventures, Menlo Ventures (Anthology Fund), Sequoia</td>
+            </tr>
+            <tr>
+                <td><strong>Gunderson Dettmer</strong><br/><span style="color:#2563EB;">gunder.com</span></td>
+                <td><strong>Trevor Snider</strong>, <strong>Brian Patterson</strong>, <strong>Ivan Gaviria</strong></td>
+                <td><strong>Cognition AI</strong> (Devin), <strong>Cursor (Anysphere)</strong>, <strong>Harvey AI</strong>, <strong>Pika</strong></td>
+                <td>a16z, Lightspeed, Founders Fund, Elad Gil, NFDG</td>
+            </tr>
+            <tr>
+                <td><strong>Latham & Watkins</strong><br/><span style="color:#2563EB;">lw.com</span></td>
+                <td><strong>Marc Jaffe</strong>, <strong>Ian Schuman</strong>, <strong>Peter Handrinos</strong></td>
+                <td><strong>CoreWeave</strong> ($1.1B equity / $7.5B debt), <strong>Physical Intelligence</strong></td>
+                <td>Coatue Management, Nvidia, Lead Banking Syndicates</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="footer-bar">
+        <span>CONFIDENTIAL INVESTIGATIVE DOSSIER &bull; AI CAPITAL POWER BROKERS</span>
+        <span>EXECUTIVE RESEARCH BRIEFING</span>
+    </div>
+
+</body>
+</html>
+"""
+
+def main():
+    os.makedirs(OUT_DIR, exist_ok=True)
+    os.makedirs(DL_DIR, exist_ok=True)
+
+    html_path = os.path.join(OUT_DIR, "The_AI_Capital_Power_Brokers_Executive_Dossier_V2.html")
+    with open(html_path, "w", encoding="utf-8") as f:
+        f.write(AI_POWER_HTML)
+
+    pdf_path = os.path.join(OUT_DIR, "The_AI_Capital_Power_Brokers_Executive_Dossier_V2.pdf")
+    docx_path = os.path.join(OUT_DIR, "The_AI_Capital_Power_Brokers_Executive_Dossier_V2.docx")
+
+    # Render PDF via Chrome Headless
+    cmd_pdf = [
+        CHROME_BIN,
+        "--headless=new",
+        "--disable-gpu",
+        "--no-sandbox",
+        "--run-all-compositor-stages-before-draw",
+        f"--print-to-pdf={pdf_path}",
+        "--print-to-pdf-no-header",
+        html_path
+    ]
+    subprocess.run(cmd_pdf, check=True)
+    print(f"Generated PDF: {pdf_path}")
+
+    # Render DOCX via textutil
+    cmd_docx = ["textutil", "-convert", "docx", html_path, "-output", docx_path]
+    subprocess.run(cmd_docx, check=True)
+    print(f"Generated DOCX: {docx_path}")
+
+    # Copy to ~/Downloads
+    for f in ["The_AI_Capital_Power_Brokers_Executive_Dossier_V2.pdf", "The_AI_Capital_Power_Brokers_Executive_Dossier_V2.docx"]:
+        src = os.path.join(OUT_DIR, f)
+        dst = os.path.join(DL_DIR, f)
+        subprocess.run(["cp", src, dst], check=True)
+        print(f"Copied to Downloads: {dst}")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,28 @@
+{
+  "weight_otc": 50,
+  "weight_high_val_basis": 25,
+  "weight_control": 15,
+  "weight_slice_pct": 10,
+  "weight_size_cap": 20,
+  "high_value_basis_terms": [
+    "conversion",
+    "convert",
+    "note",
+    "debenture",
+    "settlement",
+    "private placement",
+    "exchange",
+    "pipe",
+    "convert debenture settlement"
+  ],
+  "control_words": [
+    "affiliate",
+    "officer",
+    "director",
+    "10%",
+    "ceo",
+    "chairman",
+    "president",
+    "founder"
+  ]
+}

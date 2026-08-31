@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "crons": [
+    {
+      "path": "/api/daily-scan",
+      "schedule": "0 16 * * 1-5"
+    }
+  ],
+  "functions": {
+    "api/feed.js": { "maxDuration": 60 },
+    "api/fts.js": { "maxDuration": 60 },
+    "api/daily-scan.js": { "maxDuration": 60 }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "company_overview": {
+    "name": "Wildberries",
+    "description": "Russia's largest online retailer",
+    "market_share_percentage": 45,
+    "revenue_2025_usd": 72280000000,
+    "gdp_contribution_percentage": 2,
+    "employees": {
+      "core": "7,450-15,000",
+      "logistics_and_warehouses": "150,000-200,000",
+      "pickup_points": ">150,000",
+      "sellers": ">1,000,000"
+    }
+  },
+  "infrastructure": {
+    "total_pickup_points": 98000,
+    "total_logistics_facilities": 200,
+    "total_warehouse_space_sqm": 5200000
+  },
+  "impact_of_strikes": {
+    "capacity_destroyed_percentage": "20-27%",
+    "capacity_destroyed_sqm": 1180000,
+    "estimated_inventory_losses_usd": "1-5 billion",
+    "pickup_point_sales_drop_percentage": 50,
+    "revenue_decline_mid_2026_percentage": 25
+  },
+  "destroyed_damaged_facilities": [
+    {
+      "location": "Shushary, Saint Petersburg",
+      "date": "January 2024",
+      "cause": "Fire (non-drone)",
+      "details": "Major fire leading to legal case over fire safety."
+    },
+    {
+      "location": "Shushary, Saint Petersburg",
+      "date": "July 24, 2026",
+      "cause": "Drone strike",
+      "details": "Hit again during the summer 2026 campaign."
+    },
+    {
+      "location": "Krasny Bor, Leningrad Region",
+      "date": "August 2, 2026",
+      "cause": "Drone strike",
+      "details": "Significant fire following drone strike. ~33km SE of St. Petersburg."
+    },
+    {
+      "location": "Novosaratovka, Leningrad Region",
+      "date": "August 1, 2026",
+      "cause": "Drone strike",
+      "details": "Fire and injuries reported."
+    },
+    {
+      "location": "Yekaterinburg",
+      "date": "August 7, 2026",
+      "cause": "Drone strike",
+      "details": "Nearly 2,000 km from Ukraine border. 3 drones hit roof, fire contained, ~800 evacuated."
+    },
+    {
+      "location": "Chekhov, Moscow Region",
+      "date": "August 3, 2026",
+      "cause": "Drone strike",
+      "details": "Black smoke, damage to secondary facilities."
+    },
+    {
+      "location": "Elektrostal, Moscow Region",
+      "date": "July 18, 2026",
+      "cause": "Drone strike",
+      "details": "First major strike of the campaign. 24 injuries reported."
+    },
+    {
+      "location": "Emmaus, Tver Region",
+      "date": "August 5, 2026",
+      "cause": "Drone strike",
+      "details": "Drone fragment damaged warehouse wall."
+    },
+    {
+      "location": "Tambov (Kotovsk)",
+      "date": "July 18, 2026",
+      "cause": "Drone strike",
+      "details": "Struck same day as Elektrostal, marking the campaign's start."
+    },
+    {
+      "location": "Koledino/Podolsk, Moscow Region",
+      "date": "July 20, 2026",
+      "cause": "Drone strike",
+      "details": "Major Moscow-area hub damaged."
+    },
+    {
+      "location": "Nevinnomyssk, Stavropol Krai",
+      "date": "July 22, 2026",
+      "cause": "Drone strike",
+      "details": "Southern Russia logistics center struck."
+    },
+    {
+      "location": "Krasnodar",
+      "date": "July 22, 2026",
+      "cause": "Drone strike",
+      "details": "Major southern distribution hub damaged."
+    },
+    {
+      "location": "Tyushevo, Ryazan Oblast",
+      "date": "July 29, 2026",
+      "cause": "Drone strike",
+      "details": "Central Russia logistics facility hit."
+    },
+    {
+      "location": "Penza",
+      "date": "July 30, 2026",
+      "cause": "Drone strike",
+      "details": "Volga region distribution center struck."
+    },
+    {
+      "location": "Sarapul, Udmurtia",
+      "date": "July 30, 2026",
+      "cause": "Drone strike",
+      "details": "Ural-region facility struck, ~1,500km from border."
+    },
+    {
+      "location": "Volgograd",
+      "date": "July 31, 2026",
+      "cause": "Drone strike",
+      "details": "Southern Russia warehouse damaged."
+    },
+    {
+      "location": "Aleksin, Tula Oblast",
+      "date": "August 5, 2026",
+      "cause": "Drone strike",
+      "details": "Major sorting/logistics center. Massive fire. 1 injury."
+    },
+    {
+      "location": "Samara",
+      "date": "August 4, 2026",
+      "cause": "Drone strike",
+      "details": "Volga region hub targeted."
+    },
+    {
+      "location": "Voronezh",
+      "date": "August 6, 2026",
+      "cause": "Drone strike",
+      "details": "Central Russia facility near Ukrainian border struck."
+    },
+    {
+      "location": "Occupied Crimea",
+      "date": "July 25, 2026",
+      "cause": "Drone strike",
+      "details": "Logistics facility in occupied territory hit."
+    }
+  ],
+  "timeline": [
+    {"date": "January 2024", "event": "Major fire at Shushary warehouse in St. Petersburg (non-drone)."},
+    {"date": "July 18, 2026", "event": "Campaign begins: simultaneous strikes on Elektrostal (Moscow) and Kotovsk (Tambov)."},
+    {"date": "July 20, 2026", "event": "Koledino/Podolsk warehouse (Moscow region) struck."},
+    {"date": "July 22, 2026", "event": "Krasnodar and Nevinnomyssk facilities hit."},
+    {"date": "July 24, 2026", "event": "Shushary/St. Petersburg facility struck again."},
+    {"date": "July 25, 2026", "event": "Logistics facility in occupied Crimea targeted."},
+    {"date": "July 29, 2026", "event": "Tyushevo, Ryazan Oblast facility struck."},
+    {"date": "July 30, 2026", "event": "Penza and Sarapul (Udmurtia, ~1500km) struck."},
+    {"date": "July 31, 2026", "event": "Volgograd distribution center damaged."},
+    {"date": "August 1, 2026", "event": "Novosaratovka (Leningrad region) struck."},
+    {"date": "August 2, 2026", "event": "Krasny Bor (Leningrad region) warehouse fire."},
+    {"date": "August 3, 2026", "event": "Chekhov (Moscow region) secondary facility damaged."},
+    {"date": "August 4, 2026", "event": "Samara hub targeted."},
+    {"date": "August 5, 2026", "event": "Major strikes on Aleksin (Tula) and Emmaus (Tver)."},
+    {"date": "August 6, 2026", "event": "Voronezh facility struck."},
+    {"date": "August 7, 2026", "event": "Yekaterinburg strike - farthest at ~2,095km from Ukraine."}
+  ]
+}
