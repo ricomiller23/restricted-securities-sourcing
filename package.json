@@ -16,7 +16,8 @@
     "spec:new": "bash scripts/new_spec.sh",
     "topology:generate": "node scripts/generate_topology.js",
     "test:smoke": "node scripts/smoke_test.js",
-    "test:all": "node scripts/smoke_test.js"
+    "test:all": "node scripts/smoke_test.js",
+    "deploy:all": "node scripts/deploy_all_regional_apps.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
