@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-08-31T20:15:00.775Z",
+  "projectName": "Restricted Securities Sourcing & Delisted CRM Ecosystem",
+  "applications": {
+    "scout144": {
+      "type": "Full-Stack Express + Vite SPA",
+      "backendPort": 5005,
+      "frontendPort": 3000,
+      "entryPoints": {
+        "server": "server.js",
+        "client": "src/main.jsx"
+      },
+      "routes": [
+        {
+          "method": "GET",
+          "path": "/api/backfill/status"
+        },
+        {
+          "method": "POST",
+          "path": "/api/backfill/start"
+        },
+        {
+          "method": "GET",
+          "path": "/api/sync/status"
+        },
+        {
+          "method": "POST",
+          "path": "/api/sync/trigger"
+        },
+        {
+          "method": "GET",
+          "path": "/api/metrics"
+        },
+        {
+          "method": "GET",
+          "path": "/api/observability"
+        },
+        {
+          "method": "GET",
+          "path": "/api/settings"
+        },
+        {
+          "method": "POST",
+          "path": "/api/settings"
+        },
+        {
+          "method": "GET",
+          "path": "/api/feed/freshness"
+        },
+        {
+          "method": "GET",
+          "path": "/api/sync/progress"
+        },
+        {
+          "method": "GET",
+          "path": "/api/issuers/:cik/contact"
+        },
+        {
+          "method": "GET",
+          "path": "/api/feed"
+        },
+        {
+          "method": "GET",
+          "path": "/api/leads"
+        },
+        {
+          "method": "POST",
+          "path": "/api/leads"
+        },
+        {
+          "method": "PUT",
+          "path": "/api/leads/:id"
+        },
+        {
+          "method": "DELETE",
+          "path": "/api/leads/:id"
+        },
+        {
+          "method": "GET",
+          "path": "/api/fts"
+        },
+        {
+          "method": "GET",
+          "path": "/api/filings"
+        },
+        {
+          "method": "GET",
+          "path": "/api/filings/:id"
+        }
+      ],
+      "components": [
+        "src/components/CrmBoard.jsx",
+        "src/components/FilingsRegister.jsx",
+        "src/components/FtsExplorer.jsx",
+        "src/components/ScoringConfig.jsx",
+        "src/components/SourcingFeed.jsx",
+        "src/components/TelemetryDrawer.jsx"
+      ],
+      "modules": [
+        "lib/freshness.js",
+        "lib/sec_ingest.js",
+        "lib/telemetry.js"
+      ]
+    },
+    "delistedCrm": {
+      "type": "Vite React CRM & Intelligence Engine",
+      "port": 5173,
+      "cloudUrl": "https://delisted-crm-database.vercel.app",
+      "entryPoints": {
+        "client": "delisted-crm-database/src/main.jsx",
+        "app": "delisted-crm-database/src/App.jsx"
+      },
+      "components": [
+        "delisted-crm-database/src/components/AnalyticsView.jsx",
+        "delisted-crm-database/src/components/EmailRunnerModal.jsx",
+        "delisted-crm-database/src/components/ExecutiveDossierModal.jsx",
+        "delisted-crm-database/src/components/ExportModal.jsx",
+        "delisted-crm-database/src/components/IssuerDrawer.jsx",
+        "delisted-crm-database/src/components/KanbanView.jsx",
+        "delisted-crm-database/src/components/LegalCounselView.jsx",
+        "delisted-crm-database/src/components/Navbar.jsx",
+        "delisted-crm-database/src/components/TableView.jsx"
+      ],
+      "hooks": [
+        "delisted-crm-database/src/hooks/useIssuersSync.js"
+      ],
+      "dataSeeds": [
+        "delisted-crm-database/src/data/global_issuers_seed.js"
+      ]
+    }
+  },
+  "specs": [
+    "specs/0/0.001-fishdev-bootstrap-and-security-audit",
+    "specs/0/0.002-automated-daily-morning-update",
+    "specs/0/0.003-launch-time-optimization-and-benchmarking",
+    "specs/0/0.004-timing-observability-and-telemetry",
+    "specs/0/0.005-instant-feed-and-24h-freshness-guarantee",
+    "specs/0/0.006-delisted-crm-24h-sync-and-data-population",
+    "specs/0/0.007-toca-architecture-and-bundle-optimization",
+    "specs/0/0.008-build-acceleration-tooling-and-guardrails"
+  ],
+  "governance": {
+    "constitution": ".specify/memory/constitution.md",
+    "startupGuide": "start.ai",
+    "tocaStandard": ".config/ai/toca.ai",
+    "progressLog": ".config/ai/progress.ai",
+    "handoff": ".config/ai/handoff.ai"
+  }
+}

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ALL_GLOBAL_ISSUERS } from "../data/global_issuers_seed";
+import { validateDelistedIssuer } from "../utils/schema_validator";
 
 const LOCAL_STORAGE_KEY = "DELISTED_CRM_DATABASE_V11_GLOBAL";
 const LAST_SYNC_KEY = "DELISTED_CRM_LAST_SYNC_TIMESTAMP";
@@ -138,33 +139,18 @@ export function useIssuersSync() {
               }
               existingMap.set(normCik, current);
             } else {
-              // Newly discovered issuer
-              newItems.push({
-                id: item.id || `live-${item.cik}`,
-                region: item.region || "US",
-                cik: item.cik,
-                companyName: item.companyName || "Unknown Issuer",
-                ticker: ticker,
-                delistDate: item.delistDate || new Date().toISOString().slice(0, 10),
-                form: item.form || "15-12G",
-                exchange: item.exchange || "Delisted → OTC",
-                eventType: item.eventType || "Delisting Notice",
-                secLandingPage: item.secLandingPage || `https://www.sec.gov/edgar/searchedgar/companysearch?CIK=${item.cik}`,
-                secFullText: item.secFullText || "",
-                location: item.location || "United States",
-                email: email,
-                phone: phone,
-                ceo: ceo,
-                cfo: "Not Available",
-                otcProfileUrl: ticker && ticker !== "OTC" ? `https://www.otcmarkets.com/stock/${ticker}/profile` : "https://www.otcmarkets.com",
-                legalCounsel: legalCounsel,
-                status: "new",
-                cleanShellScore: legalCounsel !== "Not Available" ? 88 : 72,
-                shellRating: legalCounsel !== "Not Available" ? "Prime Clean Shell" : "Standard Distressed Asset",
-                notes: [],
-                activities: [],
-                details: item.details || "Delisted issuer filing."
+              // Newly discovered issuer validated via schema guardrails
+              const validated = validateDelistedIssuer({
+                ...item,
+                ticker,
+                email,
+                phone,
+                ceo,
+                legalCounsel
               });
+              if (validated) {
+                newItems.push(validated);
+              }
             }
           });
 
