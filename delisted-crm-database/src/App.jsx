@@ -75,7 +75,10 @@ export default function App() {
     }
   }, [issuers]);
 
-  // Live Auto-Sync with Normalized Matching
+  const LAST_SYNC_KEY = "DELISTED_CRM_LAST_SYNC_TIMESTAMP";
+  const SYNC_INTERVAL_MS = 24 * 60 * 60 * 1000; // 24 hours
+
+  // Live Auto-Sync with Non-Destructive Data Population & Enrichment
   const triggerLiveSync = async () => {
     setIsSyncing(true);
     try {
@@ -97,49 +100,91 @@ export default function App() {
         console.error("Error fetching live contacts map:", e);
       }
 
-      const offsets = [0, 500, 1000, 1500];
       let liveFetched = [];
+      let offset = 0;
+      const batchSize = 500;
+      let hasMore = true;
 
-      for (const off of offsets) {
-        const res = await fetch(`https://edgar-insider-scout.vercel.app/api/signals/fallen-angels/delisted-issuers?from=${off}&dateRange=all&exchange=all`);
-        if (res.ok) {
-          const json = await res.json();
-          if (json.data && Array.isArray(json.data)) {
-            liveFetched = [...liveFetched, ...json.data];
+      // Dynamically paginate until all available upstream records are fetched
+      while (hasMore && offset <= 5000) {
+        try {
+          const res = await fetch(`https://edgar-insider-scout.vercel.app/api/signals/fallen-angels/delisted-issuers?from=${offset}&dateRange=all&exchange=all`);
+          if (res.ok) {
+            const json = await res.json();
+            const batch = json.data;
+            if (Array.isArray(batch) && batch.length > 0) {
+              liveFetched = [...liveFetched, ...batch];
+              offset += batch.length;
+              if (batch.length < batchSize) hasMore = false;
+            } else {
+              hasMore = false;
+            }
+          } else {
+            hasMore = false;
           }
+        } catch (e) {
+          console.error(`Error fetching signals at offset ${offset}:`, e);
+          hasMore = false;
         }
       }
 
       if (liveFetched.length > 0) {
         setIssuers((prev) => {
-          const existingCiks = new Set(prev.map(i => String(i.cik || "").replace(/^0+/, "")));
+          const existingMap = new Map();
+          prev.forEach(item => {
+            const key = String(item.cik || item.id || "").replace(/^0+/, "");
+            if (key) existingMap.set(key, { ...item });
+          });
+
           const newItems = [];
 
           liveFetched.forEach((item) => {
-            const normCik = String(item.cik).replace(/^0+/, "");
-            if (normCik && !existingCiks.has(normCik)) {
-              const ticker = (item.ticker || "OTC").toUpperCase().trim();
-              const cMatch = contactMapCik[normCik] || contactMapTicker[ticker] || {};
-              
-              const rawLegal = cMatch.legal_counsel;
-              const legalCounsel = (rawLegal && rawLegal.trim() && !["none", "null", "not available"].includes(rawLegal.toLowerCase())) 
-                ? rawLegal.trim() 
-                : "Not Available";
+            const normCik = String(item.cik || "").replace(/^0+/, "");
+            if (!normCik) return;
 
-              const rawEmail = cMatch.email;
-              const email = (rawEmail && !rawEmail.startsWith("ir@") && !rawEmail.startsWith("contact@") && rawEmail.includes("@")) 
-                ? rawEmail 
-                : "Not Available";
+            const ticker = (item.ticker || "OTC").toUpperCase().trim();
+            const cMatch = contactMapCik[normCik] || contactMapTicker[ticker] || {};
 
-              const rawPhone = cMatch.phone;
-              const phone = (rawPhone && rawPhone.trim().length >= 7) ? rawPhone.trim() : "Not Available";
+            const rawLegal = cMatch.legal_counsel;
+            const legalCounsel = (rawLegal && rawLegal.trim() && !["none", "null", "not available"].includes(rawLegal.toLowerCase())) 
+              ? rawLegal.trim() 
+              : "Not Available";
 
-              const rawCeo = cMatch.ceo || cMatch.contact_name;
-              const ceo = (rawCeo && rawCeo !== item.companyName && rawCeo.trim().length > 2) ? rawCeo.trim() : "Not Available";
+            const rawEmail = cMatch.email;
+            const email = (rawEmail && !rawEmail.startsWith("ir@") && !rawEmail.startsWith("contact@") && rawEmail.includes("@")) 
+              ? rawEmail 
+              : "Not Available";
 
+            const rawPhone = cMatch.phone;
+            const phone = (rawPhone && rawPhone.trim().length >= 7) ? rawPhone.trim() : "Not Available";
+
+            const rawCeo = cMatch.ceo || cMatch.contact_name;
+            const ceo = (rawCeo && rawCeo !== item.companyName && rawCeo.trim().length > 2) ? rawCeo.trim() : "Not Available";
+
+            if (existingMap.has(normCik)) {
+              // Non-destructive enrichment: populate newly discovered contacts without overwriting user status/notes
+              const current = existingMap.get(normCik);
+              if ((!current.email || current.email === "Not Available") && email !== "Not Available") {
+                current.email = email;
+              }
+              if ((!current.phone || current.phone === "Not Available") && phone !== "Not Available") {
+                current.phone = phone;
+              }
+              if ((!current.ceo || current.ceo === "Not Available") && ceo !== "Not Available") {
+                current.ceo = ceo;
+              }
+              if ((!current.legalCounsel || current.legalCounsel === "Not Available") && legalCounsel !== "Not Available") {
+                current.legalCounsel = legalCounsel;
+              }
+              if (!current.details && item.details) {
+                current.details = item.details;
+              }
+              existingMap.set(normCik, current);
+            } else {
+              // Newly discovered issuer
               newItems.push({
                 id: item.id || `live-${item.cik}`,
-                region: "US",
+                region: item.region || "US",
                 cik: item.cik,
                 companyName: item.companyName || "Unknown Issuer",
                 ticker: ticker,
@@ -166,12 +211,19 @@ export default function App() {
             }
           });
 
-          if (newItems.length > 0) {
-            return [...newItems, ...prev];
-          }
-          return prev;
+          // Recombine enriched existing issuers and new items
+          const updatedExisting = prev.map(item => {
+            const key = String(item.cik || item.id || "").replace(/^0+/, "");
+            return existingMap.get(key) || item;
+          });
+
+          return [...newItems, ...updatedExisting];
         });
       }
+
+      try {
+        localStorage.setItem(LAST_SYNC_KEY, String(Date.now()));
+      } catch (e) {}
     } catch (err) {
       console.error("Live EDGAR sync error:", err);
     } finally {
@@ -179,8 +231,24 @@ export default function App() {
     }
   };
 
+  // 24-Hour Automated Synchronization Lifecycle
   useEffect(() => {
-    triggerLiveSync();
+    const checkAndSync = () => {
+      try {
+        const lastSync = localStorage.getItem(LAST_SYNC_KEY);
+        const now = Date.now();
+        if (!lastSync || now - parseInt(lastSync, 10) >= SYNC_INTERVAL_MS) {
+          triggerLiveSync();
+        }
+      } catch (e) {
+        triggerLiveSync();
+      }
+    };
+
+    checkAndSync();
+    // Hourly heartbeat check to trigger when 24-hour window arrives
+    const timer = setInterval(checkAndSync, 60 * 60 * 1000);
+    return () => clearInterval(timer);
   }, []);
 
   // Filter logic across all issuers
