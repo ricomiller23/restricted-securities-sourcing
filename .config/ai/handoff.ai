@@ -1,10 +1,11 @@
 # Handoff
 
-- **Current Branch**: `feature/0.003-launch-time-optimization-and-benchmarking`
-- **Active Spec**: `specs/0/0.003-launch-time-optimization-and-benchmarking/`
+- **Current Branch**: `feature/0.004-timing-observability-and-telemetry`
+- **Active Spec**: `specs/0/0.004-timing-observability-and-telemetry/`
 - **Completed Tasks**:
-  - Phase 1: Built `scripts/benchmark_launch.js` and captured baseline performance statistics.
-  - Phase 2: Implemented compact pre-indexed cache (`cache/filings_index_cache.json`) and manifest incremental change detection in `server.js` (73.5% faster disk parse).
-  - Phase 3: Configured immediate non-blocking Express port listen (67.6% faster backend boot) and sub-50ms active polling in `Launch Scout 144.command`.
-  - Phase 4: Validated post-optimization benchmarks (overall launch latency reduced from ~2.61s to ~0.18s — 93.3% speedup) and confirmed `npm run build` passes cleanly.
-- **Recommended Next Action**: Ready to commit, push, and create Pull Request for Spec 0.003.
+  - Phase 1: Built `lib/telemetry.js`, request timing middleware (`X-Response-Time`, `Server-Timing`), colorized console logging, and `GET /api/metrics`.
+  - Phase 2: Instrumented `scripts/morning_sync.js` with stage breakdown timers and filings/sec throughput metrics.
+  - Phase 3: Added milestone latency logging to `Launch Scout 144.command`.
+  - Phase 4: Created `src/components/TelemetryDrawer.jsx` and integrated live latency badge in `src/App.jsx`.
+  - Phase 5: Verified API endpoints, simulated traffic, and confirmed clean `npm run build`.
+- **Recommended Next Action**: Ready to commit, push branch, and create Pull Request for Spec 0.004.

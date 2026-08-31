@@ -4,6 +4,7 @@ import FilingsRegister from './components/FilingsRegister.jsx';
 import CrmBoard from './components/CrmBoard.jsx';
 import FtsExplorer from './components/FtsExplorer.jsx';
 import ScoringConfig from './components/ScoringConfig.jsx';
+import TelemetryDrawer from './components/TelemetryDrawer.jsx';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('feed');
@@ -80,7 +81,7 @@ export default function App() {
           </button>
         </nav>
 
-        <div className="header-meta">
+        <div className="header-meta" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           {isBackfilling && (
             <div className="system-status" style={{ borderColor: 'var(--accent-purple)', background: 'rgba(124, 77, 255, 0.05)' }}>
               <span className="status-dot" style={{ backgroundColor: 'var(--accent-purple)', boxShadow: '0 0 8px var(--accent-purple)' }}></span>
@@ -91,6 +92,7 @@ export default function App() {
             <span className="status-dot"></span>
             <span>SEC Edgar Live</span>
           </div>
+          <TelemetryDrawer />
         </div>
       </header>
 

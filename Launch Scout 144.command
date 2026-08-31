@@ -3,30 +3,45 @@
 # Move to the project directory
 cd "/Users/ericmiller/NEW JUNE 26"
 
+START_TIME=$(node -e 'console.log(Date.now())')
+
+get_elapsed() {
+  node -e "console.log(((Date.now() - $START_TIME) / 1000).toFixed(2) + 's')"
+}
+
 echo "============================================="
 echo "   Launching Scout 144 Sourcing Console...   "
 echo "============================================="
 
-# Find and kill any existing processes running on port 3000 or 5005
-echo "Clearing ports..."
+# 1. Clear ports
+echo "[$(get_elapsed)] Clearing previous server processes (ports 3000, 5005)..."
 lsof -ti:3000 | xargs kill -9 2>/dev/null
 lsof -ti:5005 | xargs kill -9 2>/dev/null
 
-# Start the dev server (both frontend and backend concurrently)
+# 2. Start dev servers
+echo "[$(get_elapsed)] Spawning backend and frontend dev processes..."
 npm run dev &
+DEV_PID=$!
 
-# Wait for Vite dev server to respond (fast active polling)
-echo "Waiting for dev server readiness..."
-for i in {1..50}; do
-  if curl -s -o /dev/null -w "%{http_code}" "http://127.0.0.1:3000/" 2>/dev/null | grep -q "200"; then
+# 3. Active readiness polling
+echo "[$(get_elapsed)] Polling port readiness (Vite & Express)..."
+for i in {1..60}; do
+  VITE_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "http://127.0.0.1:3000/" 2>/dev/null || echo "000")
+  API_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "http://127.0.0.1:5005/api/metrics" 2>/dev/null || echo "000")
+  
+  if [ "$VITE_STATUS" = "200" ] && [ "$API_STATUS" = "200" ]; then
     break
   fi
-  sleep 0.05
+  sleep 0.04
 done
 
-# Open in Google Chrome immediately upon readiness
-echo "Opening Chrome..."
+ELAPSED_TOTAL=$(node -e "console.log(Date.now() - $START_TIME)")
+echo "[$(get_elapsed)] ✅ All servers fully ready! (Total launch time: ${ELAPSED_TOTAL}ms)"
+
+# 4. Open browser
+echo "[$(get_elapsed)] Opening Google Chrome at http://127.0.0.1:3000/ ..."
 open -a "Google Chrome" "http://127.0.0.1:3000/"
 
-echo "Scout 144 is active! Close this window to stop the server."
-wait
+echo ""
+echo "Scout 144 is active! Press Ctrl+C or close this terminal window to stop."
+wait $DEV_PID

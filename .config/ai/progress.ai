@@ -22,3 +22,11 @@
 - **Instant Server Listen**: Moved Express `app.listen()` to bind port 5005 immediately on process start (server ready latency reduced from 511ms to 165ms).
 - **Active Readiness Polling**: Optimized `Launch Scout 144.command` with sub-50ms polling loop, eliminating hardcoded `sleep 2` delay.
 - **Empirical Results**: Reduced total cold launch latency from ~2.61s down to ~0.18s (93.3% speedup).
+- **Pull Request**: PR #3 merged into `main`.
+
+## 2026-08-31 - Feature 0.004: End-to-End Timing Observability & Telemetry
+- **Server Telemetry & Middleware**: Built `lib/telemetry.js` and request timing middleware injecting `X-Response-Time` and `Server-Timing` headers on all Express responses with colorized console logs.
+- **Metrics Endpoints**: Added `GET /api/metrics` and `GET /api/observability` exposing memory usage, startup milestone breakdown, and route-level latency statistics.
+- **Morning Sync Profiling**: Instrumented `scripts/morning_sync.js` with stage timing breakdown and filings/second throughput metrics.
+- **Launcher Timestamp Profiling**: Updated `Launch Scout 144.command` with milestone latency loggers.
+- **Frontend Telemetry Drawer**: Built `src/components/TelemetryDrawer.jsx` and mounted live latency badge in navbar.
