@@ -6,6 +6,8 @@ import { fileURLToPath } from 'url';
 import xml2js from 'xml2js';
 import { runMorningSync, getTargetSyncDates } from './scripts/morning_sync.js';
 import { telemetry } from './lib/telemetry.js';
+import { getActiveMarketDate, validateFreshness } from './lib/freshness.js';
+import { secIngester } from './lib/sec_ingest.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -350,6 +352,18 @@ const parseAddress = (addrObj) => {
 };
 
 // Fetch issuer contact details from SEC and cache them
+const getLocalIssuerContact = (cik) => {
+  if (!cik) return { phone: '', address: '' };
+  const paddedCik = String(cik).padStart(10, '0');
+  const cachePath = path.join(SUBMISSIONS_CACHE_DIR, `${paddedCik}.json`);
+  if (fs.existsSync(cachePath)) {
+    try {
+      return JSON.parse(fs.readFileSync(cachePath, 'utf8'));
+    } catch (e) {}
+  }
+  return { phone: '', address: '' };
+};
+
 const fetchIssuerContact = async (cik) => {
   if (!cik) return { phone: '', address: '' };
   
@@ -367,7 +381,6 @@ const fetchIssuerContact = async (cik) => {
   const url = `https://data.sec.gov/submissions/CIK${paddedCik}.json`;
   try {
     await sleep(SLEEP_MS);
-    console.log(`Fetching issuer details for CIK ${paddedCik} from SEC...`);
     const res = await fetch(url, { headers: HEADERS });
     if (!res.ok) return { phone: '', address: '' };
     
@@ -725,7 +738,30 @@ app.post('/api/settings', (req, res) => {
   }
 });
 
-// API: Get Form 144 feed (with optional caching)
+// API: Get 24-Hour Market Freshness Status
+app.get('/api/feed/freshness', (req, res) => {
+  const activeMarketDate = getActiveMarketDate();
+  const freshnessInfo = validateFreshness(activeMarketDate, CACHE_DIR);
+  res.json(freshnessInfo);
+});
+
+// API: Get Active Ingestion Progress
+app.get('/api/sync/progress', (req, res) => {
+  res.json(secIngester.getProgress());
+});
+
+// API: Get Issuer Contact Info (on-demand enrichment)
+app.get('/api/issuers/:cik/contact', async (req, res) => {
+  const { cik } = req.params;
+  try {
+    const contact = await fetchIssuerContact(cik);
+    res.json(contact);
+  } catch (err) {
+    res.json({ phone: '', address: '' });
+  }
+});
+
+// API: Get Form 144 feed (Instant Cache + Accelerated 24h Ingestion)
 app.get('/api/feed', async (req, res) => {
   const { date } = req.query;
   if (!date || !/^\d{4}-\d{2}-\d{2}$/.test(date)) {
@@ -735,17 +771,14 @@ app.get('/api/feed', async (req, res) => {
   const cachePath = path.join(CACHE_DIR, `${date}.json`);
   const settings = JSON.parse(fs.readFileSync(SETTINGS_FILE, 'utf8'));
 
-  // If cached file exists, read and re-score (in case user updated settings weights)
+  // 1. Instant Cache Hit (< 1ms)
   if (fs.existsSync(cachePath)) {
     try {
       const cached = JSON.parse(fs.readFileSync(cachePath, 'utf8'));
       const targets = [];
-      for (const item of cached.rawFilings) {
+      for (const item of cached.rawFilings || []) {
         const scoreData = scoreTarget(item.rawData, settings);
-        
-        // Enrich with Issuer details (cached internally)
-        const contactInfo = await fetchIssuerContact(scoreData.issuerCik);
-        
+        const contactInfo = getLocalIssuerContact(scoreData.issuerCik);
         targets.push({
           ...scoreData,
           issuerPhone: contactInfo.phone,
@@ -754,94 +787,46 @@ app.get('/api/feed', async (req, res) => {
         });
       }
 
-      // Filter: OTC and under $5.00 share price
       const filtered = targets.filter(t => t.isOtc && t.impliedPrice < 5.0);
       filtered.sort((a, b) => b.score - a.score);
-      return res.json({ date, targets: filtered });
+      const freshness = validateFreshness(date, CACHE_DIR);
+      return res.json({ date, targets: filtered, freshness, isSyncing: false });
     } catch (err) {
-      console.error("Cache read error, falling back to fetch:", err);
+      console.error("Cache read error:", err);
     }
   }
 
-  const [year, monthStr, dayStr] = date.split('-');
-  const month = parseInt(monthStr);
-  const q = Math.floor((month - 1) / 3) + 1;
-  const indexUrl = `https://www.sec.gov/Archives/edgar/daily-index/${year}/QTR${q}/master.${year}${monthStr}${dayStr}.idx`;
-
-  try {
-    console.log(`Fetching daily SEC index: ${indexUrl}`);
-    const indexRes = await fetch(indexUrl, { headers: HEADERS });
-    if (indexRes.status === 404 || indexRes.status === 403) {
-      return res.json({ date, targets: [], message: "No filings found for this date (weekend, holiday, or index not yet published)" });
-    }
-    if (!indexRes.ok) {
-      throw new Error(`SEC Index HTTP error ${indexRes.status}`);
-    }
-
-    const text = await indexRes.text();
-    const lines = text.split('\n');
-    const filingsToFetch = [];
-
-    for (const line of lines) {
-      const parts = line.split('|');
-      if (parts.length === 5) {
-        const [cik, name, form, filedDate, filename] = parts;
-        if (form === "144" || form === "144/A") {
-          const accession = filename.split('/').pop().replace('.txt', '').replace(/-/g, '');
-          filingsToFetch.push({ cik: cik.trim(), accession });
-        }
-      }
-    }
-
-    console.log(`Found ${filingsToFetch.length} Form 144 filings to process...`);
-    const rawFilings = [];
-    const targets = [];
-    const xmlParser = new xml2js.Parser({ explicitArray: false, mergeAttrs: true });
-
-    for (const f of filingsToFetch) {
-      await sleep(SLEEP_MS);
-      const fileUrl = `https://www.sec.gov/Archives/edgar/data/${f.cik}/${f.accession}/primary_doc.xml`;
-      try {
-        const fileRes = await fetch(fileUrl, { headers: HEADERS });
-        if (!fileRes.ok) continue;
-
-        const xmlText = await fileRes.text();
-        const rawJson = await xmlParser.parseStringPromise(xmlText);
-        
-        // Clean namespaces out of keys recursively
-        const cleanJson = cleanXmlKeys(rawJson);
-        const formData = cleanJson?.edgarSubmission?.formData || {};
-
-        if (formData && Object.keys(formData).length > 0) {
-          rawFilings.push({ accession: f.accession, rawData: formData });
-          const scored = scoreTarget(formData, settings);
-          
-          // Enrich with Issuer details (cached internally)
-          const contactInfo = await fetchIssuerContact(scored.issuerCik);
-
-          targets.push({ 
-            ...scored, 
-            issuerPhone: contactInfo.phone,
-            issuerAddress: contactInfo.address,
-            accession: f.accession 
-          });
-        }
-      } catch (err) {
-        console.error(`Error processing filing ${f.accession}:`, err.message);
-      }
-    }
-
-    // Write to cache
-    fs.writeFileSync(cachePath, JSON.stringify({ date, rawFilings }, null, 2));
-
-    // Filter: OTC and under $5.00 share price
-    const filtered = targets.filter(t => t.isOtc && t.impliedPrice < 5.0);
-    filtered.sort((a, b) => b.score - a.score);
-    res.json({ date, targets: filtered });
-  } catch (err) {
-    console.error("Fetch/Parse error:", err);
-    res.status(500).json({ error: err.message });
+  // 2. Uncached Date: Accelerated non-blocking ingestion
+  const currentProgress = secIngester.getProgress();
+  if (currentProgress.status === 'ingesting_xml' || currentProgress.status === 'fetching_index') {
+    return res.json({
+      date,
+      targets: [],
+      isSyncing: true,
+      progress: currentProgress,
+      message: `Syncing SEC EDGAR Form 144 daily index for ${date}...`
+    });
   }
+
+  // Trigger accelerated parallel ingestion asynchronously
+  (async () => {
+    try {
+      const result = await secIngester.ingestDateFilings(date, CACHE_DIR);
+      if (result.status === 'ingested') {
+        await indexCachedFilings();
+      }
+    } catch (e) {
+      console.error("Accelerated ingest error:", e);
+    }
+  })();
+
+  res.json({
+    date,
+    targets: [],
+    isSyncing: true,
+    progress: secIngester.getProgress(),
+    message: `Started accelerated SEC sync for ${date}...`
+  });
 });
 
 // API: Get CRM leads
