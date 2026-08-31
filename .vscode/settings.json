@@ -1,0 +1,7 @@
+{
+  "chat.editing.alwaysAccept": true,
+  "chat.editing.confirmEditRequestRemoval": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "workbench.editor.autoSave": "afterDelay"
+}
