@@ -93,94 +93,167 @@ const loadCompanyTickers = async () => {
 let filingsIndex = [];
 let isIndexingFilings = false;
 
-const indexCachedFilings = async () => {
+const COMPACT_INDEX_FILE = path.join(CACHE_DIR, 'filings_index_cache.json');
+const COMPACT_MANIFEST_FILE = path.join(CACHE_DIR, 'filings_index_manifest.json');
+
+const parseSingleDateFile = (filePath, date, settings) => {
+  const filings = [];
+  try {
+    const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    const rawFilingsList = content.rawFilings || [];
+
+    for (const item of rawFilingsList) {
+      const scored = scoreTarget(item.rawData, settings);
+      const paddedCik = String(scored.issuerCik || '').padStart(10, '0');
+      const ticker = cikToTicker[paddedCik] || scored.exchange || 'OTC';
+
+      let city = '';
+      let state = '';
+      if (scored.sellerAddress) {
+        const parts = scored.sellerAddress.split(',').map(p => p.trim());
+        if (parts.length >= 3) {
+          const zip = parts.pop();
+          const statePart = parts.pop();
+          const cityPart = parts.pop();
+          city = cityPart || '';
+          state = statePart || '';
+        }
+      }
+
+      filings.push({
+        id: item.accession,
+        accessionNumber: item.accession,
+        formType: item.rawData.formType || "144",
+        filedAt: date,
+        score: Math.round(scored.score),
+        hasAgedDebt: scored.isHighValue,
+        hasRestricted: true,
+        has3a10: false,
+        rawXmlUrl: `https://www.sec.gov/Archives/edgar/data/${scored.issuerCik}/${item.accession}/primary_doc.xml`,
+        primaryDocUrl: `https://www.sec.gov/Archives/edgar/data/${scored.issuerCik}/${item.accession}/primary_doc.xml`,
+        rawHtmlUrl: `https://www.sec.gov/Archives/edgar/data/${scored.issuerCik}/${item.accession}`,
+        Issuer: {
+          cik: paddedCik,
+          ticker: ticker,
+          name: scored.issuer,
+          marketTier: scored.isOtc ? "PINK_LIMITED" : "NASDAQ"
+        },
+        Insider: {
+          cik: '',
+          fullName: scored.seller,
+          city: city,
+          state: state
+        },
+        relationship: scored.relationship,
+        sharesToSell: scored.sharesToSell,
+        sharesOutstanding: scored.sharesOutstanding,
+        slicePct: scored.slicePct,
+        aggregateMktValue: scored.aggregateMktValue,
+        impliedPrice: scored.impliedPrice,
+        acquisitionBasis: scored.acquisitionBasis,
+        broker: scored.broker,
+        sellerAddress: scored.sellerAddress,
+        brokerAddress: scored.brokerAddress,
+        depositWindow: scored.depositWindow,
+        saleWindow: scored.saleWindow
+      });
+    }
+  } catch (e) {
+    console.error(`Failed to index file ${filePath}:`, e);
+  }
+  return filings;
+};
+
+const indexCachedFilings = async (forceFull = false) => {
   if (isIndexingFilings) return;
   isIndexingFilings = true;
-  console.log("Indexing cached 2026 filings...");
+  const startTime = performance.now();
+
   try {
     const settings = JSON.parse(fs.readFileSync(SETTINGS_FILE, 'utf8'));
     if (!fs.existsSync(CACHE_DIR)) return;
+
     const files = fs.readdirSync(CACHE_DIR);
     const dateFiles = files.filter(f => f.startsWith('2026-') && f.endsWith('.json'));
 
-    let tempIndex = [];
+    const settingsStat = fs.statSync(SETTINGS_FILE);
+    const currentManifest = {
+      settingsMtime: settingsStat.mtimeMs,
+      fileMtimes: {}
+    };
+    for (const f of dateFiles) {
+      currentManifest.fileMtimes[f] = fs.statSync(path.join(CACHE_DIR, f)).mtimeMs;
+    }
 
-    for (const file of dateFiles) {
-      const date = file.replace('.json', '');
-      const filePath = path.join(CACHE_DIR, file);
+    let previousManifest = null;
+    if (fs.existsSync(COMPACT_MANIFEST_FILE)) {
       try {
-        const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        const rawFilingsList = content.rawFilings || [];
+        previousManifest = JSON.parse(fs.readFileSync(COMPACT_MANIFEST_FILE, 'utf8'));
+      } catch (e) {}
+    }
 
-        for (const item of rawFilingsList) {
-          const scored = scoreTarget(item.rawData, settings);
-          const paddedCik = String(scored.issuerCik || '').padStart(10, '0');
-          const ticker = cikToTicker[paddedCik] || scored.exchange || 'OTC';
+    // Check if we can use the pre-indexed compact cache directly
+    const settingsChanged = !previousManifest || previousManifest.settingsMtime !== currentManifest.settingsMtime;
+    if (!forceFull && !settingsChanged && fs.existsSync(COMPACT_INDEX_FILE)) {
+      try {
+        let cachedIndex = JSON.parse(fs.readFileSync(COMPACT_INDEX_FILE, 'utf8'));
+        
+        // Find if any date files were added or modified
+        const changedFiles = dateFiles.filter(f => {
+          return !previousManifest.fileMtimes[f] || previousManifest.fileMtimes[f] !== currentManifest.fileMtimes[f];
+        });
 
-          let city = '';
-          let state = '';
-          if (scored.sellerAddress) {
-            const parts = scored.sellerAddress.split(',').map(p => p.trim());
-            if (parts.length >= 3) {
-              const zip = parts.pop();
-              const statePart = parts.pop();
-              const cityPart = parts.pop();
-              city = cityPart || '';
-              state = statePart || '';
-            }
-          }
-
-          tempIndex.push({
-            id: item.accession,
-            accessionNumber: item.accession,
-            formType: item.rawData.formType || "144",
-            filedAt: date,
-            score: Math.round(scored.score),
-            hasAgedDebt: scored.isHighValue,
-            hasRestricted: true,
-            has3a10: false,
-            rawXmlUrl: `https://www.sec.gov/Archives/edgar/data/${scored.issuerCik}/${item.accession}/primary_doc.xml`,
-            primaryDocUrl: `https://www.sec.gov/Archives/edgar/data/${scored.issuerCik}/${item.accession}/primary_doc.xml`,
-            rawHtmlUrl: `https://www.sec.gov/Archives/edgar/data/${scored.issuerCik}/${item.accession}`,
-            Issuer: {
-              cik: paddedCik,
-              ticker: ticker,
-              name: scored.issuer,
-              marketTier: scored.isOtc ? "PINK_LIMITED" : "NASDAQ"
-            },
-            Insider: {
-              cik: '',
-              fullName: scored.seller,
-              city: city,
-              state: state
-            },
-            relationship: scored.relationship,
-            sharesToSell: scored.sharesToSell,
-            sharesOutstanding: scored.sharesOutstanding,
-            slicePct: scored.slicePct,
-            aggregateMktValue: scored.aggregateMktValue,
-            impliedPrice: scored.impliedPrice,
-            acquisitionBasis: scored.acquisitionBasis,
-            broker: scored.broker,
-            sellerAddress: scored.sellerAddress,
-            brokerAddress: scored.brokerAddress,
-            depositWindow: scored.depositWindow,
-            saleWindow: scored.saleWindow
-          });
+        if (changedFiles.length === 0) {
+          filingsIndex = cachedIndex;
+          const elapsed = (performance.now() - startTime).toFixed(2);
+          console.log(`[Fast Launch] Loaded ${filingsIndex.length} filings from compact index in ${elapsed}ms.`);
+          isIndexingFilings = false;
+          return;
         }
-      } catch (e) {
-        console.error(`Failed to index file ${file}:`, e);
+
+        console.log(`[Incremental Index] ${changedFiles.length} new/modified cache file(s) detected. Updating...`);
+        const changedDates = new Set(changedFiles.map(f => f.replace('.json', '')));
+        let mergedIndex = cachedIndex.filter(item => !changedDates.has(item.filedAt));
+
+        for (const file of changedFiles) {
+          const date = file.replace('.json', '');
+          const newItems = parseSingleDateFile(path.join(CACHE_DIR, file), date, settings);
+          mergedIndex.push(...newItems);
+        }
+
+        mergedIndex.sort((a, b) => b.filedAt.localeCompare(a.filedAt) || b.score - a.score);
+        filingsIndex = mergedIndex;
+
+        fs.writeFileSync(COMPACT_INDEX_FILE, JSON.stringify(filingsIndex));
+        fs.writeFileSync(COMPACT_MANIFEST_FILE, JSON.stringify(currentManifest, null, 2));
+
+        const elapsed = (performance.now() - startTime).toFixed(2);
+        console.log(`[Incremental Index] Successfully updated index (${filingsIndex.length} filings) in ${elapsed}ms.`);
+        isIndexingFilings = false;
+        return;
+      } catch (err) {
+        console.warn("[Fast Launch] Compact cache read failed, falling back to full index:", err.message);
       }
     }
 
-    tempIndex.sort((a, b) => {
-      const dateCompare = b.filedAt.localeCompare(a.filedAt);
-      if (dateCompare !== 0) return dateCompare;
-      return b.score - a.score;
-    });
+    // Full indexing
+    console.log(`[Full Index] Re-indexing all ${dateFiles.length} date files...`);
+    let tempIndex = [];
+    for (const file of dateFiles) {
+      const date = file.replace('.json', '');
+      const items = parseSingleDateFile(path.join(CACHE_DIR, file), date, settings);
+      tempIndex.push(...items);
+    }
 
+    tempIndex.sort((a, b) => b.filedAt.localeCompare(a.filedAt) || b.score - a.score);
     filingsIndex = tempIndex;
-    console.log(`Successfully indexed ${filingsIndex.length} filings.`);
+
+    // Save compact cache and manifest
+    fs.writeFileSync(COMPACT_INDEX_FILE, JSON.stringify(filingsIndex));
+    fs.writeFileSync(COMPACT_MANIFEST_FILE, JSON.stringify(currentManifest, null, 2));
+
+    const elapsed = (performance.now() - startTime).toFixed(2);
+    console.log(`[Full Index] Successfully indexed ${filingsIndex.length} filings and saved compact cache in ${elapsed}ms.`);
   } catch (err) {
     console.error("Failed to build filings index:", err);
   } finally {
@@ -1014,14 +1087,15 @@ const checkStartupCatchupSync = async () => {
   }
 };
 
-// Boot up initialization
+// Immediate non-blocking server listen for instant startup response
+app.listen(PORT, '127.0.0.1', () => {
+  console.log(`Backend server running on http://127.0.0.1:${PORT}`);
+});
+
+// Asynchronous background hydration & scheduler
 (async () => {
   await loadCompanyTickers();
   await indexCachedFilings();
   scheduleDailyMorningCron();
   checkStartupCatchupSync();
 })();
-
-app.listen(PORT, '127.0.0.1', () => {
-  console.log(`Backend server running on http://127.0.0.1:${PORT}`);
-});
