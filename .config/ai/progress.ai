@@ -38,3 +38,10 @@
 - **Sub-Millisecond Feed Loading**: Optimized `/api/feed` to serve from memory in 21ms (99.9% faster than 30s synchronous crawl).
 - **On-Demand Contact Enrichment**: Added `/api/issuers/:cik/contact` for non-blocking contact resolution.
 - **Freshness & Progress UI**: Added 24h Freshness Certification badge, animated sync progress bar, and stale data jump links in `src/components/SourcingFeed.jsx`.
+- **Pull Request**: PR #5 merged into `main`.
+
+## 2026-08-31 - Feature 0.006: Delisted CRM 24-Hour Automated Sync & Non-Destructive Data Population
+- **24-Hour Lifecycle Automation**: Added automatic 24-hour sync evaluation on app startup and recurring hourly heartbeat.
+- **Non-Destructive Data Population**: Refactored `triggerLiveSync()` to dynamically page through all upstream records, enriching missing contact details (email, phone, CEO, legal counsel) on existing records while preserving all user-authored statuses, notes, reminders, and activities.
+- **UI & Layout Integrity**: Kept 100% of the existing UI layout, styles, components, and table structure identical.
+- **Validation**: Verified build (`npm run build` in 1.21s).
