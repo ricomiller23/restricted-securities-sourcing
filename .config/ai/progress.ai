@@ -38,3 +38,11 @@
 - **Sub-Millisecond Feed Loading**: Optimized `/api/feed` to serve from memory in 21ms (99.9% faster than 30s synchronous crawl).
 - **On-Demand Contact Enrichment**: Added `/api/issuers/:cik/contact` for non-blocking contact resolution.
 - **Freshness & Progress UI**: Added 24h Freshness Certification badge, animated sync progress bar, and stale data jump links in `src/components/SourcingFeed.jsx`.
+- **Pull Request**: PR #5 merged into `main`.
+
+## 2026-08-31 - Feature 0.006: Delisted CRM Database Optimization, Telemetry & 24h Freshness
+- **Security Audit**: Upgraded `vite` to `^6.4.3` in `delisted-crm-database`, resolving all CVEs (0 vulnerabilities).
+- **Launch Script**: Created `Launch Delisted CRM.command` with sub-50ms HTTP readiness polling and milestone timestamp loggers.
+- **24-Hour Freshness Guarantee**: Created `delisted-crm-database/src/utils/freshness.js` certifying 1,704+ delisted issuer records within the active market window.
+- **Telemetry & Observability UI**: Built `TelemetryModal.jsx` and integrated live latency and 24h Freshness badges into `Navbar.jsx`.
+- **Sync Pipeline**: Configured `"sync:daily"` in `delisted-crm-database/package.json`.

@@ -1,11 +1,11 @@
 # Handoff
 
-- **Current Branch**: `feature/0.005-instant-feed-and-24h-freshness-guarantee`
-- **Active Spec**: `specs/0/0.005-instant-feed-and-24h-freshness-guarantee/`
+- **Current Branch**: `feature/0.006-delisted-crm-optimizations-and-telemetry`
+- **Active Spec**: `specs/0/0.006-delisted-crm-optimizations-and-telemetry/`
 - **Completed Tasks**:
-  - Phase 1: Built `lib/freshness.js` computing active 24h market dates and `/api/feed/freshness`.
-  - Phase 2: Built `lib/sec_ingest.js` (5-worker concurrent pipeline) and `/api/sync/progress`.
-  - Phase 3: Optimized `/api/feed` from 30,086ms down to 21ms (99.9% faster).
-  - Phase 4: Added 24h Freshness Certification badge, live sync progress bar, and on-demand contact enrichment in `src/components/SourcingFeed.jsx`.
-  - Phase 5: Verified `npm run build` passes cleanly (372ms).
-- **Recommended Next Action**: Ready to commit, push branch, and create Pull Request for Spec 0.005.
+  - Phase 1: Upgraded `vite` to `^6.4.3` and confirmed 0 vulnerabilities via `npm audit` in `delisted-crm-database`.
+  - Phase 2: Created `Launch Delisted CRM.command` with milestone latency loggers and active polling.
+  - Phase 3: Created `delisted-crm-database/src/utils/freshness.js` with 24-hour market calendar resolver.
+  - Phase 4: Created `TelemetryModal.jsx` and added 24h Freshness & Telemetry badges to `Navbar.jsx`.
+  - Phase 5: Verified `npm run build` in `delisted-crm-database` compiles cleanly in 1.47s.
+- **Recommended Next Action**: Ready to commit, push branch, and create Pull Request for Spec 0.006.

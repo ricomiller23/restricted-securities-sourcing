@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { 
   TrendingDown, 
   Table, 
@@ -10,8 +10,12 @@ import {
   RefreshCw,
   Scale,
   Globe2,
-  FileText
+  FileText,
+  Activity,
+  ShieldCheck
 } from "lucide-react";
+import TelemetryModal from "./TelemetryModal";
+import { getDatasetFreshness } from "../utils/freshness";
 
 export default function Navbar({ 
   activeView, 
@@ -27,6 +31,9 @@ export default function Navbar({
   onLiveSync,
   isSyncing
 }) {
+  const [isTelemetryOpen, setIsTelemetryOpen] = useState(false);
+  const freshness = getDatasetFreshness(totalCount);
+
   const REGION_OPTIONS = [
     { id: "ALL", label: "Global All", flag: "🌐" },
     { id: "US", label: "US (EDGAR)", flag: "🇺🇸" },
@@ -37,6 +44,12 @@ export default function Navbar({
 
   return (
     <>
+      <TelemetryModal 
+        isOpen={isTelemetryOpen} 
+        onClose={() => setIsTelemetryOpen(false)} 
+        totalIssuers={totalCount} 
+      />
+
       {/* Top Header Bar */}
       <header className="sticky top-0 z-40 border-b border-[#1B2030] bg-[#0A0C10]/95 backdrop-blur-md">
         <div className="flex h-16 items-center justify-between px-4 sm:px-6 gap-3">
@@ -51,15 +64,34 @@ export default function Navbar({
                 <span className="text-sm sm:text-base font-extrabold tracking-tight text-[#E8ECF4]">DELISTED</span>
                 <span className="rounded bg-cyan-400/10 px-1.5 py-0.5 text-[10px] sm:text-xs font-mono font-bold uppercase tracking-wider text-cyan-400 border border-cyan-400/20">CRM</span>
                 
+                {/* 24-Hour Freshness Badge */}
+                <span 
+                  className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10px] font-semibold text-emerald-400 border border-emerald-500/20"
+                  title={`24h Freshness Certified: Market session ${freshness.activeMarketDate}`}
+                >
+                  <ShieldCheck className="h-3 w-3 text-emerald-400" />
+                  <span className="hidden xs:inline">24h Verified</span>
+                </span>
+
+                {/* Telemetry Button */}
+                <button
+                  onClick={() => setIsTelemetryOpen(true)}
+                  className="flex items-center gap-1 rounded-full bg-cyan-500/10 px-2 py-0.5 text-[10px] font-semibold text-cyan-400 border border-cyan-500/20 hover:bg-cyan-500/20 transition-all cursor-pointer"
+                  title="View Live Timing & Observability Telemetry"
+                >
+                  <Activity className="h-3 w-3 text-cyan-400" />
+                  <span className="hidden xs:inline">⚡ Telemetry</span>
+                </button>
+
                 {/* Auto Sync Button */}
                 <button
                   onClick={onLiveSync}
                   disabled={isSyncing}
-                  className="flex items-center gap-1 rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10px] font-semibold text-emerald-400 border border-emerald-500/20 hover:bg-emerald-500/20 transition-all cursor-pointer disabled:opacity-50"
+                  className="flex items-center gap-1 rounded-full bg-slate-800/80 px-2 py-0.5 text-[10px] font-semibold text-slate-300 border border-slate-700 hover:bg-slate-700 transition-all cursor-pointer disabled:opacity-50"
                   title="Click to sync live EDGAR delisted issuers now"
                 >
                   <RefreshCw className={`h-3 w-3 ${isSyncing ? "animate-spin text-emerald-400" : ""}`} />
-                  <span className="hidden xs:inline">{isSyncing ? "Syncing..." : "Auto-Sync"}</span>
+                  <span className="hidden xs:inline">{isSyncing ? "Syncing..." : "Sync"}</span>
                 </button>
               </div>
               <p className="text-[10px] sm:text-[11px] text-[#8892A6] line-clamp-1">
