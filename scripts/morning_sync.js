@@ -345,6 +345,7 @@ export const syncRegionalApps = async () => {
  * Main Morning Sync Orchestrator
  */
 export const runMorningSync = async () => {
+  const startPerf = performance.now();
   const startTime = new Date();
   console.log("=================================================");
   console.log(`[Morning Sync] Starting Morning Data Pipeline at ${startTime.toISOString()}`);
@@ -353,17 +354,27 @@ export const runMorningSync = async () => {
   const syncSummary = {
     startedAt: startTime.toISOString(),
     completedAt: null,
+    totalDurationMs: 0,
     status: 'running',
+    stageTimings: {
+      tickerRefreshMs: 0,
+      filingsIngestionMs: 0,
+      regionalAppsSyncMs: 0
+    },
     datesProcessed: [],
     totalFilingsIngested: 0,
+    throughputFilingsPerSec: 0,
     errors: []
   };
 
   try {
     // 1. Refresh company tickers
+    const t0 = performance.now();
     await refreshCompanyTickers();
+    syncSummary.stageTimings.tickerRefreshMs = parseFloat((performance.now() - t0).toFixed(2));
 
     // 2. Ingest recent business days
+    const t1 = performance.now();
     const targetDates = getTargetSyncDates(4);
     for (const dateStr of targetDates) {
       const res = await syncDateFilings(dateStr);
@@ -374,16 +385,25 @@ export const runMorningSync = async () => {
         syncSummary.errors.push(`${dateStr}: ${res.error}`);
       }
     }
+    const ingestDuration = performance.now() - t1;
+    syncSummary.stageTimings.filingsIngestionMs = parseFloat(ingestDuration.toFixed(2));
+    if (ingestDuration > 0 && syncSummary.totalFilingsIngested > 0) {
+      syncSummary.throughputFilingsPerSec = parseFloat((syncSummary.totalFilingsIngested / (ingestDuration / 1000)).toFixed(2));
+    }
 
     // 3. Trigger regional app synchronization
+    const t2 = performance.now();
     await syncRegionalApps();
+    syncSummary.stageTimings.regionalAppsSyncMs = parseFloat((performance.now() - t2).toFixed(2));
 
     syncSummary.status = 'completed';
     syncSummary.completedAt = new Date().toISOString();
+    syncSummary.totalDurationMs = parseFloat((performance.now() - startPerf).toFixed(2));
   } catch (err) {
     console.error("[Morning Sync] Fatal error during sync cycle:", err);
     syncSummary.status = 'failed';
     syncSummary.completedAt = new Date().toISOString();
+    syncSummary.totalDurationMs = parseFloat((performance.now() - startPerf).toFixed(2));
     syncSummary.errors.push(err.message);
   }
 
@@ -404,7 +424,8 @@ export const runMorningSync = async () => {
   }
 
   console.log("=================================================");
-  console.log(`[Morning Sync] Cycle finished with status: ${syncSummary.status}. Ingested ${syncSummary.totalFilingsIngested} filings.`);
+  console.log(`[Morning Sync] Cycle finished in ${syncSummary.totalDurationMs}ms (Status: ${syncSummary.status}).`);
+  console.log(`[Telemetry] Tickers: ${syncSummary.stageTimings.tickerRefreshMs}ms | Ingestion: ${syncSummary.stageTimings.filingsIngestionMs}ms (${syncSummary.throughputFilingsPerSec} filings/s) | Regional Sync: ${syncSummary.stageTimings.regionalAppsSyncMs}ms`);
   console.log("=================================================");
 
   return syncSummary;

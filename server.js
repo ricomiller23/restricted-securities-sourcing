@@ -5,6 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import xml2js from 'xml2js';
 import { runMorningSync, getTargetSyncDates } from './scripts/morning_sync.js';
+import { telemetry } from './lib/telemetry.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -14,6 +15,31 @@ const PORT = process.env.PORT || 5005;
 
 app.use(cors());
 app.use(express.json());
+
+// Request Timing & Observability Middleware
+app.use((req, res, next) => {
+  const reqStart = performance.now();
+
+  // Intercept writeHead to ensure headers can be appended
+  const originalWriteHead = res.writeHead;
+  res.writeHead = function (...args) {
+    const elapsed = parseFloat((performance.now() - reqStart).toFixed(2));
+    res.setHeader('X-Response-Time', `${elapsed}ms`);
+    res.setHeader('Server-Timing', `total;dur=${elapsed}`);
+    return originalWriteHead.apply(this, args);
+  };
+
+  res.on('finish', () => {
+    const elapsed = parseFloat((performance.now() - reqStart).toFixed(2));
+    telemetry.recordRequest(req.method, req.originalUrl || req.url, elapsed, res.statusCode);
+    const status = res.statusCode;
+    const statusColor = status < 300 ? '\x1b[32m' : (status < 400 ? '\x1b[33m' : '\x1b[31m');
+    const timeColor = elapsed < 50 ? '\x1b[36m' : (elapsed < 200 ? '\x1b[33m' : '\x1b[31m');
+    console.log(`[API] ${req.method} ${req.originalUrl || req.url} -> ${statusColor}${status}\x1b[0m (${timeColor}${elapsed}ms\x1b[0m)`);
+  });
+
+  next();
+});
 
 const UA = "MillerSourcingOutreach/1.0 (contact: eric.miller@millersourcing.com)";
 const HEADERS = { "User-Agent": UA };
@@ -33,6 +59,7 @@ let cikToTicker = {};
 let cikToName = {};
 
 const loadCompanyTickers = async () => {
+  const startT = performance.now();
   try {
     let rawData;
     let shouldFetch = true;
@@ -83,7 +110,9 @@ const loadCompanyTickers = async () => {
           cikToName[paddedCik] = item.title;
         }
       }
-      console.log(`Loaded ${Object.keys(cikToTicker).length} CIK-to-ticker mappings.`);
+      const elapsed = performance.now() - startT;
+      telemetry.recordStartupMilestone('tickerLoadMs', elapsed);
+      console.log(`Loaded ${Object.keys(cikToTicker).length} CIK-to-ticker mappings in ${elapsed.toFixed(2)}ms.`);
     }
   } catch (err) {
     console.error("Critical error in loadCompanyTickers:", err);
@@ -205,8 +234,9 @@ const indexCachedFilings = async (forceFull = false) => {
 
         if (changedFiles.length === 0) {
           filingsIndex = cachedIndex;
-          const elapsed = (performance.now() - startTime).toFixed(2);
-          console.log(`[Fast Launch] Loaded ${filingsIndex.length} filings from compact index in ${elapsed}ms.`);
+          const elapsed = performance.now() - startTime;
+          telemetry.recordStartupMilestone('indexHydrationMs', elapsed);
+          console.log(`[Fast Launch] Loaded ${filingsIndex.length} filings from compact index in ${elapsed.toFixed(2)}ms.`);
           isIndexingFilings = false;
           return;
         }
@@ -227,8 +257,9 @@ const indexCachedFilings = async (forceFull = false) => {
         fs.writeFileSync(COMPACT_INDEX_FILE, JSON.stringify(filingsIndex));
         fs.writeFileSync(COMPACT_MANIFEST_FILE, JSON.stringify(currentManifest, null, 2));
 
-        const elapsed = (performance.now() - startTime).toFixed(2);
-        console.log(`[Incremental Index] Successfully updated index (${filingsIndex.length} filings) in ${elapsed}ms.`);
+        const elapsed = performance.now() - startTime;
+        telemetry.recordStartupMilestone('indexHydrationMs', elapsed);
+        console.log(`[Incremental Index] Successfully updated index (${filingsIndex.length} filings) in ${elapsed.toFixed(2)}ms.`);
         isIndexingFilings = false;
         return;
       } catch (err) {
@@ -252,8 +283,9 @@ const indexCachedFilings = async (forceFull = false) => {
     fs.writeFileSync(COMPACT_INDEX_FILE, JSON.stringify(filingsIndex));
     fs.writeFileSync(COMPACT_MANIFEST_FILE, JSON.stringify(currentManifest, null, 2));
 
-    const elapsed = (performance.now() - startTime).toFixed(2);
-    console.log(`[Full Index] Successfully indexed ${filingsIndex.length} filings and saved compact cache in ${elapsed}ms.`);
+    const elapsed = performance.now() - startTime;
+    telemetry.recordStartupMilestone('indexHydrationMs', elapsed);
+    console.log(`[Full Index] Successfully indexed ${filingsIndex.length} filings and saved compact cache in ${elapsed.toFixed(2)}ms.`);
   } catch (err) {
     console.error("Failed to build filings index:", err);
   } finally {
@@ -654,6 +686,22 @@ app.post('/api/sync/trigger', async (req, res) => {
       isSyncRunning = false;
     }
   })();
+});
+
+// API: Get Live Telemetry & Timing Metrics
+app.get('/api/metrics', (req, res) => {
+  const cacheStats = {
+    totalFilingsIndexed: filingsIndex.length,
+    compactCacheExists: fs.existsSync(COMPACT_INDEX_FILE),
+    compactCacheSizeMb: fs.existsSync(COMPACT_INDEX_FILE) ? parseFloat((fs.statSync(COMPACT_INDEX_FILE).size / 1024 / 1024).toFixed(2)) : 0,
+    rawCacheFilesCount: fs.existsSync(CACHE_DIR) ? fs.readdirSync(CACHE_DIR).filter(f => f.startsWith('2026-') && f.endsWith('.json')).length : 0
+  };
+  res.json(telemetry.getMetrics({ cacheStats }));
+});
+
+// Alias for observability
+app.get('/api/observability', (req, res) => {
+  res.redirect('/api/metrics');
 });
 
 // API: Get settings
@@ -1069,6 +1117,7 @@ const scheduleDailyMorningCron = () => {
 
 // Check if recent business day is cached; if not, auto-sync on startup
 const checkStartupCatchupSync = async () => {
+  const startT = performance.now();
   const targetDates = getTargetSyncDates(2); // today and yesterday
   const missingDate = targetDates.some(date => !fs.existsSync(path.join(CACHE_DIR, `${date}.json`)));
   if (missingDate) {
@@ -1085,11 +1134,15 @@ const checkStartupCatchupSync = async () => {
   } else {
     console.log("[Startup] Recent market date cache is up to date.");
   }
+  const elapsed = performance.now() - startT;
+  telemetry.recordStartupMilestone('startupCatchupMs', elapsed);
 };
 
 // Immediate non-blocking server listen for instant startup response
 app.listen(PORT, '127.0.0.1', () => {
-  console.log(`Backend server running on http://127.0.0.1:${PORT}`);
+  const bindMs = performance.now() - telemetry.processStartTime;
+  telemetry.recordStartupMilestone('serverBindMs', bindMs);
+  console.log(`Backend server running on http://127.0.0.1:${PORT} (bound in ${bindMs.toFixed(2)}ms)`);
 });
 
 // Asynchronous background hydration & scheduler
