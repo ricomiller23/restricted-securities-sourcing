@@ -45,3 +45,12 @@
 - **Non-Destructive Data Population**: Refactored `triggerLiveSync()` to dynamically page through all upstream records, enriching missing contact details (email, phone, CEO, legal counsel) on existing records while preserving all user-authored statuses, notes, reminders, and activities.
 - **UI & Layout Integrity**: Kept 100% of the existing UI layout, styles, components, and table structure identical.
 - **Validation**: Verified build (`npm run build` in 1.21s).
+- **Pull Request**: PR #8 merged into `main`.
+
+## 2026-08-31 - Feature 0.007: Token Optimized Component Architecture (TOCA) & Bundle Optimization
+- **Policy Standard**: Created `.config/ai/toca.ai` defining component sizing limits (< 250 LOC), state hook isolation, service boundaries, and manual bundler chunk splitting. Linked standard in `start.ai`.
+- **Hook Extraction**: Extracted state hydration, 24-hour sync lifecycle, and non-destructive merging into `src/hooks/useIssuersSync.js`.
+- **App.jsx Refactoring**: Reduced `App.jsx` overhead while maintaining 100% UI layout and styling integrity.
+- **Bundler Optimization**: Configured Rollup `manualChunks` in `delisted-crm-database/vite.config.js` splitting `vendor-react`, `vendor-icons`, and `crm-data-seed` into modular, cacheable chunks. Reduced core application JS chunk from 1.7MB down to 100.85 kB.
+- **Validation**: Verified `npm run build` compiles with zero chunk size warnings (1.04s).
+

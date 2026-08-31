@@ -13,7 +13,7 @@ This document defines the standard AI-assisted development workflow for this rep
 5. Git-aware development
 6. Security-conscious development
 7. Human-controlled scope management
-8. Token Optimized Component Architecture (TOCA) compliance
+8. Token Optimized Component Architecture (TOCA) compliance (see `.config/ai/toca.ai`)
 
 ---
 
