@@ -1,0 +1,54 @@
+# Token Optimized Component Architecture (TOCA) Standard
+
+Version: 1.0
+Authoritative Policy: `.config/ai/toca.ai`
+
+---
+
+## 1. Purpose & Core Philosophy
+Token Optimized Component Architecture (TOCA) is the engineering standard governing all frontend applications and UI component structures in this repository. Its objective is to maximize modularity, prevent token/context bloat for AI pair programmers, streamline automated testing, and guarantee high-performance, cacheable application bundles.
+
+---
+
+## 2. The 5 Rules of TOCA
+
+### Rule 1: Component Sizing Limit (< 250 Lines)
+- Individual JSX / UI components must be narrowly scoped and ideally stay under **200–250 lines of code**.
+- If a component grows beyond 250 lines, it must be decomposed into modular child sub-components (e.g., extracting table rows, filter bars, drawer tabs, or modal panels into `src/components/`).
+
+### Rule 2: Separation of State & Network Logic (`src/hooks/`)
+- Pure presentation components must **never** embed direct `fetch()` loops, heavy local storage serializations, or long timer intervals directly in the JSX render file.
+- State lifecycles, synchronization timers, and storage caching must reside in dedicated custom hooks inside `src/hooks/` (e.g., `useIssuersSync.js`, `useFilters.js`).
+
+### Rule 3: Isolated Service Boundaries (`src/services/` or `lib/`)
+- API endpoints, SEC EDGAR crawlers, and HTTP clients must reside in isolated service modules.
+- UI components consume services through hooks or utility functions, keeping network protocols decoupled from the visual DOM.
+
+### Rule 4: Structured Data Seeds (`src/data/`)
+- Large datasets, seed records, and mock fixtures must live in `src/data/` (as JSON or clean exported constants).
+- Raw data payloads must never be hardcoded inline inside component JSX files.
+
+### Rule 5: Bundler Code Splitting (`manualChunks`)
+- All bundlers (Vite / Rollup / Webpack) must be configured to split heavy vendor dependencies (e.g., React, Lucide, Recharts) into dedicated cacheable chunks (`manualChunks`).
+- Production builds must maintain zero chunk-size bloat warnings (> 500 kB un-chunked).
+
+---
+
+## 3. Directory Layout Standard
+
+```text
+src/
+├── components/          # Pure visual presentation widgets (< 200 LOC each)
+├── hooks/               # Custom lifecycle, state, and sync hooks
+├── services/            # Upstream network APIs & ingestion endpoints
+├── data/                # Static catalogs, seed datasets, schemas
+└── utils/               # Pure helper functions (formatting, date calculations)
+```
+
+---
+
+## 4. Verification Checklist for All Builds
+Before any feature or bug fix is committed:
+- [ ] No edited component exceeds 250 lines without justified decomposition.
+- [ ] Network and persistence side-effects are decoupled into `src/hooks/` or `src/services/`.
+- [ ] `npm run build` runs cleanly with modular chunk outputs.
