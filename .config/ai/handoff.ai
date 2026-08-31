@@ -1,9 +1,10 @@
 # Handoff
 
-- **Current Branch**: `main`
-- **Active Spec**: None (Release `0.002` completed and merged in PR #2)
-- **Completed Work**:
-  - Spec 0.001: FishDev AI workflow bootstrap & SpecKit configuration complete.
-  - Spec 0.002: Automated daily morning sync pipeline, server scheduler, and LaunchAgent automation complete.
-  - PR #1 and PR #2 merged into `main`.
-- **Recommended Next Action**: Ready for next feature / bugfix specification.
+- **Current Branch**: `feature/0.003-launch-time-optimization-and-benchmarking`
+- **Active Spec**: `specs/0/0.003-launch-time-optimization-and-benchmarking/`
+- **Pending Tasks**:
+  - Baseline benchmark recorded (221ms disk parse, 511ms backend boot, 2000ms launcher delay = ~2.61s total).
+  - Implement compact index caching & immediate listen in `server.js`.
+  - Optimize `Launch Scout 144.command` with active polling.
+  - Run post-optimization benchmark and verify >75% latency reduction.
+- **Recommended Next Action**: Review implementation plan and proceed with executing Phase 2 through Phase 4.
