@@ -1,10 +1,12 @@
 # Handoff
 
-- **Current Branch**: `feature/0.007-toca-architecture-and-bundle-optimization`
-- **Active Spec**: `specs/0/0.007-toca-architecture-and-bundle-optimization/`
+- **Current Branch**: `feature/0.008-build-acceleration-tooling-and-guardrails`
+- **Active Spec**: `specs/0/0.008-build-acceleration-tooling-and-guardrails/`
 - **Completed Tasks**:
-  - Phase 1: Created `.config/ai/toca.ai` standard and updated `start.ai`.
-  - Phase 2: Created `src/hooks/useIssuersSync.js` and refactored `App.jsx`.
-  - Phase 3: Configured `manualChunks` in `delisted-crm-database/vite.config.js`.
-  - Phase 4: Verified `npm run build` passes with zero chunk warnings (1.04s).
-- **Recommended Next Action**: Ready to commit, push branch, and create Pull Request for Spec 0.007.
+  - Phase 1: Created `scripts/new_spec.sh` and `"spec:new"`.
+  - Phase 2: Created `scripts/generate_topology.js` and `.config/ai/topology.json`.
+  - Phase 3: Implemented runtime schema validation in `lib/schema_validator.js` and `delisted-crm-database/src/utils/schema_validator.js`.
+  - Phase 4: Built `scripts/smoke_test.js` (14/14 assertions pass in 10ms).
+  - Phase 5: Configured multi-app workspace scripts in `package.json` and `.github/workflows/ci.yml`.
+  - Phase 6: Verified `npm run build:all` passes cleanly.
+- **Recommended Next Action**: Ready to commit, push branch, and create Pull Request for Spec 0.008.

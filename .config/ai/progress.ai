@@ -53,4 +53,14 @@
 - **App.jsx Refactoring**: Reduced `App.jsx` overhead while maintaining 100% UI layout and styling integrity.
 - **Bundler Optimization**: Configured Rollup `manualChunks` in `delisted-crm-database/vite.config.js` splitting `vendor-react`, `vendor-icons`, and `crm-data-seed` into modular, cacheable chunks. Reduced core application JS chunk from 1.7MB down to 100.85 kB.
 - **Validation**: Verified `npm run build` compiles with zero chunk size warnings (1.04s).
+- **Pull Request**: PR #9 merged into `main`.
+
+## 2026-08-31 - Feature 0.008: Build Acceleration Tooling, Runtime Guardrails & Smoke Testing
+- **Automated Spec Scaffolder**: Created `scripts/new_spec.sh` and `"spec:new"` npm script to bootstrap full SpecKit release directories and git branches in < 50ms.
+- **Codebase Topology Engine**: Built `scripts/generate_topology.js` generating structured `.config/ai/topology.json` cataloging routes, components, hooks, and data models.
+- **Runtime Schema Validation Guardrails**: Built `lib/schema_validator.js` and `delisted-crm-database/src/utils/schema_validator.js` ensuring zero undefined runtime crashes from malformed SEC feeds.
+- **Automated Smoke Test Harness**: Built `scripts/smoke_test.js` validating seed counts, API contracts, and build outputs in < 15ms.
+- **Workspace Orchestration & CI**: Added `"build:all"`, `"test:smoke"`, `"test:all"`, `"dev:all"`, and `.github/workflows/ci.yml` GitHub Actions pipeline.
+- **Validation**: Verified `npm run test:smoke` (14/14 passed in 10ms) and `npm run build:all` (clean dual-app build).
+
 

@@ -5,12 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "dev:all": "concurrently \"./Launch\\ Scout\\ 144.command\" \"./Launch\\ Delisted\\ CRM.command\"",
     "client": "vite",
     "server": "node server.js",
     "build": "vite build",
+    "build:all": "vite build && cd delisted-crm-database && npm run build",
     "preview": "vite preview",
     "sync:daily": "node scripts/morning_sync.js",
-    "benchmark": "node scripts/benchmark_launch.js"
+    "benchmark": "node scripts/benchmark_launch.js",
+    "spec:new": "bash scripts/new_spec.sh",
+    "topology:generate": "node scripts/generate_topology.js",
+    "test:smoke": "node scripts/smoke_test.js",
+    "test:all": "node scripts/smoke_test.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

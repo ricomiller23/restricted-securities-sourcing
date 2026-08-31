@@ -1,0 +1,37 @@
+name: CI/CD Build & Smoke Test Suite
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Root Dependencies
+        run: npm ci
+
+      - name: Install Delisted CRM Dependencies
+        run: |
+          cd delisted-crm-database
+          npm ci
+
+      - name: Generate Codebase Topology
+        run: npm run topology:generate
+
+      - name: Run Automated Smoke Tests
+        run: npm run test:smoke
+
+      - name: Build All Applications (Scout 144 + Delisted CRM)
+        run: npm run build:all
