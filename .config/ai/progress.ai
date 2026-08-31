@@ -6,3 +6,5 @@
   - **Findings**: 5 vulnerabilities identified (1 low, 2 high, 2 critical) across `body-parser`, `nanoid`, `postcss`, `shell-quote` (via `concurrently`).
   - **Remediation**: Executed `npm audit fix`, updating 5 packages.
   - **Validation**: Re-ran `npm audit` confirming 0 vulnerabilities found.
+- **Specification Release 0.001**: Created `specs/0/0.001-fishdev-bootstrap-and-security-audit/`.
+- **Pull Request**: PR #1 merged into `main`.

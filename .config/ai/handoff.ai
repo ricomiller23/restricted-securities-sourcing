@@ -1,10 +1,9 @@
 # Handoff
 
-- **Current Branch**: `feature/0.001-fishdev-bootstrap-and-security-audit`
-- **Active Spec**: `specs/0/0.001-fishdev-bootstrap-and-security-audit/`
-- **Completed Tasks**:
-  - FishDev AI session guide (`start.ai`) & SpecKit CLI configuration (`specify 1.0.3.dev0`).
-  - Monthly security audit executed: 5 CVEs remediated via `npm audit fix`, 0 vulnerabilities remaining.
-  - SpecKit specifications, implementation plan, task breakdown, testing guide, and developer notes written under `specs/0/0.001-fishdev-bootstrap-and-security-audit/`.
-  - Production build tested and verified (`npm run build`).
-- **Recommended Next Action**: Review Pull Request and merge `feature/0.001-fishdev-bootstrap-and-security-audit` into `main`.
+- **Current Branch**: `main`
+- **Active Spec**: None (Release `0.001` completed and merged in PR #1)
+- **Completed Work**:
+  - FishDev workflow bootstrap & SpecKit configuration complete.
+  - Initial monthly security audit complete (0 CVEs).
+  - PR #1 merged into `main`.
+- **Recommended Next Action**: Ready for new feature / bugfix specifications via `/speckit-specify` or direct instruction.
