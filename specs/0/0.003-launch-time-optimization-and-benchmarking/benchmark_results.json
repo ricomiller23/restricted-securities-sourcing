@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-08-31T19:15:46.770Z",
+  "rawDiskScan": {
+    "fileCount": 117,
+    "totalFilings": 37612,
+    "totalMb": 149.95,
+    "durationMs": 256.3
+  },
+  "compactIndexLoad": {
+    "available": true,
+    "count": 37612,
+    "sizeMb": 35.18,
+    "durationMs": 67.98
+  },
+  "serverColdBootMs": 165.72,
+  "viteColdBootMs": 4.21,
+  "estimatedBaselineLauncherMs": 2169.93,
+  "estimatedOptimizedLauncherMs": 215.72
+}

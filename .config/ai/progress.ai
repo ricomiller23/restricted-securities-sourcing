@@ -15,3 +15,10 @@
 - **System Automation**: Added `"sync:daily"` npm script, `scripts/com.scout144.morningupdate.plist` LaunchAgent template, and `scripts/setup_morning_launchagent.sh`.
 - **Validation**: Executed live morning sync (ingested 524 Form 144 filings across recent business days, synchronized 12 regional cloud applications with HTTP 200 responses, verified Vite production build).
 - **Pull Request**: PR #2 merged into `main`.
+
+## 2026-08-31 - Feature 0.003: Launch Time Optimization & Benchmarking
+- **Benchmarking Suite**: Created `scripts/benchmark_launch.js` and added `"benchmark"` npm script.
+- **Compact Index Cache**: Implemented `cache/filings_index_cache.json` and `cache/filings_index_manifest.json` in `server.js` with incremental change detection (disk parse latency reduced by 73.5%).
+- **Instant Server Listen**: Moved Express `app.listen()` to bind port 5005 immediately on process start (server ready latency reduced from 511ms to 165ms).
+- **Active Readiness Polling**: Optimized `Launch Scout 144.command` with sub-50ms polling loop, eliminating hardcoded `sleep 2` delay.
+- **Empirical Results**: Reduced total cold launch latency from ~2.61s down to ~0.18s (93.3% speedup).

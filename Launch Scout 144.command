@@ -15,10 +15,16 @@ lsof -ti:5005 | xargs kill -9 2>/dev/null
 # Start the dev server (both frontend and backend concurrently)
 npm run dev &
 
-# Wait for Vite to boot up
-sleep 2
+# Wait for Vite dev server to respond (fast active polling)
+echo "Waiting for dev server readiness..."
+for i in {1..50}; do
+  if curl -s -o /dev/null -w "%{http_code}" "http://127.0.0.1:3000/" 2>/dev/null | grep -q "200"; then
+    break
+  fi
+  sleep 0.05
+done
 
-# Open in Google Chrome
+# Open in Google Chrome immediately upon readiness
 echo "Opening Chrome..."
 open -a "Google Chrome" "http://127.0.0.1:3000/"
 
