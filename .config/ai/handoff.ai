@@ -1,9 +1,10 @@
 # Handoff
 
-- **Current Branch**: `main`
-- **Active Spec**: None (Release `0.001` completed and merged in PR #1)
-- **Completed Work**:
-  - FishDev workflow bootstrap & SpecKit configuration complete.
-  - Initial monthly security audit complete (0 CVEs).
-  - PR #1 merged into `main`.
-- **Recommended Next Action**: Ready for new feature / bugfix specifications via `/speckit-specify` or direct instruction.
+- **Current Branch**: `feature/0.002-automated-daily-morning-update`
+- **Active Spec**: `specs/0/0.002-automated-daily-morning-update/`
+- **Pending Tasks**:
+  - Implement `scripts/morning_sync.js`.
+  - Integrate scheduler and `/api/sync/*` endpoints in `server.js`.
+  - Add `sync:daily` script to `package.json` and LaunchAgent plist.
+  - Test and verify sync pipeline and production build.
+- **Recommended Next Action**: Review implementation plan and proceed with executing Phase 1 through Phase 4.
