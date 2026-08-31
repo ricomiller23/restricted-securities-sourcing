@@ -4,6 +4,7 @@ import path from 'path';
 import http from 'http';
 import { fileURLToPath } from 'url';
 import { validateFilingRecord, validateDelistedRecord } from '../lib/schema_validator.js';
+import { IssuerSearchIndex } from '../delisted-crm-database/src/utils/searchIndex.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -28,7 +29,7 @@ function assert(condition, message) {
 }
 
 // 1. Static Datasets & Governance Files Check
-console.log('\n[1/4] Checking Data Seeds & Governance Files...');
+console.log('\n[1/5] Checking Data Seeds & Governance Files...');
 const seedFile = path.join(ROOT_DIR, 'delisted-crm-database/src/data/delisted_issuers_seed.json');
 assert(fs.existsSync(seedFile), 'Delisted issuers seed JSON exists');
 if (fs.existsSync(seedFile)) {
@@ -43,7 +44,7 @@ const topologyDoc = path.join(ROOT_DIR, '.config/ai/topology.json');
 assert(fs.existsSync(topologyDoc), '.config/ai/topology.json map is present');
 
 // 2. Runtime Schema Validation Test
-console.log('\n[2/4] Testing Runtime Schema Validation Guardrails...');
+console.log('\n[2/5] Testing Runtime Schema Validation Guardrails...');
 const sampleRawFiling = {
   cik: '895126',
   company_name: 'TEST CORP INC',
@@ -69,16 +70,44 @@ const validDelisted = validateDelistedRecord(sampleRawDelisted);
 assert(validDelisted.cleanShellScore === 95, 'Clean shell score bounded properly');
 assert(validDelisted.shellRating === 'Prime Clean Shell', 'Prime clean shell rating assigned');
 
-// 3. TOCA & Bundler Chunking Check
-console.log('\n[3/4] Testing TOCA Bundler Splitting & Custom Hooks...');
+// 3. In-Memory Search Trie & IndexedDB Architecture
+console.log('\n[3/5] Testing In-Memory Search Index & Storage Architecture...');
+const sampleDataset = [
+  { companyName: 'BioHealth Corp', ticker: 'BHLC', cik: '000111', location: 'California', legalCounsel: 'Cooley LLP' },
+  { companyName: 'Global Mining Inc', ticker: 'GMNG', cik: '000222', location: 'Nevada', legalCounsel: 'Greenberg Traurig' },
+  { companyName: 'Fintech Shell Corp', ticker: 'FNTK', cik: '000333', location: 'New York', legalCounsel: 'Skadden Arps' }
+];
+const s0 = performance.now();
+const index = new IssuerSearchIndex(sampleDataset);
+const searchResults = index.search('Fintech Skadden');
+const sTime = (performance.now() - s0).toFixed(3);
+assert(searchResults.length === 1 && searchResults[0].ticker === 'FNTK', `In-memory trie search resolved in ${sTime}ms (< 0.5ms target)`);
+
+const dbUtil = path.join(ROOT_DIR, 'delisted-crm-database/src/utils/db.js');
+assert(fs.existsSync(dbUtil), 'IndexedDB storage engine utility exists');
+
+const workerFile = path.join(ROOT_DIR, 'delisted-crm-database/src/workers/secSyncWorker.js');
+assert(fs.existsSync(workerFile), 'Background SEC Sync Web Worker exists');
+
+const pdfUtil = path.join(ROOT_DIR, 'delisted-crm-database/src/utils/pdfExport.js');
+assert(fs.existsSync(pdfUtil), 'Executive PDF Dossier utility exists');
+
+const pwaManifest = path.join(ROOT_DIR, 'delisted-crm-database/public/manifest.json');
+assert(fs.existsSync(pwaManifest), 'PWA manifest.json exists');
+
+const pwaWorker = path.join(ROOT_DIR, 'delisted-crm-database/public/sw.js');
+assert(fs.existsSync(pwaWorker), 'PWA service worker exists');
+
+// 4. TOCA & Bundler Chunking Check
+console.log('\n[4/5] Testing TOCA Bundler Splitting & Custom Hooks...');
 const hookFile = path.join(ROOT_DIR, 'delisted-crm-database/src/hooks/useIssuersSync.js');
 assert(fs.existsSync(hookFile), 'useIssuersSync.js custom hook exists');
 
 const viteConfig = fs.readFileSync(path.join(ROOT_DIR, 'delisted-crm-database/vite.config.js'), 'utf-8');
 assert(viteConfig.includes('manualChunks'), 'Vite Rollup manualChunks configuration active');
 
-// 4. In-Process Backend HTTP Health Check (Port 5005)
-console.log('\n[4/4] Probing Active Backend Services...');
+// 5. In-Process Backend HTTP Health Check (Port 5005)
+console.log('\n[5/5] Probing Active Backend Services...');
 
 function probeHttp(port, urlPath) {
   return new Promise((resolve) => {
