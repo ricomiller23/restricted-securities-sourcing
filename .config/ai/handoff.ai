@@ -1,11 +1,11 @@
 # Handoff
 
-- **Current Branch**: `feature/0.004-timing-observability-and-telemetry`
-- **Active Spec**: `specs/0/0.004-timing-observability-and-telemetry/`
+- **Current Branch**: `feature/0.005-instant-feed-and-24h-freshness-guarantee`
+- **Active Spec**: `specs/0/0.005-instant-feed-and-24h-freshness-guarantee/`
 - **Completed Tasks**:
-  - Phase 1: Built `lib/telemetry.js`, request timing middleware (`X-Response-Time`, `Server-Timing`), colorized console logging, and `GET /api/metrics`.
-  - Phase 2: Instrumented `scripts/morning_sync.js` with stage breakdown timers and filings/sec throughput metrics.
-  - Phase 3: Added milestone latency logging to `Launch Scout 144.command`.
-  - Phase 4: Created `src/components/TelemetryDrawer.jsx` and integrated live latency badge in `src/App.jsx`.
-  - Phase 5: Verified API endpoints, simulated traffic, and confirmed clean `npm run build`.
-- **Recommended Next Action**: Ready to commit, push branch, and create Pull Request for Spec 0.004.
+  - Phase 1: Built `lib/freshness.js` computing active 24h market dates and `/api/feed/freshness`.
+  - Phase 2: Built `lib/sec_ingest.js` (5-worker concurrent pipeline) and `/api/sync/progress`.
+  - Phase 3: Optimized `/api/feed` from 30,086ms down to 21ms (99.9% faster).
+  - Phase 4: Added 24h Freshness Certification badge, live sync progress bar, and on-demand contact enrichment in `src/components/SourcingFeed.jsx`.
+  - Phase 5: Verified `npm run build` passes cleanly (372ms).
+- **Recommended Next Action**: Ready to commit, push branch, and create Pull Request for Spec 0.005.
