@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import xml2js from 'xml2js';
+import { runMorningSync, getTargetSyncDates } from './scripts/morning_sync.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -540,6 +541,48 @@ app.post('/api/backfill/start', (req, res) => {
   res.json({ message: "Backfill started successfully" });
 });
 
+// Morning Sync State & Endpoints
+let isSyncRunning = false;
+
+// API: Get morning sync status & history
+app.get('/api/sync/status', (req, res) => {
+  const syncHistoryFile = path.join(CACHE_DIR, 'sync_history.json');
+  let history = [];
+  if (fs.existsSync(syncHistoryFile)) {
+    try {
+      history = JSON.parse(fs.readFileSync(syncHistoryFile, 'utf8'));
+    } catch (e) {}
+  }
+  const lastSync = history.length > 0 ? history[0] : null;
+  res.json({
+    isSyncRunning,
+    lastSync,
+    history
+  });
+});
+
+// API: Trigger morning sync manually
+app.post('/api/sync/trigger', async (req, res) => {
+  if (isSyncRunning) {
+    return res.status(400).json({ error: "Morning synchronization is already in progress." });
+  }
+
+  isSyncRunning = true;
+  res.json({ message: "Morning synchronization initiated in background." });
+
+  (async () => {
+    try {
+      console.log("[Server API] Triggered manual morning sync...");
+      await runMorningSync();
+      await indexCachedFilings();
+    } catch (err) {
+      console.error("[Server API] Manual morning sync error:", err);
+    } finally {
+      isSyncRunning = false;
+    }
+  })();
+});
+
 // API: Get settings
 app.get('/api/settings', (req, res) => {
   try {
@@ -901,10 +944,82 @@ app.get('/api/filings/:id', async (req, res) => {
   }
 });
 
+// Calculate ms until next 8:00 AM America/New_York
+const getMsUntilNext8AMEst = () => {
+  const now = new Date();
+  const estFormatter = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    year: "numeric", month: "numeric", day: "numeric",
+    hour: "numeric", minute: "numeric", second: "numeric",
+    hour12: false
+  });
+  const parts = estFormatter.formatToParts(now);
+  const partMap = {};
+  parts.forEach(p => partMap[p.type] = p.value);
+
+  const estHour = parseInt(partMap.hour, 10);
+  const estMin = parseInt(partMap.minute, 10);
+  const estSec = parseInt(partMap.second, 10);
+
+  let hoursUntil = 8 - estHour;
+  let minsUntil = 0 - estMin;
+  let secsUntil = 0 - estSec;
+
+  let totalSecs = hoursUntil * 3600 + minsUntil * 60 + secsUntil;
+  if (totalSecs <= 0) {
+    // Already past 8:00 AM EST today, schedule for tomorrow
+    totalSecs += 24 * 3600;
+  }
+  return totalSecs * 1000;
+};
+
+const scheduleDailyMorningCron = () => {
+  const msUntilNext = getMsUntilNext8AMEst();
+  const mins = Math.round(msUntilNext / 60000);
+  console.log(`[Scheduler] Next daily 8:00 AM EST morning sync scheduled in ~${mins} minutes.`);
+
+  setTimeout(async () => {
+    console.log("[Scheduler] Executing scheduled 8:00 AM EST morning sync...");
+    isSyncRunning = true;
+    try {
+      await runMorningSync();
+      await indexCachedFilings();
+    } catch (err) {
+      console.error("[Scheduler] Morning sync error:", err);
+    } finally {
+      isSyncRunning = false;
+      // Reschedule for next day
+      scheduleDailyMorningCron();
+    }
+  }, msUntilNext);
+};
+
+// Check if recent business day is cached; if not, auto-sync on startup
+const checkStartupCatchupSync = async () => {
+  const targetDates = getTargetSyncDates(2); // today and yesterday
+  const missingDate = targetDates.some(date => !fs.existsSync(path.join(CACHE_DIR, `${date}.json`)));
+  if (missingDate) {
+    console.log("[Startup] Missing recent date cache, running background catch-up sync...");
+    isSyncRunning = true;
+    try {
+      await runMorningSync();
+      await indexCachedFilings();
+    } catch (err) {
+      console.error("[Startup] Background catch-up sync error:", err);
+    } finally {
+      isSyncRunning = false;
+    }
+  } else {
+    console.log("[Startup] Recent market date cache is up to date.");
+  }
+};
+
 // Boot up initialization
 (async () => {
   await loadCompanyTickers();
   await indexCachedFilings();
+  scheduleDailyMorningCron();
+  checkStartupCatchupSync();
 })();
 
 app.listen(PORT, '127.0.0.1', () => {
