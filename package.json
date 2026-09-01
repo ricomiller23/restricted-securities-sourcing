@@ -17,7 +17,8 @@
     "topology:generate": "node scripts/generate_topology.js",
     "test:smoke": "node scripts/smoke_test.js",
     "test:all": "node scripts/smoke_test.js",
-    "deploy:all": "node scripts/deploy_all_regional_apps.js"
+    "deploy:all": "node scripts/deploy_all_regional_apps.js",
+    "report:pdf": "node scripts/generate_report_pdf.cjs"
   },
   "dependencies": {
     "cors": "^2.8.5",

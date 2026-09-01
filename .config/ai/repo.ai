@@ -1,1 +1,4 @@
 # Repository Settings
+
+## Export & Report Artifact Policy
+- Always copy generated reports, PDF documents, and exported executive briefs to the user's `~/Downloads` directory (`/Users/ericmiller/Downloads`) so they can easily find them.

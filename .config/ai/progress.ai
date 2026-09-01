@@ -72,5 +72,10 @@
 - **Executive PDF Deal Sheet Generator**: Created `src/utils/pdfExport.js` for styled executive dossier export.
 - **PWA Service Worker & Manifest**: Created `public/manifest.json` and `public/sw.js` for 0ms cached boot and standalone desktop installation.
 - **Validation**: Verified `npm run test:smoke` (20/20 passed in 13ms) and `npm run build:all` (clean dual-app build).
+- **Pull Request**: PR #11 merged into `main`.
+
+## 2026-08-31 - Reporting & Export Delivery Policy
+- **Executive PDF Report Generator**: Created `scripts/generate_report_pdf.cjs` and `"report:pdf"` npm script, compiling an executive 4-page PDF brief covering Specifications 0.001 – 0.009, benchmarks, and topology.
+- **Downloads Export Policy**: Configured `AGENTS.md`, `GEMINI.md`, `repo.ai`, and generator script to automatically save all generated reports, PDFs, and exported briefs to `~/Downloads` (`/Users/ericmiller/Downloads`) for immediate discovery.
 
 
