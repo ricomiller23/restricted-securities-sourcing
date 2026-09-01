@@ -18,7 +18,9 @@ import {
   FileText,
   Sliders,
   Grid,
-  Eye
+  Eye,
+  Menu,
+  X
 } from 'lucide-react';
 
 const MODELS = [
@@ -256,176 +258,178 @@ export default function App() {
         position: 'sticky',
         top: 0,
         zIndex: 50,
-        background: 'rgba(8, 12, 20, 0.85)',
+        background: 'rgba(8, 12, 20, 0.92)',
         backdropFilter: 'blur(16px)',
         borderBottom: '1px solid var(--border-subtle)',
-        padding: '12px 24px'
+        padding: '10px 16px'
       }}>
-        <div style={{ maxWidth: '1400px', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{
-              width: '38px',
-              height: '38px',
-              borderRadius: '8px',
-              background: 'var(--gradient-brand)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              boxShadow: '0 0 15px rgba(59, 130, 246, 0.4)'
-            }}>
-              <Home size={20} color="#ffffff" />
-            </div>
-            <div>
-              <div style={{ fontSize: '15px', fontWeight: 800, letterSpacing: '-0.02em', color: '#ffffff' }}>
-                S2A MODULAR <span style={{ color: '#3b82f6' }}>•</span> HaaS
+        <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
+          <div className="app-header-container">
+            
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <div style={{
+                  width: '36px',
+                  height: '36px',
+                  borderRadius: '8px',
+                  background: 'var(--gradient-brand)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  boxShadow: '0 0 15px rgba(59, 130, 246, 0.4)',
+                  flexShrink: 0
+                }}>
+                  <Home size={18} color="#ffffff" />
+                </div>
+                <div>
+                  <div style={{ fontSize: '14px', fontWeight: 800, letterSpacing: '-0.02em', color: '#ffffff', lineHeight: 1.2 }}>
+                    S2A MODULAR <span style={{ color: '#3b82f6' }}>•</span> HaaS
+                  </div>
+                  <div style={{ fontSize: '9.5px', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                    Housing-as-a-Service ADU Suite
+                  </div>
+                </div>
               </div>
-              <div style={{ fontSize: '10px', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                Housing-as-a-Service ADU Suite
-              </div>
+
+              <button 
+                className="btn btn-emerald"
+                onClick={() => {
+                  setActiveTab('audit');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                style={{ padding: '6px 12px', fontSize: '11.5px', minHeight: '34px' }}
+              >
+                <Sparkles size={13} /> Free Audit
+              </button>
             </div>
+
+            {/* Nav Tabs */}
+            <nav className="nav-tabs-container">
+              <button 
+                className="btn" 
+                onClick={() => setActiveTab('configurator')}
+                style={{
+                  background: activeTab === 'configurator' ? 'rgba(59, 130, 246, 0.25)' : 'transparent',
+                  color: activeTab === 'configurator' ? '#60a5fa' : 'var(--text-secondary)',
+                  border: activeTab === 'configurator' ? '1px solid rgba(59, 130, 246, 0.4)' : '1px solid transparent'
+                }}
+              >
+                <Sliders size={13} /> Configurator & ROI
+              </button>
+              <button 
+                className="btn" 
+                onClick={() => setActiveTab('audit')}
+                style={{
+                  background: activeTab === 'audit' ? 'rgba(59, 130, 246, 0.25)' : 'transparent',
+                  color: activeTab === 'audit' ? '#60a5fa' : 'var(--text-secondary)',
+                  border: activeTab === 'audit' ? '1px solid rgba(59, 130, 246, 0.4)' : '1px solid transparent'
+                }}
+              >
+                <Compass size={13} /> Site Audit
+              </button>
+              <button 
+                className="btn" 
+                onClick={() => setActiveTab('gallery')}
+                style={{
+                  background: activeTab === 'gallery' ? 'rgba(59, 130, 246, 0.25)' : 'transparent',
+                  color: activeTab === 'gallery' ? '#60a5fa' : 'var(--text-secondary)',
+                  border: activeTab === 'gallery' ? '1px solid rgba(59, 130, 246, 0.4)' : '1px solid transparent'
+                }}
+              >
+                <Layers size={13} /> 5 Models & Plans
+              </button>
+              <button 
+                className="btn" 
+                onClick={() => setActiveTab('downloads')}
+                style={{
+                  background: activeTab === 'downloads' ? 'rgba(16, 185, 129, 0.25)' : 'transparent',
+                  color: activeTab === 'downloads' ? '#34d399' : 'var(--text-secondary)',
+                  border: activeTab === 'downloads' ? '1px solid rgba(16, 185, 129, 0.4)' : '1px solid transparent'
+                }}
+              >
+                <Download size={13} /> Downloads
+              </button>
+            </nav>
+
           </div>
-
-          {/* Nav Tabs */}
-          <nav style={{ display: 'flex', gap: '6px', background: 'rgba(255, 255, 255, 0.04)', padding: '4px', borderRadius: '10px', border: '1px solid var(--border-subtle)' }}>
-            <button 
-              className="btn" 
-              onClick={() => setActiveTab('configurator')}
-              style={{
-                padding: '7px 14px',
-                fontSize: '12.5px',
-                background: activeTab === 'configurator' ? 'rgba(59, 130, 246, 0.2)' : 'transparent',
-                color: activeTab === 'configurator' ? '#60a5fa' : 'var(--text-secondary)',
-                border: activeTab === 'configurator' ? '1px solid rgba(59, 130, 246, 0.4)' : '1px solid transparent'
-              }}
-            >
-              <Sliders size={14} /> Configurator & ROI
-            </button>
-            <button 
-              className="btn" 
-              onClick={() => setActiveTab('audit')}
-              style={{
-                padding: '7px 14px',
-                fontSize: '12.5px',
-                background: activeTab === 'audit' ? 'rgba(59, 130, 246, 0.2)' : 'transparent',
-                color: activeTab === 'audit' ? '#60a5fa' : 'var(--text-secondary)',
-                border: activeTab === 'audit' ? '1px solid rgba(59, 130, 246, 0.4)' : '1px solid transparent'
-              }}
-            >
-              <Compass size={14} /> Virtual Site Audit
-            </button>
-            <button 
-              className="btn" 
-              onClick={() => setActiveTab('gallery')}
-              style={{
-                padding: '7px 14px',
-                fontSize: '12.5px',
-                background: activeTab === 'gallery' ? 'rgba(59, 130, 246, 0.2)' : 'transparent',
-                color: activeTab === 'gallery' ? '#60a5fa' : 'var(--text-secondary)',
-                border: activeTab === 'gallery' ? '1px solid rgba(59, 130, 246, 0.4)' : '1px solid transparent'
-              }}
-            >
-              <Layers size={14} /> 5-Model Portfolio & Floorplans
-            </button>
-            <button 
-              className="btn" 
-              onClick={() => setActiveTab('downloads')}
-              style={{
-                padding: '7px 14px',
-                fontSize: '12.5px',
-                background: activeTab === 'downloads' ? 'rgba(16, 185, 129, 0.2)' : 'transparent',
-                color: activeTab === 'downloads' ? '#34d399' : 'var(--text-secondary)',
-                border: activeTab === 'downloads' ? '1px solid rgba(16, 185, 129, 0.4)' : '1px solid transparent'
-              }}
-            >
-              <Download size={14} /> Downloads & Decks
-            </button>
-          </nav>
-
-          <button 
-            className="btn btn-emerald"
-            onClick={() => {
-              setActiveTab('audit');
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
-          >
-            <Sparkles size={14} /> Free Feasibility Audit
-          </button>
-
         </div>
       </header>
 
       {/* Main Content Area */}
-      <main style={{ flex: 1, maxWidth: '1400px', width: '100%', margin: '0 auto', padding: '24px 20px' }}>
+      <main style={{ flex: 1, maxWidth: '1400px', width: '100%', margin: '0 auto', padding: '16px 14px' }}>
         
         {/* ==================================================== */}
         {/* TAB 1: CONFIGURATOR & ROI ENGINE                     */}
         {/* ==================================================== */}
         {activeTab === 'configurator' && (
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 400px', gap: '24px' }}>
+          <div className="configurator-grid">
             
             {/* Left Column: Visualizer & Selectors */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               
               {/* Address Lot Feasibility Bar */}
-              <div className="glass-panel" style={{ padding: '16px 20px' }}>
-                <form onSubmit={handleSimulateLotAudit} style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
-                  <div style={{ position: 'relative', flex: 1 }}>
-                    <MapPin size={18} color="#94a3b8" style={{ position: 'absolute', left: '12px', top: '12px' }} />
+              <div className="glass-panel" style={{ padding: '14px 16px' }}>
+                <form onSubmit={handleSimulateLotAudit} style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
+                  <div style={{ position: 'relative', flex: '1 1 240px' }}>
+                    <MapPin size={16} color="#94a3b8" style={{ position: 'absolute', left: '10px', top: '12px' }} />
                     <input 
                       type="text" 
                       value={addressInput}
                       onChange={(e) => setAddressInput(e.target.value)}
-                      placeholder="Enter property address to audit backyard..."
+                      placeholder="Enter address to audit lot..."
                       style={{
                         width: '100%',
-                        padding: '10px 14px 10px 38px',
+                        padding: '9px 12px 9px 32px',
                         background: 'rgba(255, 255, 255, 0.05)',
                         border: '1px solid var(--border-subtle)',
                         borderRadius: '8px',
                         color: '#ffffff',
-                        fontSize: '13.5px',
+                        fontSize: '13px',
                         outline: 'none'
                       }}
                     />
                   </div>
-                  <button type="submit" className="btn btn-primary" disabled={isAuditingLot}>
-                    {isAuditingLot ? 'Scanning GIS Lot...' : 'Scan Parcel'}
+                  <button type="submit" className="btn btn-primary" style={{ padding: '9px 16px', fontSize: '12.5px' }} disabled={isAuditingLot}>
+                    {isAuditingLot ? 'Scanning...' : 'Scan Parcel'}
                   </button>
                 </form>
 
                 {/* Lot Audit Metrics */}
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px', marginTop: '14px', paddingTop: '12px', borderTop: '1px solid var(--border-subtle)' }}>
-                  <div style={{ fontSize: '11px' }}>
+                <div className="lot-audit-grid" style={{ marginTop: '12px', paddingTop: '10px', borderTop: '1px solid var(--border-subtle)' }}>
+                  <div style={{ fontSize: '10.5px' }}>
                     <div style={{ color: 'var(--text-muted)' }}>LOT AREA</div>
-                    <div style={{ fontWeight: 700, color: '#ffffff', fontSize: '13px' }}>{lotData.lotSqFt.toLocaleString()} sq ft</div>
+                    <div style={{ fontWeight: 700, color: '#ffffff', fontSize: '12.5px' }}>{lotData.lotSqFt.toLocaleString()} sq ft</div>
                   </div>
-                  <div style={{ fontSize: '11px' }}>
-                    <div style={{ color: 'var(--text-muted)' }}>BACKYARD YARD</div>
-                    <div style={{ fontWeight: 700, color: '#ffffff', fontSize: '13px' }}>{lotData.backyardDepth}' × {lotData.backyardWidth}'</div>
+                  <div style={{ fontSize: '10.5px' }}>
+                    <div style={{ color: 'var(--text-muted)' }}>BACKYARD</div>
+                    <div style={{ fontWeight: 700, color: '#ffffff', fontSize: '12.5px' }}>{lotData.backyardDepth}' × {lotData.backyardWidth}'</div>
                   </div>
-                  <div style={{ fontSize: '11px' }}>
+                  <div style={{ fontSize: '10.5px' }}>
                     <div style={{ color: 'var(--text-muted)' }}>SETBACK REQ</div>
-                    <div style={{ fontWeight: 700, color: '#34d399', fontSize: '13px' }}>{lotData.rearSetback}' Rear / {lotData.sideSetback}' Side</div>
+                    <div style={{ fontWeight: 700, color: '#34d399', fontSize: '12.5px' }}>{lotData.rearSetback}' Rear / {lotData.sideSetback}' Side</div>
                   </div>
-                  <div style={{ fontSize: '11px' }}>
+                  <div style={{ fontSize: '10.5px' }}>
                     <div style={{ color: 'var(--text-muted)' }}>ZONING STATUS</div>
-                    <div style={{ fontWeight: 700, color: '#60a5fa', fontSize: '13px' }}>Pre-Approved ADU</div>
+                    <div style={{ fontWeight: 700, color: '#60a5fa', fontSize: '12.5px' }}>Pre-Approved</div>
                   </div>
                 </div>
               </div>
 
               {/* 3D Visualizer Viewport */}
               <div className="glass-panel" style={{ overflow: 'hidden', position: 'relative' }}>
-                <div style={{ 
-                  height: '460px', 
-                  position: 'relative',
-                  background: activeView === 'floorplan' || activeView === 'blueprint' ? '#ffffff' : '#080c14',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  padding: activeView === 'floorplan' || activeView === 'blueprint' ? '16px' : '0'
-                }}>
+                
+                <div 
+                  className="visualizer-viewport-box"
+                  style={{ 
+                    height: '440px', 
+                    position: 'relative',
+                    background: activeView === 'floorplan' || activeView === 'blueprint' ? '#ffffff' : '#080c14',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    padding: activeView === 'floorplan' || activeView === 'blueprint' ? '12px' : '0'
+                  }}
+                >
                   <img 
                     src={
                       activeView === 'exterior' ? selectedModel.heroImage :
@@ -442,7 +446,7 @@ export default function App() {
                     }}
                   />
 
-                  {/* Image Overlay Gradient for 3D Renders */}
+                  {/* Gradient Overlay for Renders */}
                   {(activeView === 'exterior' || activeView === 'interior' || activeView === 'patio') && (
                     <div style={{
                       position: 'absolute',
@@ -452,115 +456,103 @@ export default function App() {
                     }} />
                   )}
 
-                  {/* Floating View Switcher */}
-                  <div style={{ position: 'absolute', top: '16px', right: '16px', display: 'flex', gap: '6px', background: 'rgba(15, 23, 42, 0.85)', padding: '4px', borderRadius: '8px', border: '1px solid rgba(255, 255, 255, 0.12)', backdropFilter: 'blur(10px)' }}>
+                  {/* Responsive View Switcher */}
+                  <div className="view-switcher-container">
                     <button 
                       className="btn"
                       onClick={() => setActiveView('exterior')}
                       style={{
-                        padding: '6px 10px',
-                        fontSize: '11px',
                         background: activeView === 'exterior' ? '#2563eb' : 'transparent',
                         color: '#ffffff'
                       }}
                     >
-                      Exterior Facade
+                      Exterior
                     </button>
                     <button 
                       className="btn"
                       onClick={() => setActiveView('interior')}
                       style={{
-                        padding: '6px 10px',
-                        fontSize: '11px',
                         background: activeView === 'interior' ? '#2563eb' : 'transparent',
                         color: '#ffffff'
                       }}
                     >
-                      Vaulted Interior
+                      Interior
                     </button>
                     <button 
                       className="btn"
                       onClick={() => setActiveView('patio')}
                       style={{
-                        padding: '6px 10px',
-                        fontSize: '11px',
                         background: activeView === 'patio' ? '#2563eb' : 'transparent',
                         color: '#ffffff'
                       }}
                     >
-                      Garden Patio
+                      Patio/Deck
                     </button>
                     <button 
                       className="btn"
                       onClick={() => setActiveView('floorplan')}
                       style={{
-                        padding: '6px 10px',
-                        fontSize: '11px',
                         background: activeView === 'floorplan' ? '#10b981' : 'transparent',
                         color: '#ffffff',
                         fontWeight: 700
                       }}
                     >
-                      📐 CAD Floor Plan
+                      📐 Plan
                     </button>
                     <button 
                       className="btn"
                       onClick={() => setActiveView('blueprint')}
                       style={{
-                        padding: '6px 10px',
-                        fontSize: '11px',
                         background: activeView === 'blueprint' ? '#8b5cf6' : 'transparent',
                         color: '#ffffff'
                       }}
                     >
-                      Full Blueprint
+                      Blueprint
                     </button>
                   </div>
 
                   {/* Model Floating Badge */}
-                  <div style={{ 
-                    position: 'absolute', 
-                    bottom: '16px', 
-                    left: '20px', 
-                    right: '20px', 
-                    display: 'flex', 
-                    justifyContent: 'space-between', 
-                    alignItems: 'flex-end',
-                    background: activeView === 'floorplan' || activeView === 'blueprint' ? 'rgba(15, 23, 42, 0.9)' : 'transparent',
-                    padding: activeView === 'floorplan' || activeView === 'blueprint' ? '10px 16px' : '0',
-                    borderRadius: '8px',
-                    border: activeView === 'floorplan' || activeView === 'blueprint' ? '1px solid rgba(255, 255, 255, 0.1)' : 'none'
-                  }}>
+                  <div 
+                    className="model-badge-overlay"
+                    style={{ 
+                      position: 'absolute', 
+                      bottom: '16px', 
+                      left: '16px', 
+                      right: '16px', 
+                      display: 'flex', 
+                      justifyContent: 'space-between', 
+                      alignItems: 'flex-end',
+                      background: activeView === 'floorplan' || activeView === 'blueprint' ? 'rgba(15, 23, 42, 0.92)' : 'transparent',
+                      padding: activeView === 'floorplan' || activeView === 'blueprint' ? '8px 12px' : '0',
+                      borderRadius: '8px',
+                      border: activeView === 'floorplan' || activeView === 'blueprint' ? '1px solid rgba(255, 255, 255, 0.1)' : 'none'
+                    }}
+                  >
                     <div>
-                      <div style={{ display: 'flex', gap: '8px', marginBottom: '4px' }}>
+                      <div style={{ display: 'flex', gap: '6px', marginBottom: '3px', flexWrap: 'wrap' }}>
                         <span className="badge badge-blue">{selectedModel.dimensions}</span>
-                        <span className="badge badge-green">{selectedModel.sqft} SQ. FT.</span>
-                        {(activeView === 'floorplan' || activeView === 'blueprint') && (
-                          <span className="badge badge-amber">Official S2A CAD Plan</span>
-                        )}
+                        <span className="badge badge-green">{selectedModel.sqft} SQ FT</span>
                       </div>
-                      <h2 style={{ fontSize: '24px', color: '#ffffff', marginBottom: '2px' }}>{selectedModel.name}</h2>
-                      <div style={{ color: 'var(--text-secondary)', fontSize: '12px' }}>{selectedModel.tagline}</div>
+                      <h2 style={{ fontSize: '20px', color: '#ffffff', marginBottom: '2px' }}>{selectedModel.name}</h2>
+                      <div style={{ color: 'var(--text-secondary)', fontSize: '11.5px' }}>{selectedModel.tagline}</div>
                     </div>
-                    <div style={{ textAlign: 'right' }}>
-                      <div style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase' }}>Homeowner Net Share</div>
-                      <div style={{ fontSize: '22px', fontWeight: 800, color: '#34d399' }}>${calculations.homeownerMonthly}/mo</div>
+                    <div style={{ textAlign: 'right', flexShrink: 0 }}>
+                      <div style={{ fontSize: '9.5px', color: 'var(--text-muted)', textTransform: 'uppercase' }}>Passive Split</div>
+                      <div style={{ fontSize: '18px', fontWeight: 800, color: '#34d399' }}>${calculations.homeownerMonthly}/mo</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Model Selector Strip */}
-                <div style={{ padding: '14px 20px', background: 'rgba(13, 20, 36, 0.95)', display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '10px' }}>
+                <div className="model-selector-strip">
                   {MODELS.map(m => (
                     <button
                       key={m.id}
-                      onClick={() => {
-                        setSelectedModelId(m.id);
-                      }}
+                      onClick={() => setSelectedModelId(m.id)}
                       style={{
-                        padding: '10px 8px',
-                        borderRadius: '8px',
-                        background: selectedModelId === m.id ? 'rgba(59, 130, 246, 0.2)' : 'rgba(255, 255, 255, 0.03)',
+                        padding: '8px 6px',
+                        borderRadius: '6px',
+                        background: selectedModelId === m.id ? 'rgba(59, 130, 246, 0.25)' : 'rgba(255, 255, 255, 0.03)',
                         border: selectedModelId === m.id ? '1.5px solid #3b82f6' : '1px solid var(--border-subtle)',
                         color: '#ffffff',
                         cursor: 'pointer',
@@ -568,40 +560,40 @@ export default function App() {
                         transition: 'all 0.2s ease'
                       }}
                     >
-                      <div style={{ fontSize: '12px', fontWeight: 700, color: selectedModelId === m.id ? '#60a5fa' : '#ffffff' }}>{m.name}</div>
-                      <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>{m.sqft} sq ft &bull; {m.dimensions}</div>
+                      <div style={{ fontSize: '11.5px', fontWeight: 700, color: selectedModelId === m.id ? '#60a5fa' : '#ffffff' }}>{m.name}</div>
+                      <div style={{ fontSize: '9.5px', color: 'var(--text-muted)' }}>{m.sqft} sq ft</div>
                     </button>
                   ))}
                 </div>
               </div>
 
               {/* Upgrades & Architecture Highlights */}
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <div className="upgrades-grid">
                 
                 {/* Blueprint Highlights */}
-                <div className="glass-panel" style={{ padding: '18px 20px' }}>
-                  <h3 style={{ fontSize: '15px', color: '#ffffff', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <Layers size={16} color="#3b82f6" /> Blueprint Architectural Specs
+                <div className="glass-panel" style={{ padding: '16px' }}>
+                  <h3 style={{ fontSize: '14px', color: '#ffffff', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <Layers size={15} color="#3b82f6" /> Blueprint Architectural Specs
                   </h3>
-                  <ul style={{ paddingLeft: '16px', fontSize: '12px', color: 'var(--text-secondary)', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                  <ul style={{ paddingLeft: '16px', fontSize: '11.5px', color: 'var(--text-secondary)', display: 'flex', flexDirection: 'column', gap: '5px' }}>
                     {selectedModel.features.map((f, i) => (
                       <li key={i}>{f}</li>
                     ))}
                   </ul>
-                  <div style={{ marginTop: '14px', padding: '10px', background: 'rgba(59, 130, 246, 0.08)', borderRadius: '6px', fontSize: '11px', color: '#93c5fd' }}>
-                    <strong>Lot Minimum:</strong> Requires {selectedModel.minLotWidth}' lot width for pre-approved setback compliance.
+                  <div style={{ marginTop: '12px', padding: '8px 10px', background: 'rgba(59, 130, 246, 0.08)', borderRadius: '6px', fontSize: '10.5px', color: '#93c5fd' }}>
+                    <strong>Lot Minimum:</strong> Requires {selectedModel.minLotWidth}' parcel width for standard setback compliance.
                   </div>
                 </div>
 
                 {/* Interactive Upgrade Toggles */}
-                <div className="glass-panel" style={{ padding: '18px 20px' }}>
-                  <h3 style={{ fontSize: '15px', color: '#ffffff', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <Zap size={16} color="#f59e0b" /> Premium HaaS Upgrades
+                <div className="glass-panel" style={{ padding: '16px' }}>
+                  <h3 style={{ fontSize: '14px', color: '#ffffff', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <Zap size={15} color="#f59e0b" /> Premium HaaS Upgrades
                   </h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                     
-                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '12px', cursor: 'pointer' }}>
-                      <span>Rooftop Sky Lounge & Spiral Stairs</span>
+                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', cursor: 'pointer' }}>
+                      <span>Rooftop Sky Lounge & Stairs</span>
                       <input 
                         type="checkbox" 
                         checked={upgrades.rooftopLounge}
@@ -610,8 +602,8 @@ export default function App() {
                       />
                     </label>
 
-                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '12px', cursor: 'pointer' }}>
-                      <span>Solar PV + Tesla Powerwall Battery</span>
+                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', cursor: 'pointer' }}>
+                      <span>Solar PV + Tesla Powerwall</span>
                       <input 
                         type="checkbox" 
                         checked={upgrades.solarPowerwall}
@@ -620,8 +612,8 @@ export default function App() {
                       />
                     </label>
 
-                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '12px', cursor: 'pointer' }}>
-                      <span>Scandinavian Interior Finishes</span>
+                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', cursor: 'pointer' }}>
+                      <span>Scandinavian Luxury Finishes</span>
                       <input 
                         type="checkbox" 
                         checked={upgrades.scandinavianInterior}
@@ -630,8 +622,8 @@ export default function App() {
                       />
                     </label>
 
-                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '12px', cursor: 'pointer' }}>
-                      <span>Smart Home Keyless Security</span>
+                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', cursor: 'pointer' }}>
+                      <span>Smart Keyless Security</span>
                       <input 
                         type="checkbox" 
                         checked={upgrades.smartAccess}
@@ -648,20 +640,20 @@ export default function App() {
             </div>
 
             {/* Right Column: Financial ROI Engine */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               
-              <div className="glass-panel" style={{ padding: '22px 20px', border: '1px solid rgba(59, 130, 246, 0.3)' }}>
+              <div className="glass-panel" style={{ padding: '18px 16px', border: '1px solid rgba(59, 130, 246, 0.3)' }}>
                 
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '14px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
                   <span className="badge badge-green">Zero-CapEx HaaS</span>
-                  <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>30-Day Turnkey</span>
+                  <span style={{ fontSize: '10.5px', color: 'var(--text-muted)' }}>30-Day Turnkey</span>
                 </div>
 
-                <h3 style={{ fontSize: '18px', color: '#ffffff', marginBottom: '16px' }}>Monthly Cash Flow Engine</h3>
+                <h3 style={{ fontSize: '16px', color: '#ffffff', marginBottom: '12px' }}>Monthly Cash Flow Engine</h3>
 
                 {/* Metro Selector */}
-                <div style={{ marginBottom: '16px' }}>
-                  <label style={{ fontSize: '11px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '6px' }}>Target Rental Metro</label>
+                <div style={{ marginBottom: '14px' }}>
+                  <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>Target Rental Metro</label>
                   <select 
                     value={selectedMetro.name}
                     onChange={(e) => {
@@ -670,12 +662,12 @@ export default function App() {
                     }}
                     style={{
                       width: '100%',
-                      padding: '8px 12px',
-                      background: 'rgba(255, 255, 255, 0.06)',
+                      padding: '8px 10px',
+                      background: '#0f172a',
                       border: '1px solid var(--border-subtle)',
                       borderRadius: '6px',
                       color: '#ffffff',
-                      fontSize: '13px',
+                      fontSize: '12.5px',
                       outline: 'none'
                     }}
                   >
@@ -686,33 +678,33 @@ export default function App() {
                 </div>
 
                 {/* Big Metric Display */}
-                <div style={{ background: 'rgba(16, 185, 129, 0.08)', border: '1px solid rgba(16, 185, 129, 0.25)', borderRadius: '10px', padding: '16px', textAlign: 'center', marginBottom: '18px' }}>
-                  <div style={{ fontSize: '11px', color: '#34d399', textTransform: 'uppercase', fontWeight: 700, letterSpacing: '0.05em' }}>
+                <div style={{ background: 'rgba(16, 185, 129, 0.08)', border: '1px solid rgba(16, 185, 129, 0.25)', borderRadius: '10px', padding: '14px', textAlign: 'center', marginBottom: '14px' }}>
+                  <div style={{ fontSize: '10.5px', color: '#34d399', textTransform: 'uppercase', fontWeight: 700, letterSpacing: '0.04em' }}>
                     Homeowner Guaranteed Passive Split
                   </div>
-                  <div style={{ fontSize: '32px', fontWeight: 800, color: '#34d399', margin: '4px 0' }}>
-                    ${calculations.homeownerMonthly} <span style={{ fontSize: '14px', fontWeight: 500, color: 'var(--text-secondary)' }}>/ month</span>
+                  <div style={{ fontSize: '28px', fontWeight: 800, color: '#34d399', margin: '2px 0' }}>
+                    ${calculations.homeownerMonthly} <span style={{ fontSize: '13px', fontWeight: 500, color: 'var(--text-secondary)' }}>/ mo</span>
                   </div>
-                  <div style={{ fontSize: '11.5px', color: 'var(--text-secondary)' }}>
-                    ${(calculations.homeownerMonthly * 12).toLocaleString()} annual passive revenue (100% net)
+                  <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>
+                    ${(calculations.homeownerMonthly * 12).toLocaleString()} annual passive net revenue
                   </div>
                 </div>
 
                 {/* Breakdown List */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '12px', marginBottom: '18px' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '6px', borderBottom: '1px solid var(--border-subtle)' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '11.5px', marginBottom: '16px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '4px', borderBottom: '1px solid var(--border-subtle)' }}>
                     <span style={{ color: 'var(--text-secondary)' }}>Projected Gross Rent:</span>
                     <span style={{ fontWeight: 700, color: '#ffffff' }}>${calculations.monthlyGross} / mo</span>
                   </div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '6px', borderBottom: '1px solid var(--border-subtle)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '4px', borderBottom: '1px solid var(--border-subtle)' }}>
                     <span style={{ color: 'var(--text-secondary)' }}>Operator Net Cash Flow:</span>
                     <span style={{ fontWeight: 700, color: '#60a5fa' }}>${calculations.operatorMonthly} / mo</span>
                   </div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '6px', borderBottom: '1px solid var(--border-subtle)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '4px', borderBottom: '1px solid var(--border-subtle)' }}>
                     <span style={{ color: 'var(--text-secondary)' }}>10-Year Cumulative Cash:</span>
                     <span style={{ fontWeight: 700, color: '#34d399' }}>${calculations.tenYearHomeowner.toLocaleString()}</span>
                   </div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '6px', borderBottom: '1px solid var(--border-subtle)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '4px', borderBottom: '1px solid var(--border-subtle)' }}>
                     <span style={{ color: 'var(--text-secondary)' }}>Est. Property Equity Boost:</span>
                     <span style={{ fontWeight: 700, color: '#f59e0b' }}>+${calculations.propertyAppreciation.toLocaleString()}</span>
                   </div>
@@ -724,26 +716,26 @@ export default function App() {
 
                 <button 
                   className="btn btn-emerald" 
-                  style={{ width: '100%', padding: '12px', fontSize: '14px' }}
+                  style={{ width: '100%', padding: '11px', fontSize: '13px' }}
                   onClick={() => {
                     setLeadForm(l => ({ ...l, targetModel: selectedModel.id }));
                     setActiveTab('audit');
                   }}
                 >
-                  Reserve This Model & Audit Yard <ArrowRight size={16} />
+                  Reserve Model & Audit Yard <ArrowRight size={14} />
                 </button>
 
               </div>
 
               {/* Quick Downloads Card */}
-              <div className="glass-panel" style={{ padding: '18px 20px' }}>
-                <h4 style={{ fontSize: '13px', color: '#ffffff', marginBottom: '10px' }}>Executive Marketing Assets</h4>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                  <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pptx" download className="btn btn-secondary" style={{ fontSize: '12px', justifyContent: 'flex-start' }}>
-                    <Download size={14} color="#3b82f6" /> Download Pitch Deck (.pptx)
+              <div className="glass-panel" style={{ padding: '16px' }}>
+                <h4 style={{ fontSize: '12.5px', color: '#ffffff', marginBottom: '8px' }}>Executive Marketing Assets</h4>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                  <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pptx" download className="btn btn-secondary" style={{ fontSize: '11.5px', justifyContent: 'flex-start' }}>
+                    <Download size={13} color="#3b82f6" /> Pitch Deck (.pptx)
                   </a>
-                  <a href="/downloads/s2a_modular_adu_marketing_catalog.pdf" download className="btn btn-secondary" style={{ fontSize: '12px', justifyContent: 'flex-start' }}>
-                    <FileText size={14} color="#10b981" /> Download Marketing Brochure (.pdf)
+                  <a href="/downloads/s2a_modular_adu_marketing_catalog.pdf" download className="btn btn-secondary" style={{ fontSize: '11.5px', justifyContent: 'flex-start' }}>
+                    <FileText size={13} color="#10b981" /> Color Brochure (.pdf)
                   </a>
                 </div>
               </div>
@@ -758,23 +750,23 @@ export default function App() {
         {/* ==================================================== */}
         {activeTab === 'audit' && (
           <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-            <div className="glass-panel" style={{ padding: '32px' }}>
+            <div className="glass-panel" style={{ padding: '20px 18px' }}>
               
               {!leadForm.submitted ? (
                 <div>
-                  <div style={{ textAlign: 'center', marginBottom: '24px' }}>
-                    <span className="badge badge-blue" style={{ marginBottom: '8px' }}>Turnkey Site Feasibility</span>
-                    <h2 style={{ fontSize: '24px', color: '#ffffff', marginBottom: '6px' }}>48-Hour Backyard Feasibility & Revenue Audit</h2>
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>
-                      Submit your property details to verify crane access, setback clearances, and lock in your passive monthly revenue-share guarantee.
+                  <div style={{ textAlign: 'center', marginBottom: '18px' }}>
+                    <span className="badge badge-blue" style={{ marginBottom: '6px' }}>Turnkey Site Feasibility</span>
+                    <h2 style={{ fontSize: '20px', color: '#ffffff', marginBottom: '4px' }}>48-Hour Backyard Feasibility Audit</h2>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '12px' }}>
+                      Submit your property details to verify crane access, setback clearances, and lock in your passive monthly revenue guarantee.
                     </p>
                   </div>
 
-                  <form onSubmit={handleLeadSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                  <form onSubmit={handleLeadSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                     
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
+                    <div className="form-two-col">
                       <div>
-                        <label style={{ fontSize: '11.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>Full Name</label>
+                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Full Name</label>
                         <input 
                           type="text" 
                           required
@@ -783,17 +775,18 @@ export default function App() {
                           placeholder="Jane Doe"
                           style={{
                             width: '100%',
-                            padding: '10px 12px',
+                            padding: '9px 10px',
                             background: 'rgba(255, 255, 255, 0.05)',
                             border: '1px solid var(--border-subtle)',
                             borderRadius: '6px',
                             color: '#ffffff',
+                            fontSize: '13px',
                             outline: 'none'
                           }}
                         />
                       </div>
                       <div>
-                        <label style={{ fontSize: '11.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>Email Address</label>
+                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Email Address</label>
                         <input 
                           type="email" 
                           required
@@ -802,20 +795,21 @@ export default function App() {
                           placeholder="jane@example.com"
                           style={{
                             width: '100%',
-                            padding: '10px 12px',
+                            padding: '9px 10px',
                             background: 'rgba(255, 255, 255, 0.05)',
                             border: '1px solid var(--border-subtle)',
                             borderRadius: '6px',
                             color: '#ffffff',
+                            fontSize: '13px',
                             outline: 'none'
                           }}
                         />
                       </div>
                     </div>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
+                    <div className="form-two-col">
                       <div>
-                        <label style={{ fontSize: '11.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>Phone Number</label>
+                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Phone Number</label>
                         <input 
                           type="tel" 
                           required
@@ -824,27 +818,29 @@ export default function App() {
                           placeholder="(310) 555-0199"
                           style={{
                             width: '100%',
-                            padding: '10px 12px',
+                            padding: '9px 10px',
                             background: 'rgba(255, 255, 255, 0.05)',
                             border: '1px solid var(--border-subtle)',
                             borderRadius: '6px',
                             color: '#ffffff',
+                            fontSize: '13px',
                             outline: 'none'
                           }}
                         />
                       </div>
                       <div>
-                        <label style={{ fontSize: '11.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>Preferred Model</label>
+                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Preferred Model</label>
                         <select 
                           value={leadForm.targetModel}
                           onChange={(e) => setLeadForm({ ...leadForm, targetModel: e.target.value })}
                           style={{
                             width: '100%',
-                            padding: '10px 12px',
+                            padding: '9px 10px',
                             background: '#0f172a',
                             border: '1px solid var(--border-subtle)',
                             borderRadius: '6px',
                             color: '#ffffff',
+                            fontSize: '12.5px',
                             outline: 'none'
                           }}
                         >
@@ -856,7 +852,7 @@ export default function App() {
                     </div>
 
                     <div>
-                      <label style={{ fontSize: '11.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>Property Address</label>
+                      <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Property Address</label>
                       <input 
                         type="text" 
                         required
@@ -864,49 +860,50 @@ export default function App() {
                         onChange={(e) => setLeadForm({ ...leadForm, address: e.target.value })}
                         style={{
                           width: '100%',
-                          padding: '10px 12px',
+                          padding: '9px 10px',
                           background: 'rgba(255, 255, 255, 0.05)',
                           border: '1px solid var(--border-subtle)',
                           borderRadius: '6px',
                           color: '#ffffff',
+                          fontSize: '13px',
                           outline: 'none'
                         }}
                       />
                     </div>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px' }}>
+                    <div className="form-three-col">
                       <div>
-                        <label style={{ fontSize: '11px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>Side Yard / Crane Access</label>
+                        <label style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Side Yard Access</label>
                         <select 
                           value={leadForm.drivewayAccess}
                           onChange={(e) => setLeadForm({ ...leadForm, drivewayAccess: e.target.value })}
-                          style={{ width: '100%', padding: '8px', background: '#0f172a', border: '1px solid var(--border-subtle)', borderRadius: '6px', color: '#ffffff', fontSize: '12px' }}
+                          style={{ width: '100%', padding: '8px', background: '#0f172a', border: '1px solid var(--border-subtle)', borderRadius: '6px', color: '#ffffff', fontSize: '11.5px' }}
                         >
                           <option>Wide Driveway (10ft+)</option>
                           <option>Standard Gate (5-9ft)</option>
-                          <option>Overhead Crane Lift Required</option>
+                          <option>Overhead Crane Lift</option>
                         </select>
                       </div>
 
                       <div>
-                        <label style={{ fontSize: '11px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>Electrical Panel</label>
+                        <label style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Electrical Panel</label>
                         <select 
                           value={leadForm.electricalPanel}
                           onChange={(e) => setLeadForm({ ...leadForm, electricalPanel: e.target.value })}
-                          style={{ width: '100%', padding: '8px', background: '#0f172a', border: '1px solid var(--border-subtle)', borderRadius: '6px', color: '#ffffff', fontSize: '12px' }}
+                          style={{ width: '100%', padding: '8px', background: '#0f172a', border: '1px solid var(--border-subtle)', borderRadius: '6px', color: '#ffffff', fontSize: '11.5px' }}
                         >
                           <option>200 Amp (Modern)</option>
-                          <option>100-150 Amp (May need subpanel)</option>
-                          <option>Unsure / Need Verification</option>
+                          <option>100-150 Amp (Subpanel)</option>
+                          <option>Unsure / Check</option>
                         </select>
                       </div>
 
                       <div>
-                        <label style={{ fontSize: '11px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>Sewer / Water Distance</label>
+                        <label style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Sewer / Water Distance</label>
                         <select 
                           value={leadForm.sewerDistance}
                           onChange={(e) => setLeadForm({ ...leadForm, sewerDistance: e.target.value })}
-                          style={{ width: '100%', padding: '8px', background: '#0f172a', border: '1px solid var(--border-subtle)', borderRadius: '6px', color: '#ffffff', fontSize: '12px' }}
+                          style={{ width: '100%', padding: '8px', background: '#0f172a', border: '1px solid var(--border-subtle)', borderRadius: '6px', color: '#ffffff', fontSize: '11.5px' }}
                         >
                           <option>Under 50 ft</option>
                           <option>50 – 100 ft</option>
@@ -915,35 +912,34 @@ export default function App() {
                       </div>
                     </div>
 
-                    <button type="submit" className="btn btn-emerald" style={{ padding: '14px', fontSize: '15px', marginTop: '10px' }}>
-                      Submit Virtual Site Audit & Lock In Revenue Split <ArrowRight size={16} />
+                    <button type="submit" className="btn btn-emerald" style={{ padding: '12px', fontSize: '13.5px', marginTop: '6px' }}>
+                      Submit Audit & Lock In Passive Split <ArrowRight size={15} />
                     </button>
 
                   </form>
                 </div>
               ) : (
-                <div style={{ textAlign: 'center', padding: '20px 0' }}>
-                  <div style={{ width: '60px', height: '60px', borderRadius: '50%', background: 'rgba(16, 185, 129, 0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px auto' }}>
-                    <CheckCircle size={32} color="#10b981" />
+                <div style={{ textAlign: 'center', padding: '16px 0' }}>
+                  <div style={{ width: '50px', height: '50px', borderRadius: '50%', background: 'rgba(16, 185, 129, 0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 12px auto' }}>
+                    <CheckCircle size={28} color="#10b981" />
                   </div>
-                  <h2 style={{ fontSize: '24px', color: '#ffffff', marginBottom: '8px' }}>Site Audit Received & Pre-Approved!</h2>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '13.5px', maxWidth: '500px', margin: '0 auto 20px auto' }}>
-                    Thank you, <strong>{leadForm.fullName || 'Homeowner'}</strong>. Our engineering team has received your parcel details for <strong>{leadForm.address}</strong>. Your estimated passive cash flow of <strong>${calculations.homeownerMonthly}/month</strong> has been logged.
+                  <h2 style={{ fontSize: '20px', color: '#ffffff', marginBottom: '6px' }}>Site Audit Pre-Approved!</h2>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '12.5px', maxWidth: '480px', margin: '0 auto 16px auto' }}>
+                    Thank you, <strong>{leadForm.fullName || 'Homeowner'}</strong>. Your parcel details for <strong>{leadForm.address}</strong> have been submitted. Estimated monthly passive revenue: <strong>${calculations.homeownerMonthly}/mo</strong>.
                   </p>
                   
-                  <div style={{ background: 'rgba(255, 255, 255, 0.04)', borderRadius: '8px', padding: '16px', maxWidth: '450px', margin: '0 auto 24px auto', textAlign: 'left', fontSize: '12px' }}>
+                  <div style={{ background: 'rgba(255, 255, 255, 0.04)', borderRadius: '8px', padding: '12px', maxWidth: '420px', margin: '0 auto 18px auto', textAlign: 'left', fontSize: '11.5px' }}>
                     <div>&bull; <strong>Assigned Model:</strong> {MODELS.find(m => m.id === leadForm.targetModel)?.name}</div>
                     <div>&bull; <strong>Crane Feasibility:</strong> {leadForm.drivewayAccess}</div>
-                    <div>&bull; <strong>Electrical:</strong> {leadForm.electricalPanel}</div>
-                    <div>&bull; <strong>Turnkey Operator:</strong> Zero out-of-pocket CapEx guarantee</div>
+                    <div>&bull; <strong>Turnkey Operator:</strong> 100% Zero-CapEx Guarantee</div>
                   </div>
 
-                  <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
-                    <button className="btn btn-secondary" onClick={() => setLeadForm({ ...leadForm, submitted: false })}>
-                      Submit Another Address
+                  <div style={{ display: 'flex', gap: '8px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                    <button className="btn btn-secondary" onClick={() => setLeadForm({ ...leadForm, submitted: false })} style={{ fontSize: '12px' }}>
+                      Submit Another Lot
                     </button>
-                    <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pdf" download className="btn btn-primary">
-                      <Download size={14} /> Download Pitch Deck (.pdf)
+                    <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pdf" download className="btn btn-primary" style={{ fontSize: '12px' }}>
+                      <Download size={13} /> Pitch Deck (.pdf)
                     </a>
                   </div>
                 </div>
@@ -957,86 +953,87 @@ export default function App() {
         {/* TAB 3: 5-MODEL PORTFOLIO GALLERY                    */}
         {/* ==================================================== */}
         {activeTab === 'gallery' && (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
-            <div style={{ textAlign: 'center', maxWidth: '700px', margin: '0 auto 12px auto' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
+            <div style={{ textAlign: 'center', maxWidth: '700px', margin: '0 auto 4px auto' }}>
               <span className="badge badge-blue">Architectural CAD Blueprint Suite</span>
-              <h2 style={{ fontSize: '28px', color: '#ffffff', margin: '6px 0 8px 0' }}>The S2A Modular Collection & Floorplans</h2>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '13.5px' }}>
+              <h2 style={{ fontSize: '22px', color: '#ffffff', margin: '4px 0 6px 0' }}>The S2A Modular Collection & Plans</h2>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '12px' }}>
                 Factory-built, precision-engineered modular ADUs and tiny homes built for zero-disruption residential deployment.
               </p>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(420px, 1fr))', gap: '24px' }}>
+            <div className="gallery-grid">
               {MODELS.map(m => (
                 <div key={m.id} className="glass-panel" style={{ overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
                   
-                  {/* Image Grid: 3D Render + CAD Floorplan side-by-side */}
-                  <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', height: '220px', background: '#ffffff', position: 'relative' }}>
+                  {/* Image Grid: 3D Render + CAD Floorplan */}
+                  <div className="gallery-card-preview">
                     <div style={{ position: 'relative', height: '100%', background: '#080c14' }}>
                       <img src={m.heroImage} alt={m.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                      <div style={{ position: 'absolute', bottom: '8px', left: '8px', background: 'rgba(0,0,0,0.7)', padding: '2px 8px', borderRadius: '4px', fontSize: '10px', color: '#ffffff' }}>
-                        3D Exterior
+                      <div style={{ position: 'absolute', bottom: '6px', left: '6px', background: 'rgba(0,0,0,0.75)', padding: '2px 6px', borderRadius: '4px', fontSize: '9.5px', color: '#ffffff' }}>
+                        3D Render
                       </div>
                     </div>
                     
                     <div 
-                      style={{ height: '100%', background: '#ffffff', padding: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', cursor: 'pointer' }}
+                      style={{ height: '100%', background: '#ffffff', padding: '6px', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', cursor: 'pointer' }}
                       onClick={() => setModalImage(m.blueprintImage)}
-                      title="Click to view full architectural blueprint"
+                      title="Click to zoom blueprint"
                     >
                       <img src={m.floorplanImage} alt={`${m.name} Floorplan`} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                      <div style={{ position: 'absolute', bottom: '8px', right: '8px', background: 'rgba(15, 23, 42, 0.85)', padding: '2px 8px', borderRadius: '4px', fontSize: '10px', color: '#34d399', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                        <Eye size={10} /> CAD Plan
+                      <div style={{ position: 'absolute', bottom: '6px', right: '6px', background: 'rgba(15, 23, 42, 0.9)', padding: '2px 6px', borderRadius: '4px', fontSize: '9.5px', color: '#34d399', display: 'flex', alignItems: 'center', gap: '3px' }}>
+                        <Eye size={9} /> CAD Plan
                       </div>
                     </div>
 
-                    <div style={{ position: 'absolute', top: '10px', left: '10px', display: 'flex', gap: '6px' }}>
+                    <div style={{ position: 'absolute', top: '8px', left: '8px', display: 'flex', gap: '5px' }}>
                       <span className="badge badge-blue">{m.dimensions}</span>
                       <span className="badge badge-green">{m.sqft} SQ FT</span>
                     </div>
                   </div>
 
-                  <div style={{ padding: '18px 20px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                  <div style={{ padding: '14px 16px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                     <div>
-                      <h3 style={{ fontSize: '18px', color: '#ffffff', marginBottom: '4px' }}>{m.name}</h3>
-                      <div style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '12px' }}>{m.tagline}</div>
+                      <h3 style={{ fontSize: '16px', color: '#ffffff', marginBottom: '2px' }}>{m.name}</h3>
+                      <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '10px' }}>{m.tagline}</div>
                       
-                      <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: 'rgba(255, 255, 255, 0.04)', borderRadius: '6px', marginBottom: '12px' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 10px', background: 'rgba(255, 255, 255, 0.04)', borderRadius: '6px', marginBottom: '10px' }}>
                         <div>
-                          <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>EST. RENT</div>
-                          <div style={{ fontSize: '13px', fontWeight: 700, color: '#ffffff' }}>${m.baseRent}/mo</div>
+                          <div style={{ fontSize: '9.5px', color: 'var(--text-muted)' }}>EST. RENT</div>
+                          <div style={{ fontSize: '12px', fontWeight: 700, color: '#ffffff' }}>${m.baseRent}/mo</div>
                         </div>
                         <div style={{ textAlign: 'right' }}>
-                          <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>HOMEOWNER SPLIT</div>
-                          <div style={{ fontSize: '13px', fontWeight: 700, color: '#34d399' }}>${m.homeownerSplit}/mo</div>
+                          <div style={{ fontSize: '9.5px', color: 'var(--text-muted)' }}>HOMEOWNER SPLIT</div>
+                          <div style={{ fontSize: '12px', fontWeight: 700, color: '#34d399' }}>${m.homeownerSplit}/mo</div>
                         </div>
                       </div>
 
-                      <ul style={{ paddingLeft: '16px', fontSize: '11.5px', color: 'var(--text-secondary)', display: 'flex', flexDirection: 'column', gap: '4px', marginBottom: '14px' }}>
+                      <ul style={{ paddingLeft: '14px', fontSize: '11px', color: 'var(--text-secondary)', display: 'flex', flexDirection: 'column', gap: '3px', marginBottom: '12px' }}>
                         {m.features.slice(0, 3).map((f, i) => (
                           <li key={i}>{f}</li>
                         ))}
                       </ul>
                     </div>
 
-                    <div style={{ display: 'flex', gap: '8px' }}>
+                    <div style={{ display: 'flex', gap: '6px' }}>
                       <button 
                         className="btn btn-primary" 
-                        style={{ flex: 1, fontSize: '12px' }}
+                        style={{ flex: 1, fontSize: '11.5px', padding: '8px 10px' }}
                         onClick={() => {
                           setSelectedModelId(m.id);
                           setActiveView('floorplan');
                           setActiveTab('configurator');
                         }}
                       >
-                        📐 View Plan & ROI <ArrowRight size={14} />
+                        📐 Plan & ROI <ArrowRight size={13} />
                       </button>
                       <button 
                         className="btn btn-secondary"
-                        style={{ fontSize: '12px', padding: '8px 12px' }}
+                        style={{ fontSize: '11.5px', padding: '8px 10px' }}
                         onClick={() => setModalImage(m.blueprintImage)}
+                        title="View Full Blueprint"
                       >
-                        <Maximize2 size={14} />
+                        <Maximize2 size={13} />
                       </button>
                     </div>
                   </div>
@@ -1051,66 +1048,66 @@ export default function App() {
         {/* ==================================================== */}
         {activeTab === 'downloads' && (
           <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-            <div style={{ textAlign: 'center', marginBottom: '28px' }}>
+            <div style={{ textAlign: 'center', marginBottom: '20px' }}>
               <span className="badge badge-green">Downloads Hub</span>
-              <h2 style={{ fontSize: '28px', color: '#ffffff', margin: '6px 0 8px 0' }}>Executive Marketing & Investment Decks</h2>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '13.5px' }}>
+              <h2 style={{ fontSize: '22px', color: '#ffffff', margin: '4px 0 6px 0' }}>Executive Marketing & Investment Decks</h2>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '12px' }}>
                 High-resolution brochures, financial models, and full-color presentations ready to print or email to homeowners and capital partners.
               </p>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+            <div className="downloads-grid">
               
               {/* Card 1: Pitch Deck */}
-              <div className="glass-panel" style={{ padding: '24px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <div className="glass-panel" style={{ padding: '18px 16px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                 <div>
-                  <div style={{ width: '40px', height: '40px', borderRadius: '8px', background: 'rgba(59, 130, 246, 0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '12px' }}>
-                    <FileText size={20} color="#3b82f6" />
+                  <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(59, 130, 246, 0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '10px' }}>
+                    <FileText size={18} color="#3b82f6" />
                   </div>
-                  <h3 style={{ fontSize: '18px', color: '#ffffff', marginBottom: '6px' }}>12-Slide Executive Pitch Deck</h3>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '12px', marginBottom: '14px' }}>
-                    Complete 16:9 widescreen presentation deck covering all 5 models, CAD floorplans, HaaS unit economics, timeline, and interior/exterior photography.
+                  <h3 style={{ fontSize: '16px', color: '#ffffff', marginBottom: '4px' }}>17-Slide Executive Pitch Deck</h3>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '11.5px', marginBottom: '10px' }}>
+                    Complete 16:9 presentation deck with 3D color renders, official CAD floorplans, HaaS unit economics, and delivery timeline.
                   </p>
-                  <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '16px' }}>
-                    &bull; Available Formats: PowerPoint (.pptx) & Landscape PDF (.pdf)
+                  <div style={{ fontSize: '10.5px', color: 'var(--text-muted)', marginBottom: '14px' }}>
+                    &bull; Formats: PowerPoint (.pptx) & Landscape PDF (.pdf)
                   </div>
                 </div>
-                <div style={{ display: 'flex', gap: '8px' }}>
-                  <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pptx" download className="btn btn-primary" style={{ flex: 1, fontSize: '12px' }}>
-                    <Download size={14} /> PPTX Deck
+                <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
+                  <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pptx" download className="btn btn-primary" style={{ flex: '1 1 120px', fontSize: '11.5px' }}>
+                    <Download size={13} /> PPTX Deck
                   </a>
-                  <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pdf" download className="btn btn-secondary" style={{ flex: 1, fontSize: '12px' }}>
-                    <Download size={14} /> PDF Deck
+                  <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pdf" download className="btn btn-secondary" style={{ flex: '1 1 120px', fontSize: '11.5px' }}>
+                    <Download size={13} /> PDF Deck
                   </a>
                 </div>
               </div>
 
               {/* Card 2: Marketing Brochure */}
-              <div className="glass-panel" style={{ padding: '24px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <div className="glass-panel" style={{ padding: '18px 16px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                 <div>
-                  <div style={{ width: '40px', height: '40px', borderRadius: '8px', background: 'rgba(16, 185, 129, 0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '12px' }}>
-                    <Building size={20} color="#10b981" />
+                  <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(16, 185, 129, 0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '10px' }}>
+                    <Building size={18} color="#10b981" />
                   </div>
-                  <h3 style={{ fontSize: '18px', color: '#ffffff', marginBottom: '6px' }}>Full-Color Product Catalog</h3>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: '12px', marginBottom: '14px' }}>
+                  <h3 style={{ fontSize: '16px', color: '#ffffff', marginBottom: '4px' }}>Full-Color Product Catalog</h3>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '11.5px', marginBottom: '10px' }}>
                     3-page executive marketing brochure detailing the Meadow, Sierra, and Cascade models with architectural specs and revenue splits.
                   </p>
-                  <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '16px' }}>
-                    &bull; High-resolution vector PDF formatted for print & digital distribution.
+                  <div style={{ fontSize: '10.5px', color: 'var(--text-muted)', marginBottom: '14px' }}>
+                    &bull; High-resolution PDF formatted for print & digital distribution.
                   </div>
                 </div>
-                <a href="/downloads/s2a_modular_adu_marketing_catalog.pdf" download className="btn btn-emerald" style={{ width: '100%', fontSize: '12px' }}>
-                  <Download size={14} /> Download Color Catalog (.pdf)
+                <a href="/downloads/s2a_modular_adu_marketing_catalog.pdf" download className="btn btn-emerald" style={{ width: '100%', fontSize: '11.5px' }}>
+                  <Download size={13} /> Download Color Catalog (.pdf)
                 </a>
               </div>
 
             </div>
 
             {/* Note on Downloads folder */}
-            <div style={{ marginTop: '24px', padding: '14px 20px', background: 'rgba(59, 130, 246, 0.08)', borderRadius: '8px', border: '1px solid rgba(59, 130, 246, 0.2)', display: 'flex', alignItems: 'center', gap: '12px', fontSize: '12px', color: '#93c5fd' }}>
-              <CheckCircle size={18} color="#3b82f6" />
+            <div style={{ marginTop: '16px', padding: '12px 14px', background: 'rgba(59, 130, 246, 0.08)', borderRadius: '8px', border: '1px solid rgba(59, 130, 246, 0.2)', display: 'flex', alignItems: 'center', gap: '10px', fontSize: '11.5px', color: '#93c5fd' }}>
+              <CheckCircle size={16} color="#3b82f6" style={{ flexShrink: 0 }} />
               <div>
-                <strong>Local Machine Sync:</strong> All generated PDF brochures and PowerPoint decks have also been saved directly to your <code>~/Downloads</code> folder!
+                <strong>Local Machine Sync:</strong> All generated PDF brochures and PowerPoint decks have also been saved to your <code>~/Downloads</code> folder!
               </div>
             </div>
 
@@ -1126,34 +1123,34 @@ export default function App() {
             position: 'fixed',
             inset: 0,
             zIndex: 100,
-            background: 'rgba(0, 0, 0, 0.85)',
+            background: 'rgba(0, 0, 0, 0.88)',
             backdropFilter: 'blur(12px)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            padding: '24px'
+            padding: '12px'
           }}
           onClick={() => setModalImage(null)}
         >
-          <div style={{ maxWidth: '1200px', width: '100%', background: '#ffffff', borderRadius: '10px', padding: '16px', position: 'relative', overflow: 'hidden' }} onClick={e => e.stopPropagation()}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px', borderBottom: '1px solid #e2e8f0', paddingBottom: '8px' }}>
-              <span style={{ fontWeight: 800, color: '#0f172a', fontSize: '14px' }}>Official S2A Modular CAD Blueprint Sheet</span>
-              <button className="btn btn-secondary" onClick={() => setModalImage(null)} style={{ padding: '4px 10px', fontSize: '12px', color: '#0f172a' }}>
+          <div style={{ maxWidth: '1200px', width: '100%', background: '#ffffff', borderRadius: '8px', padding: '12px', position: 'relative', overflow: 'hidden' }} onClick={e => e.stopPropagation()}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px', borderBottom: '1px solid #e2e8f0', paddingBottom: '6px' }}>
+              <span style={{ fontWeight: 800, color: '#0f172a', fontSize: '13px' }}>Official S2A Modular CAD Blueprint Sheet</span>
+              <button className="btn btn-secondary" onClick={() => setModalImage(null)} style={{ padding: '3px 8px', fontSize: '11px', color: '#0f172a', minHeight: '28px' }}>
                 ✕ Close
               </button>
             </div>
-            <div style={{ maxHeight: '80vh', overflow: 'auto', display: 'flex', justifyContent: 'center' }}>
-              <img src={modalImage} alt="CAD Blueprint" style={{ width: '100%', height: 'auto' }} />
+            <div style={{ maxHeight: '75vh', overflow: 'auto', display: 'flex', justifyContent: 'center' }}>
+              <img src={modalImage} alt="CAD Blueprint" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
             </div>
           </div>
         </div>
       )}
 
       {/* Footer */}
-      <footer style={{ padding: '20px 24px', borderTop: '1px solid var(--border-subtle)', background: 'rgba(8, 12, 20, 0.95)', marginTop: 'auto' }}>
-        <div style={{ maxWidth: '1400px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '11.5px', color: 'var(--text-muted)' }}>
+      <footer style={{ padding: '16px', borderTop: '1px solid var(--border-subtle)', background: 'rgba(8, 12, 20, 0.95)', marginTop: 'auto' }}>
+        <div style={{ maxWidth: '1400px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'center', textAlign: 'center', fontSize: '10.5px', color: 'var(--text-muted)' }}>
           <div>&copy; 2026 S2A Modular &bull; Housing-as-a-Service (HaaS) Infrastructure</div>
-          <div style={{ display: 'flex', gap: '16px' }}>
+          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center' }}>
             <span>Pre-Approved Modular Architecture</span>
             <span>Zero-CapEx Homeowner Model</span>
             <span>Turnkey Delivery</span>
