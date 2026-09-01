@@ -27,11 +27,16 @@ jobs:
           cd delisted-crm-database
           npm ci
 
+      - name: Install HaaS ADU Configurator Dependencies
+        run: |
+          cd haas-adu-configurator
+          npm ci
+
       - name: Generate Codebase Topology
         run: npm run topology:generate
 
       - name: Run Automated Smoke Tests
         run: npm run test:smoke
 
-      - name: Build All Applications (Scout 144 + Delisted CRM)
+      - name: Build All Monorepo Applications (Scout 144 + Delisted CRM + HaaS ADU Configurator)
         run: npm run build:all
