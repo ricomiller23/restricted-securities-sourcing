@@ -33,8 +33,8 @@ HARMONY_IMG = os.path.join(APP_IMG_DIR, "harmony.jpg")
 SIERRA_IMG = os.path.join(APP_IMG_DIR, "sierra.jpg")
 MEADOW_IMG = os.path.join(APP_IMG_DIR, "meadow.jpg")
 CASCADE_IMG = os.path.join(APP_IMG_DIR, "cascade.jpg")
-INTERIOR_IMG = os.path.join(APP_IMG_DIR, "interior.jpg")
-PATIO_IMG = os.path.join(APP_IMG_DIR, "patio.jpg")
+INTERIOR_IMG = os.path.join(APP_IMG_DIR, "haven_interior.jpg")
+PATIO_IMG = os.path.join(APP_IMG_DIR, "haven_patio.jpg")
 
 # Floorplans & Blueprints
 FP_HAVEN = os.path.join(APP_IMG_DIR, "floorplan_haven.png")
