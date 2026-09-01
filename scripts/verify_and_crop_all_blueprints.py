@@ -1,56 +1,53 @@
 """
 verify_and_crop_all_blueprints.py
-Precisely crops each model's architectural floorplan and full blueprint sheet.
+Auto-detects and crops each model's architectural floorplan with generous margin and centering.
 """
 
 from PIL import Image
+import numpy as np
 import os
 
 APP_IMG_DIR = "/Users/ericmiller/NEW JUNE 26/haas-adu-configurator/public/images"
+ARTIFACT_DIR = "/Users/ericmiller/.gemini/antigravity-ide/brain/7edf9bcc-1ac5-41c6-befd-671b39214d4c"
 os.makedirs(APP_IMG_DIR, exist_ok=True)
 
-# File mappings from the 5 uploaded PDFs:
-# doc1 = media_1788290121319.pdf = HARMONY
-# doc2 = media_1788290121320.pdf = SIERRA
-# doc3 = media_1788290121335.pdf = HAVEN
-# doc4 = media_1788290121336.pdf = MEADOW
-# doc5 = media_1788290121337.pdf = CASCADE
+regions = [
+    (1, 'harmony', (0.25, 0.28, 0.65, 0.70)),
+    (2, 'sierra', (0.28, 0.10, 0.65, 0.52)),
+    (3, 'haven', (0.28, 0.25, 0.65, 0.68)),
+    (4, 'meadow', (0.22, 0.10, 0.64, 0.58)),
+    (5, 'cascade', (0.10, 0.15, 0.46, 0.56))
+]
 
-# 1. HARMONY (14' x 24' | 348 SQ FT)
-img_harmony = Image.open("/tmp/blueprints_png/doc1.png")
-w, h = img_harmony.size
-# Full Blueprint
-img_harmony.save(os.path.join(APP_IMG_DIR, "blueprint_harmony.png"))
-# Floorplan region: center
-fp_harmony = img_harmony.crop((int(0.32 * w), int(0.34 * h), int(0.60 * w), int(0.63 * h)))
-fp_harmony.save(os.path.join(APP_IMG_DIR, "floorplan_harmony.png"))
+for doc_num, name, (x1p, y1p, x2p, y2p) in regions:
+    img = Image.open(f"/tmp/blueprints_png/doc{doc_num}.png").convert("RGB")
+    w, h = img.size
+    
+    # Save full blueprint sheet
+    img.save(os.path.join(APP_IMG_DIR, f"blueprint_{name}.png"))
+    img.save(os.path.join(ARTIFACT_DIR, f"blueprint_{name}.png"))
+    
+    # Initial broad crop
+    initial_crop = img.crop((int(x1p * w), int(y1p * h), int(x2p * w), int(y2p * h)))
+    
+    # Detect drawing bounding box
+    gray = initial_crop.convert("L")
+    arr = np.array(gray)
+    dark_y, dark_x = np.where(arr < 220)
+    
+    if len(dark_x) > 0:
+        min_x, max_x = dark_x.min(), dark_x.max()
+        min_y, max_y = dark_y.min(), dark_y.max()
+        
+        pad = 35
+        bx1 = max(0, min_x - pad)
+        by1 = max(0, min_y - pad)
+        bx2 = min(initial_crop.width, max_x + pad)
+        by2 = min(initial_crop.height, max_y + pad)
+        
+        final_crop = initial_crop.crop((bx1, by1, bx2, by2))
+        final_crop.save(os.path.join(APP_IMG_DIR, f"floorplan_{name}.png"))
+        final_crop.save(os.path.join(ARTIFACT_DIR, f"floorplan_{name}.png"))
+        print(f"✓ {name.upper()}: Cleanly cropped and centered ({final_crop.size[0]}x{final_crop.size[1]} px)")
 
-# 2. SIERRA (14' x 31'-6" | 420 SQ FT)
-img_sierra = Image.open("/tmp/blueprints_png/doc2.png")
-img_sierra.save(os.path.join(APP_IMG_DIR, "blueprint_sierra.png"))
-# Floorplan region: top-center
-fp_sierra = img_sierra.crop((int(0.30 * w), int(0.14 * h), int(0.61 * w), int(0.48 * h)))
-fp_sierra.save(os.path.join(APP_IMG_DIR, "floorplan_sierra.png"))
-
-# 3. HAVEN (14' x 29' | 350 SQ FT)
-img_haven = Image.open("/tmp/blueprints_png/doc3.png")
-img_haven.save(os.path.join(APP_IMG_DIR, "blueprint_haven.png"))
-# Floorplan region: center
-fp_haven = img_haven.crop((int(0.31 * w), int(0.29 * h), int(0.61 * w), int(0.63 * h)))
-fp_haven.save(os.path.join(APP_IMG_DIR, "floorplan_haven.png"))
-
-# 4. MEADOW (15' x 31'-9" | 435 SQ FT)
-img_meadow = Image.open("/tmp/blueprints_png/doc4.png")
-img_meadow.save(os.path.join(APP_IMG_DIR, "blueprint_meadow.png"))
-# Floorplan region: top-center
-fp_meadow = img_meadow.crop((int(0.28 * w), int(0.14 * h), int(0.60 * w), int(0.53 * h)))
-fp_meadow.save(os.path.join(APP_IMG_DIR, "floorplan_meadow.png"))
-
-# 5. CASCADE (12' x 27'-9" | 300 SQ FT)
-img_cascade = Image.open("/tmp/blueprints_png/doc5.png")
-img_cascade.save(os.path.join(APP_IMG_DIR, "blueprint_cascade.png"))
-# Floorplan region: top-left
-fp_cascade = img_cascade.crop((int(0.13 * w), int(0.19 * h), int(0.43 * w), int(0.51 * h)))
-fp_cascade.save(os.path.join(APP_IMG_DIR, "floorplan_cascade.png"))
-
-print("Verified and generated clean floorplans and blueprint sheets for all 5 models!")
+print("All floorplans verified and saved!")
