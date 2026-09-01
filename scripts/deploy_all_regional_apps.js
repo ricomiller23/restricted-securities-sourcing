@@ -23,7 +23,8 @@ const REGIONAL_DIRECTORIES = [
   "LONDON-filings-outreach",
   "LONDON-future-3a10-candidates",
   "TESTBED_delisted-crm-dbase",
-  "delisted-crm-database"
+  "delisted-crm-database",
+  "haas-adu-configurator"
 ];
 
 console.log("=================================================");

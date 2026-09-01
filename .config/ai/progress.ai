@@ -78,4 +78,11 @@
 - **Executive PDF Report Generator**: Created `scripts/generate_report_pdf.cjs` and `"report:pdf"` npm script, compiling an executive 4-page PDF brief covering Specifications 0.001 – 0.009, benchmarks, and topology.
 - **Downloads Export Policy**: Configured `AGENTS.md`, `GEMINI.md`, `repo.ai`, and generator script to automatically save all generated reports, PDFs, and exported briefs to `~/Downloads` (`/Users/ericmiller/Downloads`) for immediate discovery.
 
+## 2026-09-01 - HaaS ADU Configurator, Marketing Deck, and Cloud Deployment
+- **3D Color Architectural Marketing Suite**: Transformed all 5 S2A Modular blueprint models (Haven, Harmony, Sierra, Meadow, Cascade) into photorealistic 3D color marketing renders including interior great room lofts and rear entertaining patios.
+- **Executive Pitch Deck & Brochure**: Built `scripts/build_adu_presentation.py` and `scripts/generate_adu_catalog_pdf.cjs` delivering a 12-slide PowerPoint presentation (`.pptx`), 12-page landscape PDF (`.pdf`), and 3-page full-color marketing catalog (`.pdf`) directly to `~/Downloads`.
+- **Interactive HaaS Web Configurator & ROI Calculator**: Scaffolding complete SPA (`haas-adu-configurator`) with GIS parcel feasibility screener, 5-model 3D configurator, finish/upgrade selector, dynamic metro cash flow calculator, and 4-step virtual site audit lead intake portal.
+- **Vercel Cloud Deployment**: Deployed `haas-adu-configurator` to Vercel production at `https://haas-adu-configurator.vercel.app`.
+- **Validation**: All 3 monorepo applications built cleanly (`npm run build:all` in 2.3s); 20/20 smoke tests passing green.
+
 

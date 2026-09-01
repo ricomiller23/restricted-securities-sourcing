@@ -9,7 +9,7 @@
     "client": "vite",
     "server": "node server.js",
     "build": "vite build",
-    "build:all": "vite build && cd delisted-crm-database && npm run build",
+    "build:all": "vite build && cd delisted-crm-database && npm run build && cd ../haas-adu-configurator && npm run build",
     "preview": "vite preview",
     "sync:daily": "node scripts/morning_sync.js",
     "benchmark": "node scripts/benchmark_launch.js",
@@ -18,7 +18,12 @@
     "test:smoke": "node scripts/smoke_test.js",
     "test:all": "node scripts/smoke_test.js",
     "deploy:all": "node scripts/deploy_all_regional_apps.js",
-    "report:pdf": "node scripts/generate_report_pdf.cjs"
+    "report:pdf": "node scripts/generate_report_pdf.cjs",
+    "catalog:pdf": "node scripts/generate_adu_catalog_pdf.cjs",
+    "deck:build": "python3 scripts/build_adu_presentation.py",
+    "haas:dev": "cd haas-adu-configurator && npm run dev",
+    "haas:build": "cd haas-adu-configurator && npm run build",
+    "haas:deploy": "cd haas-adu-configurator && npx -y vercel --prod --yes"
   },
   "dependencies": {
     "cors": "^2.8.5",
