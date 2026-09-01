@@ -16,7 +16,9 @@ import {
   Building,
   TrendingUp,
   FileText,
-  Sliders
+  Sliders,
+  Grid,
+  Eye
 } from 'lucide-react';
 
 const MODELS = [
@@ -33,10 +35,12 @@ const MODELS = [
     heroImage: '/images/haven.jpg',
     interiorImage: '/images/interior.jpg',
     patioImage: '/images/patio.jpg',
+    floorplanImage: '/images/floorplan_haven.png',
+    blueprintImage: '/images/blueprint_haven.png',
     features: [
       'Full rooftop sky lounge deck with spiral staircase access',
-      "4'-0\" integrated covered front porch",
-      'Open kitchenette & living room with roof skylight',
+      "4'-0\" integrated covered front porch with recessed downlights",
+      'Open kitchenette & living room with roof skylight access',
       'Private bedroom with double wardrobe closet & full bath',
       'Panoramic sliding glass patio doors for indoor-outdoor living'
     ],
@@ -56,6 +60,8 @@ const MODELS = [
     heroImage: '/images/harmony.jpg',
     interiorImage: '/images/interior.jpg',
     patioImage: '/images/patio.jpg',
+    floorplanImage: '/images/floorplan_harmony.png',
+    blueprintImage: '/images/blueprint_harmony.png',
     features: [
       'Classic pitched gabled roofline with architectural shingles',
       'Welcoming covered front portico with artisan coach lighting',
@@ -79,6 +85,8 @@ const MODELS = [
     heroImage: '/images/sierra.jpg',
     interiorImage: '/images/interior.jpg',
     patioImage: '/images/patio.jpg',
+    floorplanImage: '/images/floorplan_sierra.png',
+    blueprintImage: '/images/blueprint_sierra.png',
     features: [
       'Modern mono-pitch shed roofline with clerestory transoms',
       'Vaulted Great Room with mezzanine sleeping loft above',
@@ -102,6 +110,8 @@ const MODELS = [
     heroImage: '/images/meadow.jpg',
     interiorImage: '/images/interior.jpg',
     patioImage: '/images/patio.jpg',
+    floorplanImage: '/images/floorplan_meadow.png',
+    blueprintImage: '/images/blueprint_meadow.png',
     features: [
       'Full-footprint rooftop sun terrace with slatted privacy railings',
       'Exterior open staircase connecting yard directly to rooftop',
@@ -125,6 +135,8 @@ const MODELS = [
     heroImage: '/images/cascade.jpg',
     interiorImage: '/images/interior.jpg',
     patioImage: '/images/patio.jpg',
+    floorplanImage: '/images/floorplan_cascade.png',
+    blueprintImage: '/images/blueprint_cascade.png',
     features: [
       'Slimline 12-foot exterior profile engineered for narrow lots',
       "Industrial steel ship's ladder ascending to observation deck",
@@ -151,10 +163,11 @@ const METROS = [
 export default function App() {
   const [activeTab, setActiveTab] = useState('configurator');
   const [selectedModelId, setSelectedModelId] = useState('haven');
-  const [activeView, setActiveView] = useState('exterior'); // 'exterior' | 'interior' | 'patio'
+  const [activeView, setActiveView] = useState('exterior'); // 'exterior' | 'interior' | 'patio' | 'floorplan' | 'blueprint'
   const [selectedMetro, setSelectedMetro] = useState(METROS[0]);
   const [addressInput, setAddressInput] = useState('1428 Elmwood Ave, Los Angeles, CA 90038');
   const [isAuditingLot, setIsAuditingLot] = useState(false);
+  const [modalImage, setModalImage] = useState(null);
   const [lotData, setLotData] = useState({
     lotSqFt: 6450,
     backyardDepth: 42,
@@ -312,7 +325,7 @@ export default function App() {
                 border: activeTab === 'gallery' ? '1px solid rgba(59, 130, 246, 0.4)' : '1px solid transparent'
               }}
             >
-              <Layers size={14} /> 5-Model Portfolio
+              <Layers size={14} /> 5-Model Portfolio & Floorplans
             </button>
             <button 
               className="btn" 
@@ -404,33 +417,50 @@ export default function App() {
 
               {/* 3D Visualizer Viewport */}
               <div className="glass-panel" style={{ overflow: 'hidden', position: 'relative' }}>
-                <div style={{ height: '440px', position: 'relative' }}>
+                <div style={{ 
+                  height: '460px', 
+                  position: 'relative',
+                  background: activeView === 'floorplan' || activeView === 'blueprint' ? '#ffffff' : '#080c14',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  padding: activeView === 'floorplan' || activeView === 'blueprint' ? '16px' : '0'
+                }}>
                   <img 
                     src={
                       activeView === 'exterior' ? selectedModel.heroImage :
                       activeView === 'interior' ? selectedModel.interiorImage :
-                      selectedModel.patioImage
+                      activeView === 'patio' ? selectedModel.patioImage :
+                      activeView === 'floorplan' ? selectedModel.floorplanImage :
+                      selectedModel.blueprintImage
                     } 
                     alt={selectedModel.name}
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    style={{ 
+                      width: '100%', 
+                      height: '100%', 
+                      objectFit: activeView === 'floorplan' || activeView === 'blueprint' ? 'contain' : 'cover'
+                    }}
                   />
 
-                  {/* Image Overlay Gradient */}
-                  <div style={{
-                    position: 'absolute',
-                    inset: 0,
-                    background: 'linear-gradient(180deg, rgba(8,12,20,0.3) 0%, rgba(8,12,20,0.85) 100%)'
-                  }} />
+                  {/* Image Overlay Gradient for 3D Renders */}
+                  {(activeView === 'exterior' || activeView === 'interior' || activeView === 'patio') && (
+                    <div style={{
+                      position: 'absolute',
+                      inset: 0,
+                      background: 'linear-gradient(180deg, rgba(8,12,20,0.2) 0%, rgba(8,12,20,0.85) 100%)',
+                      pointerEvents: 'none'
+                    }} />
+                  )}
 
                   {/* Floating View Switcher */}
-                  <div style={{ position: 'absolute', top: '16px', right: '16px', display: 'flex', gap: '6px' }}>
+                  <div style={{ position: 'absolute', top: '16px', right: '16px', display: 'flex', gap: '6px', background: 'rgba(15, 23, 42, 0.85)', padding: '4px', borderRadius: '8px', border: '1px solid rgba(255, 255, 255, 0.12)', backdropFilter: 'blur(10px)' }}>
                     <button 
                       className="btn"
                       onClick={() => setActiveView('exterior')}
                       style={{
-                        padding: '6px 12px',
-                        fontSize: '11.5px',
-                        background: activeView === 'exterior' ? '#2563eb' : 'rgba(15, 23, 42, 0.8)',
+                        padding: '6px 10px',
+                        fontSize: '11px',
+                        background: activeView === 'exterior' ? '#2563eb' : 'transparent',
                         color: '#ffffff'
                       }}
                     >
@@ -440,9 +470,9 @@ export default function App() {
                       className="btn"
                       onClick={() => setActiveView('interior')}
                       style={{
-                        padding: '6px 12px',
-                        fontSize: '11.5px',
-                        background: activeView === 'interior' ? '#2563eb' : 'rgba(15, 23, 42, 0.8)',
+                        padding: '6px 10px',
+                        fontSize: '11px',
+                        background: activeView === 'interior' ? '#2563eb' : 'transparent',
                         color: '#ffffff'
                       }}
                     >
@@ -452,29 +482,69 @@ export default function App() {
                       className="btn"
                       onClick={() => setActiveView('patio')}
                       style={{
-                        padding: '6px 12px',
-                        fontSize: '11.5px',
-                        background: activeView === 'patio' ? '#2563eb' : 'rgba(15, 23, 42, 0.8)',
+                        padding: '6px 10px',
+                        fontSize: '11px',
+                        background: activeView === 'patio' ? '#2563eb' : 'transparent',
                         color: '#ffffff'
                       }}
                     >
                       Garden Patio
                     </button>
+                    <button 
+                      className="btn"
+                      onClick={() => setActiveView('floorplan')}
+                      style={{
+                        padding: '6px 10px',
+                        fontSize: '11px',
+                        background: activeView === 'floorplan' ? '#10b981' : 'transparent',
+                        color: '#ffffff',
+                        fontWeight: 700
+                      }}
+                    >
+                      📐 CAD Floor Plan
+                    </button>
+                    <button 
+                      className="btn"
+                      onClick={() => setActiveView('blueprint')}
+                      style={{
+                        padding: '6px 10px',
+                        fontSize: '11px',
+                        background: activeView === 'blueprint' ? '#8b5cf6' : 'transparent',
+                        color: '#ffffff'
+                      }}
+                    >
+                      Full Blueprint
+                    </button>
                   </div>
 
                   {/* Model Floating Badge */}
-                  <div style={{ position: 'absolute', bottom: '20px', left: '24px', right: '24px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+                  <div style={{ 
+                    position: 'absolute', 
+                    bottom: '16px', 
+                    left: '20px', 
+                    right: '20px', 
+                    display: 'flex', 
+                    justifyContent: 'space-between', 
+                    alignItems: 'flex-end',
+                    background: activeView === 'floorplan' || activeView === 'blueprint' ? 'rgba(15, 23, 42, 0.9)' : 'transparent',
+                    padding: activeView === 'floorplan' || activeView === 'blueprint' ? '10px 16px' : '0',
+                    borderRadius: '8px',
+                    border: activeView === 'floorplan' || activeView === 'blueprint' ? '1px solid rgba(255, 255, 255, 0.1)' : 'none'
+                  }}>
                     <div>
-                      <div style={{ display: 'flex', gap: '8px', marginBottom: '6px' }}>
+                      <div style={{ display: 'flex', gap: '8px', marginBottom: '4px' }}>
                         <span className="badge badge-blue">{selectedModel.dimensions}</span>
                         <span className="badge badge-green">{selectedModel.sqft} SQ. FT.</span>
+                        {(activeView === 'floorplan' || activeView === 'blueprint') && (
+                          <span className="badge badge-amber">Official S2A CAD Plan</span>
+                        )}
                       </div>
-                      <h2 style={{ fontSize: '26px', color: '#ffffff', marginBottom: '4px' }}>{selectedModel.name}</h2>
-                      <div style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>{selectedModel.tagline}</div>
+                      <h2 style={{ fontSize: '24px', color: '#ffffff', marginBottom: '2px' }}>{selectedModel.name}</h2>
+                      <div style={{ color: 'var(--text-secondary)', fontSize: '12px' }}>{selectedModel.tagline}</div>
                     </div>
                     <div style={{ textAlign: 'right' }}>
-                      <div style={{ fontSize: '11px', color: 'var(--text-muted)', textTransform: 'uppercase' }}>Homeowner Net Share</div>
-                      <div style={{ fontSize: '24px', fontWeight: 800, color: '#34d399' }}>${calculations.homeownerMonthly}/mo</div>
+                      <div style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase' }}>Homeowner Net Share</div>
+                      <div style={{ fontSize: '22px', fontWeight: 800, color: '#34d399' }}>${calculations.homeownerMonthly}/mo</div>
                     </div>
                   </div>
                 </div>
@@ -486,7 +556,6 @@ export default function App() {
                       key={m.id}
                       onClick={() => {
                         setSelectedModelId(m.id);
-                        setActiveView('exterior');
                       }}
                       style={{
                         padding: '10px 8px',
@@ -500,7 +569,7 @@ export default function App() {
                       }}
                     >
                       <div style={{ fontSize: '12px', fontWeight: 700, color: selectedModelId === m.id ? '#60a5fa' : '#ffffff' }}>{m.name}</div>
-                      <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>{m.sqft} sq ft</div>
+                      <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>{m.sqft} sq ft &bull; {m.dimensions}</div>
                     </button>
                   ))}
                 </div>
@@ -891,18 +960,37 @@ export default function App() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
             <div style={{ textAlign: 'center', maxWidth: '700px', margin: '0 auto 12px auto' }}>
               <span className="badge badge-blue">Architectural CAD Blueprint Suite</span>
-              <h2 style={{ fontSize: '28px', color: '#ffffff', margin: '6px 0 8px 0' }}>The S2A Modular Collection</h2>
+              <h2 style={{ fontSize: '28px', color: '#ffffff', margin: '6px 0 8px 0' }}>The S2A Modular Collection & Floorplans</h2>
               <p style={{ color: 'var(--text-secondary)', fontSize: '13.5px' }}>
                 Factory-built, precision-engineered modular ADUs and tiny homes built for zero-disruption residential deployment.
               </p>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(380px, 1fr))', gap: '20px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(420px, 1fr))', gap: '24px' }}>
               {MODELS.map(m => (
                 <div key={m.id} className="glass-panel" style={{ overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ height: '220px', position: 'relative' }}>
-                    <img src={m.heroImage} alt={m.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                    <div style={{ position: 'absolute', top: '12px', left: '12px', display: 'flex', gap: '6px' }}>
+                  
+                  {/* Image Grid: 3D Render + CAD Floorplan side-by-side */}
+                  <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', height: '220px', background: '#ffffff', position: 'relative' }}>
+                    <div style={{ position: 'relative', height: '100%', background: '#080c14' }}>
+                      <img src={m.heroImage} alt={m.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                      <div style={{ position: 'absolute', bottom: '8px', left: '8px', background: 'rgba(0,0,0,0.7)', padding: '2px 8px', borderRadius: '4px', fontSize: '10px', color: '#ffffff' }}>
+                        3D Exterior
+                      </div>
+                    </div>
+                    
+                    <div 
+                      style={{ height: '100%', background: '#ffffff', padding: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', cursor: 'pointer' }}
+                      onClick={() => setModalImage(m.blueprintImage)}
+                      title="Click to view full architectural blueprint"
+                    >
+                      <img src={m.floorplanImage} alt={`${m.name} Floorplan`} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                      <div style={{ position: 'absolute', bottom: '8px', right: '8px', background: 'rgba(15, 23, 42, 0.85)', padding: '2px 8px', borderRadius: '4px', fontSize: '10px', color: '#34d399', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                        <Eye size={10} /> CAD Plan
+                      </div>
+                    </div>
+
+                    <div style={{ position: 'absolute', top: '10px', left: '10px', display: 'flex', gap: '6px' }}>
                       <span className="badge badge-blue">{m.dimensions}</span>
                       <span className="badge badge-green">{m.sqft} SQ FT</span>
                     </div>
@@ -931,16 +1019,26 @@ export default function App() {
                       </ul>
                     </div>
 
-                    <button 
-                      className="btn btn-primary" 
-                      style={{ width: '100%', fontSize: '12.5px' }}
-                      onClick={() => {
-                        setSelectedModelId(m.id);
-                        setActiveTab('configurator');
-                      }}
-                    >
-                      Configure This Model & Calculate ROI <ArrowRight size={14} />
-                    </button>
+                    <div style={{ display: 'flex', gap: '8px' }}>
+                      <button 
+                        className="btn btn-primary" 
+                        style={{ flex: 1, fontSize: '12px' }}
+                        onClick={() => {
+                          setSelectedModelId(m.id);
+                          setActiveView('floorplan');
+                          setActiveTab('configurator');
+                        }}
+                      >
+                        📐 View Plan & ROI <ArrowRight size={14} />
+                      </button>
+                      <button 
+                        className="btn btn-secondary"
+                        style={{ fontSize: '12px', padding: '8px 12px' }}
+                        onClick={() => setModalImage(m.blueprintImage)}
+                      >
+                        <Maximize2 size={14} />
+                      </button>
+                    </div>
                   </div>
                 </div>
               ))}
@@ -971,7 +1069,7 @@ export default function App() {
                   </div>
                   <h3 style={{ fontSize: '18px', color: '#ffffff', marginBottom: '6px' }}>12-Slide Executive Pitch Deck</h3>
                   <p style={{ color: 'var(--text-secondary)', fontSize: '12px', marginBottom: '14px' }}>
-                    Complete 16:9 widescreen presentation deck covering all 5 models, HaaS unit economics, timeline, and interior/exterior photography.
+                    Complete 16:9 widescreen presentation deck covering all 5 models, CAD floorplans, HaaS unit economics, timeline, and interior/exterior photography.
                   </p>
                   <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '16px' }}>
                     &bull; Available Formats: PowerPoint (.pptx) & Landscape PDF (.pdf)
@@ -1020,6 +1118,36 @@ export default function App() {
         )}
 
       </main>
+
+      {/* Full Blueprint Modal */}
+      {modalImage && (
+        <div 
+          style={{
+            position: 'fixed',
+            inset: 0,
+            zIndex: 100,
+            background: 'rgba(0, 0, 0, 0.85)',
+            backdropFilter: 'blur(12px)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '24px'
+          }}
+          onClick={() => setModalImage(null)}
+        >
+          <div style={{ maxWidth: '1200px', width: '100%', background: '#ffffff', borderRadius: '10px', padding: '16px', position: 'relative', overflow: 'hidden' }} onClick={e => e.stopPropagation()}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px', borderBottom: '1px solid #e2e8f0', paddingBottom: '8px' }}>
+              <span style={{ fontWeight: 800, color: '#0f172a', fontSize: '14px' }}>Official S2A Modular CAD Blueprint Sheet</span>
+              <button className="btn btn-secondary" onClick={() => setModalImage(null)} style={{ padding: '4px 10px', fontSize: '12px', color: '#0f172a' }}>
+                ✕ Close
+              </button>
+            </div>
+            <div style={{ maxHeight: '80vh', overflow: 'auto', display: 'flex', justifyContent: 'center' }}>
+              <img src={modalImage} alt="CAD Blueprint" style={{ width: '100%', height: 'auto' }} />
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Footer */}
       <footer style={{ padding: '20px 24px', borderTop: '1px solid var(--border-subtle)', background: 'rgba(8, 12, 20, 0.95)', marginTop: 'auto' }}>

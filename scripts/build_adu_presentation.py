@@ -1,7 +1,7 @@
 """
 build_adu_presentation.py
-Generates an executive-grade 12-slide 16:9 PowerPoint (.pptx) and landscape PDF (.pdf)
-portfolio covering all 5 S2A Modular Tiny Home & ADU models, interiors, and HaaS models.
+Generates an executive-grade 17-slide 16:9 PowerPoint (.pptx) and landscape PDF (.pdf)
+portfolio covering all 5 S2A Modular Tiny Home & ADU models, CAD floorplans, interiors, and HaaS models.
 """
 
 import os
@@ -17,6 +17,7 @@ from pptx.enum.shapes import MSO_SHAPE
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOWNLOADS_DIR = os.path.join(os.path.expanduser("~"), "Downloads")
 ARTIFACT_DIR = "/Users/ericmiller/.gemini/antigravity-ide/brain/7edf9bcc-1ac5-41c6-befd-671b39214d4c"
+APP_IMG_DIR = os.path.join(BASE_DIR, "haas-adu-configurator", "public", "images")
 
 PPTX_OUTPUT_WORKSPACE = os.path.join(BASE_DIR, "S2A_Modular_ADU_HaaS_Portfolio.pptx")
 PPTX_OUTPUT_DOWNLOADS = os.path.join(DOWNLOADS_DIR, "S2A_Modular_ADU_HaaS_Portfolio.pptx")
@@ -27,13 +28,26 @@ PDF_OUTPUT_DOWNLOADS = os.path.join(DOWNLOADS_DIR, "S2A_Modular_ADU_HaaS_Portfol
 PDF_OUTPUT_ARTIFACT = os.path.join(ARTIFACT_DIR, "S2A_Modular_ADU_HaaS_Portfolio.pdf")
 
 # Images
-HAVEN_IMG = os.path.join(ARTIFACT_DIR, "haven_adu_render_1788288166439.jpg")
-HARMONY_IMG = os.path.join(ARTIFACT_DIR, "harmony_cottage_render_1788288551164.jpg")
-SIERRA_IMG = os.path.join(ARTIFACT_DIR, "sierra_loft_exterior_1788288332303.jpg")
-MEADOW_IMG = os.path.join(ARTIFACT_DIR, "meadow_rooftop_exterior_1788288596258.jpg")
-CASCADE_IMG = os.path.join(ARTIFACT_DIR, "cascade_adu_render_1788288784073.jpg")
-INTERIOR_IMG = os.path.join(ARTIFACT_DIR, "luxury_adu_interior_1788288353055.jpg")
-PATIO_IMG = os.path.join(ARTIFACT_DIR, "sierra_rear_patio_1788288802323.jpg")
+HAVEN_IMG = os.path.join(APP_IMG_DIR, "haven.jpg")
+HARMONY_IMG = os.path.join(APP_IMG_DIR, "harmony.jpg")
+SIERRA_IMG = os.path.join(APP_IMG_DIR, "sierra.jpg")
+MEADOW_IMG = os.path.join(APP_IMG_DIR, "meadow.jpg")
+CASCADE_IMG = os.path.join(APP_IMG_DIR, "cascade.jpg")
+INTERIOR_IMG = os.path.join(APP_IMG_DIR, "interior.jpg")
+PATIO_IMG = os.path.join(APP_IMG_DIR, "patio.jpg")
+
+# Floorplans & Blueprints
+FP_HAVEN = os.path.join(APP_IMG_DIR, "floorplan_haven.png")
+FP_HARMONY = os.path.join(APP_IMG_DIR, "floorplan_harmony.png")
+FP_SIERRA = os.path.join(APP_IMG_DIR, "floorplan_sierra.png")
+FP_MEADOW = os.path.join(APP_IMG_DIR, "floorplan_meadow.png")
+FP_CASCADE = os.path.join(APP_IMG_DIR, "floorplan_cascade.png")
+
+BP_HAVEN = os.path.join(APP_IMG_DIR, "blueprint_haven.png")
+BP_HARMONY = os.path.join(APP_IMG_DIR, "blueprint_harmony.png")
+BP_SIERRA = os.path.join(APP_IMG_DIR, "blueprint_sierra.png")
+BP_MEADOW = os.path.join(APP_IMG_DIR, "blueprint_meadow.png")
+BP_CASCADE = os.path.join(APP_IMG_DIR, "blueprint_cascade.png")
 
 # Colors
 C_DARK = RGBColor(15, 23, 42)       # #0f172a
@@ -83,11 +97,9 @@ def create_pptx():
     s1 = prs.slides.add_slide(blank_layout)
     set_bg(s1, C_DARK)
     
-    # Cover image on right
     if os.path.exists(HAVEN_IMG):
         s1.shapes.add_picture(HAVEN_IMG, Inches(6.8), Inches(0.8), Inches(5.8), Inches(5.9))
 
-    # Left content box
     cover_box = s1.shapes.add_textbox(Inches(0.8), Inches(1.5), Inches(5.6), Inches(4.5))
     tf1 = cover_box.text_frame
     tf1.word_wrap = True
@@ -106,7 +118,7 @@ def create_pptx():
     p2.space_before = Pt(12)
 
     p3 = tf1.add_paragraph()
-    p3.text = "A Complete Architectural & Housing-as-a-Service (HaaS) Turnkey Revenue Suite: Haven, Harmony, Sierra, Meadow & Cascade."
+    p3.text = "Complete Architectural CAD Floorplans & Turnkey Housing-as-a-Service (HaaS) Revenue Suite."
     p3.font.size = Pt(13)
     p3.font.color.rgb = C_LIGHT_BLUE
     p3.space_before = Pt(14)
@@ -122,7 +134,6 @@ def create_pptx():
     set_bg(s2, C_LIGHT_BG)
     add_header(s2, "Housing-as-a-Service (HaaS) Economics", "The Zero-CapEx Turnkey Backyard Revenue Model")
 
-    # 3 Pillar Cards
     cards_data = [
         ("1. Homeowner Benefit", "$500 – $1,000 / Mo Net", "Homeowners license unused backyard space for zero upfront cost. Operator funds permitting, foundation, unit fabrication, crane installation, and tenant management.", C_BLUE),
         ("2. Operator Economics", "$1,500 – $2,200 / Mo Net Yield", "High-ADR mid-term corporate executive, traveling medical, and high-quality long-term tenant placement yields 18–24 month capital payback per installation.", C_GREEN),
@@ -159,17 +170,15 @@ def create_pptx():
         p_desc.font.color.rgb = C_GRAY
         p_desc.space_before = Pt(12)
 
-    # FUNCTION TO ADD MODEL SLIDE
+    # FUNCTION TO ADD MODEL OVERVIEW SLIDE
     def add_model_slide(img_path, subtitle, title, dim, area, rent, split, features, ideal_for):
         s = prs.slides.add_slide(blank_layout)
         set_bg(s, C_LIGHT_BG)
         add_header(s, subtitle, title)
 
-        # Left Image
         if os.path.exists(img_path):
             s.shapes.add_picture(img_path, Inches(0.8), Inches(1.4), Inches(6.2), Inches(5.4))
 
-        # Right Specs Card
         card = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(7.2), Inches(1.4), Inches(5.3), Inches(5.4))
         card.fill.solid()
         card.fill.fore_color.rgb = C_WHITE
@@ -179,7 +188,6 @@ def create_pptx():
         tf = tb.text_frame
         tf.word_wrap = True
 
-        # Metric Badges
         p = tf.paragraphs[0]
         p.text = f"DIMENSIONS: {dim}  |  LIVING AREA: {area}"
         p.font.size = Pt(10.5)
@@ -220,7 +228,58 @@ def create_pptx():
         p_ideal.font.color.rgb = C_BLUE
         p_ideal.space_before = Pt(10)
 
-    # SLIDE 3: HAVEN
+    # FUNCTION TO ADD FLOORPLAN SLIDE
+    def add_floorplan_slide(fp_path, bp_path, subtitle, title, room_specs):
+        s = prs.slides.add_slide(blank_layout)
+        set_bg(s, C_LIGHT_BG)
+        add_header(s, subtitle, title)
+
+        # Left Floorplan Image Box
+        if os.path.exists(fp_path):
+            card_fp = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.8), Inches(1.4), Inches(7.0), Inches(5.4))
+            card_fp.fill.solid()
+            card_fp.fill.fore_color.rgb = C_WHITE
+            card_fp.line.color.rgb = C_BORDER
+            s.shapes.add_picture(fp_path, Inches(1.0), Inches(1.6), Inches(6.6), Inches(5.0))
+
+        # Right Specs Card
+        card_spec = s.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(8.0), Inches(1.4), Inches(4.5), Inches(5.4))
+        card_spec.fill.solid()
+        card_spec.fill.fore_color.rgb = C_WHITE
+        card_spec.line.color.rgb = C_BORDER
+
+        tb = s.shapes.add_textbox(Inches(8.2), Inches(1.6), Inches(4.1), Inches(5.0))
+        tf = tb.text_frame
+        tf.word_wrap = True
+
+        p = tf.paragraphs[0]
+        p.text = "OFFICIAL CAD BLUEPRINT SPECIFICATIONS"
+        p.font.size = Pt(11)
+        p.font.bold = True
+        p.font.color.rgb = C_BLUE
+
+        p_sub = tf.add_paragraph()
+        p_sub.text = "Factory Framed & State Approved"
+        p_sub.font.size = Pt(14)
+        p_sub.font.bold = True
+        p_sub.font.color.rgb = C_DARK
+        p_sub.space_before = Pt(4)
+
+        for room, detail in room_specs:
+            p_rm = tf.add_paragraph()
+            p_rm.text = f"• {room}: {detail}"
+            p_rm.font.size = Pt(10)
+            p_rm.font.color.rgb = C_GRAY
+            p_rm.space_before = Pt(6)
+
+        p_stamp = tf.add_paragraph()
+        p_stamp.text = "✓ Sealed Architectural Drawing Number A1"
+        p_stamp.font.size = Pt(10)
+        p_stamp.font.bold = True
+        p_stamp.font.color.rgb = C_GREEN
+        p_stamp.space_before = Pt(14)
+
+    # 1. HAVEN
     add_model_slide(
         HAVEN_IMG,
         "Model 01 • Modern Luxury ADU",
@@ -236,8 +295,20 @@ def create_pptx():
         ],
         "Upscale suburban backyards, premium view lots, executive retreats."
     )
+    add_floorplan_slide(
+        FP_HAVEN, BP_HAVEN,
+        "Model 01 • Architectural Plan",
+        "The Haven Floorplan (14' × 29' • 350 Sq. Ft.)",
+        [
+            ("Covered Porch", "4'-0\" integrated covered front entry porch with recessed downlights."),
+            ("Great Room & Kitchen", "Open 14' wide living space with roof skylight access hatch."),
+            ("Private Bedroom", "Ground floor bedroom with dual 2442SH egress windows & double closet."),
+            ("Full Bathroom", "3-3060 shower, vanity, toilet, and dedicated stack washer/dryer."),
+            ("Rooftop Deck", "Optional rooftop terrace accessed via site-installed spiral stairs.")
+        ]
+    )
 
-    # SLIDE 4: HARMONY
+    # 2. HARMONY
     add_model_slide(
         HARMONY_IMG,
         "Model 02 • Modern Craftsman Cottage",
@@ -253,8 +324,20 @@ def create_pptx():
         ],
         "Traditional HOA neighborhoods, in-law suites, historic districts."
     )
+    add_floorplan_slide(
+        FP_HARMONY, BP_HARMONY,
+        "Model 02 • Architectural Plan",
+        "The Harmony Floorplan (14' × 24' • 348 Sq. Ft.)",
+        [
+            ("Bed/Living Suite", "Large 14' × 12' open living/bedroom area with 3060SH windows."),
+            ("Full Kitchen", "Complete cooktop, sink, refrigerator, and pantry cabinet."),
+            ("Full Bathroom", "Enclosed private bath with 3-3060 fiberglass shower stall."),
+            ("Laundry & Storage", "Built-in stackable W/D closet with 2/4 INT door."),
+            ("Front Portico", "Covered stoop with classic artisan architectural trim.")
+        ]
+    )
 
-    # SLIDE 5: SIERRA
+    # 3. SIERRA
     add_model_slide(
         SIERRA_IMG,
         "Model 03 • Mono-Pitch Shed Loft",
@@ -270,8 +353,20 @@ def create_pptx():
         ],
         "Medium-to-large residential lots, remote tech professionals."
     )
+    add_floorplan_slide(
+        FP_SIERRA, BP_SIERRA,
+        "Model 03 • Architectural Plan",
+        "The Sierra Floorplan (14' × 31'-6\" • 420 Sq. Ft.)",
+        [
+            ("Vaulted Great Room", "Expansive 30'-0\" span with double front sliding glass doors."),
+            ("Mezzanine Loft", "Upper sleeping/storage loft open to below with access ladder."),
+            ("Private Bedroom", "Ground floor rear bedroom with full closet and egress windows."),
+            ("Full Kitchen & Dining", "Cooktop, prep island, sink, and high clerestory windows."),
+            ("Outdoor Stoops", "Dual front and rear site-built wooden entry stoops.")
+        ]
+    )
 
-    # SLIDE 6: MEADOW
+    # 4. MEADOW
     add_model_slide(
         MEADOW_IMG,
         "Model 04 • Flagship Rooftop Terrace",
@@ -287,8 +382,20 @@ def create_pptx():
         ],
         "Wide suburban parcels (50'+ width), high-ADR luxury travel rentals."
     )
+    add_floorplan_slide(
+        FP_MEADOW, BP_MEADOW,
+        "Model 04 • Architectural Plan",
+        "The Meadow Floorplan (15' × 31'-9\" • 435 Sq. Ft.)",
+        [
+            ("Dual Lofts", "Dual mezzanine lofts (Loft 1 + Loft 2) with plant ledge top."),
+            ("Exterior Staircase", "2'-9\" exterior open stair ascending to full rooftop terrace."),
+            ("Gourmet Kitchen", "Central kitchen with peninsula dining & 4836SL windows."),
+            ("Private Suite", "Private master bedroom with closet and stack W/D closet."),
+            ("Rear Patio Egress", "6/0 Patio sliding door opening directly onto garden deck.")
+        ]
+    )
 
-    # SLIDE 7: CASCADE
+    # 5. CASCADE
     add_model_slide(
         CASCADE_IMG,
         "Model 05 • Ultra-Compact High-Yield Infill",
@@ -304,25 +411,37 @@ def create_pptx():
         ],
         "Narrow side yards, urban infill parcels, maximum ROI density."
     )
+    add_floorplan_slide(
+        FP_CASCADE, BP_CASCADE,
+        "Model 05 • Architectural Plan",
+        "The Cascade Floorplan (12' × 27'-9\" • 300 Sq. Ft.)",
+        [
+            ("12' Slimline Footprint", "26'-0\" main box length engineered for tight setbacks."),
+            ("Ship's Ladder Access", "2'-9\" side ship's ladder leading to rooftop observation deck."),
+            ("Living/Dining & Kitchenette", "Efficient open plan with 4836SL window and linen storage."),
+            ("Bedroom & Loft", "Private sleeping quarters with bonus overhead storage loft."),
+            ("Rear Patio Door", "6/0 Patio sliding door for indoor-outdoor access.")
+        ]
+    )
 
-    # SLIDE 8: INTERIOR ARCHITECTURE
-    s8 = prs.slides.add_slide(blank_layout)
-    set_bg(s8, C_LIGHT_BG)
-    add_header(s8, "Interior Architecture & Finish Standards", "Scandinavian Modern Luxury & Space Optimization")
+    # SLIDE 13: INTERIOR ARCHITECTURE
+    s13 = prs.slides.add_slide(blank_layout)
+    set_bg(s13, C_LIGHT_BG)
+    add_header(s13, "Interior Architecture & Finish Standards", "Scandinavian Modern Luxury & Space Optimization")
 
     if os.path.exists(INTERIOR_IMG):
-        s8.shapes.add_picture(INTERIOR_IMG, Inches(0.8), Inches(1.4), Inches(6.2), Inches(5.4))
+        s13.shapes.add_picture(INTERIOR_IMG, Inches(0.8), Inches(1.4), Inches(6.2), Inches(5.4))
 
-    card8 = s8.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(7.2), Inches(1.4), Inches(5.3), Inches(5.4))
-    card8.fill.solid()
-    card8.fill.fore_color.rgb = C_WHITE
-    card8.line.color.rgb = C_BORDER
+    card13 = s13.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(7.2), Inches(1.4), Inches(5.3), Inches(5.4))
+    card13.fill.solid()
+    card13.fill.fore_color.rgb = C_WHITE
+    card13.line.color.rgb = C_BORDER
 
-    tb8 = s8.shapes.add_textbox(Inches(7.4), Inches(1.5), Inches(4.9), Inches(5.2))
-    tf8 = tb8.text_frame
-    tf8.word_wrap = True
+    tb13 = s13.shapes.add_textbox(Inches(7.4), Inches(1.5), Inches(4.9), Inches(5.2))
+    tf13 = tb13.text_frame
+    tf13.word_wrap = True
 
-    p = tf8.paragraphs[0]
+    p = tf13.paragraphs[0]
     p.text = "PREMIUM FACTORY-FINISHED INTERIORS"
     p.font.size = Pt(11)
     p.font.bold = True
@@ -338,30 +457,30 @@ def create_pptx():
     ]
 
     for title_pt, desc_pt in points:
-        pt = tf8.add_paragraph()
+        pt = tf13.add_paragraph()
         pt.text = f"• {title_pt}: {desc_pt}"
         pt.font.size = Pt(10)
         pt.font.color.rgb = C_DARK
         pt.space_before = Pt(5)
 
-    # SLIDE 9: REAR PATIO & OUTDOOR LIVING
-    s9 = prs.slides.add_slide(blank_layout)
-    set_bg(s9, C_LIGHT_BG)
-    add_header(s9, "Seamless Indoor-Outdoor Living", "Private Backyard Entertaining Patios & Sun Decks")
+    # SLIDE 14: REAR PATIO & OUTDOOR LIVING
+    s14 = prs.slides.add_slide(blank_layout)
+    set_bg(s14, C_LIGHT_BG)
+    add_header(s14, "Seamless Indoor-Outdoor Living", "Private Backyard Entertaining Patios & Sun Decks")
 
     if os.path.exists(PATIO_IMG):
-        s9.shapes.add_picture(PATIO_IMG, Inches(0.8), Inches(1.4), Inches(6.2), Inches(5.4))
+        s14.shapes.add_picture(PATIO_IMG, Inches(0.8), Inches(1.4), Inches(6.2), Inches(5.4))
 
-    card9 = s9.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(7.2), Inches(1.4), Inches(5.3), Inches(5.4))
-    card9.fill.solid()
-    card9.fill.fore_color.rgb = C_WHITE
-    card9.line.color.rgb = C_BORDER
+    card14 = s14.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(7.2), Inches(1.4), Inches(5.3), Inches(5.4))
+    card14.fill.solid()
+    card14.fill.fore_color.rgb = C_WHITE
+    card14.line.color.rgb = C_BORDER
 
-    tb9 = s9.shapes.add_textbox(Inches(7.4), Inches(1.5), Inches(4.9), Inches(5.2))
-    tf9 = tb9.text_frame
-    tf9.word_wrap = True
+    tb14 = s14.shapes.add_textbox(Inches(7.4), Inches(1.5), Inches(4.9), Inches(5.2))
+    tf14 = tb14.text_frame
+    tf14.word_wrap = True
 
-    p = tf9.paragraphs[0]
+    p = tf14.paragraphs[0]
     p.text = "ELEVATING THE BACKYARD EXPERIENCE"
     p.font.size = Pt(11)
     p.font.bold = True
@@ -376,24 +495,23 @@ def create_pptx():
     ]
 
     for title_pt, desc_pt in points9:
-        pt = tf9.add_paragraph()
+        pt = tf14.add_paragraph()
         pt.text = f"• {title_pt}: {desc_pt}"
         pt.font.size = Pt(10)
         pt.font.color.rgb = C_DARK
         pt.space_before = Pt(6)
 
-    # SLIDE 10: COMPARISON MATRIX
-    s10 = prs.slides.add_slide(blank_layout)
-    set_bg(s10, C_LIGHT_BG)
-    add_header(s10, "Portfolio Comparison", "Comprehensive S2A Modular ADU Lineup")
+    # SLIDE 15: COMPARISON MATRIX
+    s15 = prs.slides.add_slide(blank_layout)
+    set_bg(s15, C_LIGHT_BG)
+    add_header(s15, "Portfolio Comparison", "Comprehensive S2A Modular ADU Lineup")
 
-    # Table
     rows, cols = 6, 6
     left, top, width, height = Inches(0.8), Inches(1.5), Inches(11.7), Inches(5.2)
-    table_shape = s10.shapes.add_table(rows, cols, left, top, width, height)
+    table_shape = s15.shapes.add_table(rows, cols, left, top, width, height)
     tbl = table_shape.table
 
-    headers = ["Model", "Dimensions", "Living Area", "Key Feature", "Est. Rent", "Homeowner Split"]
+    headers = ["Model", "Dimensions", "Living Area", "Key Blueprint Feature", "Est. Rent", "Homeowner Split"]
     for j, h in enumerate(headers):
         cell = tbl.cell(0, j)
         cell.text = h
@@ -424,10 +542,10 @@ def create_pptx():
             if j == 0 or j >= 4:
                 p.font.bold = True
 
-    # SLIDE 11: DEPLOYMENT TIMELINE
-    s11 = prs.slides.add_slide(blank_layout)
-    set_bg(s11, C_LIGHT_BG)
-    add_header(s11, "Turnkey Delivery Timeline", "From Site Audit to Monthly Cash Flow in 30–45 Days")
+    # SLIDE 16: DEPLOYMENT TIMELINE
+    s16 = prs.slides.add_slide(blank_layout)
+    set_bg(s16, C_LIGHT_BG)
+    add_header(s16, "Turnkey Delivery Timeline", "From Site Audit to Monthly Cash Flow in 30–45 Days")
 
     timeline = [
         ("Day 1–5", "Site Feasibility & Digital Permit", "GIS setback validation, utility hookup mapping, pre-approved architectural plan submission."),
@@ -438,12 +556,12 @@ def create_pptx():
     ]
 
     for i, (day, title_tl, desc_tl) in enumerate(timeline):
-        card = s11.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.8), Inches(1.5 + i * 1.05), Inches(11.7), Inches(0.9))
+        card = s16.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.8), Inches(1.5 + i * 1.05), Inches(11.7), Inches(0.9))
         card.fill.solid()
         card.fill.fore_color.rgb = C_WHITE
         card.line.color.rgb = C_BORDER
 
-        tb = s11.shapes.add_textbox(Inches(1.0), Inches(1.55 + i * 1.05), Inches(11.3), Inches(0.8))
+        tb = s16.shapes.add_textbox(Inches(1.0), Inches(1.55 + i * 1.05), Inches(11.3), Inches(0.8))
         tf = tb.text_frame
         tf.word_wrap = True
 
@@ -458,22 +576,22 @@ def create_pptx():
         p_desc.font.size = Pt(10)
         p_desc.font.color.rgb = C_GRAY
 
-    # SLIDE 12: CALL TO ACTION
-    s12 = prs.slides.add_slide(blank_layout)
-    set_bg(s12, C_DARK)
+    # SLIDE 17: CALL TO ACTION
+    s17 = prs.slides.add_slide(blank_layout)
+    set_bg(s17, C_DARK)
 
-    tb12 = s12.shapes.add_textbox(Inches(1.5), Inches(1.8), Inches(10.3), Inches(4.5))
-    tf12 = tb12.text_frame
-    tf12.word_wrap = True
+    tb17 = s17.shapes.add_textbox(Inches(1.5), Inches(1.8), Inches(10.3), Inches(4.5))
+    tf17 = tb17.text_frame
+    tf17.word_wrap = True
 
-    p = tf12.paragraphs[0]
+    p = tf17.paragraphs[0]
     p.alignment = PP_ALIGN.CENTER
     p.text = "UNLOCK YOUR BACKYARD'S PASSIVE INCOME"
     p.font.size = Pt(14)
     p.font.bold = True
     p.font.color.rgb = C_BLUE
 
-    p2 = tf12.add_paragraph()
+    p2 = tf17.add_paragraph()
     p2.alignment = PP_ALIGN.CENTER
     p2.text = "Get Your Free 48-Hour Site Feasibility &\nRevenue-Share Audit"
     p2.font.size = Pt(28)
@@ -481,14 +599,14 @@ def create_pptx():
     p2.font.color.rgb = C_WHITE
     p2.space_before = Pt(12)
 
-    p3 = tf12.add_paragraph()
+    p3 = tf17.add_paragraph()
     p3.alignment = PP_ALIGN.CENTER
     p3.text = "We assess your parcel geometry, local ADU zoning, utility trenching distances,\nand provide a guaranteed monthly passive income estimate."
     p3.font.size = Pt(13)
     p3.font.color.rgb = C_LIGHT_BLUE
     p3.space_before = Pt(14)
 
-    p4 = tf12.add_paragraph()
+    p4 = tf17.add_paragraph()
     p4.alignment = PP_ALIGN.CENTER
     p4.text = "S2A Modular • Housing-as-a-Service (HaaS) Solutions"
     p4.font.size = Pt(12)
@@ -499,20 +617,19 @@ def create_pptx():
     prs.save(PPTX_OUTPUT_WORKSPACE)
     prs.save(PPTX_OUTPUT_DOWNLOADS)
     prs.save(PPTX_OUTPUT_ARTIFACT)
-    print(f"PPTX successfully created:\n- Downloads: {PPTX_OUTPUT_DOWNLOADS}\n- Workspace: {PPTX_OUTPUT_WORKSPACE}")
+    print(f"PPTX successfully created (17 slides):\n- Downloads: {PPTX_OUTPUT_DOWNLOADS}\n- Workspace: {PPTX_OUTPUT_WORKSPACE}")
 
 def create_pdf():
-    # HTML template matching the 12 slides in landscape format
     html_file = os.path.join(BASE_DIR, "cache", "deck_temp.html")
     
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>S2A Modular ADU & Tiny Home Collection - HaaS Presentation Deck</title>
+<title>S2A Modular ADU & Tiny Home Collection - Architectural CAD & HaaS Presentation</title>
 <style>
   @page {{
-    size: 11in 6.1875in; /* 16:9 widescreen presentation */
+    size: 11in 6.1875in;
     margin: 0;
   }}
   * {{
@@ -578,6 +695,22 @@ def create_pdf():
     object-fit: cover;
     border-radius: 6px;
     border: 1px solid #cbd5e1;
+  }}
+  .fp-img-box {{
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-height: 4.5in;
+  }}
+  .fp-img {{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }}
   .info-card {{
     background: #ffffff;
@@ -678,10 +811,10 @@ def create_pdf():
           Next-Gen Modular ADU &<br/>Tiny Home Collection
         </h1>
         <p style="font-size: 11.5px; color: #93c5fd; margin: 10px 0 16px 0; line-height: 1.4;">
-          A Complete Architectural & Housing-as-a-Service (HaaS) Turnkey Revenue Suite: Haven, Harmony, Sierra, Meadow & Cascade.
+          Architectural CAD Floorplans & Turnkey Housing-as-a-Service (HaaS) Revenue Suite: Haven, Harmony, Sierra, Meadow & Cascade.
         </p>
         <div style="font-size: 10px; font-weight: 700; color: #4ade80;">
-          &bull; Zero Upfront Capital &bull; Passive Homeowner Revenue &bull; Turnkey Operator Delivery
+          &bull; Zero Upfront Capital &bull; Passive Homeowner Revenue &bull; Official Sealed Blueprints
         </div>
       </div>
       <div>
@@ -690,7 +823,7 @@ def create_pdf():
     </div>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 1 of 12</span>
+      <span>Slide 1 of 17</span>
     </div>
   </div>
 
@@ -734,14 +867,14 @@ def create_pdf():
     </div>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 2 of 12</span>
+      <span>Slide 2 of 17</span>
     </div>
   </div>
 
-  <!-- SLIDE 3: HAVEN -->
+  <!-- SLIDE 3: HAVEN 3D -->
   <div class="slide">
     <div class="slide-header">
-      <div class="sub-tag">MODEL 01 &bull; MODERN LUXURY ADU</div>
+      <div class="sub-tag">MODEL 01 &bull; 3D EXTERIOR & REVENUE</div>
       <h2>The Haven &bull; 14' &times; 29' (350 Sq. Ft.)</h2>
     </div>
     <div class="two-col">
@@ -765,14 +898,45 @@ def create_pdf():
     </div>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 3 of 12</span>
+      <span>Slide 3 of 17</span>
     </div>
   </div>
 
-  <!-- SLIDE 4: HARMONY -->
+  <!-- SLIDE 4: HAVEN FLOORPLAN -->
   <div class="slide">
     <div class="slide-header">
-      <div class="sub-tag">MODEL 02 &bull; MODERN CRAFTSMAN COTTAGE</div>
+      <div class="sub-tag">MODEL 01 &bull; ARCHITECTURAL CAD FLOORPLAN</div>
+      <h2>The Haven CAD Blueprint (14' &times; 29'-0" &bull; 350 Sq. Ft.)</h2>
+    </div>
+    <div class="two-col">
+      <div class="fp-img-box">
+        <img src="file://{FP_HAVEN}" class="fp-img" />
+      </div>
+      <div class="info-card">
+        <div>
+          <div class="badge-dim">SEALED DRAWING NUMBER: A1 &bull; S2A MODULAR</div>
+          <div style="font-weight: 800; font-size: 12px; color: #0f172a; margin-bottom: 6px;">Detailed Room Layout:</div>
+          <ul class="bullet-list">
+            <li><strong>4'-0" Covered Porch:</strong> Integrated entry porch with recessed soffit lighting.</li>
+            <li><strong>Open Great Room:</strong> Kitchenette and living area with roof skylight access hatch.</li>
+            <li><strong>Private Master Bedroom:</strong> Ground floor with dual 2442SH windows and double wardrobe.</li>
+            <li><strong>Designer Full Bath:</strong> 3-3060 fiberglass shower, vanity, toilet, and stack W/D closet.</li>
+            <li><strong>Rooftop Access:</strong> Optional spiral stairs leading to full-length observation deck.</li>
+          </ul>
+        </div>
+        <div style="font-size: 9px; font-weight: 700; color: #16a34a;">✓ Pre-Approved California SB 9 / Statewide ADU Building Code Compliant</div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
+      <span>Slide 4 of 17</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 5: HARMONY 3D -->
+  <div class="slide">
+    <div class="slide-header">
+      <div class="sub-tag">MODEL 02 &bull; 3D EXTERIOR & REVENUE</div>
       <h2>The Harmony &bull; 14' &times; 24' (348 Sq. Ft.)</h2>
     </div>
     <div class="two-col">
@@ -796,14 +960,45 @@ def create_pdf():
     </div>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 4 of 12</span>
+      <span>Slide 5 of 17</span>
     </div>
   </div>
 
-  <!-- SLIDE 5: SIERRA -->
+  <!-- SLIDE 6: HARMONY FLOORPLAN -->
   <div class="slide">
     <div class="slide-header">
-      <div class="sub-tag">MODEL 03 &bull; MONO-PITCH SHED LOFT</div>
+      <div class="sub-tag">MODEL 02 &bull; ARCHITECTURAL CAD FLOORPLAN</div>
+      <h2>The Harmony CAD Blueprint (14' &times; 24'-0" &bull; 348 Sq. Ft.)</h2>
+    </div>
+    <div class="two-col">
+      <div class="fp-img-box">
+        <img src="file://{FP_HARMONY}" class="fp-img" />
+      </div>
+      <div class="info-card">
+        <div>
+          <div class="badge-dim">SEALED DRAWING NUMBER: A1 &bull; S2A MODULAR</div>
+          <div style="font-weight: 800; font-size: 12px; color: #0f172a; margin-bottom: 6px;">Detailed Room Layout:</div>
+          <ul class="bullet-list">
+            <li><strong>Bed/Living Open Studio:</strong> Generous 14' wide studio living with 3060SH windows.</li>
+            <li><strong>Full Chef's Kitchen:</strong> Range, exhaust, stainless sink, pantry, and refrigerator.</li>
+            <li><strong>Enclosed Bathroom:</strong> 3-3060 shower stall, sink vanity, and privacy door.</li>
+            <li><strong>Stack W/D Enclosure:</strong> Dedicated laundry utility space.</li>
+            <li><strong>Entry Stoop:</strong> Front portico with craftsman columns.</li>
+          </ul>
+        </div>
+        <div style="font-size: 9px; font-weight: 700; color: #16a34a;">✓ Pre-Approved California SB 9 / Statewide ADU Building Code Compliant</div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
+      <span>Slide 6 of 17</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 7: SIERRA 3D -->
+  <div class="slide">
+    <div class="slide-header">
+      <div class="sub-tag">MODEL 03 &bull; 3D EXTERIOR & REVENUE</div>
       <h2>The Sierra &bull; 14' &times; 31'-6" (420 Sq. Ft.)</h2>
     </div>
     <div class="two-col">
@@ -827,14 +1022,45 @@ def create_pdf():
     </div>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 5 of 12</span>
+      <span>Slide 7 of 17</span>
     </div>
   </div>
 
-  <!-- SLIDE 6: MEADOW -->
+  <!-- SLIDE 8: SIERRA FLOORPLAN -->
   <div class="slide">
     <div class="slide-header">
-      <div class="sub-tag">MODEL 04 &bull; FLAGSHIP ROOFTOP TERRACE</div>
+      <div class="sub-tag">MODEL 03 &bull; ARCHITECTURAL CAD FLOORPLAN</div>
+      <h2>The Sierra CAD Blueprint (14' &times; 31'-6" &bull; 420 Sq. Ft.)</h2>
+    </div>
+    <div class="two-col">
+      <div class="fp-img-box">
+        <img src="file://{FP_SIERRA}" class="fp-img" />
+      </div>
+      <div class="info-card">
+        <div>
+          <div class="badge-dim">SEALED DRAWING NUMBER: A1 &bull; S2A MODULAR</div>
+          <div style="font-weight: 800; font-size: 12px; color: #0f172a; margin-bottom: 6px;">Detailed Room Layout:</div>
+          <ul class="bullet-list">
+            <li><strong>Vaulted Great Room:</strong> 30'-0" long open great room with double glass entry sliders.</li>
+            <li><strong>Open to Loft:</strong> Mezzanine sleeping/storage loft overhead with access ladder.</li>
+            <li><strong>Private Bedroom:</strong> Ground floor master with large wardrobe and 3660SH egress.</li>
+            <li><strong>Gourmet Kitchen:</strong> 4836SL window over sink, cooking range, and pantry.</li>
+            <li><strong>Dual Stoops:</strong> Site-built front and rear outdoor entertaining decks.</li>
+          </ul>
+        </div>
+        <div style="font-size: 9px; font-weight: 700; color: #16a34a;">✓ Pre-Approved California SB 9 / Statewide ADU Building Code Compliant</div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
+      <span>Slide 8 of 17</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 9: MEADOW 3D -->
+  <div class="slide">
+    <div class="slide-header">
+      <div class="sub-tag">MODEL 04 &bull; 3D EXTERIOR & REVENUE</div>
       <h2>The Meadow &bull; 15' &times; 31'-9" (435 Sq. Ft.)</h2>
     </div>
     <div class="two-col">
@@ -858,14 +1084,45 @@ def create_pdf():
     </div>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 6 of 12</span>
+      <span>Slide 9 of 17</span>
     </div>
   </div>
 
-  <!-- SLIDE 7: CASCADE -->
+  <!-- SLIDE 10: MEADOW FLOORPLAN -->
   <div class="slide">
     <div class="slide-header">
-      <div class="sub-tag">MODEL 05 &bull; ULTRA-COMPACT HIGH-YIELD INFILL</div>
+      <div class="sub-tag">MODEL 04 &bull; ARCHITECTURAL CAD FLOORPLAN</div>
+      <h2>The Meadow CAD Blueprint (15' &times; 31'-9" &bull; 435 Sq. Ft.)</h2>
+    </div>
+    <div class="two-col">
+      <div class="fp-img-box">
+        <img src="file://{FP_MEADOW}" class="fp-img" />
+      </div>
+      <div class="info-card">
+        <div>
+          <div class="badge-dim">SEALED DRAWING NUMBER: A1 &bull; S2A MODULAR</div>
+          <div style="font-weight: 800; font-size: 12px; color: #0f172a; margin-bottom: 6px;">Detailed Room Layout:</div>
+          <ul class="bullet-list">
+            <li><strong>Dual Lofts:</strong> Two expansive overhead mezzanine lofts plus plant ledge.</li>
+            <li><strong>Exterior Staircase:</strong> 2'-9" side exterior open stairs ascending to rooftop deck.</li>
+            <li><strong>Rear 6/0 Patio Sliders:</strong> Seamless connection from Great Room to back garden.</li>
+            <li><strong>Ground Master Suite:</strong> Private bedroom with closet and stack laundry closet.</li>
+            <li><strong>Full 15' Footprint:</strong> S2A's widest modular single-chassis luxury platform.</li>
+          </ul>
+        </div>
+        <div style="font-size: 9px; font-weight: 700; color: #16a34a;">✓ Pre-Approved California SB 9 / Statewide ADU Building Code Compliant</div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
+      <span>Slide 10 of 17</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 11: CASCADE 3D -->
+  <div class="slide">
+    <div class="slide-header">
+      <div class="sub-tag">MODEL 05 &bull; 3D EXTERIOR & REVENUE</div>
       <h2>The Cascade &bull; 12' &times; 27'-9" (300 Sq. Ft.)</h2>
     </div>
     <div class="two-col">
@@ -889,11 +1146,42 @@ def create_pdf():
     </div>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 7 of 12</span>
+      <span>Slide 11 of 17</span>
     </div>
   </div>
 
-  <!-- SLIDE 8: INTERIOR -->
+  <!-- SLIDE 12: CASCADE FLOORPLAN -->
+  <div class="slide">
+    <div class="slide-header">
+      <div class="sub-tag">MODEL 05 &bull; ARCHITECTURAL CAD FLOORPLAN</div>
+      <h2>The Cascade CAD Blueprint (12' &times; 27'-9" &bull; 300 Sq. Ft.)</h2>
+    </div>
+    <div class="two-col">
+      <div class="fp-img-box">
+        <img src="file://{FP_CASCADE}" class="fp-img" />
+      </div>
+      <div class="info-card">
+        <div>
+          <div class="badge-dim">SEALED DRAWING NUMBER: A1 &bull; S2A MODULAR</div>
+          <div style="font-weight: 800; font-size: 12px; color: #0f172a; margin-bottom: 6px;">Detailed Room Layout:</div>
+          <ul class="bullet-list">
+            <li><strong>12' Slim Infill Profile:</strong> Fits 35' narrow residential parcels with 4' setbacks.</li>
+            <li><strong>Ship's Ladder:</strong> 2'-9" steel ladder leading to observation rooftop deck.</li>
+            <li><strong>Open Living & Kitchenette:</strong> Built-in cabinetry, 4836SL window, and linen storage.</li>
+            <li><strong>Ground Bedroom:</strong> Private room with 4/0 Bifold closet and overhead loft.</li>
+            <li><strong>Rear Patio Door:</strong> 6/0 sliding glass patio doors for outdoor garden deck.</li>
+          </ul>
+        </div>
+        <div style="font-size: 9px; font-weight: 700; color: #16a34a;">✓ Pre-Approved California SB 9 / Statewide ADU Building Code Compliant</div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
+      <span>Slide 12 of 17</span>
+    </div>
+  </div>
+
+  <!-- SLIDE 13: INTERIOR -->
   <div class="slide">
     <div class="slide-header">
       <div class="sub-tag">INTERIOR ARCHITECTURE & FINISHES</div>
@@ -919,11 +1207,11 @@ def create_pdf():
     </div>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 8 of 12</span>
+      <span>Slide 13 of 17</span>
     </div>
   </div>
 
-  <!-- SLIDE 9: REAR PATIO -->
+  <!-- SLIDE 14: REAR PATIO -->
   <div class="slide">
     <div class="slide-header">
       <div class="sub-tag">SEAMLESS INDOOR-OUTDOOR LIVING</div>
@@ -948,11 +1236,11 @@ def create_pdf():
     </div>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 9 of 12</span>
+      <span>Slide 14 of 17</span>
     </div>
   </div>
 
-  <!-- SLIDE 10: PORTFOLIO MATRIX -->
+  <!-- SLIDE 15: PORTFOLIO MATRIX -->
   <div class="slide">
     <div class="slide-header">
       <div class="sub-tag">PORTFOLIO COMPARISON</div>
@@ -1014,11 +1302,11 @@ def create_pdf():
     </table>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 10 of 12</span>
+      <span>Slide 15 of 17</span>
     </div>
   </div>
 
-  <!-- SLIDE 11: TIMELINE -->
+  <!-- SLIDE 16: TIMELINE -->
   <div class="slide">
     <div class="slide-header">
       <div class="sub-tag">TURNKEY DELIVERY TIMELINE</div>
@@ -1048,11 +1336,11 @@ def create_pdf():
     </div>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 11 of 12</span>
+      <span>Slide 16 of 17</span>
     </div>
   </div>
 
-  <!-- SLIDE 12: CTA -->
+  <!-- SLIDE 17: CTA -->
   <div class="slide slide-dark" style="justify-content: center; text-align: center; padding: 0.8in;">
     <div class="sub-tag" style="margin-bottom: 8px;">UNLOCK YOUR BACKYARD'S PASSIVE INCOME</div>
     <h1 style="font-size: 26px; font-weight: 800; color: #ffffff; margin: 0 0 14px 0;">
@@ -1066,7 +1354,7 @@ def create_pdf():
     </div>
     <div class="footer-bar">
       <span>S2A Modular &bull; Housing-as-a-Service Portfolio</span>
-      <span>Slide 12 of 12</span>
+      <span>Slide 17 of 17</span>
     </div>
   </div>
 
@@ -1076,7 +1364,7 @@ def create_pdf():
     with open(html_file, 'w', encoding='utf-8') as f:
         f.write(html)
 
-    print("Rendering 12-slide landscape PDF via headless Google Chrome...")
+    print("Rendering 17-slide landscape PDF via headless Google Chrome...")
     subprocess.run([
         "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
         "--headless=new",
@@ -1086,11 +1374,15 @@ def create_pdf():
         html_file
     ], check=True)
 
-    # Copy to Downloads and Artifacts
     import shutil
     shutil.copyfile(PDF_OUTPUT_WORKSPACE, PDF_OUTPUT_DOWNLOADS)
     shutil.copyfile(PDF_OUTPUT_WORKSPACE, PDF_OUTPUT_ARTIFACT)
-    print(f"PDF successfully created:\n- Downloads: {PDF_OUTPUT_DOWNLOADS}\n- Workspace: {PDF_OUTPUT_WORKSPACE}")
+    # Also update the web app public downloads
+    web_downloads_pdf = os.path.join(BASE_DIR, "haas-adu-configurator", "public", "downloads", "S2A_Modular_ADU_HaaS_Portfolio.pdf")
+    web_downloads_pptx = os.path.join(BASE_DIR, "haas-adu-configurator", "public", "downloads", "S2A_Modular_ADU_HaaS_Portfolio.pptx")
+    shutil.copyfile(PDF_OUTPUT_WORKSPACE, web_downloads_pdf)
+    shutil.copyfile(PPTX_OUTPUT_WORKSPACE, web_downloads_pptx)
+    print(f"PDF successfully created (17 pages):\n- Downloads: {PDF_OUTPUT_DOWNLOADS}\n- Workspace: {PDF_OUTPUT_WORKSPACE}")
 
 if __name__ == "__main__":
     create_pptx()
