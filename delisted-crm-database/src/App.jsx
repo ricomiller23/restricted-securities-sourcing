@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import TableView from "./components/TableView";
 import KanbanView from "./components/KanbanView";
 import LegalCounselView from "./components/LegalCounselView";
+import AuditorView from "./components/AuditorView";
 import AnalyticsView from "./components/AnalyticsView";
 import IssuerDrawer from "./components/IssuerDrawer";
 import EmailRunnerModal from "./components/EmailRunnerModal";
@@ -279,6 +280,15 @@ export default function App() {
 
         {activeView === "legal" && (
           <LegalCounselView
+            issuers={filteredIssuers}
+            onSelectIssuer={(issuer) => setSelectedIssuer(issuer)}
+            onOpenEmailModal={(issuer) => setEmailModalIssuer(issuer)}
+            onOpenDossierModal={(issuer) => setDossierIssuer(issuer)}
+          />
+        )}
+
+        {activeView === "auditor" && (
+          <AuditorView
             issuers={filteredIssuers}
             onSelectIssuer={(issuer) => setSelectedIssuer(issuer)}
             onOpenEmailModal={(issuer) => setEmailModalIssuer(issuer)}

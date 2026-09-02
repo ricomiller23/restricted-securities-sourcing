@@ -38,6 +38,15 @@ export function sanitizeLegalCounsel(rawLegal) {
   return clean;
 }
 
+export function sanitizeAuditor(rawAuditor) {
+  if (!rawAuditor || typeof rawAuditor !== 'string') return 'Not Available';
+  const clean = rawAuditor.trim();
+  if (['none', 'null', 'not available', 'n/a', 'unknown'].includes(clean.toLowerCase()) || clean.length < 2) {
+    return 'Not Available';
+  }
+  return clean;
+}
+
 export function validateDelistedIssuer(item, index = 0) {
   if (!item || typeof item !== 'object') return null;
 
@@ -70,6 +79,7 @@ export function validateDelistedIssuer(item, index = 0) {
     cfo: item.cfo || 'Not Available',
     otcProfileUrl: ticker && ticker !== 'OTC' ? `https://www.otcmarkets.com/stock/${ticker}/profile` : 'https://www.otcmarkets.com',
     legalCounsel: legalCounsel,
+    auditor: sanitizeAuditor(item.auditor),
     status: item.status || 'new',
     cleanShellScore: cleanShellScore,
     shellRating: cleanShellScore >= 80 ? 'Prime Clean Shell' : 'Standard Distressed Asset',
