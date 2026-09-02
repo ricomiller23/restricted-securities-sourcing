@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { 
   Home, 
   Layers, 
@@ -201,6 +201,39 @@ export default function App() {
     submitted: false
   });
 
+  // Dynamic brand configuration based on domain (theadumart.com vs theadusupply.com)
+  const brand = useMemo(() => {
+    if (typeof window !== 'undefined') {
+      const host = (window.location.hostname || '').toLowerCase();
+      if (host.includes('mart')) {
+        return {
+          brandName: 'THE ADU MART',
+          tagline: 'Premier ADU Marketplace & HaaS Solutions',
+          collectionTitle: 'The ADU Mart Collection & Plans',
+          blueprintTitle: 'Official ADU Mart CAD Blueprint Sheet',
+          copyright: '© 2026 THE ADU MART • Housing-as-a-Service (HaaS) Infrastructure',
+          pageTitle: 'THE ADU MART • HaaS ADU Configurator & ROI Engine',
+          isMart: true
+        };
+      }
+    }
+    return {
+      brandName: 'THE ADU SUPPLY',
+      tagline: 'Housing-as-a-Service ADU Suite',
+      collectionTitle: 'The ADU Supply Collection & Plans',
+      blueprintTitle: 'Official ADU Supply CAD Blueprint Sheet',
+      copyright: '© 2026 THE ADU SUPPLY • Housing-as-a-Service (HaaS) Infrastructure',
+      pageTitle: 'THE ADU SUPPLY • HaaS ADU Configurator & ROI Engine',
+      isMart: false
+    };
+  }, []);
+
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      document.title = brand.pageTitle;
+    }
+  }, [brand]);
+
   const selectedModel = useMemo(() => {
     return MODELS.find(m => m.id === selectedModelId) || MODELS[0];
   }, [selectedModelId]);
@@ -283,10 +316,10 @@ export default function App() {
                 </div>
                 <div>
                   <div style={{ fontSize: '14px', fontWeight: 800, letterSpacing: '-0.02em', color: '#ffffff', lineHeight: 1.2 }}>
-                    S2A MODULAR <span style={{ color: '#3b82f6' }}>•</span> HaaS
+                    {brand.brandName} <span style={{ color: '#3b82f6' }}>•</span> HaaS
                   </div>
                   <div style={{ fontSize: '9.5px', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-                    Housing-as-a-Service ADU Suite
+                    {brand.tagline}
                   </div>
                 </div>
               </div>
@@ -731,10 +764,10 @@ export default function App() {
               <div className="glass-panel" style={{ padding: '16px' }}>
                 <h4 style={{ fontSize: '12.5px', color: '#ffffff', marginBottom: '8px' }}>Executive Marketing Assets</h4>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                  <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pptx" download className="btn btn-secondary" style={{ fontSize: '11.5px', justifyContent: 'flex-start' }}>
+                  <a href="/downloads/ADU_HaaS_Portfolio.pptx" download className="btn btn-secondary" style={{ fontSize: '11.5px', justifyContent: 'flex-start' }}>
                     <Download size={13} color="#3b82f6" /> Pitch Deck (.pptx)
                   </a>
-                  <a href="/downloads/s2a_modular_adu_marketing_catalog.pdf" download className="btn btn-secondary" style={{ fontSize: '11.5px', justifyContent: 'flex-start' }}>
+                  <a href="/downloads/adu_marketing_catalog.pdf" download className="btn btn-secondary" style={{ fontSize: '11.5px', justifyContent: 'flex-start' }}>
                     <FileText size={13} color="#10b981" /> Color Brochure (.pdf)
                   </a>
                 </div>
@@ -938,7 +971,7 @@ export default function App() {
                     <button className="btn btn-secondary" onClick={() => setLeadForm({ ...leadForm, submitted: false })} style={{ fontSize: '12px' }}>
                       Submit Another Lot
                     </button>
-                    <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pdf" download className="btn btn-primary" style={{ fontSize: '12px' }}>
+                    <a href="/downloads/ADU_HaaS_Portfolio.pdf" download className="btn btn-primary" style={{ fontSize: '12px' }}>
                       <Download size={13} /> Pitch Deck (.pdf)
                     </a>
                   </div>
@@ -956,7 +989,7 @@ export default function App() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
             <div style={{ textAlign: 'center', maxWidth: '700px', margin: '0 auto 4px auto' }}>
               <span className="badge badge-blue">Architectural CAD Blueprint Suite</span>
-              <h2 style={{ fontSize: '22px', color: '#ffffff', margin: '4px 0 6px 0' }}>The S2A Modular Collection & Plans</h2>
+              <h2 style={{ fontSize: '22px', color: '#ffffff', margin: '4px 0 6px 0' }}>{brand.collectionTitle}</h2>
               <p style={{ color: 'var(--text-secondary)', fontSize: '12px' }}>
                 Factory-built, precision-engineered modular ADUs and tiny homes built for zero-disruption residential deployment.
               </p>
@@ -1073,10 +1106,10 @@ export default function App() {
                   </div>
                 </div>
                 <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-                  <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pptx" download className="btn btn-primary" style={{ flex: '1 1 120px', fontSize: '11.5px' }}>
+                  <a href="/downloads/ADU_HaaS_Portfolio.pptx" download className="btn btn-primary" style={{ flex: '1 1 120px', fontSize: '11.5px' }}>
                     <Download size={13} /> PPTX Deck
                   </a>
-                  <a href="/downloads/S2A_Modular_ADU_HaaS_Portfolio.pdf" download className="btn btn-secondary" style={{ flex: '1 1 120px', fontSize: '11.5px' }}>
+                  <a href="/downloads/ADU_HaaS_Portfolio.pdf" download className="btn btn-secondary" style={{ flex: '1 1 120px', fontSize: '11.5px' }}>
                     <Download size={13} /> PDF Deck
                   </a>
                 </div>
@@ -1096,7 +1129,7 @@ export default function App() {
                     &bull; High-resolution PDF formatted for print & digital distribution.
                   </div>
                 </div>
-                <a href="/downloads/s2a_modular_adu_marketing_catalog.pdf" download className="btn btn-emerald" style={{ width: '100%', fontSize: '11.5px' }}>
+                <a href="/downloads/adu_marketing_catalog.pdf" download className="btn btn-emerald" style={{ width: '100%', fontSize: '11.5px' }}>
                   <Download size={13} /> Download Color Catalog (.pdf)
                 </a>
               </div>
@@ -1134,7 +1167,7 @@ export default function App() {
         >
           <div style={{ maxWidth: '1200px', width: '100%', background: '#ffffff', borderRadius: '8px', padding: '12px', position: 'relative', overflow: 'hidden' }} onClick={e => e.stopPropagation()}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px', borderBottom: '1px solid #e2e8f0', paddingBottom: '6px' }}>
-              <span style={{ fontWeight: 800, color: '#0f172a', fontSize: '13px' }}>Official S2A Modular CAD Blueprint Sheet</span>
+              <span style={{ fontWeight: 800, color: '#0f172a', fontSize: '13px' }}>{brand.blueprintTitle}</span>
               <button className="btn btn-secondary" onClick={() => setModalImage(null)} style={{ padding: '3px 8px', fontSize: '11px', color: '#0f172a', minHeight: '28px' }}>
                 ✕ Close
               </button>
@@ -1149,7 +1182,7 @@ export default function App() {
       {/* Footer */}
       <footer style={{ padding: '16px', borderTop: '1px solid var(--border-subtle)', background: 'rgba(8, 12, 20, 0.95)', marginTop: 'auto' }}>
         <div style={{ maxWidth: '1400px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'center', textAlign: 'center', fontSize: '10.5px', color: 'var(--text-muted)' }}>
-          <div>&copy; 2026 S2A Modular &bull; Housing-as-a-Service (HaaS) Infrastructure</div>
+          <div>{brand.copyright}</div>
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center' }}>
             <span>Pre-Approved Modular Architecture</span>
             <span>Zero-CapEx Homeowner Model</span>
