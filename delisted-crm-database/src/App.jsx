@@ -11,6 +11,7 @@ import ExecutiveDossierModal from "./components/ExecutiveDossierModal";
 
 import { useIssuersSync } from "./hooks/useIssuersSync";
 import { IssuerSearchIndex } from "./utils/searchIndex";
+import ALL_GLOBAL_ISSUERS from "./data/global_issuers_seed";
 
 export default function App() {
   const { issuers, setIssuers, isSyncing, triggerLiveSync } = useIssuersSync();
@@ -147,10 +148,16 @@ export default function App() {
   };
 
   const handleResetDatabase = () => {
-    if (window.confirm("Reset all CRM outreach statuses, notes, and activity back to initial global dataset?")) {
+    if (window.confirm("Reset all CRM outreach statuses, notes, and activity back to initial SEC EDGAR dataset?")) {
       setIssuers(ALL_GLOBAL_ISSUERS);
       setSelectedIds(new Set());
-      localStorage.removeItem(LOCAL_STORAGE_KEY);
+      try {
+        localStorage.clear();
+        if ('indexedDB' in window) {
+          indexedDB.deleteDatabase("delisted_crm_db");
+        }
+      } catch (e) {}
+      window.location.reload();
     }
   };
 

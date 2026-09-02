@@ -1,52 +1,39 @@
-// Delisted CRM PWA Service Worker
-// Enables 0ms offline instant loading with Stale-While-Revalidate caching strategy.
-
-const CACHE_NAME = "delisted-crm-cache-v1";
-const STATIC_ASSETS = [
-  "/",
-  "/index.html",
-  "/manifest.json"
-];
+// Delisted CRM PWA Service Worker (V5 Network-First & Self-Clearing)
+const CACHE_NAME = "delisted-crm-cache-v5";
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(STATIC_ASSETS);
-    })
-  );
   self.skipWaiting();
 });
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((cache) => {
-          if (cache !== CACHE_NAME) {
-            return caches.delete(cache);
-          }
-        })
-      );
+    caches.keys().then((keys) => {
+      return Promise.all(keys.map((key) => caches.delete(key)));
     })
   );
   self.clients.claim();
 });
 
 self.addEventListener("fetch", (event) => {
-  // Only cache GET requests and non-API calls
-  if (event.request.method !== "GET" || event.request.url.includes("/api/")) {
+  if (event.request.method !== "GET") return;
+
+  // HTML / Navigation requests: ALWAYS network first to ensure fresh JS bundle hashes
+  if (event.request.mode === "navigate" || event.request.destination === "document") {
+    event.respondWith(
+      fetch(event.request)
+        .catch(() => caches.match(event.request) || caches.match("/index.html"))
+    );
     return;
   }
 
+  // Static Assets & scripts: fetch with cache fallback
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       const fetchPromise = fetch(event.request)
         .then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200) {
-            const responseClone = networkResponse.clone();
-            caches.open(CACHE_NAME).then((cache) => {
-              cache.put(event.request, responseClone);
-            });
+          if (networkResponse && networkResponse.status === 200 && !event.request.url.includes("/api/")) {
+            const copy = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
           }
           return networkResponse;
         })
