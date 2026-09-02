@@ -155,28 +155,8 @@ export default function Navbar({
 
         </div>
 
-        {/* Mobile / Tablet Region & Search Bar Substrip */}
+        {/* Mobile / Tablet Search Bar Substrip */}
         <div className="px-4 py-2 border-t border-[#1B2030]/50 lg:hidden flex flex-col gap-2">
-          {/* Region selector mobile */}
-          <div className="flex items-center justify-between gap-1 overflow-x-auto pb-1">
-            {REGION_OPTIONS.map((reg) => {
-              const isActive = activeRegion === reg.id;
-              return (
-                <button
-                  key={reg.id}
-                  onClick={() => setActiveRegion(reg.id)}
-                  className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-semibold whitespace-nowrap ${
-                    isActive
-                      ? "bg-cyan-500/20 text-cyan-300 border border-cyan-400/30"
-                      : "text-[#8892A6] bg-[#0F1218] border border-[#1B2030]"
-                  }`}
-                >
-                  <span>{reg.flag}</span>
-                  <span>{reg.label}</span>
-                </button>
-              );
-            })}
-          </div>
 
           <div className="relative w-full">
             <Search className="absolute left-3 top-2.5 h-3.5 w-3.5 text-[#8892A6]" />
