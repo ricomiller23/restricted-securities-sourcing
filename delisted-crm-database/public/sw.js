@@ -1,8 +1,10 @@
 // Delisted CRM PWA Service Worker
 // Enables 0ms offline instant loading with Stale-While-Revalidate caching strategy.
 
-const CACHE_NAME = "delisted-crm-cache-v2";
+const CACHE_NAME = "delisted-crm-cache-v1";
 const STATIC_ASSETS = [
+  "/",
+  "/index.html",
   "/manifest.json"
 ];
 
@@ -33,22 +35,6 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   // Only cache GET requests and non-API calls
   if (event.request.method !== "GET" || event.request.url.includes("/api/")) {
-    return;
-  }
-
-  // Navigation requests (HTML) MUST be Network-First to immediately load new deployments
-  if (event.request.mode === "navigate" || event.request.headers.get("accept")?.includes("text/html")) {
-    event.respondWith(
-      fetch(event.request)
-        .then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200) {
-            const copy = networkResponse.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
-          }
-          return networkResponse;
-        })
-        .catch(() => caches.match(event.request) || caches.match("/index.html"))
-    );
     return;
   }
 
