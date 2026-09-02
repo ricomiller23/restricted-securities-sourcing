@@ -212,7 +212,7 @@ export default function App() {
           collectionTitle: 'The ADU Mart Collection & Plans',
           blueprintTitle: 'Official ADU Mart CAD Blueprint Sheet',
           copyright: '© 2026 THE ADU MART • Housing-as-a-Service (HaaS) Infrastructure',
-          pageTitle: 'THE ADU MART • HaaS ADU Configurator & ROI Engine',
+          pageTitle: 'THE ADU MART',
           isMart: true
         };
       }
@@ -223,7 +223,7 @@ export default function App() {
       collectionTitle: 'The ADU Supply Collection & Plans',
       blueprintTitle: 'Official ADU Supply CAD Blueprint Sheet',
       copyright: '© 2026 THE ADU SUPPLY • Housing-as-a-Service (HaaS) Infrastructure',
-      pageTitle: 'THE ADU SUPPLY • HaaS ADU Configurator & ROI Engine',
+      pageTitle: 'THE ADU SUPPLY',
       isMart: false
     };
   }, []);
