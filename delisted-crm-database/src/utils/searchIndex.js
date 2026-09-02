@@ -29,7 +29,6 @@ export class IssuerSearchIndex {
         ...this.tokenize(item.cik),
         ...this.tokenize(item.location),
         ...this.tokenize(item.legalCounsel),
-        ...this.tokenize(item.auditor),
         ...this.tokenize(item.eventType),
         ...this.tokenize(item.exchange)
       ]);

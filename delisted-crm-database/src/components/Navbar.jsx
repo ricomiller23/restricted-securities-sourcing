@@ -10,8 +10,7 @@ import {
   RefreshCw,
   Scale,
   Globe2,
-  FileText,
-  ClipboardCheck
+  FileText
 } from "lucide-react";
 
 export default function Navbar({ 
@@ -153,18 +152,6 @@ export default function Navbar({
               </button>
 
               <button
-                onClick={() => setActiveView("auditor")}
-                className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition-all cursor-pointer ${
-                  activeView === "auditor" 
-                    ? "bg-amber-500/15 text-amber-400 shadow-sm border border-amber-500/30" 
-                    : "text-[#8892A6] hover:text-[#E8ECF4] hover:bg-[#1B2030]/40"
-                }`}
-              >
-                <ClipboardCheck className="h-3.5 w-3.5 text-amber-400" />
-                <span>Auditor</span>
-              </button>
-
-              <button
                 onClick={() => setActiveView("analytics")}
                 className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition-all cursor-pointer ${
                   activeView === "analytics" 
@@ -267,16 +254,6 @@ export default function Navbar({
           >
             <Scale className="h-4 w-4" />
             <span>Counsel</span>
-          </button>
-
-          <button
-            onClick={() => setActiveView("auditor")}
-            className={`flex flex-col items-center justify-center gap-0.5 text-[10px] font-bold transition-all cursor-pointer ${
-              activeView === "auditor" ? "text-amber-400" : "text-[#8892A6]"
-            }`}
-          >
-            <ClipboardCheck className="h-4 w-4" />
-            <span>Auditor</span>
           </button>
 
           <button

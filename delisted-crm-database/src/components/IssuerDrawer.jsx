@@ -20,8 +20,7 @@ import {
   Send,
   PhoneCall,
   Users,
-  Briefcase,
-  ClipboardCheck
+  Briefcase
 } from "lucide-react";
 
 export default function IssuerDrawer({ 
@@ -76,7 +75,6 @@ export default function IssuerDrawer({
 
   const otcProfileUrl = issuer.otcProfileUrl || `https://www.otcmarkets.com/stock/${issuer.ticker}/profile`;
   const lcName = typeof issuer.legalCounsel === "string" ? issuer.legalCounsel : (issuer.legalCounsel?.firmName || "Not Available");
-  const audName = typeof issuer.auditor === "string" ? issuer.auditor : (issuer.auditor?.firmName || "Not Available");
   const score = issuer.cleanShellScore || 75;
 
   const getScoreColor = (sc) => {
@@ -251,43 +249,6 @@ export default function IssuerDrawer({
                   <strong className="text-[#E8ECF4] font-semibold block mt-0.5">{issuer.shareRegistry}</strong>
                 </div>
               )}
-            </div>
-          </div>
-
-          {/* Independent Auditor Section */}
-          <div className="rounded-2xl border border-amber-500/30 bg-amber-500/5 p-5 space-y-3">
-            <div className="flex items-center justify-between border-b border-amber-500/20 pb-3">
-              <h3 className="text-xs font-extrabold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
-                <ClipboardCheck className="h-4 w-4 text-amber-400" />
-                <span>Independent Auditor & Certified Accountants</span>
-              </h3>
-              <span className="rounded bg-amber-500/20 px-2 py-0.5 text-[10px] font-mono font-bold text-amber-300">
-                PCAOB Disclosed
-              </span>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
-              <div>
-                <span className="text-[#8892A6] block text-[11px]">Audit / Accounting Firm</span>
-                <strong className={`font-bold text-sm block mt-0.5 ${
-                  audName !== "Not Available" ? "text-amber-300" : "text-[#8892A6]"
-                }`}>
-                  {audName}
-                </strong>
-              </div>
-
-              <div>
-                <span className="text-[#8892A6] block text-[11px]">OTC Profile Source</span>
-                <a 
-                  href={otcProfileUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-cyan-400 hover:underline flex items-center gap-1 mt-0.5 font-mono text-[11px]"
-                >
-                  <span>Company Profile Tab</span>
-                  <ExternalLink className="h-3 w-3" />
-                </a>
-              </div>
             </div>
           </div>
 

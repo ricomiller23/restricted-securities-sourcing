@@ -8,7 +8,6 @@ export default function ExecutiveDossierModal({ issuer, onClose }) {
 
   const score = issuer.cleanShellScore || 75;
   const lcName = typeof issuer.legalCounsel === "string" ? issuer.legalCounsel : (issuer.legalCounsel?.firmName || "Not Available");
-  const audName = typeof issuer.auditor === "string" ? issuer.auditor : (issuer.auditor?.firmName || "Not Available");
 
   const getScoreColor = (sc) => {
     if (sc >= 85) return "text-emerald-400 border-emerald-500/30 bg-emerald-500/10";
@@ -36,11 +35,10 @@ export default function ExecutiveDossierModal({ issuer, onClose }) {
 - **Chief Executive Officer**: ${issuer.ceo || "Not Disclosed"}
 - **Chief Financial Officer**: ${issuer.cfo || "Not Disclosed"}
 - **Legal Counsel Firm**: ${lcName}
-- **Independent Auditor**: ${audName}
 - **Contact Channel**: ${issuer.email || "Not Disclosed"} | ${issuer.phone || "Not Disclosed"}
 
 ## 3. Restructuring Strategy & Advisory Thesis
-- **Recommended Action**: Initiate strategic restructuring contact with disclosed corporate officers, legal counsel, and independent auditor regarding 3(a)(10) recapitalization, reverse merger injection, or secondary OTC market making.
+- **Recommended Action**: Initiate strategic restructuring contact with disclosed corporate officers and legal counsel regarding 3(a)(10) recapitalization, reverse merger injection, or secondary OTC market making.
 `;
     navigator.clipboard.writeText(md);
     setCopied(true);
@@ -116,17 +114,11 @@ export default function ExecutiveDossierModal({ issuer, onClose }) {
         </div>
 
         {/* Key Metrics Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <div className="rounded-2xl border border-[#1B2030] bg-[#0F1218] p-4 print:border-gray-300 print:bg-gray-50">
             <span className="text-[10px] uppercase tracking-wider font-bold text-[#8892A6] print:text-gray-500">Legal Counsel Firm</span>
             <p className="text-sm font-black text-rose-400 mt-1 truncate print:text-black">{lcName}</p>
             <span className="text-[10px] text-[#8892A6] print:text-gray-500">SEC / Exchange Disclosed</span>
-          </div>
-
-          <div className="rounded-2xl border border-[#1B2030] bg-[#0F1218] p-4 print:border-gray-300 print:bg-gray-50">
-            <span className="text-[10px] uppercase tracking-wider font-bold text-[#8892A6] print:text-gray-500">Independent Auditor</span>
-            <p className="text-sm font-black text-amber-400 mt-1 truncate print:text-black">{audName}</p>
-            <span className="text-[10px] text-[#8892A6] print:text-gray-500">PCAOB Accounting Firm</span>
           </div>
 
           <div className="rounded-2xl border border-[#1B2030] bg-[#0F1218] p-4 print:border-gray-300 print:bg-gray-50">

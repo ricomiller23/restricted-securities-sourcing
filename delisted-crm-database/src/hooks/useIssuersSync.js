@@ -3,7 +3,7 @@ import { ALL_GLOBAL_ISSUERS } from "../data/global_issuers_seed";
 import { validateDelistedIssuer } from "../utils/schema_validator";
 import { getAllIssuersFromDB, saveAllIssuersToDB } from "../utils/db";
 
-const LOCAL_STORAGE_KEY = "DELISTED_CRM_DATABASE_V12_GLOBAL";
+const LOCAL_STORAGE_KEY = "DELISTED_CRM_DATABASE_V11_GLOBAL";
 const LAST_SYNC_KEY = "DELISTED_CRM_LAST_SYNC_TIMESTAMP";
 const SYNC_INTERVAL_MS = 24 * 60 * 60 * 1000; // 24 hours
 
@@ -38,13 +38,7 @@ export function useIssuersSync() {
     getAllIssuersFromDB()
       .then((dbData) => {
         if (isMounted && dbData && Array.isArray(dbData) && dbData.length > 0) {
-          // If stored records are missing auditor field, rehydrate with ALL_GLOBAL_ISSUERS
-          if (!dbData[0].auditor) {
-            setIssuers(ALL_GLOBAL_ISSUERS);
-            saveAllIssuersToDB(ALL_GLOBAL_ISSUERS);
-          } else {
-            setIssuers(dbData);
-          }
+          setIssuers(dbData);
         } else if (isMounted && issuers && issuers.length > 0) {
           saveAllIssuersToDB(issuers);
         }
@@ -93,11 +87,6 @@ export function useIssuersSync() {
           ? rawLegal.trim() 
           : "Not Available";
 
-        const rawAuditor = cMatch.auditor;
-        const auditor = (rawAuditor && rawAuditor.trim() && !["none", "null", "not available"].includes(rawAuditor.toLowerCase()))
-          ? rawAuditor.trim()
-          : (item.auditor || "Not Available");
-
         const rawEmail = cMatch.email;
         const email = (rawEmail && !rawEmail.startsWith("ir@") && !rawEmail.startsWith("contact@") && rawEmail.includes("@")) 
           ? rawEmail 
@@ -123,9 +112,6 @@ export function useIssuersSync() {
           if ((!current.legalCounsel || current.legalCounsel === "Not Available") && legalCounsel !== "Not Available") {
             current.legalCounsel = legalCounsel;
           }
-          if ((!current.auditor || current.auditor === "Not Available") && auditor !== "Not Available") {
-            current.auditor = auditor;
-          }
           if (!current.details && item.details) {
             current.details = item.details;
           }
@@ -137,8 +123,7 @@ export function useIssuersSync() {
             email,
             phone,
             ceo,
-            legalCounsel,
-            auditor
+            legalCounsel
           });
           if (validated) {
             newItems.push(validated);

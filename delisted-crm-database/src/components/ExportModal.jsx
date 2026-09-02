@@ -14,13 +14,12 @@ export default function ExportModal({ issuers, selectedIds, onClose }) {
     const headers = [
       "ID", "Region", "Ticker", "Company Name", "Delist Date", "SEC / Form Type", 
       "Exchange", "Location", "Clean Shell Score", "Shell Rating", "Primary Email", "Phone Number", 
-      "CEO Name", "CFO Name", "Legal Counsel Firm", "Auditor / Accounting Firm", "Market Cap", 
+      "CEO Name", "CFO Name", "Legal Counsel Firm", "Market Cap", 
       "EDGAR Link", "OTC Link", "Outreach Status"
     ];
 
     const rows = exportItems.map((i) => {
       const lc = typeof i.legalCounsel === "string" ? i.legalCounsel : (i.legalCounsel?.firmName || "Not Available");
-      const aud = typeof i.auditor === "string" ? i.auditor : (i.auditor?.firmName || "Not Available");
       return [
         `"${i.id || ""}"`,
         `"${i.region || "US"}"`,
@@ -37,7 +36,6 @@ export default function ExportModal({ issuers, selectedIds, onClose }) {
         `"${(i.ceo || "").replace(/"/g, '""')}"`,
         `"${(i.cfo || "").replace(/"/g, '""')}"`,
         `"${(lc || "").replace(/"/g, '""')}"`,
-        `"${(aud || "").replace(/"/g, '""')}"`,
         `"${i.marketCap || ""}"`,
         `"${i.secLandingPage || ""}"`,
         `"${i.otcProfileUrl || ""}"`,

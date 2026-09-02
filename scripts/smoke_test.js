@@ -35,7 +35,6 @@ assert(fs.existsSync(seedFile), 'Delisted issuers seed JSON exists');
 if (fs.existsSync(seedFile)) {
   const seedData = JSON.parse(fs.readFileSync(seedFile, 'utf-8'));
   assert(Array.isArray(seedData) && seedData.length > 0, `Seed contains ${seedData.length} valid corporate records`);
-  assert(seedData.every(i => typeof i.auditor === 'string' && i.auditor.length > 0), 'All seed records possess sanitized auditor field');
 }
 
 const tocaDoc = path.join(ROOT_DIR, '.config/ai/toca.ai');
@@ -43,7 +42,6 @@ assert(fs.existsSync(tocaDoc), '.config/ai/toca.ai standard is present');
 
 const topologyDoc = path.join(ROOT_DIR, '.config/ai/topology.json');
 assert(fs.existsSync(topologyDoc), '.config/ai/topology.json map is present');
-
 
 // 2. Runtime Schema Validation Test
 console.log('\n[2/5] Testing Runtime Schema Validation Guardrails...');
@@ -66,13 +64,11 @@ assert(validFiling.legalCounsel === 'Skadden Arps LLP', 'Legal counsel preserved
 const sampleRawDelisted = {
   cik: '12345',
   companyName: 'SHELL ACQUISITION CORP',
-  cleanShellScore: 95,
-  auditor: 'MaloneBailey, LLP'
+  cleanShellScore: 95
 };
 const validDelisted = validateDelistedRecord(sampleRawDelisted);
 assert(validDelisted.cleanShellScore === 95, 'Clean shell score bounded properly');
 assert(validDelisted.shellRating === 'Prime Clean Shell', 'Prime clean shell rating assigned');
-assert(validDelisted.auditor === 'MaloneBailey, LLP', 'Auditor field preserved and sanitized');
 
 // 3. In-Memory Search Trie & IndexedDB Architecture
 console.log('\n[3/5] Testing In-Memory Search Index & Storage Architecture...');

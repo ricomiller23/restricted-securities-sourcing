@@ -420,10 +420,6 @@ export default function TableView({
                     ? issuer.legalCounsel 
                     : (issuer.legalCounsel?.firmName || "Not Available");
 
-                  const audName = typeof issuer.auditor === "string"
-                    ? issuer.auditor
-                    : (issuer.auditor?.firmName || "Not Available");
-
                   const otcUrl = issuer.otcProfileUrl || `https://www.otcmarkets.com/stock/${issuer.ticker}/profile`;
 
                   return (
@@ -505,12 +501,6 @@ export default function TableView({
                             {lcName}
                           </span>
                         </div>
-                        {audName !== "Not Available" && (
-                          <div className="flex items-center gap-1 mt-0.5 text-[10px] truncate">
-                            <span className="text-[#8892A6]">Aud:</span>
-                            <span className="font-mono text-amber-400/90 truncate font-semibold">{audName}</span>
-                          </div>
-                        )}
                         {issuer.nomad && (
                           <span className="text-[10px] text-cyan-400 block truncate mt-0.5">
                             Nomad: {issuer.nomad}

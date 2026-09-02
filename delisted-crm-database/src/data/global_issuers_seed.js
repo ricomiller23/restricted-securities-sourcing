@@ -27,8 +27,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001606498.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001606498."
   },
   {
     "id": "0001853620-26-000188:gsms2013gc13_15d_82026.htm",
@@ -55,8 +54,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001578422.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001578422."
   },
   {
     "id": "0001104659-26-090723:tm2622296d1_1512g.htm",
@@ -83,8 +81,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001433309.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001433309."
   },
   {
     "id": "0001417835-26-000251:primary_doc.xml",
@@ -111,8 +108,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001552947.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001552947."
   },
   {
     "id": "0001417835-26-000249:primary_doc.xml",
@@ -139,8 +135,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001552947.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001552947."
   },
   {
     "id": "0001417835-26-000246:primary_doc.xml",
@@ -167,8 +162,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001516212.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001516212."
   },
   {
     "id": "0001417835-26-000244:primary_doc.xml",
@@ -195,8 +189,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001552947.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001552947."
   },
   {
     "id": "0001354457-26-000757:primary_doc.xml",
@@ -223,8 +216,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000712515.",
-    "auditor": "Crowe LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000712515."
   },
   {
     "id": "0001193125-26-332816:d29107d1512g.htm",
@@ -251,8 +243,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001563577.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001563577."
   },
   {
     "id": "0001193125-26-332021:d376435d1512g.htm",
@@ -279,8 +270,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001562476.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001562476."
   },
   {
     "id": "0000876661-26-000659:primary_doc.xml",
@@ -307,8 +297,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001517496.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001517496."
   },
   {
     "id": "0001193125-26-330013:d108536d1512g.htm",
@@ -335,8 +324,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001493225.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001493225."
   },
   {
     "id": "0001193125-26-329407:d129020d1512g.htm",
@@ -363,8 +351,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001899996.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001899996."
   },
   {
     "id": "0001104659-26-089475:tm2622013d1_1512g.htm",
@@ -391,8 +378,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618563.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618563."
   },
   {
     "id": "0000950103-26-011604:dp250753_1512g.htm",
@@ -419,8 +405,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000827187.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000827187."
   },
   {
     "id": "0000876661-26-000657:primary_doc.xml",
@@ -447,8 +432,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000080424.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000080424."
   },
   {
     "id": "0000876661-26-000655:primary_doc.xml",
@@ -475,8 +459,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413329.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413329."
   },
   {
     "id": "0002006652-26-000029:a15d_gmalt2024-1xfinal.htm",
@@ -503,8 +486,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002006652.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002006652."
   },
   {
     "id": "0001932377-26-000030:a15d_gmcar2022-3xfinal.htm",
@@ -531,8 +513,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001932377.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001932377."
   },
   {
     "id": "0001493152-26-035517:form15-12g.htm",
@@ -559,8 +540,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001711570.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001711570."
   },
   {
     "id": "0001354457-26-000747:primary_doc.xml",
@@ -587,8 +567,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001691507.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001691507."
   },
   {
     "id": "0001354457-26-000746:primary_doc.xml",
@@ -615,8 +594,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000351789.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000351789."
   },
   {
     "id": "0001354457-26-000745:primary_doc.xml",
@@ -643,8 +621,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819974.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819974."
   },
   {
     "id": "0001193125-26-326433:d131630d1515d.htm",
@@ -671,8 +648,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001999583.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001999583."
   },
   {
     "id": "0001143313-26-000045:primary_doc.xml",
@@ -699,8 +675,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001680056.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001680056."
   },
   {
     "id": "0001140361-26-030503:ef20079201_15-12g.htm",
@@ -727,8 +702,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001855457.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001855457."
   },
   {
     "id": "0001104659-26-089132:tm2621836d1_1512g.htm",
@@ -755,8 +729,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001808665.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001808665."
   },
   {
     "id": "0000950103-26-011569:dp250987_1512ga.htm",
@@ -783,8 +756,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001141103.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001141103."
   },
   {
     "id": "0000885508-26-000037:strs-form25.htm",
@@ -811,8 +783,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000885508.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000885508."
   },
   {
     "id": "0000876661-26-000653:primary_doc.xml",
@@ -839,8 +810,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001858681.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001858681."
   },
   {
     "id": "0001640334-26-001259:jrvs_1512g.htm",
@@ -867,8 +837,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001556801.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001556801."
   },
   {
     "id": "0001628280-26-051094:projecttulip-form15x12g490.htm",
@@ -895,8 +864,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001718512.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001718512."
   },
   {
     "id": "0001354457-26-000741:primary_doc.xml",
@@ -923,8 +891,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001806201.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001806201."
   },
   {
     "id": "0001104659-26-088657:tm2621615d1_1512g.htm",
@@ -951,8 +918,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001160791.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001160791."
   },
   {
     "id": "0000929638-26-002841:eart2021-4_1515d.htm",
@@ -979,8 +945,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001891012.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001891012."
   },
   {
     "id": "0000929638-26-002810:taot15d.htm",
@@ -1007,8 +972,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001914281.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001914281."
   },
   {
     "id": "0000876661-26-000650:primary_doc.xml",
@@ -1035,8 +999,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001323468.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001323468."
   },
   {
     "id": "0001193125-26-322203:d135037d1512g.htm",
@@ -1063,8 +1026,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000892553.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000892553."
   },
   {
     "id": "0001143362-26-000272:primary_doc.xml",
@@ -1091,8 +1053,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001551950.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001551950."
   },
   {
     "id": "0001104659-26-088082:tm2620840-4_1512g.htm",
@@ -1119,8 +1080,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000720154.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000720154."
   },
   {
     "id": "0002045458-26-000028:spinfra-form15deregistercl.htm",
@@ -1147,8 +1107,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002045458.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002045458."
   },
   {
     "id": "0001929980-26-000388:hspt_1512g.htm",
@@ -1175,8 +1134,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002032950.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002032950."
   },
   {
     "id": "0001417835-26-000233:primary_doc.xml",
@@ -1203,8 +1161,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146."
   },
   {
     "id": "0001417835-26-000229:primary_doc.xml",
@@ -1231,8 +1188,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146."
   },
   {
     "id": "0001417835-26-000226:primary_doc.xml",
@@ -1259,8 +1215,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146."
   },
   {
     "id": "0001354457-26-000739:primary_doc.xml",
@@ -1287,8 +1242,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322."
   },
   {
     "id": "0001354457-26-000738:primary_doc.xml",
@@ -1315,8 +1269,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322."
   },
   {
     "id": "0001354457-26-000737:primary_doc.xml",
@@ -1343,8 +1296,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322."
   },
   {
     "id": "0001354457-26-000736:primary_doc.xml",
@@ -1371,8 +1323,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322."
   },
   {
     "id": "0001104659-26-087484:tm2621428d2_1512g.htm",
@@ -1399,8 +1350,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001371782.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001371782."
   },
   {
     "id": "0000894189-26-021505:magaform25.htm",
@@ -1427,8 +1377,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001540305.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001540305."
   },
   {
     "id": "0001354457-26-000732:primary_doc.xml",
@@ -1455,8 +1404,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002006291.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002006291."
   },
   {
     "id": "0001354457-26-000730:primary_doc.xml",
@@ -1483,8 +1431,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001824403.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001824403."
   },
   {
     "id": "0001292814-26-003918:axia20260727_form25.htm",
@@ -1511,8 +1458,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001439124.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001439124."
   },
   {
     "id": "0001213900-26-081813:ea0299034-1512g_vicarious.htm",
@@ -1539,8 +1485,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001812173.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001812173."
   },
   {
     "id": "0001213900-26-081632:ea0299334-1515d_apex.htm",
@@ -1567,8 +1512,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002069858.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002069858."
   },
   {
     "id": "0001193125-26-318235:d368035d1512g.htm",
@@ -1595,8 +1539,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000791908.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000791908."
   },
   {
     "id": "0001193125-26-318058:d38689d1512g.htm",
@@ -1623,8 +1566,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001861560.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001861560."
   },
   {
     "id": "0000950103-26-011200:dp250671_1512g.htm",
@@ -1651,8 +1593,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001141103.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001141103."
   },
   {
     "id": "0000876661-26-000646:primary_doc.xml",
@@ -1679,8 +1620,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001606498.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001606498."
   },
   {
     "id": "0001907982-26-000114:form25.htm",
@@ -1707,8 +1647,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001907982.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001907982."
   },
   {
     "id": "0001213900-26-081363:ea0299064-01_25.htm",
@@ -1735,8 +1674,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001786108.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001786108."
   },
   {
     "id": "0001193125-26-316253:d122564d1512g.htm",
@@ -1763,8 +1701,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001169445.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001169445."
   },
   {
     "id": "0001193125-26-315836:d152809d1512g.htm",
@@ -1791,8 +1728,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001369568.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001369568."
   },
   {
     "id": "0001193125-26-315229:d136849d1512g.htm",
@@ -1819,8 +1755,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001579214.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001579214."
   },
   {
     "id": "0001193125-26-315141:d41362d1512g.htm",
@@ -1847,8 +1782,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001175535.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001175535."
   },
   {
     "id": "0001143362-26-000268:primary_doc.xml",
@@ -1875,8 +1809,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001547950.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001547950."
   },
   {
     "id": "0001143362-26-000264:primary_doc.xml",
@@ -1903,8 +1836,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001454889.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001454889."
   },
   {
     "id": "0001104659-26-086693:tm2621267d1_1512g.htm",
@@ -1931,8 +1863,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001575828.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001575828."
   },
   {
     "id": "0001104659-26-086457:tm2621026d1_1515d.htm",
@@ -1959,8 +1890,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001932485.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001932485."
   },
   {
     "id": "0000876661-26-000642:primary_doc.xml",
@@ -1987,8 +1917,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113."
   },
   {
     "id": "0000876661-26-000640:primary_doc.xml",
@@ -2015,8 +1944,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001562476.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001562476."
   },
   {
     "id": "0001954336-26-000044:form15-15daart2022x3june20.htm",
@@ -2043,8 +1971,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001954336.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001954336."
   },
   {
     "id": "0001888524-26-012994:wcm15c26_15-2026.htm",
@@ -2071,8 +1998,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001630513.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001630513."
   },
   {
     "id": "0001104659-26-086097:tm2620034d30_1512g.htm",
@@ -2099,8 +2025,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001434868.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001434868."
   },
   {
     "id": "0001717310-26-000018:vll9incform15-12gxcertific.htm",
@@ -2127,8 +2052,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001717310.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001717310."
   },
   {
     "id": "0001663577-26-000232:dream_form15a.htm",
@@ -2155,8 +2079,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001518336.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001518336."
   },
   {
     "id": "0001354457-26-000720:primary_doc.xml",
@@ -2183,8 +2106,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001760689.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001760689."
   },
   {
     "id": "0001354457-26-000719:primary_doc.xml",
@@ -2211,8 +2133,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001752828.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001752828."
   },
   {
     "id": "0001173382-26-000036:cae2026-form25nysetonasdaq.htm",
@@ -2239,8 +2160,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001173382.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001173382."
   },
   {
     "id": "0000876661-26-000637:primary_doc.xml",
@@ -2267,8 +2187,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001618563.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001618563."
   },
   {
     "id": "0001999371-26-015508:lght-form25_072126.htm",
@@ -2295,8 +2214,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001484018.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001484018."
   },
   {
     "id": "0001628280-26-049066:goco-20260721xform15kedraf.htm",
@@ -2323,8 +2241,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001808220.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001808220."
   },
   {
     "id": "0001417835-26-000215:primary_doc.xml",
@@ -2351,8 +2268,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001727074.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001727074."
   },
   {
     "id": "0001354457-26-000715:primary_doc.xml",
@@ -2379,8 +2295,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001818331.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001818331."
   },
   {
     "id": "0001354457-26-000712:primary_doc.xml",
@@ -2407,8 +2322,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001141103.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001141103."
   },
   {
     "id": "0001193125-26-309130:d279862d1512g.htm",
@@ -2435,8 +2349,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001723596.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001723596."
   },
   {
     "id": "0000876661-26-000635:primary_doc.xml",
@@ -2463,8 +2376,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001855457.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001855457."
   },
   {
     "id": "0001354457-26-000710:primary_doc.xml",
@@ -2491,8 +2403,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001493225.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001493225."
   },
   {
     "id": "0001354457-26-000709:primary_doc.xml",
@@ -2519,8 +2430,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002017526.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002017526."
   },
   {
     "id": "0001354457-26-000707:primary_doc.xml",
@@ -2547,8 +2457,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001518461.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001518461."
   },
   {
     "id": "0001354457-26-000706:primary_doc.xml",
@@ -2575,8 +2484,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001805521.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001805521."
   },
   {
     "id": "0001354457-26-000704:primary_doc.xml",
@@ -2603,8 +2511,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001805077.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001805077."
   },
   {
     "id": "0001143313-26-000042:primary_doc.xml",
@@ -2631,8 +2538,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160791.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160791."
   },
   {
     "id": "0001140361-26-028967:ef20078213_15-15d.htm",
@@ -2659,8 +2565,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001676446.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001676446."
   },
   {
     "id": "0000876661-26-000632:primary_doc.xml",
@@ -2687,8 +2592,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001718512.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001718512."
   },
   {
     "id": "0000876661-26-000629:primary_doc.xml",
@@ -2715,8 +2619,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000031791.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000031791."
   },
   {
     "id": "0000876661-26-000627:primary_doc.xml",
@@ -2743,8 +2646,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001818502.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001818502."
   },
   {
     "id": "0001213900-26-079111:ea0298341-1515d_collab.htm",
@@ -2771,8 +2673,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002050338.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002050338."
   },
   {
     "id": "0001193125-26-307059:d20087d1512g.htm",
@@ -2799,8 +2700,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001868726.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001868726."
   },
   {
     "id": "0001493152-26-033421:form15-12g.htm",
@@ -2827,8 +2727,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001642159.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001642159."
   },
   {
     "id": "0001354457-26-000698:primary_doc.xml",
@@ -2855,8 +2754,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001805385.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001805385."
   },
   {
     "id": "0001354457-26-000697:primary_doc.xml",
@@ -2883,8 +2781,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000791908.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000791908."
   },
   {
     "id": "0001292814-26-003772:azul20260615_25.htm",
@@ -2911,8 +2808,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001432364.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001432364."
   },
   {
     "id": "0001287032-26-000233:a20260716-psecform15.htm",
@@ -2939,8 +2835,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001287032.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001287032."
   },
   {
     "id": "0001193125-26-306047:d838493d1515d.htm",
@@ -2967,8 +2862,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001924957.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001924957."
   },
   {
     "id": "0000876661-26-000625:primary_doc.xml",
@@ -2995,8 +2889,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001822928.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001822928."
   },
   {
     "id": "0000876661-26-000623:primary_doc.xml",
@@ -3023,8 +2916,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000892553.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000892553."
   },
   {
     "id": "0001903596-26-000275:clnv_15ga.htm",
@@ -3051,8 +2943,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001391426.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001391426."
   },
   {
     "id": "0001354457-26-000696:primary_doc.xml",
@@ -3079,8 +2970,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001689873.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001689873."
   },
   {
     "id": "0001354457-26-000695:primary_doc.xml",
@@ -3107,8 +2997,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001837493.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001837493."
   },
   {
     "id": "0001354457-26-000694:primary_doc.xml",
@@ -3135,8 +3024,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001369568.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001369568."
   },
   {
     "id": "0001354457-26-000693:primary_doc.xml",
@@ -3163,8 +3051,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001861560.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001861560."
   },
   {
     "id": "0001143362-26-000258:primary_doc.xml",
@@ -3191,8 +3078,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001415726.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001415726."
   },
   {
     "id": "0000894189-26-021176:pabraiwagonsetfform25.htm",
@@ -3219,8 +3105,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000811030.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000811030."
   },
   {
     "id": "0001354457-26-000692:primary_doc.xml",
@@ -3247,8 +3132,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001796383.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001796383."
   },
   {
     "id": "0001354457-26-000691:primary_doc.xml",
@@ -3275,8 +3159,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000791908.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000791908."
   },
   {
     "id": "0001354457-26-000686:primary_doc.xml",
@@ -3303,8 +3186,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001648087.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001648087."
   },
   {
     "id": "0001354457-26-000685:primary_doc.xml",
@@ -3331,8 +3213,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001759136.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001759136."
   },
   {
     "id": "0001354457-26-000684:primary_doc.xml",
@@ -3359,8 +3240,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001141284.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001141284."
   },
   {
     "id": "0001354457-26-000683:primary_doc.xml",
@@ -3387,8 +3267,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001754323.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001754323."
   },
   {
     "id": "0001354457-26-000682:primary_doc.xml",
@@ -3415,8 +3294,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000827187.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000827187."
   },
   {
     "id": "0001354457-26-000681:primary_doc.xml",
@@ -3443,8 +3321,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001967478.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001967478."
   },
   {
     "id": "0001104659-26-083506:tm2620157d2_25.htm",
@@ -3471,8 +3348,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001371782.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001371782."
   },
   {
     "id": "0000876661-26-000619:primary_doc.xml",
@@ -3499,8 +3375,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001575828.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001575828."
   },
   {
     "id": "0000876661-26-000617:primary_doc.xml",
@@ -3527,8 +3402,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001175535.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001175535."
   },
   {
     "id": "0000876661-26-000615:primary_doc.xml",
@@ -3555,8 +3429,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001579214.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001579214."
   },
   {
     "id": "0001354457-26-000677:primary_doc.xml",
@@ -3583,8 +3456,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001141819.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001141819."
   },
   {
     "id": "0001354457-26-000676:primary_doc.xml",
@@ -3611,8 +3483,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002014955.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002014955."
   },
   {
     "id": "0001354457-26-000675:primary_doc.xml",
@@ -3639,8 +3510,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001843588.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001843588."
   },
   {
     "id": "0001354457-26-000674:primary_doc.xml",
@@ -3667,8 +3537,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001901799.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001901799."
   },
   {
     "id": "0001354457-26-000673:primary_doc.xml",
@@ -3695,8 +3564,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001837254.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001837254."
   },
   {
     "id": "0001354457-26-000672:primary_doc.xml",
@@ -3723,8 +3591,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001879373.",
-    "auditor": "Crowe LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001879373."
   },
   {
     "id": "0001354457-26-000670:primary_doc.xml",
@@ -3751,8 +3618,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001870404.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001870404."
   },
   {
     "id": "0001354457-26-000668:primary_doc.xml",
@@ -3779,8 +3645,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001434868.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001434868."
   },
   {
     "id": "0001354457-26-000667:primary_doc.xml",
@@ -3807,8 +3672,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001973056.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001973056."
   },
   {
     "id": "0001213900-26-077580:ea0297752-1512g_cantor2.htm",
@@ -3835,8 +3699,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002034269.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002034269."
   },
   {
     "id": "0001213900-26-077544:ea0297780-1512g_realasset.htm",
@@ -3863,8 +3726,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002052161.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002052161."
   },
   {
     "id": "0001193125-26-301713:d47288d1512g.htm",
@@ -3891,8 +3753,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001473844.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001473844."
   },
   {
     "id": "0001143313-26-000039:primary_doc.xml",
@@ -3919,8 +3780,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000895574.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000895574."
   },
   {
     "id": "0001140361-26-028268:ef20077488_1512g.htm",
@@ -3947,8 +3807,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001567925.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001567925."
   },
   {
     "id": "0001104659-26-083126:tm2620225d1_1512g.htm",
@@ -3975,8 +3834,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001633931.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001633931."
   },
   {
     "id": "0001104659-26-082914:tm2620211d1_1512g.htm",
@@ -4003,8 +3861,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001274173.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001274173."
   },
   {
     "id": "0001104659-26-082913:tm2620204d1_1515d.htm",
@@ -4031,8 +3888,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043380.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043380."
   },
   {
     "id": "0001104659-26-082845:tm2620118d1_1512g.htm",
@@ -4059,8 +3915,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001320414.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001320414."
   },
   {
     "id": "0001802457-26-000050:orgnform15-12g.htm",
@@ -4087,8 +3942,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001802457.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001802457."
   },
   {
     "id": "0001354457-26-000666:primary_doc.xml",
@@ -4115,8 +3969,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002074850.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002074850."
   },
   {
     "id": "0001354457-26-000665:primary_doc.xml",
@@ -4143,8 +3996,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001415726.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001415726."
   },
   {
     "id": "0001354457-26-000663:primary_doc.xml",
@@ -4171,8 +4023,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001901336.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001901336."
   },
   {
     "id": "0001354457-26-000660:primary_doc.xml",
@@ -4199,8 +4050,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000720154.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000720154."
   },
   {
     "id": "0001354457-26-000659:primary_doc.xml",
@@ -4227,8 +4077,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001808220.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001808220."
   },
   {
     "id": "0001354457-26-000658:primary_doc.xml",
@@ -4255,8 +4104,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742927.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742927."
   },
   {
     "id": "0001213900-26-077133:ea0297367-1512g_lomond.htm",
@@ -4283,8 +4131,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001900520.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001900520."
   },
   {
     "id": "0000876661-26-000611:primary_doc.xml",
@@ -4311,8 +4158,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001992243.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001992243."
   },
   {
     "id": "0001354457-26-000655:primary_doc.xml",
@@ -4339,8 +4185,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001169445.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001169445."
   },
   {
     "id": "0000876661-26-000609:primary_doc.xml",
@@ -4367,8 +4212,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001844224.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001844224."
   },
   {
     "id": "0001888524-26-012458:gsm15g32_15-2026.htm",
@@ -4395,8 +4239,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001644697.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001644697."
   },
   {
     "id": "0001417835-26-000205:primary_doc.xml",
@@ -4423,8 +4266,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001552947.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001552947."
   },
   {
     "id": "0001127703-26-000042:projectsurf-form15executed.htm",
@@ -4451,8 +4293,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001127703.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001127703."
   },
   {
     "id": "0001104659-26-081497:tm2619291d1_1515d.htm",
@@ -4479,8 +4320,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001926999.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001926999."
   },
   {
     "id": "0000876661-26-000606:primary_doc.xml",
@@ -4507,8 +4347,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001870600.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001870600."
   },
   {
     "id": "0001944485-26-000028:fcaot2022-c15x15djune2026.htm",
@@ -4535,8 +4374,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001944485.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001944485."
   },
   {
     "id": "0001354457-26-000643:primary_doc.xml",
@@ -4563,8 +4401,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001808665.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001808665."
   },
   {
     "id": "0001354457-26-000642:primary_doc.xml",
@@ -4591,8 +4428,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001868726.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001868726."
   },
   {
     "id": "0000929638-26-002545:bmwlt2024-1_1515d.htm",
@@ -4619,8 +4455,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002006654.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002006654."
   },
   {
     "id": "0000876661-26-000602:primary_doc.xml",
@@ -4647,8 +4482,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000014693.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000014693."
   },
   {
     "id": "0001999371-26-014254:est-25_070626.htm",
@@ -4675,8 +4509,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001936157.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001936157."
   },
   {
     "id": "0001493152-26-032172:form15-12g.htm",
@@ -4703,8 +4536,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001113423.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001113423."
   },
   {
     "id": "0001193125-26-295685:d170143d1512g.htm",
@@ -4731,8 +4563,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001847903.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001847903."
   },
   {
     "id": "0001193125-26-295461:d111077d1512g.htm",
@@ -4759,8 +4590,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001866368.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001866368."
   },
   {
     "id": "0001127703-26-000038:projectsurf-form15executed.htm",
@@ -4787,8 +4617,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001127703.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001127703."
   },
   {
     "id": "0000876661-26-000597:primary_doc.xml",
@@ -4815,8 +4644,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001922097.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001922097."
   },
   {
     "id": "0001143362-26-000237:primary_doc.xml",
@@ -4843,8 +4671,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388."
   },
   {
     "id": "0000876661-26-000595:primary_doc.xml",
@@ -4871,8 +4698,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819438.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819438."
   },
   {
     "id": "0000876661-26-000593:primary_doc.xml",
@@ -4899,8 +4725,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000034088.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000034088."
   },
   {
     "id": "0001683168-26-005220:wytec_form15.htm",
@@ -4927,8 +4752,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001560143.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001560143."
   },
   {
     "id": "0001606268-26-000040:form15.htm",
@@ -4955,8 +4779,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001606268.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001606268."
   },
   {
     "id": "0001354457-26-000638:primary_doc.xml",
@@ -4983,8 +4806,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002034269.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002034269."
   },
   {
     "id": "0001354457-26-000636:primary_doc.xml",
@@ -5011,8 +4833,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001821159.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001821159."
   },
   {
     "id": "0001354457-26-000635:primary_doc.xml",
@@ -5039,8 +4860,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001462223.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001462223."
   },
   {
     "id": "0001354457-26-000634:primary_doc.xml",
@@ -5067,8 +4887,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002052161.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002052161."
   },
   {
     "id": "0001354457-26-000630:primary_doc.xml",
@@ -5095,8 +4914,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001606268.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001606268."
   },
   {
     "id": "0001193125-26-291469:d162567d1512g.htm",
@@ -5123,8 +4941,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "High Quality Shell (Counsel Disclosed)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000882361.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000882361."
   },
   {
     "id": "0000876661-26-000591:primary_doc.xml",
@@ -5151,8 +4968,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001567925.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001567925."
   },
   {
     "id": "0000876661-26-000589:primary_doc.xml",
@@ -5179,8 +4995,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001633931.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001633931."
   },
   {
     "id": "0000876661-26-000587:primary_doc.xml",
@@ -5207,8 +5022,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001274173.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001274173."
   },
   {
     "id": "0000876661-26-000585:primary_doc.xml",
@@ -5235,8 +5049,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001320414.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001320414."
   },
   {
     "id": "0000876661-26-000583:primary_doc.xml",
@@ -5263,8 +5076,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001473844.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001473844."
   },
   {
     "id": "0001888143-26-000031:a15d_amcar2021-3xfinal.htm",
@@ -5291,8 +5103,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001888143.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001888143."
   },
   {
     "id": "0001575872-26-000452:spgx001_15-12g.htm",
@@ -5319,8 +5130,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001500305.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001500305."
   },
   {
     "id": "0001417835-26-000193:primary_doc.xml",
@@ -5347,8 +5157,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002043954.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002043954."
   },
   {
     "id": "0001193125-26-289670:d880878d1515d.htm",
@@ -5375,8 +5184,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001905655.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001905655."
   },
   {
     "id": "0001143362-26-000234:primary_doc.xml",
@@ -5403,8 +5211,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000919160.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000919160."
   },
   {
     "id": "0000876661-26-000579:primary_doc.xml",
@@ -5431,8 +5238,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001674356.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001674356."
   },
   {
     "id": "0001417835-26-000191:primary_doc.xml",
@@ -5459,8 +5265,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322."
   },
   {
     "id": "0001354457-26-000626:primary_doc.xml",
@@ -5487,8 +5292,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001840502.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001840502."
   },
   {
     "id": "0001354457-26-000625:primary_doc.xml",
@@ -5515,8 +5319,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001145255.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001145255."
   },
   {
     "id": "0001213900-26-073133:ea0296229-1512g_cbak.htm",
@@ -5543,8 +5346,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001117171.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001117171."
   },
   {
     "id": "0001193125-26-288001:d73533d1512g.htm",
@@ -5571,8 +5373,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002073537.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002073537."
   },
   {
     "id": "0001193125-26-287671:d42478d1512g.htm",
@@ -5599,8 +5400,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001408100.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001408100."
   },
   {
     "id": "0001903596-26-000263:clnv_15.htm",
@@ -5627,8 +5427,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001391426.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001391426."
   },
   {
     "id": "0001417835-26-000184:primary_doc.xml",
@@ -5655,8 +5454,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982."
   },
   {
     "id": "0001417835-26-000182:primary_doc.xml",
@@ -5683,8 +5481,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146."
   },
   {
     "id": "0001354457-26-000624:primary_doc.xml",
@@ -5711,8 +5508,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001865631.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001865631."
   },
   {
     "id": "0001354457-26-000623:primary_doc.xml",
@@ -5739,8 +5535,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001782941.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001782941."
   },
   {
     "id": "0001213900-26-072555:ea0295904-1512g_tlgy.htm",
@@ -5767,8 +5562,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001879814.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001879814."
   },
   {
     "id": "0001213900-26-072552:ea0296150-1515d_stablecoinx.htm",
@@ -5795,8 +5589,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002087054.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002087054."
   },
   {
     "id": "0001104659-26-078329:tm2617886d1_1512g.htm",
@@ -5823,8 +5616,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001808665.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001808665."
   },
   {
     "id": "0001104659-26-078021:tmb-20260626x1515d.htm",
@@ -5851,8 +5643,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001948523.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001948523."
   },
   {
     "id": "0000876661-26-000576:primary_doc.xml",
@@ -5879,8 +5670,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001119639.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001119639."
   },
   {
     "id": "0000876661-26-000575:primary_doc.xml",
@@ -5907,8 +5697,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001557157.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001557157."
   },
   {
     "id": "0000876661-26-000573:primary_doc.xml",
@@ -5935,8 +5724,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001127703.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001127703."
   },
   {
     "id": "0001213900-26-071903:ea0295952-1512g_mountain.htm",
@@ -5963,8 +5751,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002029492.",
-    "auditor": "Crowe LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002029492."
   },
   {
     "id": "0001140361-26-026318:ef20076834_1512g.htm",
@@ -5991,8 +5778,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001590364.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001590364."
   },
   {
     "id": "0001104659-26-077804:tm2618994d2_1515d.htm",
@@ -6019,8 +5805,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001611983.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001611983."
   },
   {
     "id": "0001079973-26-000877:basa_15.htm",
@@ -6047,8 +5832,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001448705.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001448705."
   },
   {
     "id": "0000876661-26-000569:primary_doc.xml",
@@ -6075,8 +5859,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001681009.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001681009."
   },
   {
     "id": "0000876661-26-000568:primary_doc.xml",
@@ -6103,8 +5886,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314503.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314503."
   },
   {
     "id": "0000876661-26-000567:primary_doc.xml",
@@ -6131,8 +5913,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001513332.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001513332."
   },
   {
     "id": "0000876661-26-000566:primary_doc.xml",
@@ -6159,8 +5940,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314512.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314512."
   },
   {
     "id": "0000876661-26-000565:primary_doc.xml",
@@ -6187,8 +5967,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314513.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314513."
   },
   {
     "id": "0000876661-26-000564:primary_doc.xml",
@@ -6215,8 +5994,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314511.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314511."
   },
   {
     "id": "0000876661-26-000563:primary_doc.xml",
@@ -6243,8 +6021,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001513331.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001513331."
   },
   {
     "id": "0000876661-26-000562:primary_doc.xml",
@@ -6271,8 +6048,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314506.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314506."
   },
   {
     "id": "0000876661-26-000561:primary_doc.xml",
@@ -6299,8 +6075,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314502.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314502."
   },
   {
     "id": "0000876661-26-000560:primary_doc.xml",
@@ -6327,8 +6102,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000812427.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000812427."
   },
   {
     "id": "0000876661-26-000559:primary_doc.xml",
@@ -6355,8 +6129,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314499.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314499."
   },
   {
     "id": "0000876661-26-000558:primary_doc.xml",
@@ -6383,8 +6156,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314497.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314497."
   },
   {
     "id": "0000876661-26-000557:primary_doc.xml",
@@ -6411,8 +6183,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314498.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314498."
   },
   {
     "id": "0000876661-26-000556:primary_doc.xml",
@@ -6439,8 +6210,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001306830.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001306830."
   },
   {
     "id": "0000876661-26-000555:primary_doc.xml",
@@ -6467,8 +6237,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314514.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001314514."
   },
   {
     "id": "0000876661-26-000553:primary_doc.xml",
@@ -6495,8 +6264,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001866368.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001866368."
   },
   {
     "id": "0001880249-26-000003:wchd_form15.htm",
@@ -6523,8 +6291,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001880249.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001880249."
   },
   {
     "id": "0001354457-26-000616:primary_doc.xml",
@@ -6551,8 +6318,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001847903.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001847903."
   },
   {
     "id": "0001213900-26-071396:ea0295620-1512g_lakeshore.htm",
@@ -6579,8 +6345,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001946399.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001946399."
   },
   {
     "id": "0001829126-26-006744:legatomerger3_15-12g.htm",
@@ -6607,8 +6372,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002002038.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002002038."
   },
   {
     "id": "0001354457-26-000608:primary_doc.xml",
@@ -6635,8 +6399,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001802457.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001802457."
   },
   {
     "id": "0001354457-26-000607:primary_doc.xml",
@@ -6663,8 +6426,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001659323.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001659323."
   },
   {
     "id": "0001354457-26-000606:primary_doc.xml",
@@ -6691,8 +6453,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001962738.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001962738."
   },
   {
     "id": "0001143313-26-000035:primary_doc.xml",
@@ -6719,8 +6480,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002049717.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002049717."
   },
   {
     "id": "0000876661-26-000550:primary_doc.xml",
@@ -6747,8 +6507,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002102155.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002102155."
   },
   {
     "id": "0001888524-26-010687:jpc13l11_15-2026.htm",
@@ -6775,8 +6534,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001574219.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001574219."
   },
   {
     "id": "0001802457-26-000032:orgnform25.htm",
@@ -6803,8 +6561,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001802457.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001802457."
   },
   {
     "id": "0001354457-26-000605:primary_doc.xml",
@@ -6831,8 +6588,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002048951.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002048951."
   },
   {
     "id": "0001354457-26-000603:primary_doc.xml",
@@ -6859,8 +6615,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001803901.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001803901."
   },
   {
     "id": "0001292814-26-003558:axia20260622_15f.htm",
@@ -6887,8 +6642,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001439124.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001439124."
   },
   {
     "id": "0001193125-26-276305:d131173d1515d.htm",
@@ -6915,8 +6669,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001783876.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001783876."
   },
   {
     "id": "0001143362-26-000223:primary_doc.xml",
@@ -6943,8 +6696,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742912.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742912."
   },
   {
     "id": "0001140361-26-025858:ef20076530_1512g.htm",
@@ -6971,8 +6723,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001348911.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001348911."
   },
   {
     "id": "0001104659-26-076482:tm2618162d2_1512g.htm",
@@ -6999,8 +6750,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001124524.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001124524."
   },
   {
     "id": "0001104659-26-076448:tm2617395d2_1512g.htm",
@@ -7027,8 +6777,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000937556.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000937556."
   },
   {
     "id": "0000876882-26-000014:primary_doc.xml",
@@ -7055,8 +6804,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742912.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742912."
   },
   {
     "id": "0000876661-26-000548:primary_doc.xml",
@@ -7083,8 +6831,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000851170.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000851170."
   },
   {
     "id": "0000876661-26-000546:primary_doc.xml",
@@ -7111,8 +6858,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000833021.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000833021."
   },
   {
     "id": "0000876661-26-000544:primary_doc.xml",
@@ -7139,8 +6885,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160661.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160661."
   },
   {
     "id": "0001683168-26-004945:khob_form15.htm",
@@ -7167,8 +6912,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001909770.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001909770."
   },
   {
     "id": "0001409970-26-000131:form25asfiledon61826.htm",
@@ -7195,8 +6939,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001409970.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001409970."
   },
   {
     "id": "0001354457-26-000597:primary_doc.xml",
@@ -7223,8 +6966,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001689873.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001689873."
   },
   {
     "id": "0001143362-26-000216:primary_doc.xml",
@@ -7251,8 +6993,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868."
   },
   {
     "id": "0001143313-26-000033:primary_doc.xml",
@@ -7279,8 +7020,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001849221.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001849221."
   },
   {
     "id": "0001999538-26-000006:form1512g_6_16_26.htm",
@@ -7307,8 +7047,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001999538.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001999538."
   },
   {
     "id": "0001354457-26-000587:primary_doc.xml",
@@ -7335,8 +7074,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001823878.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001823878."
   },
   {
     "id": "0001104659-26-074894:tm2618167d1_1512g.htm",
@@ -7363,8 +7101,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001489096.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001489096."
   },
   {
     "id": "0001921745-26-000029:a2022-2form15061626.htm",
@@ -7391,8 +7128,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001921745.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001921745."
   },
   {
     "id": "0001493152-26-028845:form15-12g.htm",
@@ -7419,8 +7155,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "High Quality Shell (Counsel Disclosed)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001852551.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001852551."
   },
   {
     "id": "0001354457-26-000583:primary_doc.xml",
@@ -7447,8 +7182,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388."
   },
   {
     "id": "0001354457-26-000582:primary_doc.xml",
@@ -7475,8 +7209,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001005201.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001005201."
   },
   {
     "id": "0001354457-26-000580:primary_doc.xml",
@@ -7503,8 +7236,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001852551.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001852551."
   },
   {
     "id": "0001193125-26-272340:d123122d1515d.htm",
@@ -7531,8 +7263,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001913963.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001913963."
   },
   {
     "id": "0001143362-26-000214:primary_doc.xml",
@@ -7559,8 +7290,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001845809.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001845809."
   },
   {
     "id": "0000876661-26-000537:primary_doc.xml",
@@ -7587,8 +7317,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001408100.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001408100."
   },
   {
     "id": "0001354457-26-000578:primary_doc.xml",
@@ -7615,8 +7344,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868."
   },
   {
     "id": "0001354457-26-000573:primary_doc.xml",
@@ -7643,8 +7371,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001984014.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001984014."
   },
   {
     "id": "0001193125-26-270973:d938489d1515d.htm",
@@ -7671,8 +7398,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001936748.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001936748."
   },
   {
     "id": "0001193125-26-270367:d124259d1512g.htm",
@@ -7699,8 +7425,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000355019.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000355019."
   },
   {
     "id": "0000876661-26-000533:primary_doc.xml",
@@ -7727,8 +7452,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000844150.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000844150."
   },
   {
     "id": "0000876661-26-000531:primary_doc.xml",
@@ -7755,8 +7479,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001403161.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001403161."
   },
   {
     "id": "0000876661-26-000529:primary_doc.xml",
@@ -7783,8 +7506,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000898174.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000898174."
   },
   {
     "id": "0000876661-26-000527:primary_doc.xml",
@@ -7811,8 +7533,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001649373.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001649373."
   },
   {
     "id": "0001683168-26-004795:health_1515d.htm",
@@ -7839,8 +7560,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001141788.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001141788."
   },
   {
     "id": "0001354457-26-000572:primary_doc.xml",
@@ -7867,8 +7587,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001590364.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001590364."
   },
   {
     "id": "0001354457-26-000570:primary_doc.xml",
@@ -7895,8 +7614,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002032950.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002032950."
   },
   {
     "id": "0001193125-26-269576:d112191d1512g.htm",
@@ -7923,8 +7641,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000068622.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000068622."
   },
   {
     "id": "0000045876-26-000291:envirillc-form1506112026.htm",
@@ -7951,8 +7668,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000045876.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000045876."
   },
   {
     "id": "0001493152-26-028211:form15-12g.htm",
@@ -7979,8 +7695,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001627041.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001627041."
   },
   {
     "id": "0001354457-26-000567:primary_doc.xml",
@@ -8007,8 +7722,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002029492.",
-    "auditor": "Crowe LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002029492."
   },
   {
     "id": "0001354457-26-000565:primary_doc.xml",
@@ -8035,8 +7749,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001348911.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001348911."
   },
   {
     "id": "0001292814-26-003417:axia20260610_25.htm",
@@ -8063,8 +7776,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001439124.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001439124."
   },
   {
     "id": "0001193125-26-267509:d132955d25.htm",
@@ -8091,8 +7803,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000035527.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000035527."
   },
   {
     "id": "0001193125-26-267002:d138310d1512g.htm",
@@ -8119,8 +7830,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001133470.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001133470."
   },
   {
     "id": "0001104659-26-072920:tm2617195d1_1512g.htm",
@@ -8147,8 +7857,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000923139.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000923139."
   },
   {
     "id": "0001104659-26-072812:tm2615904d5_1515d.htm",
@@ -8175,8 +7884,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002092445.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002092445."
   },
   {
     "id": "0001354457-26-000561:primary_doc.xml",
@@ -8203,8 +7911,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002095443.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002095443."
   },
   {
     "id": "0001354457-26-000560:primary_doc.xml",
@@ -8231,8 +7938,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001816431.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001816431."
   },
   {
     "id": "0001354457-26-000558:primary_doc.xml",
@@ -8259,8 +7965,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002006815.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002006815."
   },
   {
     "id": "0001354457-26-000556:primary_doc.xml",
@@ -8287,8 +7992,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000937556.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000937556."
   },
   {
     "id": "0001213900-26-067084:ea0293608-1515d_ultratrex.htm",
@@ -8315,8 +8019,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002046954.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002046954."
   },
   {
     "id": "0001143362-26-000203:primary_doc.xml",
@@ -8343,8 +8046,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001479026.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001479026."
   },
   {
     "id": "0001143313-26-000030:primary_doc.xml",
@@ -8371,8 +8073,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002002038.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002002038."
   },
   {
     "id": "0001104659-26-072043:tm2617405d1_1515d.htm",
@@ -8399,8 +8100,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001788013.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001788013."
   },
   {
     "id": "0001079973-26-000815:ecia_15.htm",
@@ -8427,8 +8127,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0000930775.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0000930775."
   },
   {
     "id": "0000876661-26-000521:primary_doc.xml",
@@ -8455,8 +8154,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001439124.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001439124."
   },
   {
     "id": "0001888524-26-010550:wcm16c34_15-2026.htm",
@@ -8483,8 +8181,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001672587.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001672587."
   },
   {
     "id": "0001888524-26-010548:wcm15l20_15-2026.htm",
@@ -8511,8 +8208,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001635569.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001635569."
   },
   {
     "id": "0001493152-26-027983:form15-12g.htm",
@@ -8539,8 +8235,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002032379.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002032379."
   },
   {
     "id": "0001493152-26-027938:form15-12g.htm",
@@ -8567,8 +8262,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001874999.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001874999."
   },
   {
     "id": "0001354457-26-000554:primary_doc.xml",
@@ -8595,8 +8289,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002093524.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002093524."
   },
   {
     "id": "0001143362-26-000200:primary_doc.xml",
@@ -8623,8 +8316,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001633061.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001633061."
   },
   {
     "id": "0001376474-26-000425:bstx_1512g.htm",
@@ -8651,8 +8343,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001559356.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001559356."
   },
   {
     "id": "0001354457-26-000545:primary_doc.xml",
@@ -8679,8 +8370,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868."
   },
   {
     "id": "0001354457-26-000544:primary_doc.xml",
@@ -8707,8 +8397,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001785424.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001785424."
   },
   {
     "id": "0001354457-26-000541:primary_doc.xml",
@@ -8735,8 +8424,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001865494.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001865494."
   },
   {
     "id": "0001354457-26-000540:primary_doc.xml",
@@ -8763,8 +8451,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001355096.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001355096."
   },
   {
     "id": "0001354457-26-000539:primary_doc.xml",
@@ -8791,8 +8478,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001994624.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001994624."
   },
   {
     "id": "0001193125-26-261700:d80590d1512g.htm",
@@ -8819,8 +8505,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000794619.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000794619."
   },
   {
     "id": "0001104659-26-071378:tm2617023d2_1515d.htm",
@@ -8847,8 +8532,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001067063.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001067063."
   },
   {
     "id": "0001104659-26-071376:tm2617023d1_1512g.htm",
@@ -8875,8 +8559,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000924901.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000924901."
   },
   {
     "id": "0000876661-26-000514:primary_doc.xml",
@@ -8903,8 +8586,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000847411.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000847411."
   },
   {
     "id": "0000876661-26-000512:primary_doc.xml",
@@ -8931,8 +8613,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000809844.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000809844."
   },
   {
     "id": "0000876661-26-000510:primary_doc.xml",
@@ -8959,8 +8640,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000845606.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000845606."
   },
   {
     "id": "0001354457-26-000536:primary_doc.xml",
@@ -8987,8 +8667,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002049662.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002049662."
   },
   {
     "id": "0000876661-26-000507:primary_doc.xml",
@@ -9015,8 +8694,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001231346.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001231346."
   },
   {
     "id": "0000876661-26-000504:primary_doc.xml",
@@ -9043,8 +8721,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000038009.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000038009."
   },
   {
     "id": "0001354457-26-000532:primary_doc.xml",
@@ -9071,8 +8748,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001960208.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001960208."
   },
   {
     "id": "0001354457-26-000531:primary_doc.xml",
@@ -9099,8 +8775,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001939365.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001939365."
   },
   {
     "id": "0001354457-26-000530:primary_doc.xml",
@@ -9127,8 +8802,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002011954.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002011954."
   },
   {
     "id": "0000876661-26-000501:primary_doc.xml",
@@ -9155,8 +8829,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000010795.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000010795."
   },
   {
     "id": "0001888524-26-010543:jpc12c06_15-2026.htm",
@@ -9183,8 +8856,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001545018.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001545018."
   },
   {
     "id": "0001354457-26-000523:primary_doc.xml",
@@ -9211,8 +8883,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000355019.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000355019."
   },
   {
     "id": "0001493152-26-026840:form15-12d.htm",
@@ -9239,8 +8910,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002013100.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002013100."
   },
   {
     "id": "0001354457-26-000517:primary_doc.xml",
@@ -9267,8 +8937,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001058307.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001058307."
   },
   {
     "id": "0001354457-26-000515:primary_doc.xml",
@@ -9295,8 +8964,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001900720.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001900720."
   },
   {
     "id": "0000876661-26-000494:primary_doc.xml",
@@ -9323,8 +8991,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000059478.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000059478."
   },
   {
     "id": "0001354457-26-000513:primary_doc.xml",
@@ -9351,8 +9018,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000923139.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000923139."
   },
   {
     "id": "0001213900-26-063547:ea0293015-1512g_cantor3.htm",
@@ -9379,8 +9045,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002034268.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002034268."
   },
   {
     "id": "0001140361-26-023470:ef20075218_15-12g.htm",
@@ -9407,8 +9072,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001829280.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001829280."
   },
   {
     "id": "0000876661-26-000492:primary_doc.xml",
@@ -9435,8 +9099,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001489096.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001489096."
   },
   {
     "id": "0000876661-26-000489:primary_doc.xml",
@@ -9463,8 +9126,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000045876.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000045876."
   },
   {
     "id": "0001916232-26-000023:a15d_gmcar2022-2xfinal.htm",
@@ -9491,8 +9153,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001916232.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001916232."
   },
   {
     "id": "0001354457-26-000512:primary_doc.xml",
@@ -9519,8 +9180,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001495222.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001495222."
   },
   {
     "id": "0001193125-26-246174:d95553d1512g.htm",
@@ -9547,8 +9207,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001853513.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001853513."
   },
   {
     "id": "0001143362-26-000190:primary_doc.xml",
@@ -9575,8 +9234,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001928561.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001928561."
   },
   {
     "id": "0001143362-26-000187:primary_doc.xml",
@@ -9603,8 +9261,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001879238.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001879238."
   },
   {
     "id": "0000876661-26-000486:primary_doc.xml",
@@ -9631,8 +9288,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000864270.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000864270."
   },
   {
     "id": "0001493152-26-025603:form25.htm",
@@ -9659,8 +9315,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000911216.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000911216."
   },
   {
     "id": "0001354457-26-000505:primary_doc.xml",
@@ -9687,8 +9342,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001133470.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001133470."
   },
   {
     "id": "0001354457-26-000504:primary_doc.xml",
@@ -9715,8 +9369,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000794619.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000794619."
   },
   {
     "id": "0001193125-26-245197:d215188d1512g.htm",
@@ -9743,8 +9396,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001484565.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001484565."
   },
   {
     "id": "0000876661-26-000484:primary_doc.xml",
@@ -9771,8 +9423,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000901832.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000901832."
   },
   {
     "id": "0000876661-26-000481:primary_doc.xml",
@@ -9799,8 +9450,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001862005.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001862005."
   },
   {
     "id": "0000876661-26-000479:primary_doc.xml",
@@ -9827,8 +9477,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001293525.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001293525."
   },
   {
     "id": "0000876661-26-000477:primary_doc.xml",
@@ -9855,8 +9504,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139414.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139414."
   },
   {
     "id": "0000876661-26-000475:primary_doc.xml",
@@ -9883,8 +9531,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139209.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139209."
   },
   {
     "id": "0000876661-26-000473:primary_doc.xml",
@@ -9911,8 +9558,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139208.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139208."
   },
   {
     "id": "0000876661-26-000471:primary_doc.xml",
@@ -9939,8 +9585,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139206.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139206."
   },
   {
     "id": "0000876661-26-000469:primary_doc.xml",
@@ -9967,8 +9612,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139197.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139197."
   },
   {
     "id": "0000876661-26-000467:primary_doc.xml",
@@ -9995,8 +9639,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139193.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139193."
   },
   {
     "id": "0000876661-26-000465:primary_doc.xml",
@@ -10023,8 +9666,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139191.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001139191."
   },
   {
     "id": "0000876661-26-000463:primary_doc.xml",
@@ -10051,8 +9693,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000230211.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000230211."
   },
   {
     "id": "0000876661-26-000461:primary_doc.xml",
@@ -10079,8 +9720,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001048911.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001048911."
   },
   {
     "id": "0001417835-26-000141:primary_doc.xml",
@@ -10107,8 +9747,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001516212.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001516212."
   },
   {
     "id": "0001354457-26-000501:primary_doc.xml",
@@ -10135,8 +9774,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001675033.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001675033."
   },
   {
     "id": "0000876661-26-000458:primary_doc.xml",
@@ -10163,8 +9801,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000924901.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000924901."
   },
   {
     "id": "0001663577-26-000167:dream_form15.htm",
@@ -10191,8 +9828,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001518336.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001518336."
   },
   {
     "id": "0001561680-26-000029:form15-12g.htm",
@@ -10219,8 +9855,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001561680.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001561680."
   },
   {
     "id": "0001193125-26-238109:d227998d1512g.htm",
@@ -10247,8 +9882,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001803737.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001803737."
   },
   {
     "id": "0001193125-26-237761:d83745d1512g.htm",
@@ -10275,8 +9909,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001005757.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001005757."
   },
   {
     "id": "0001140361-26-022766:ef20074921_15-12g.htm",
@@ -10303,8 +9936,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001743907.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001743907."
   },
   {
     "id": "0001104659-26-066344:tm2615654-1_1515d.htm",
@@ -10331,8 +9963,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0000062234.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0000062234."
   },
   {
     "id": "0001104659-26-066303:tm2614728d3_1512g.htm",
@@ -10359,8 +9990,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001129155.",
-    "auditor": "Crowe LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001129155."
   },
   {
     "id": "0000950157-26-000636:form15-12g.htm",
@@ -10387,8 +10017,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001492422.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001492422."
   },
   {
     "id": "0000876661-26-000455:primary_doc.xml",
@@ -10415,8 +10044,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113."
   },
   {
     "id": "0000876661-26-000453:primary_doc.xml",
@@ -10443,8 +10071,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113."
   },
   {
     "id": "0000876661-26-000450:primary_doc.xml",
@@ -10471,8 +10098,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001633336.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001633336."
   },
   {
     "id": "0001921031-26-000024:a2022-a15dsuspensionfiling.htm",
@@ -10499,8 +10125,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001921031.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001921031."
   },
   {
     "id": "0001683168-26-004259:athenabit_frm15.htm",
@@ -10527,8 +10152,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001095146.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001095146."
   },
   {
     "id": "0001663577-26-000165:bpth_form15.htm",
@@ -10555,8 +10179,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001133818.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001133818."
   },
   {
     "id": "0001354457-26-000494:primary_doc.xml",
@@ -10583,8 +10206,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002023730.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002023730."
   },
   {
     "id": "0001354457-26-000493:primary_doc.xml",
@@ -10611,8 +10233,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001719406.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001719406."
   },
   {
     "id": "0001354457-26-000491:primary_doc.xml",
@@ -10639,8 +10260,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001947244.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001947244."
   },
   {
     "id": "0000876661-26-000446:primary_doc.xml",
@@ -10667,8 +10287,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001053507.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001053507."
   },
   {
     "id": "0001354457-26-000490:primary_doc.xml",
@@ -10695,8 +10314,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001029199.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001029199."
   },
   {
     "id": "0001193125-26-233582:d73218d15f12b.htm",
@@ -10723,8 +10341,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001782999.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001782999."
   },
   {
     "id": "0001140361-26-022395:ef20074375_1512g.htm",
@@ -10751,8 +10368,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001607939.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001607939."
   },
   {
     "id": "0001140361-26-022310:ef20072567_1512g.htm",
@@ -10779,8 +10395,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001645666.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001645666."
   },
   {
     "id": "0001143362-26-000180:primary_doc.xml",
@@ -10807,8 +10422,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001503123.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001503123."
   },
   {
     "id": "0001354457-26-000478:primary_doc.xml",
@@ -10835,8 +10449,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001853513.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001853513."
   },
   {
     "id": "0001193125-26-231109:d140392d1512g.htm",
@@ -10863,8 +10476,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000858470.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000858470."
   },
   {
     "id": "0001437749-26-017635:dmrc20260515_1512g.htm",
@@ -10891,8 +10503,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001438231.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001438231."
   },
   {
     "id": "0001354457-26-000475:primary_doc.xml",
@@ -10919,8 +10530,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001419951.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001419951."
   },
   {
     "id": "0001354457-26-000472:primary_doc.xml",
@@ -10947,8 +10557,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "High Quality Shell (Counsel Disclosed)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001802450.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001802450."
   },
   {
     "id": "0001354457-26-000471:primary_doc.xml",
@@ -10975,8 +10584,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001782037.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001782037."
   },
   {
     "id": "0001354457-26-000470:primary_doc.xml",
@@ -11003,8 +10611,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001527599.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001527599."
   },
   {
     "id": "0001354457-26-000469:primary_doc.xml",
@@ -11031,8 +10638,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001484565.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001484565."
   },
   {
     "id": "0001193125-26-227867:d128500d1512g.htm",
@@ -11059,8 +10665,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001856236.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001856236."
   },
   {
     "id": "0001143362-26-000178:primary_doc.xml",
@@ -11087,8 +10692,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001064642.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001064642."
   },
   {
     "id": "0001143313-26-000027:primary_doc.xml",
@@ -11115,8 +10719,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000876717.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000876717."
   },
   {
     "id": "0001140361-26-021789:ef20073649_15-12g.htm",
@@ -11143,8 +10746,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001600626.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001600626."
   },
   {
     "id": "0001140361-26-021752:ef20073864_15-12g.htm",
@@ -11171,8 +10773,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000896429.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000896429."
   },
   {
     "id": "0000950142-26-001441:eh260780923_1512g.htm",
@@ -11199,8 +10800,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001125259.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001125259."
   },
   {
     "id": "0001354457-26-000468:primary_doc.xml",
@@ -11227,8 +10827,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001945422.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001945422."
   },
   {
     "id": "0001354457-26-000466:primary_doc.xml",
@@ -11255,8 +10854,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002034268.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002034268."
   },
   {
     "id": "0001354457-26-000465:primary_doc.xml",
@@ -11283,8 +10881,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001005757.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001005757."
   },
   {
     "id": "0001354457-26-000464:primary_doc.xml",
@@ -11311,8 +10908,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001829280.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001829280."
   },
   {
     "id": "0001193125-26-225474:d109153d1512g.htm",
@@ -11339,8 +10935,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001831363.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001831363."
   },
   {
     "id": "0001143362-26-000176:primary_doc.xml",
@@ -11367,8 +10962,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001616668.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001616668."
   },
   {
     "id": "0001104659-26-061586:tm2612899d8_1512g.htm",
@@ -11395,8 +10989,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000034563.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000034563."
   },
   {
     "id": "0000876661-26-000439:primary_doc.xml",
@@ -11423,8 +11016,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000024741.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000024741."
   },
   {
     "id": "0000876661-26-000437:primary_doc.xml",
@@ -11451,8 +11043,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001129155.",
-    "auditor": "Crowe LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001129155."
   },
   {
     "id": "0000876661-26-000435:primary_doc.xml",
@@ -11479,8 +11070,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001803737.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001803737."
   },
   {
     "id": "0001417835-26-000130:primary_doc.xml",
@@ -11507,8 +11097,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146."
   },
   {
     "id": "0001354457-26-000459:primary_doc.xml",
@@ -11535,8 +11124,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001582982.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001582982."
   },
   {
     "id": "0001354457-26-000458:primary_doc.xml",
@@ -11563,8 +11151,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001075124.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001075124."
   },
   {
     "id": "0001354457-26-000457:primary_doc.xml",
@@ -11591,8 +11178,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001582982.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001582982."
   },
   {
     "id": "0001354457-26-000454:primary_doc.xml",
@@ -11619,8 +11205,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001705012.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001705012."
   },
   {
     "id": "0001354457-26-000450:primary_doc.xml",
@@ -11647,8 +11232,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001005757.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001005757."
   },
   {
     "id": "0001354457-26-000449:primary_doc.xml",
@@ -11675,8 +11259,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001492422.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001492422."
   },
   {
     "id": "0001213900-26-056273:ea0290804-1512g_mingzhu.htm",
@@ -11703,8 +11286,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001782037.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001782037."
   },
   {
     "id": "0001104659-26-060807:tm2613931d1_1512g.htm",
@@ -11731,8 +11313,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001830188.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001830188."
   },
   {
     "id": "0001062993-26-002596:form15f12g.htm",
@@ -11759,8 +11340,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12G Delisted filing. Registered CIK: 0001358654.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15F-12G Delisted filing. Registered CIK: 0001358654."
   },
   {
     "id": "0000876661-26-000432:primary_doc.xml",
@@ -11787,8 +11367,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001561680.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001561680."
   },
   {
     "id": "0001437749-26-016728:mpti20260513_1512g.htm",
@@ -11815,8 +11394,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001902314.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001902314."
   },
   {
     "id": "0001354457-26-000443:primary_doc.xml",
@@ -11843,8 +11421,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001743907.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001743907."
   },
   {
     "id": "0001104659-26-060169:tm2614422d1_1512g.htm",
@@ -11871,8 +11448,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001942722.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001942722."
   },
   {
     "id": "0002071136-26-000025:bdcv-form15x12gmay2026.htm",
@@ -11899,8 +11475,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002071136.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002071136."
   },
   {
     "id": "0001888524-26-008661:wcm16c33_15-2026.htm",
@@ -11927,8 +11502,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001668931.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001668931."
   },
   {
     "id": "0001354457-26-000441:primary_doc.xml",
@@ -11955,8 +11529,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001064642.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001064642."
   },
   {
     "id": "0001213900-26-054632:ea0290142-1512g_eshacq.htm",
@@ -11983,8 +11556,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001918661.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001918661."
   },
   {
     "id": "0001143362-26-000168:primary_doc.xml",
@@ -12011,8 +11583,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868."
   },
   {
     "id": "0000876661-26-000425:primary_doc.xml",
@@ -12039,8 +11610,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000312069.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000312069."
   },
   {
     "id": "0000876661-26-000422:primary_doc.xml",
@@ -12067,8 +11637,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000933267.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000933267."
   },
   {
     "id": "0000876661-26-000419:primary_doc.xml",
@@ -12095,8 +11664,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160106.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160106."
   },
   {
     "id": "0001888524-26-008659:ccc14c20_15-2026.htm",
@@ -12123,8 +11691,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001620305.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001620305."
   },
   {
     "id": "0001354457-26-000433:primary_doc.xml",
@@ -12151,8 +11718,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001645666.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001645666."
   },
   {
     "id": "0001354457-26-000432:primary_doc.xml",
@@ -12179,8 +11745,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001607939.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001607939."
   },
   {
     "id": "0001354457-26-000431:primary_doc.xml",
@@ -12207,8 +11772,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000731288.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000731288."
   },
   {
     "id": "0001193125-26-216746:d54446d25.htm",
@@ -12235,8 +11799,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001782999.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001782999."
   },
   {
     "id": "0001193125-26-216700:d432395d1512g.htm",
@@ -12263,8 +11826,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001603652.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001603652."
   },
   {
     "id": "0001193125-26-215666:d144751d1512g.htm",
@@ -12291,8 +11853,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000351834.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000351834."
   },
   {
     "id": "0001104659-26-058677:tm2614111d1_1512g.htm",
@@ -12319,8 +11880,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001071255.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001071255."
   },
   {
     "id": "0001104659-26-058529:tm2614217d1_1512g.htm",
@@ -12347,8 +11907,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001756701.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001756701."
   },
   {
     "id": "0001104659-26-058212:tm2614186d1_1512g.htm",
@@ -12375,8 +11934,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001834253.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001834253."
   },
   {
     "id": "0000876661-26-000414:primary_doc.xml",
@@ -12403,8 +11961,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000312069.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000312069."
   },
   {
     "id": "0000876661-26-000411:primary_doc.xml",
@@ -12431,8 +11988,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001306965.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001306965."
   },
   {
     "id": "0000876661-26-000409:primary_doc.xml",
@@ -12459,8 +12015,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001333621.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001333621."
   },
   {
     "id": "0001354457-26-000423:primary_doc.xml",
@@ -12487,8 +12042,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002032379.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002032379."
   },
   {
     "id": "0001354457-26-000420:primary_doc.xml",
@@ -12515,8 +12069,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000896429.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000896429."
   },
   {
     "id": "0001354457-26-000419:primary_doc.xml",
@@ -12543,8 +12096,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001856236.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001856236."
   },
   {
     "id": "0001193125-26-215046:d279858d1512g.htm",
@@ -12571,8 +12123,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001854270.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001854270."
   },
   {
     "id": "0001140361-26-019747:ef20072227_1512g.htm",
@@ -12599,8 +12150,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001831840.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001831840."
   },
   {
     "id": "0001104659-26-057932:tm2613951d1_1512g.htm",
@@ -12627,8 +12177,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001786205.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001786205."
   },
   {
     "id": "0000876661-26-000407:primary_doc.xml",
@@ -12655,8 +12204,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001604174.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001604174."
   },
   {
     "id": "0001991085-26-000020:fcalt2023-b15dapril2026.htm",
@@ -12683,8 +12231,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001991085.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001991085."
   },
   {
     "id": "0001888524-26-008649:msc15c27_15-2026.htm",
@@ -12711,8 +12258,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001656047.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001656047."
   },
   {
     "id": "0001628280-26-031825:enhanced-form25.htm",
@@ -12739,8 +12285,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001956439.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001956439."
   },
   {
     "id": "0001354457-26-000417:primary_doc.xml",
@@ -12767,8 +12312,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001503123.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001503123."
   },
   {
     "id": "0001213900-26-053377:ea0289499-1512g_inspire.htm",
@@ -12795,8 +12339,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001939365.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001939365."
   },
   {
     "id": "0001143362-26-000163:primary_doc.xml",
@@ -12823,8 +12366,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001408970.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001408970."
   },
   {
     "id": "0001140361-26-019442:ef20072674_1512g.htm",
@@ -12851,8 +12393,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001178879.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001178879."
   },
   {
     "id": "0000876661-26-000402:primary_doc.xml",
@@ -12879,8 +12420,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001125259.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001125259."
   },
   {
     "id": "0000876661-26-000399:primary_doc.xml",
@@ -12907,8 +12447,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000858470.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000858470."
   },
   {
     "id": "0000876661-26-000397:primary_doc.xml",
@@ -12935,8 +12474,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001125259.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001125259."
   },
   {
     "id": "0000876661-26-000394:primary_doc.xml",
@@ -12963,8 +12501,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000768899.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000768899."
   },
   {
     "id": "0001354457-26-000412:primary_doc.xml",
@@ -12991,8 +12528,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001779128.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001779128."
   },
   {
     "id": "0001193125-26-209366:d12396d1515d.htm",
@@ -13019,8 +12555,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001435508.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001435508."
   },
   {
     "id": "0000876661-26-000389:primary_doc.xml",
@@ -13047,8 +12582,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001600626.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001600626."
   },
   {
     "id": "0000088053-26-000391:f25_050626hyrm.htm",
@@ -13075,8 +12609,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001503123.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001503123."
   },
   {
     "id": "0000088053-26-000390:f25_050626ca.htm",
@@ -13103,8 +12636,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001503123.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001503123."
   },
   {
     "id": "0001999371-26-010013:tema_form25a-050526.htm",
@@ -13131,8 +12663,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25/A Delisted filing. Registered CIK: 0001944285.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25/A Delisted filing. Registered CIK: 0001944285."
   },
   {
     "id": "0001417835-26-000117:primary_doc.xml",
@@ -13159,8 +12690,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982."
   },
   {
     "id": "0001417835-26-000115:primary_doc.xml",
@@ -13187,8 +12717,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001529390.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001529390."
   },
   {
     "id": "0001354457-26-000407:primary_doc.xml",
@@ -13215,8 +12744,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000034563.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000034563."
   },
   {
     "id": "0001354457-26-000405:primary_doc.xml",
@@ -13243,8 +12771,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001831363.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001831363."
   },
   {
     "id": "0001354457-26-000402:primary_doc.xml",
@@ -13271,8 +12798,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001321741.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001321741."
   },
   {
     "id": "0001354457-26-000401:primary_doc.xml",
@@ -13299,8 +12825,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001830188.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001830188."
   },
   {
     "id": "0001213900-26-051082:ea0288811-1512g_crane.htm",
@@ -13327,8 +12852,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002054174.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002054174."
   },
   {
     "id": "0001193125-26-202385:d149766d1512g.htm",
@@ -13355,8 +12879,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001845337.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001845337."
   },
   {
     "id": "0000899140-26-000409:d15g.htm",
@@ -13383,8 +12906,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000909108.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000909108."
   },
   {
     "id": "0000876661-26-000384:primary_doc.xml",
@@ -13411,8 +12933,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "High Quality Shell (Counsel Disclosed)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001254699.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001254699."
   },
   {
     "id": "0001999371-26-009729:tema_form25a-050126.htm",
@@ -13439,8 +12960,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25/A Delisted filing. Registered CIK: 0001944285.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25/A Delisted filing. Registered CIK: 0001944285."
   },
   {
     "id": "0001437749-26-014494:aphe20260501_1512g.htm",
@@ -13467,8 +12987,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000855787.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000855787."
   },
   {
     "id": "0001354457-26-000400:primary_doc.xml",
@@ -13495,8 +13014,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001603652.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001603652."
   },
   {
     "id": "0001354457-26-000399:primary_doc.xml",
@@ -13523,8 +13041,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000351834.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000351834."
   },
   {
     "id": "0001193125-26-200707:d98890d1515d.htm",
@@ -13551,8 +13068,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002086744.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002086744."
   },
   {
     "id": "0001104659-26-053346:tm2612452d1_15f12b.htm",
@@ -13579,8 +13095,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0000719245.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0000719245."
   },
   {
     "id": "0000876661-26-000382:primary_doc.xml",
@@ -13607,8 +13122,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000036966.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000036966."
   },
   {
     "id": "0000876661-26-000380:primary_doc.xml",
@@ -13635,8 +13149,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001567683.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001567683."
   },
   {
     "id": "0000876661-26-000378:primary_doc.xml",
@@ -13663,8 +13176,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001899830.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001899830."
   },
   {
     "id": "0001417835-26-000107:primary_doc.xml",
@@ -13691,8 +13203,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146."
   },
   {
     "id": "0001354457-26-000397:primary_doc.xml",
@@ -13719,8 +13230,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001918661.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001918661."
   },
   {
     "id": "0001354457-26-000396:primary_doc.xml",
@@ -13747,8 +13257,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001756701.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001756701."
   },
   {
     "id": "0001354457-26-000392:primary_doc.xml",
@@ -13775,8 +13284,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001071255.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001071255."
   },
   {
     "id": "0001193125-26-197865:d139260d25.htm",
@@ -13803,8 +13311,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000068622.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000068622."
   },
   {
     "id": "0001193125-26-194908:d126294d1512g.htm",
@@ -13831,8 +13338,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001327273.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001327273."
   },
   {
     "id": "0001193125-26-193926:d72635d1512g.htm",
@@ -13859,8 +13365,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001053352.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001053352."
   },
   {
     "id": "0001143362-26-000154:primary_doc.xml",
@@ -13887,8 +13392,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868."
   },
   {
     "id": "0001140361-26-018226:ef20071804_1512g.htm",
@@ -13915,8 +13419,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001512931.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001512931."
   },
   {
     "id": "0000929638-26-001705:taot15d.htm",
@@ -13943,8 +13446,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001897392.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001897392."
   },
   {
     "id": "0000929638-26-001704:eart2021-3_1515d.htm",
@@ -13971,8 +13473,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001876620.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001876620."
   },
   {
     "id": "0001888524-26-008008:wcm14c24_15-2026.htm",
@@ -13999,8 +13500,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001621466.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001621466."
   },
   {
     "id": "0001354457-26-000384:primary_doc.xml",
@@ -14027,8 +13527,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001834253.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001834253."
   },
   {
     "id": "0001017386-26-000054:ptel-20260429_15.htm",
@@ -14055,8 +13554,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001377469.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001377469."
   },
   {
     "id": "0000876661-26-000373:primary_doc.xml",
@@ -14083,8 +13581,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000864270.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000864270."
   },
   {
     "id": "0001354457-26-000382:primary_doc.xml",
@@ -14111,8 +13608,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001716951.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001716951."
   },
   {
     "id": "0001354457-26-000381:primary_doc.xml",
@@ -14139,8 +13635,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001786205.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001786205."
   },
   {
     "id": "0000876661-26-000368:primary_doc.xml",
@@ -14167,8 +13662,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001831840.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001831840."
   },
   {
     "id": "0001417835-26-000101:primary_doc.xml",
@@ -14195,8 +13689,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742912.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742912."
   },
   {
     "id": "0001354457-26-000377:primary_doc.xml",
@@ -14223,8 +13716,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000077476.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000077476."
   },
   {
     "id": "0001354457-26-000371:primary_doc.xml",
@@ -14251,8 +13743,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001178879.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001178879."
   },
   {
     "id": "0001143362-26-000150:primary_doc.xml",
@@ -14279,8 +13770,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001415726.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001415726."
   },
   {
     "id": "0001104659-26-049073:jdot-20260427x1515d.htm",
@@ -14307,8 +13797,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001934741.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001934741."
   },
   {
     "id": "0001104659-26-048981:tm2612637d1_1515d.htm",
@@ -14335,8 +13824,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001913196.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001913196."
   },
   {
     "id": "0000876661-26-000365:primary_doc.xml",
@@ -14363,8 +13851,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000899782.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000899782."
   },
   {
     "id": "0000876661-26-000363:primary_doc.xml",
@@ -14391,8 +13878,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000870780.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000870780."
   },
   {
     "id": "0000876661-26-000361:primary_doc.xml",
@@ -14419,8 +13905,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001087786.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001087786."
   },
   {
     "id": "0000876661-26-000359:primary_doc.xml",
@@ -14447,8 +13932,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001836833.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001836833."
   },
   {
     "id": "0001999371-26-009048:tema_form25-042426.htm",
@@ -14475,8 +13959,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001944285.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001944285."
   },
   {
     "id": "0001354457-26-000370:primary_doc.xml",
@@ -14503,8 +13986,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001759186.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001759186."
   },
   {
     "id": "0000876661-26-000357:primary_doc.xml",
@@ -14531,8 +14013,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001554625.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001554625."
   },
   {
     "id": "0000876661-26-000355:primary_doc.xml",
@@ -14559,8 +14040,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000864270.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000864270."
   },
   {
     "id": "0001888524-26-007252:ccr16c03_15-2026.htm",
@@ -14587,8 +14067,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001661589.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001661589."
   },
   {
     "id": "0001354457-26-000368:primary_doc.xml",
@@ -14615,8 +14094,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001359057.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001359057."
   },
   {
     "id": "0001354457-26-000367:primary_doc.xml",
@@ -14643,8 +14121,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868."
   },
   {
     "id": "0001354457-26-000366:primary_doc.xml",
@@ -14671,8 +14148,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001845337.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001845337."
   },
   {
     "id": "0001213900-26-046722:ea0287395-1512g_odysseus.htm",
@@ -14699,8 +14175,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002025396.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002025396."
   },
   {
     "id": "0001354457-26-000364:primary_doc.xml",
@@ -14727,8 +14202,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001771146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001771146."
   },
   {
     "id": "0001354457-26-000360:primary_doc.xml",
@@ -14755,8 +14229,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000909108.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000909108."
   },
   {
     "id": "0001213900-26-046697:ea0287394-1515d_coinshares.htm",
@@ -14783,8 +14256,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002087683.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002087683."
   },
   {
     "id": "0000876661-26-000352:primary_doc.xml",
@@ -14811,8 +14283,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001527590.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001527590."
   },
   {
     "id": "0001417835-26-000095:primary_doc.xml",
@@ -14839,8 +14310,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559109.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559109."
   },
   {
     "id": "0001193125-26-166739:d113810d1512g.htm",
@@ -14867,8 +14337,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001301236.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001301236."
   },
   {
     "id": "0001683168-26-003070:aphoenity_15-12g.htm",
@@ -14895,8 +14364,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001737193.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001737193."
   },
   {
     "id": "0001354457-26-000355:primary_doc.xml",
@@ -14923,8 +14391,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001053352.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001053352."
   },
   {
     "id": "0001193125-26-164179:d122205d25.htm",
@@ -14951,8 +14418,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001327273.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001327273."
   },
   {
     "id": "0001193125-26-162602:d100530d1512g.htm",
@@ -14979,8 +14445,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002047036.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002047036."
   },
   {
     "id": "0001193125-26-162562:d131842d1512g.htm",
@@ -15007,8 +14472,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001012100.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001012100."
   },
   {
     "id": "0001193125-26-160661:d124456d1512g.htm",
@@ -15035,8 +14499,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000859737.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000859737."
   },
   {
     "id": "0001143362-26-000138:primary_doc.xml",
@@ -15063,8 +14526,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001424958.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001424958."
   },
   {
     "id": "0001104659-26-044966:tm2612148d1_25.htm",
@@ -15091,8 +14553,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001779474.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001779474."
   },
   {
     "id": "0001899236-26-000018:a2022-1form15041626.htm",
@@ -15119,8 +14580,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001899236.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001899236."
   },
   {
     "id": "0001552781-26-000247:e26193_swkh-1512g.htm",
@@ -15147,8 +14607,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001089907.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001089907."
   },
   {
     "id": "0001493152-26-017105:form25.htm",
@@ -15175,8 +14634,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001829311.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001829311."
   },
   {
     "id": "0001888524-26-006765:wcm16c32_15-2026.htm",
@@ -15203,8 +14661,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001663240.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001663240."
   },
   {
     "id": "0001572661-26-000019:form25-principalinvestment.htm",
@@ -15231,8 +14688,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001572661.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001572661."
   },
   {
     "id": "0001477932-26-002266:ahro_1512g.htm",
@@ -15259,8 +14715,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001338929.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001338929."
   },
   {
     "id": "0001417835-26-000089:primary_doc.xml",
@@ -15287,8 +14742,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001479026.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001479026."
   },
   {
     "id": "0001193125-26-157195:d116212d1515d.htm",
@@ -15315,8 +14769,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001924168.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001924168."
   },
   {
     "id": "0001493152-26-016435:form15-15d.htm",
@@ -15343,8 +14796,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001687919.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001687919."
   },
   {
     "id": "0001354457-26-000347:primary_doc.xml",
@@ -15371,8 +14823,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001512931.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001512931."
   },
   {
     "id": "0001104659-26-043243:tm2611677d1_1512g.htm",
@@ -15399,8 +14850,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001970509.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001970509."
   },
   {
     "id": "0001552781-26-000243:e26197_ffwm-1512g.htm",
@@ -15427,8 +14877,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001413837.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001413837."
   },
   {
     "id": "0001354457-26-000340:primary_doc.xml",
@@ -15455,8 +14904,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146."
   },
   {
     "id": "0001193125-26-152887:d115422d1512g.htm",
@@ -15483,8 +14931,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001110611.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001110611."
   },
   {
     "id": "0001193125-26-152831:d134812d1512g.htm",
@@ -15511,8 +14958,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001846017.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001846017."
   },
   {
     "id": "0001193125-26-152759:d84225d1512g.htm",
@@ -15539,8 +14985,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001372020.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001372020."
   },
   {
     "id": "0001193125-26-151965:d126711d1512g.htm",
@@ -15567,8 +15012,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001889956.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001889956."
   },
   {
     "id": "0001143362-26-000126:primary_doc.xml",
@@ -15595,8 +15039,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001635073.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001635073."
   },
   {
     "id": "0001140361-26-014431:ef20070061_1512g.htm",
@@ -15623,8 +15066,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001056285.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001056285."
   },
   {
     "id": "0001137547-26-000018:form152.htm",
@@ -15651,8 +15093,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001137547.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001137547."
   },
   {
     "id": "0001104659-26-042700:tm2611678d1_1515d.htm",
@@ -15679,8 +15120,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002092707.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002092707."
   },
   {
     "id": "0001104659-26-042300:tm263986d16_1512g.htm",
@@ -15707,8 +15147,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001871130.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001871130."
   },
   {
     "id": "0001104659-26-042297:tm263986d15_1512g.htm",
@@ -15735,8 +15174,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001654795.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001654795."
   },
   {
     "id": "0001062993-26-001946:form1512g.htm",
@@ -15763,8 +15201,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001542028.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001542028."
   },
   {
     "id": "0001354457-26-000338:primary_doc.xml",
@@ -15791,8 +15228,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000773840.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000773840."
   },
   {
     "id": "0001354457-26-000337:primary_doc.xml",
@@ -15819,8 +15255,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001424958.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001424958."
   },
   {
     "id": "0001354457-26-000336:primary_doc.xml",
@@ -15847,8 +15282,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001884021.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001884021."
   },
   {
     "id": "0000876661-26-000347:primary_doc.xml",
@@ -15875,8 +15309,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001970509.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001970509."
   },
   {
     "id": "0000876661-26-000345:primary_doc.xml",
@@ -15903,8 +15336,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001012100.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001012100."
   },
   {
     "id": "0001888524-26-006731:ccc14ub6_15-2026.htm",
@@ -15931,8 +15363,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001621368.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001621368."
   },
   {
     "id": "0001841341-26-000016:form15-crvna2021xp1x040826.htm",
@@ -15959,8 +15390,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001841341.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001841341."
   },
   {
     "id": "0001193125-26-147572:d55830d25.htm",
@@ -15987,8 +15417,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001301236.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001301236."
   },
   {
     "id": "0001104659-26-040836:tm2610841d2_1515d.htm",
@@ -16015,8 +15444,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0000039899.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0000039899."
   },
   {
     "id": "0001104659-26-040834:tm2610841d1_1512g.htm",
@@ -16043,8 +15471,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000039899.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000039899."
   },
   {
     "id": "0001104659-26-040636:tm2611189d1_1515d.htm",
@@ -16071,8 +15498,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001905216.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001905216."
   },
   {
     "id": "0000876661-26-000343:primary_doc.xml",
@@ -16099,8 +15525,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000901832.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000901832."
   },
   {
     "id": "0000876661-26-000341:primary_doc.xml",
@@ -16127,8 +15552,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001862005.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001862005."
   },
   {
     "id": "0000876661-26-000339:primary_doc.xml",
@@ -16155,8 +15579,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001487712.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001487712."
   },
   {
     "id": "0001931934-26-000016:fcaot2022-b15x15dmarch2026.htm",
@@ -16183,8 +15606,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001931934.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001931934."
   },
   {
     "id": "0001417835-26-000082:primary_doc.xml",
@@ -16211,8 +15633,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001540305.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001540305."
   },
   {
     "id": "0001354457-26-000333:primary_doc.xml",
@@ -16239,8 +15660,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000104169.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000104169."
   },
   {
     "id": "0001354457-26-000329:primary_doc.xml",
@@ -16267,8 +15687,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000859737.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000859737."
   },
   {
     "id": "0001140361-26-013407:ef20069882_1512g.htm",
@@ -16295,8 +15714,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001758057.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001758057."
   },
   {
     "id": "0000876661-26-000333:primary_doc.xml",
@@ -16323,8 +15741,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001521332.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001521332."
   },
   {
     "id": "0000876661-26-000332:primary_doc.xml",
@@ -16351,8 +15768,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001543199.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001543199."
   },
   {
     "id": "0000876661-26-000331:primary_doc.xml",
@@ -16379,8 +15795,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001909799.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001909799."
   },
   {
     "id": "0001354457-26-000327:primary_doc.xml",
@@ -16407,8 +15822,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001835654.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001835654."
   },
   {
     "id": "0001354457-26-000326:primary_doc.xml",
@@ -16435,8 +15849,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001635073.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001635073."
   },
   {
     "id": "0001354457-26-000325:primary_doc.xml",
@@ -16463,8 +15876,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089907.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089907."
   },
   {
     "id": "0001193125-26-143123:d56798d25.htm",
@@ -16491,8 +15903,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143119:d942530d25.htm",
@@ -16519,8 +15930,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143116:d285719d25.htm",
@@ -16547,8 +15957,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143113:d139743d25.htm",
@@ -16575,8 +15984,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143110:d132687d25.htm",
@@ -16603,8 +16011,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143106:d129893d25.htm",
@@ -16631,8 +16038,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143101:d124772d25.htm",
@@ -16659,8 +16065,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143097:d119126d25.htm",
@@ -16687,8 +16092,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143094:d118001d25.htm",
@@ -16715,8 +16119,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143088:d103789d25.htm",
@@ -16743,8 +16146,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143084:d117998d25.htm",
@@ -16771,8 +16173,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143082:d115907d25.htm",
@@ -16799,8 +16200,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143080:d96999d25.htm",
@@ -16827,8 +16227,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001193125-26-143079:d50070d25.htm",
@@ -16855,8 +16254,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0000943374-26-000159:form25_040626.htm",
@@ -16883,8 +16281,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000846617.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000846617."
   },
   {
     "id": "0000876661-26-000327:primary_doc.xml",
@@ -16911,8 +16308,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001754836.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001754836."
   },
   {
     "id": "0000876661-26-000325:primary_doc.xml",
@@ -16939,8 +16335,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000844150.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000844150."
   },
   {
     "id": "0001104659-26-039607:tmb-20260403x1515d.htm",
@@ -16967,8 +16362,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001640982.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001640982."
   },
   {
     "id": "0001104659-26-039606:tmb-20260403x1512g.htm",
@@ -16995,8 +16389,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001575048.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001575048."
   },
   {
     "id": "0000876661-26-000323:primary_doc.xml",
@@ -17023,8 +16416,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001823466.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001823466."
   },
   {
     "id": "0001354457-26-000324:primary_doc.xml",
@@ -17051,8 +16443,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001056285.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001056285."
   },
   {
     "id": "0001193125-26-138856:d39912d1512g.htm",
@@ -17079,8 +16470,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001124140.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001124140."
   },
   {
     "id": "0001193125-26-138426:d71522d1512g.htm",
@@ -17107,8 +16497,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001651944.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001651944."
   },
   {
     "id": "0001354457-26-000318:primary_doc.xml",
@@ -17135,8 +16524,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137547.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137547."
   },
   {
     "id": "0001354457-26-000317:primary_doc.xml",
@@ -17163,8 +16551,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001846017.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001846017."
   },
   {
     "id": "0001354457-26-000316:primary_doc.xml",
@@ -17191,8 +16578,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001372020.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001372020."
   },
   {
     "id": "0001354457-26-000315:primary_doc.xml",
@@ -17219,8 +16605,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001889956.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001889956."
   },
   {
     "id": "0000876661-26-000315:primary_doc.xml",
@@ -17247,8 +16632,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001577134.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001577134."
   },
   {
     "id": "0000876661-26-000313:primary_doc.xml",
@@ -17275,8 +16659,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001110611.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001110611."
   },
   {
     "id": "0000876661-26-000310:primary_doc.xml",
@@ -17303,8 +16686,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001039765.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001039765."
   },
   {
     "id": "0000876661-26-000308:primary_doc.xml",
@@ -17331,8 +16713,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413837.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413837."
   },
   {
     "id": "0001654954-26-002990:zivo_1512g.htm",
@@ -17359,8 +16740,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001101026.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001101026."
   },
   {
     "id": "0001493152-26-014258:form15-12g.htm",
@@ -17387,8 +16767,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001729944.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001729944."
   },
   {
     "id": "0001437749-26-010747:blmh20260331_1512g.htm",
@@ -17415,8 +16794,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001996210.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001996210."
   },
   {
     "id": "0001354457-26-000314:primary_doc.xml",
@@ -17443,8 +16821,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002025396.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002025396."
   },
   {
     "id": "0001143362-26-000117:primary_doc.xml",
@@ -17471,8 +16848,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001020425.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001020425."
   },
   {
     "id": "0001042642-26-000005:ddbs-20260331x1515d.htm",
@@ -17499,8 +16875,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001042642.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001042642."
   },
   {
     "id": "0001001082-26-000005:dish-20260331x1512g.htm",
@@ -17527,8 +16902,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001001082.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001001082."
   },
   {
     "id": "0000876661-26-000304:primary_doc.xml",
@@ -17555,8 +16929,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001871130.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001871130."
   },
   {
     "id": "0000876661-26-000303:primary_doc.xml",
@@ -17583,8 +16956,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001654795.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001654795."
   },
   {
     "id": "0001999371-26-007167:mnrtii_1512g-033026.htm",
@@ -17611,8 +16983,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001615222.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001615222."
   },
   {
     "id": "0001437749-26-010371:ecda20260330_1515d.htm",
@@ -17639,8 +17010,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001922858.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001922858."
   },
   {
     "id": "0001354457-26-000307:primary_doc.xml",
@@ -17667,8 +17037,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001464790.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001464790."
   },
   {
     "id": "0001213900-26-036217:ea0283887-1512g_orielle.htm",
@@ -17695,8 +17064,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002066067.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002066067."
   },
   {
     "id": "0001104659-26-036923:tm2610568d3_1512g.htm",
@@ -17723,8 +17091,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001733443.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001733443."
   },
   {
     "id": "0000950142-26-000902:eh260755874_25.htm",
@@ -17751,8 +17118,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001125259.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001125259."
   },
   {
     "id": "0000876661-26-000298:primary_doc.xml",
@@ -17779,8 +17145,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001608742.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001608742."
   },
   {
     "id": "0000876661-26-000296:primary_doc.xml",
@@ -17807,8 +17172,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001298699.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001298699."
   },
   {
     "id": "0000800166-26-000016:newgold-form15xfilingversi.htm",
@@ -17835,8 +17199,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000800166.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000800166."
   },
   {
     "id": "0001354457-26-000305:primary_doc.xml",
@@ -17863,8 +17226,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001934945.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001934945."
   },
   {
     "id": "0001213900-26-035089:ea0282791-1515d_signingday.htm",
@@ -17891,8 +17253,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001213900-26-035084:ea0282791-1515d_signingday.htm",
@@ -17919,8 +17280,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001213900-26-035082:ea0282791-1515d_signingday.htm",
@@ -17947,8 +17307,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001213900-26-035078:ea0282791-1515d_signingday.htm",
@@ -17975,8 +17334,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001213900-26-035073:ea0282791-1515d_signingday.htm",
@@ -18003,8 +17361,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001213900-26-035068:ea0282791-1515d_signingday.htm",
@@ -18031,8 +17388,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001213900-26-035064:ea0282791-1515d_signingday.htm",
@@ -18059,8 +17415,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001213900-26-035061:ea0282791-1515d_signingday.htm",
@@ -18087,8 +17442,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001213900-26-035059:ea0282791-1515d_signingday.htm",
@@ -18115,8 +17469,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001213900-26-035055:ea0282791-1515d_signingday.htm",
@@ -18143,8 +17496,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001213900-26-035052:ea0282791-1515d_signingday.htm",
@@ -18171,8 +17523,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001213900-26-035050:ea0282791-1515d_signingday.htm",
@@ -18199,8 +17550,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0001193125-26-126691:d11777d1515d.htm",
@@ -18227,8 +17577,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002066659.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002066659."
   },
   {
     "id": "0001143362-26-000111:primary_doc.xml",
@@ -18255,8 +17604,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388."
   },
   {
     "id": "0001143313-26-000021:primary_doc.xml",
@@ -18283,8 +17631,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001542028.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001542028."
   },
   {
     "id": "0001140361-26-011729:ef20068734_1512g.htm",
@@ -18311,8 +17658,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000014272.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000014272."
   },
   {
     "id": "0000950142-26-000892:eh260757581_1512g.htm",
@@ -18339,8 +17685,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001699838.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001699838."
   },
   {
     "id": "0000929638-26-001183:eart2021-2_1515d.htm",
@@ -18367,8 +17712,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001857355.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001857355."
   },
   {
     "id": "0000876882-26-000006:primary_doc.xml",
@@ -18395,8 +17739,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001592900.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001592900."
   },
   {
     "id": "0000876661-26-000294:primary_doc.xml",
@@ -18423,8 +17766,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001592900.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001592900."
   },
   {
     "id": "0001417835-26-000069:primary_doc.xml",
@@ -18451,8 +17793,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001396092.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001396092."
   },
   {
     "id": "0001417835-26-000067:primary_doc.xml",
@@ -18479,8 +17820,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001771146."
   },
   {
     "id": "0001417835-26-000065:primary_doc.xml",
@@ -18507,8 +17847,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982."
   },
   {
     "id": "0001354457-26-000303:primary_doc.xml",
@@ -18535,8 +17874,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002054174.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002054174."
   },
   {
     "id": "0001193125-26-126250:d806579d1512g.htm",
@@ -18563,8 +17901,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001455684.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001455684."
   },
   {
     "id": "0001104659-26-035292:zyxi-20260326x1512g.htm",
@@ -18591,8 +17928,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000846475.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000846475."
   },
   {
     "id": "0001104659-26-035058:tm268673d1_1515d.htm",
@@ -18619,8 +17955,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001881859.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001881859."
   },
   {
     "id": "0001104659-26-035039:tm268505d4_1512g.htm",
@@ -18647,8 +17982,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001540013.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001540013."
   },
   {
     "id": "0001493152-26-012448:form15-15d.htm",
@@ -18675,8 +18009,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001660851.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001660851."
   },
   {
     "id": "0001354457-26-000298:primary_doc.xml",
@@ -18703,8 +18036,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002037431.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002037431."
   },
   {
     "id": "0001354457-26-000297:primary_doc.xml",
@@ -18731,8 +18063,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000839923.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000839923."
   },
   {
     "id": "0001104659-26-034045:tm269632d1_1515d.htm",
@@ -18759,8 +18090,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001888347.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001888347."
   },
   {
     "id": "0000876661-26-000292:primary_doc.xml",
@@ -18787,8 +18117,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001303523.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001303523."
   },
   {
     "id": "0000876661-26-000290:primary_doc.xml",
@@ -18815,8 +18144,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000891478.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000891478."
   },
   {
     "id": "0000876661-26-000289:primary_doc.xml",
@@ -18843,8 +18171,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001275283.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001275283."
   },
   {
     "id": "0000876661-26-000287:primary_doc.xml",
@@ -18871,8 +18198,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001750736.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001750736."
   },
   {
     "id": "0000876661-26-000284:primary_doc.xml",
@@ -18899,8 +18225,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001750721.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001750721."
   },
   {
     "id": "0000876661-26-000282:primary_doc.xml",
@@ -18927,8 +18252,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001750625.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001750625."
   },
   {
     "id": "0001354457-26-000284:primary_doc.xml",
@@ -18955,8 +18279,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001936157.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001936157."
   },
   {
     "id": "0001354457-26-000283:primary_doc.xml",
@@ -18983,8 +18306,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001836875.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001836875."
   },
   {
     "id": "0000876661-26-000280:primary_doc.xml",
@@ -19011,8 +18333,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160106.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160106."
   },
   {
     "id": "0001354457-26-000277:primary_doc.xml",
@@ -19039,8 +18360,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001124140.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001124140."
   },
   {
     "id": "0001104659-26-033131:tm268388d3_1512g.htm",
@@ -19067,8 +18387,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001545654.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001545654."
   },
   {
     "id": "0000943374-26-000139:form15.htm",
@@ -19095,8 +18414,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001514743.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001514743."
   },
   {
     "id": "0001829126-26-002592:dmysquared_15-12g.htm",
@@ -19123,8 +18441,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001915380.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001915380."
   },
   {
     "id": "0001437749-26-009200:ecda20260319_25.htm",
@@ -19151,8 +18468,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001922858.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001922858."
   },
   {
     "id": "0001213900-26-032413:ea0282679-1512g_presidio.htm",
@@ -19179,8 +18495,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002021042.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002021042."
   },
   {
     "id": "0001213900-26-032075:ea0282634-1515d_horizon.htm",
@@ -19207,8 +18522,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002088257.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002088257."
   },
   {
     "id": "0001143362-26-000102:primary_doc.xml",
@@ -19235,8 +18549,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001547576.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001547576."
   },
   {
     "id": "0001143313-26-000018:primary_doc.xml",
@@ -19263,8 +18576,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000800166.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000800166."
   },
   {
     "id": "0001140361-26-010461:ef20068384_1512g.htm",
@@ -19291,8 +18603,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001475115.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001475115."
   },
   {
     "id": "0000876661-26-000273:primary_doc.xml",
@@ -19319,8 +18630,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000039899.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000039899."
   },
   {
     "id": "0001292814-26-001415:zenv20260319_form15.htm",
@@ -19347,8 +18657,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001836934.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001836934."
   },
   {
     "id": "0000876661-26-000276:primary_doc.xml",
@@ -19375,8 +18684,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001812173.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001812173."
   },
   {
     "id": "0001683168-26-001958:frontera_form15.htm",
@@ -19403,8 +18711,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001602813.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001602813."
   },
   {
     "id": "0001193125-26-112753:d77910d1512g.htm",
@@ -19431,8 +18738,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001673772.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001673772."
   },
   {
     "id": "0000876661-26-000271:primary_doc.xml",
@@ -19459,8 +18765,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001780990.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001780990."
   },
   {
     "id": "0000876661-26-000268:primary_doc.xml",
@@ -19487,8 +18792,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000313616.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000313616."
   },
   {
     "id": "0000876661-26-000266:primary_doc.xml",
@@ -19515,8 +18819,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001519061.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001519061."
   },
   {
     "id": "0001354457-26-000262:primary_doc.xml",
@@ -19543,8 +18846,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001699838.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001699838."
   },
   {
     "id": "0001143313-26-000015:primary_doc.xml",
@@ -19571,8 +18873,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001898474.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001898474."
   },
   {
     "id": "0000876661-26-000238:primary_doc.xml",
@@ -19599,8 +18900,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000092103.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000092103."
   },
   {
     "id": "0000876661-26-000237:primary_doc.xml",
@@ -19627,8 +18927,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001627426.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001627426."
   },
   {
     "id": "0000876661-26-000236:primary_doc.xml",
@@ -19655,8 +18954,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001627426.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001627426."
   },
   {
     "id": "0001417835-26-000057:primary_doc.xml",
@@ -19683,8 +18981,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001479026.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001479026."
   },
   {
     "id": "0001354457-26-000257:primary_doc.xml",
@@ -19711,8 +19008,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002028707.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002028707."
   },
   {
     "id": "0001354457-26-000255:primary_doc.xml",
@@ -19739,8 +19035,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001540013.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001540013."
   },
   {
     "id": "0001213900-26-028339:ea0281940-1512g_sofgen.htm",
@@ -19767,8 +19062,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001863362.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001863362."
   },
   {
     "id": "0001193125-26-107754:d107704d1512g.htm",
@@ -19795,8 +19089,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001851194.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001851194."
   },
   {
     "id": "0001193125-26-107284:d85152d1512g.htm",
@@ -19823,8 +19116,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001881567.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001881567."
   },
   {
     "id": "0001104659-26-028500:tm268975d1_25.htm",
@@ -19851,8 +19143,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000101538.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000101538."
   },
   {
     "id": "0000876661-26-000231:primary_doc.xml",
@@ -19879,8 +19170,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001852353.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001852353."
   },
   {
     "id": "0001354457-26-000251:primary_doc.xml",
@@ -19907,8 +19197,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001514743.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001514743."
   },
   {
     "id": "0001213900-26-027576:ea028160904-1512g_magic.htm",
@@ -19935,8 +19224,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000876779.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000876779."
   },
   {
     "id": "0000876661-26-000229:primary_doc.xml",
@@ -19963,8 +19251,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001545654.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001545654."
   },
   {
     "id": "0001841125-26-000025:bslkw-20260312form15.htm",
@@ -19991,8 +19278,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001841125.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001841125."
   },
   {
     "id": "0001437749-26-007835:mbcn20260312_1512g.htm",
@@ -20019,8 +19305,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000836147.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000836147."
   },
   {
     "id": "0001140361-26-009227:ef20067736_1512g.htm",
@@ -20047,8 +19332,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001827821.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001827821."
   },
   {
     "id": "0000950103-26-003704:dp243196_1515d.htm",
@@ -20075,8 +19359,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001498710.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001498710."
   },
   {
     "id": "0001354457-26-000245:primary_doc.xml",
@@ -20103,8 +19386,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001789029.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001789029."
   },
   {
     "id": "0001354457-26-000244:primary_doc.xml",
@@ -20131,8 +19413,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001816581.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001816581."
   },
   {
     "id": "0001193125-26-102254:d934237d1512g.htm",
@@ -20159,8 +19440,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001496454.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001496454."
   },
   {
     "id": "0000876661-26-000219:primary_doc.xml",
@@ -20187,8 +19467,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001475115.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001475115."
   },
   {
     "id": "0001354457-26-000237:primary_doc.xml",
@@ -20215,8 +19494,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001034957.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001034957."
   },
   {
     "id": "0001292814-26-000729:zenv20260309_form25.htm",
@@ -20243,8 +19521,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001836934.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001836934."
   },
   {
     "id": "0001213900-26-024885:ea028044902-1515d_eqv.htm",
@@ -20271,8 +19548,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002101944.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002101944."
   },
   {
     "id": "0001213900-26-024884:ea028044901-1515d_presidio.htm",
@@ -20299,8 +19575,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002084824.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002084824."
   },
   {
     "id": "0001193125-26-097470:d40653d1512g.htm",
@@ -20327,8 +19602,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001599901.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001599901."
   },
   {
     "id": "0000876661-26-000217:primary_doc.xml",
@@ -20355,8 +19629,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113."
   },
   {
     "id": "0001628280-26-015477:form15-aihl.htm",
@@ -20383,8 +19656,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001267395.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001267395."
   },
   {
     "id": "0001554855-26-000204:MainDocument.htm",
@@ -20411,8 +19683,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001945711.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001945711."
   },
   {
     "id": "0001143362-26-000087:primary_doc.xml",
@@ -20439,8 +19710,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001545440.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001545440."
   },
   {
     "id": "0000929638-26-000930:bmw2022a_1515d.htm",
@@ -20467,8 +19737,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001921318.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001921318."
   },
   {
     "id": "0000876661-26-000215:primary_doc.xml",
@@ -20495,8 +19764,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000021665.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000021665."
   },
   {
     "id": "0001417835-26-000051:primary_doc.xml",
@@ -20523,8 +19791,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982."
   },
   {
     "id": "0001417835-26-000049:primary_doc.xml",
@@ -20551,8 +19818,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001378872.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001378872."
   },
   {
     "id": "0001417835-26-000047:primary_doc.xml",
@@ -20579,8 +19845,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001418144.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001418144."
   },
   {
     "id": "0001193125-26-094076:d745270d25.htm",
@@ -20607,8 +19872,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000723603.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000723603."
   },
   {
     "id": "0001193125-26-092625:d16699d25.htm",
@@ -20635,8 +19899,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001881567.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001881567."
   },
   {
     "id": "0000876661-26-000210:primary_doc.xml",
@@ -20663,8 +19926,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002021042.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002021042."
   },
   {
     "id": "0001888524-26-003864:ccc15c23_15-2026.htm",
@@ -20691,8 +19953,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001640052.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001640052."
   },
   {
     "id": "0001888524-26-003846:wcm14lc1_15-2026.htm",
@@ -20719,8 +19980,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001596958.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001596958."
   },
   {
     "id": "0001354457-26-000229:primary_doc.xml",
@@ -20747,8 +20007,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001653384.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001653384."
   },
   {
     "id": "0001354457-26-000227:primary_doc.xml",
@@ -20775,8 +20034,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001851194.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001851194."
   },
   {
     "id": "0000876661-26-000208:primary_doc.xml",
@@ -20803,8 +20061,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000732717.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000732717."
   },
   {
     "id": "0001354457-26-000226:primary_doc.xml",
@@ -20831,8 +20088,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001673772.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001673772."
   },
   {
     "id": "0000876661-26-000196:primary_doc.xml",
@@ -20859,8 +20115,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413329.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413329."
   },
   {
     "id": "0001841125-26-000015:bslkw-20261xxform25.htm",
@@ -20887,8 +20142,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001841125.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001841125."
   },
   {
     "id": "0001493152-26-008559:form15-12g.htm",
@@ -20915,8 +20169,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001815974.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001815974."
   },
   {
     "id": "0001354457-26-000225:primary_doc.xml",
@@ -20943,8 +20196,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000836147.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000836147."
   },
   {
     "id": "0001213900-26-022339:ea0279419-1512g_strata.htm",
@@ -20971,8 +20223,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001051514.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001051514."
   },
   {
     "id": "0001213900-26-022172:ea0278281-1512g_aamission.htm",
@@ -20999,8 +20250,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002012964.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002012964."
   },
   {
     "id": "0001143362-26-000081:primary_doc.xml",
@@ -21027,8 +20277,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001761055.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001761055."
   },
   {
     "id": "0000894189-26-007260:cornercapetffunl-form25.htm",
@@ -21055,8 +20304,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001970751.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001970751."
   },
   {
     "id": "0000876661-26-000190:primary_doc.xml",
@@ -21083,8 +20331,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000804269.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000804269."
   },
   {
     "id": "0000876661-26-000188:primary_doc.xml",
@@ -21111,8 +20358,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000844150.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000844150."
   },
   {
     "id": "0000876661-26-000186:primary_doc.xml",
@@ -21139,8 +20385,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001827821.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001827821."
   },
   {
     "id": "0001354457-26-000224:primary_doc.xml",
@@ -21167,8 +20412,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001599901.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001599901."
   },
   {
     "id": "0001213900-26-021580:eaf1512g-1512g_altamira.htm",
@@ -21195,8 +20439,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001601936.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001601936."
   },
   {
     "id": "0001213900-26-021174:ea0278349-02_15d.htm",
@@ -21223,8 +20466,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001984297.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001984297."
   },
   {
     "id": "0001213900-26-021172:ea0278349-01_15d.htm",
@@ -21251,8 +20493,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001896310.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001896310."
   },
   {
     "id": "0001104659-26-021634:tm267600d1_1512g.htm",
@@ -21279,8 +20520,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001843477.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001843477."
   },
   {
     "id": "0001104659-26-021453:tm267522d1_1512g.htm",
@@ -21307,8 +20547,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001870267.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001870267."
   },
   {
     "id": "0000876661-26-000184:primary_doc.xml",
@@ -21335,8 +20574,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001411342.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001411342."
   },
   {
     "id": "0001437749-26-005837:crawa20260205_1512g.htm",
@@ -21363,8 +20601,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000047307.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000047307."
   },
   {
     "id": "0001354457-26-000220:primary_doc.xml",
@@ -21391,8 +20628,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001610820.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001610820."
   },
   {
     "id": "0001143362-26-000077:primary_doc.xml",
@@ -21419,8 +20655,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001860434.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001860434."
   },
   {
     "id": "0001104659-26-019963:tm265223d1_15f15d.htm",
@@ -21447,8 +20682,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001937619.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001937619."
   },
   {
     "id": "0000876661-26-000181:primary_doc.xml",
@@ -21475,8 +20709,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001576018.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001576018."
   },
   {
     "id": "0001143362-26-000074:primary_doc.xml",
@@ -21503,8 +20736,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742912.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742912."
   },
   {
     "id": "0001143362-26-000071:primary_doc.xml",
@@ -21531,8 +20763,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001378872.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001378872."
   },
   {
     "id": "0001104659-26-019640:tm267311d1_1512g.htm",
@@ -21559,8 +20790,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001848437.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001848437."
   },
   {
     "id": "0001104659-26-019631:tm267295g1_1512g.htm",
@@ -21587,8 +20817,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001412665.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001412665."
   },
   {
     "id": "0000876661-26-000178:primary_doc.xml",
@@ -21615,8 +20844,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001543309.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001543309."
   },
   {
     "id": "0000876661-26-000176:primary_doc.xml",
@@ -21643,8 +20871,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001543199.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001543199."
   },
   {
     "id": "0000876661-26-000174:primary_doc.xml",
@@ -21671,8 +20898,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001543198.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001543198."
   },
   {
     "id": "0000876661-26-000172:primary_doc.xml",
@@ -21699,8 +20925,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001521332.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001521332."
   },
   {
     "id": "0000876661-26-000170:primary_doc.xml",
@@ -21727,8 +20952,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413329.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413329."
   },
   {
     "id": "0001554855-26-000107:MainDocument.htm",
@@ -21755,8 +20979,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001945711.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001945711."
   },
   {
     "id": "0001354457-26-000212:primary_doc.xml",
@@ -21783,8 +21006,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000318154.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000318154."
   },
   {
     "id": "0001354457-26-000210:primary_doc.xml",
@@ -21811,8 +21033,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000876779.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000876779."
   },
   {
     "id": "0001185185-26-000659:tectp1512g022426.htm",
@@ -21839,8 +21060,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001766526.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001766526."
   },
   {
     "id": "0000876661-26-000166:primary_doc.xml",
@@ -21867,8 +21087,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001267395.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001267395."
   },
   {
     "id": "0001628280-26-010392:projectskyfall-form15final.htm",
@@ -21895,8 +21114,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001131554.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001131554."
   },
   {
     "id": "0001493152-26-007726:form15-12ga.htm",
@@ -21923,8 +21141,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0000847942.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0000847942."
   },
   {
     "id": "0001354457-26-000209:primary_doc.xml",
@@ -21951,8 +21168,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001378872.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001378872."
   },
   {
     "id": "0001320695-26-000031:projecttaste-form15finalfo.htm",
@@ -21979,8 +21195,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001320695.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001320695."
   },
   {
     "id": "0001193125-26-063593:d108352d1512g.htm",
@@ -22007,8 +21222,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000917470.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000917470."
   },
   {
     "id": "0001143362-26-000061:primary_doc.xml",
@@ -22035,8 +21249,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001593547.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001593547."
   },
   {
     "id": "0001104659-26-018360:tm266096d1_1512g.htm",
@@ -22063,8 +21276,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001598110.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001598110."
   },
   {
     "id": "0001104659-26-018282:tm266953d1_1512g.htm",
@@ -22091,8 +21303,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001012477.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001012477."
   },
   {
     "id": "0000876661-26-000162:primary_doc.xml",
@@ -22119,8 +21330,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001848758.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001848758."
   },
   {
     "id": "0000876661-26-000160:primary_doc.xml",
@@ -22147,8 +21357,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000895421.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000895421."
   },
   {
     "id": "0000876661-26-000158:primary_doc.xml",
@@ -22175,8 +21384,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001666268.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001666268."
   },
   {
     "id": "0000876661-26-000156:primary_doc.xml",
@@ -22203,8 +21411,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000835948.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000835948."
   },
   {
     "id": "0000876661-26-000154:primary_doc.xml",
@@ -22231,8 +21438,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000887394.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000887394."
   },
   {
     "id": "0000876661-26-000152:primary_doc.xml",
@@ -22259,8 +21465,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000879361.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000879361."
   },
   {
     "id": "0000876661-26-000150:primary_doc.xml",
@@ -22287,8 +21492,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000894242.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000894242."
   },
   {
     "id": "0000876661-26-000148:primary_doc.xml",
@@ -22315,8 +21519,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000897269.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000897269."
   },
   {
     "id": "0000876661-26-000146:primary_doc.xml",
@@ -22343,8 +21546,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001343793.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001343793."
   },
   {
     "id": "0001922474-26-000015:form15-15daart2022x1januar.htm",
@@ -22371,8 +21573,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001922474.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001922474."
   },
   {
     "id": "0001193125-26-061644:d113716d25.htm",
@@ -22399,8 +21600,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001761055.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001761055."
   },
   {
     "id": "0001193125-26-061435:d42542d25.htm",
@@ -22427,8 +21627,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001100663.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001100663."
   },
   {
     "id": "0001193125-26-060219:d96766d1512g.htm",
@@ -22455,8 +21654,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001029142.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001029142."
   },
   {
     "id": "0001193125-26-060217:d107069d1512g.htm",
@@ -22483,8 +21681,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001417398.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001417398."
   },
   {
     "id": "0001104659-26-017695:tm265113d1_25.htm",
@@ -22511,8 +21708,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001964504.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001964504."
   },
   {
     "id": "0001213900-26-018397:ea0277544-25_strata.htm",
@@ -22539,8 +21735,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001051514.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001051514."
   },
   {
     "id": "0001193125-26-057875:d76712d1512g.htm",
@@ -22567,8 +21762,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001808158.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001808158."
   },
   {
     "id": "0001104659-26-017534:gbio-20260218x1512g.htm",
@@ -22595,8 +21789,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001733294.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001733294."
   },
   {
     "id": "0001354457-26-000197:primary_doc.xml",
@@ -22623,8 +21816,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001554818.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001554818."
   },
   {
     "id": "0001354457-26-000196:primary_doc.xml",
@@ -22651,8 +21843,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001518461.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001518461."
   },
   {
     "id": "0001354457-26-000193:primary_doc.xml",
@@ -22679,8 +21870,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001578987.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001578987."
   },
   {
     "id": "0001104659-26-017042:tm266600d1_1512g.htm",
@@ -22707,8 +21897,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000895126.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000895126."
   },
   {
     "id": "0001493152-26-007168:form25.htm",
@@ -22735,8 +21924,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001815974.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001815974."
   },
   {
     "id": "0001193125-26-054011:d869527d1515d.htm",
@@ -22763,8 +21951,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001850351.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001850351."
   },
   {
     "id": "0001143362-26-000041:primary_doc.xml",
@@ -22791,8 +21978,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001499655.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001499655."
   },
   {
     "id": "0001140361-26-005618:ef20065198_1512g.htm",
@@ -22819,8 +22005,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001725057.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001725057."
   },
   {
     "id": "0000876661-26-000140:primary_doc.xml",
@@ -22847,8 +22032,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001556748.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001556748."
   },
   {
     "id": "0000876661-26-000139:primary_doc.xml",
@@ -22875,8 +22059,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000315293.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000315293."
   },
   {
     "id": "0000876661-26-000136:primary_doc.xml",
@@ -22903,8 +22086,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000833444.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000833444."
   },
   {
     "id": "0000876661-26-000134:primary_doc.xml",
@@ -22931,8 +22113,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000038009.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000038009."
   },
   {
     "id": "0000876661-26-000132:primary_doc.xml",
@@ -22959,8 +22140,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001527590.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001527590."
   },
   {
     "id": "0001820566-26-000040:ispo-02122026xform15x12g.htm",
@@ -22987,8 +22167,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001820566.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001820566."
   },
   {
     "id": "0001354457-26-000185:primary_doc.xml",
@@ -23015,8 +22194,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001766526.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001766526."
   },
   {
     "id": "0001354457-26-000184:primary_doc.xml",
@@ -23043,8 +22221,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001412665.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001412665."
   },
   {
     "id": "0001354457-26-000183:primary_doc.xml",
@@ -23071,8 +22248,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000917470.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000917470."
   },
   {
     "id": "0001354457-26-000179:primary_doc.xml",
@@ -23099,8 +22275,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001131554.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001131554."
   },
   {
     "id": "0001193125-26-050159:d186927d25.htm",
@@ -23127,8 +22302,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0002007825.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0002007825."
   },
   {
     "id": "0001193125-26-049942:d70674d1512g.htm",
@@ -23155,8 +22329,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001697532.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001697532."
   },
   {
     "id": "0000947871-26-000144:ss5948992_1512g.htm",
@@ -23183,8 +22356,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000768408.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000768408."
   },
   {
     "id": "0000876661-26-000129:primary_doc.xml",
@@ -23211,8 +22383,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001126956.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001126956."
   },
   {
     "id": "0000876661-26-000127:primary_doc.xml",
@@ -23239,8 +22410,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001659166.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001659166."
   },
   {
     "id": "0000876661-26-000125:primary_doc.xml",
@@ -23267,8 +22437,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002012964.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002012964."
   },
   {
     "id": "0001493152-26-006387:form15-15d.htm",
@@ -23295,8 +22464,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001785493.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001785493."
   },
   {
     "id": "0001354457-26-000174:primary_doc.xml",
@@ -23323,8 +22491,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001301236.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001301236."
   },
   {
     "id": "0001354457-26-000172:primary_doc.xml",
@@ -23351,8 +22518,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001012477.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001012477."
   },
   {
     "id": "0001193125-26-048878:d15522d1512g.htm",
@@ -23379,8 +22545,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001338749.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001338749."
   },
   {
     "id": "0001193125-26-048155:d17702d1512g.htm",
@@ -23407,8 +22572,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001435508.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001435508."
   },
   {
     "id": "0001193125-26-047635:d246596d1512g.htm",
@@ -23435,8 +22599,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000028412.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000028412."
   },
   {
     "id": "0001193125-26-047629:d246596d1512g.htm",
@@ -23463,8 +22626,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000028412.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000028412."
   },
   {
     "id": "0001354457-26-000164:primary_doc.xml",
@@ -23491,8 +22653,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001598110.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001598110."
   },
   {
     "id": "0001140361-26-004792:ef20065360_1512g.htm",
@@ -23519,8 +22680,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001687221.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001687221."
   },
   {
     "id": "0001062993-26-000797:form15f12b.htm",
@@ -23547,8 +22707,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001472619.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001472619."
   },
   {
     "id": "0000876661-26-000121:primary_doc.xml",
@@ -23575,8 +22734,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001320695.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001320695."
   },
   {
     "id": "0001417835-26-000034:primary_doc.xml",
@@ -23603,8 +22761,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001479026.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001479026."
   },
   {
     "id": "0001354457-26-000154:primary_doc.xml",
@@ -23631,8 +22788,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001029142.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001029142."
   },
   {
     "id": "0001104659-26-012376:tm265763d1_1512g.htm",
@@ -23659,8 +22815,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001509589.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001509589."
   },
   {
     "id": "0000876661-26-000118:primary_doc.xml",
@@ -23687,8 +22842,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001811063.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001811063."
   },
   {
     "id": "0000876661-26-000115:primary_doc.xml",
@@ -23715,8 +22869,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001417398.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001417398."
   },
   {
     "id": "0001354457-26-000152:primary_doc.xml",
@@ -23743,8 +22896,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001812727.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001812727."
   },
   {
     "id": "0001354457-26-000149:primary_doc.xml",
@@ -23771,8 +22923,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001733294.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001733294."
   },
   {
     "id": "0001193125-26-042948:d228342d1512g.htm",
@@ -23799,8 +22950,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002082015.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002082015."
   },
   {
     "id": "0001143313-26-000008:primary_doc.xml",
@@ -23827,8 +22977,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001691421.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001691421."
   },
   {
     "id": "0001140361-26-004404:ef20064824_15-12g.htm",
@@ -23855,8 +23004,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001846510.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001846510."
   },
   {
     "id": "0001140361-26-004292:ef20064991_1512g.htm",
@@ -23883,8 +23031,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001409269.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001409269."
   },
   {
     "id": "0001104659-26-011953:tm264539d3_1512g.htm",
@@ -23911,8 +23058,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001721947.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001721947."
   },
   {
     "id": "0000876661-26-000112:primary_doc.xml",
@@ -23939,8 +23085,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001071899.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001071899."
   },
   {
     "id": "0000876661-26-000110:primary_doc.xml",
@@ -23967,8 +23112,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137393.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137393."
   },
   {
     "id": "0000876661-26-000108:primary_doc.xml",
@@ -23995,8 +23139,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001181187.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001181187."
   },
   {
     "id": "0000876661-26-000106:primary_doc.xml",
@@ -24023,8 +23166,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001176194.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001176194."
   },
   {
     "id": "0000876661-26-000103:primary_doc.xml",
@@ -24051,8 +23193,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137390.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137390."
   },
   {
     "id": "0000876661-26-000101:primary_doc.xml",
@@ -24079,8 +23220,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001038186.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001038186."
   },
   {
     "id": "0000876661-26-000099:primary_doc.xml",
@@ -24107,8 +23247,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137391.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137391."
   },
   {
     "id": "0000876661-26-000097:primary_doc.xml",
@@ -24135,8 +23274,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000103379.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000103379."
   },
   {
     "id": "0001888524-26-002004:msc15c24_15-2026.htm",
@@ -24163,8 +23301,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001646924.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001646924."
   },
   {
     "id": "0001888524-26-002003:msc15c26_15-2026.htm",
@@ -24191,8 +23328,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001655591.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001655591."
   },
   {
     "id": "0001477932-26-000675:dlti_15.htm",
@@ -24219,8 +23355,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001420368.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001420368."
   },
   {
     "id": "0001354457-26-000148:primary_doc.xml",
@@ -24247,8 +23382,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000895126.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000895126."
   },
   {
     "id": "0001193125-26-040255:d34987d1512g.htm",
@@ -24275,8 +23409,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001515816.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001515816."
   },
   {
     "id": "0001417835-26-000030:primary_doc.xml",
@@ -24303,8 +23436,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982."
   },
   {
     "id": "0000943374-26-000056:form15.htm",
@@ -24331,8 +23463,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001849670.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001849670."
   },
   {
     "id": "0000876661-26-000091:primary_doc.xml",
@@ -24359,8 +23490,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001532286.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001532286."
   },
   {
     "id": "0001888524-26-001990:wcm13c11_15-2026.htm",
@@ -24387,8 +23517,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001566543.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001566543."
   },
   {
     "id": "0001104659-26-010308:tm265227d1_1512g.htm",
@@ -24415,8 +23544,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001975218.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001975218."
   },
   {
     "id": "0000876661-26-000087:primary_doc.xml",
@@ -24443,8 +23571,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001725057.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001725057."
   },
   {
     "id": "0001354457-26-000133:primary_doc.xml",
@@ -24471,8 +23598,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001820566.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001820566."
   },
   {
     "id": "0001354457-26-000130:primary_doc.xml",
@@ -24499,8 +23625,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001697532.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001697532."
   },
   {
     "id": "0001104659-26-009717:tm264931d2_1512g.htm",
@@ -24527,8 +23652,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000812152.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000812152."
   },
   {
     "id": "0001417835-26-000026:primary_doc.xml",
@@ -24555,8 +23679,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001884021.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001884021."
   },
   {
     "id": "0001354457-26-000123:primary_doc.xml",
@@ -24583,8 +23706,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001338749.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001338749."
   },
   {
     "id": "0001354457-26-000121:primary_doc.xml",
@@ -24611,8 +23733,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001435508.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001435508."
   },
   {
     "id": "0001193125-26-033400:d848151d1512g.htm",
@@ -24639,8 +23760,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000912463.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000912463."
   },
   {
     "id": "0001178913-26-000276:zk2634274.htm",
@@ -24667,8 +23787,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001166834.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001166834."
   },
   {
     "id": "0001140361-26-003219:ef20064466_1512g.htm",
@@ -24695,8 +23814,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001454789.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001454789."
   },
   {
     "id": "0001104659-26-008995:tm264383d1_1512g.htm",
@@ -24723,8 +23841,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001327318.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001327318."
   },
   {
     "id": "0000876661-26-000081:primary_doc.xml",
@@ -24751,8 +23868,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001804176.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001804176."
   },
   {
     "id": "0000876661-26-000079:primary_doc.xml",
@@ -24779,8 +23895,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000028412.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000028412."
   },
   {
     "id": "0000876661-26-000076:primary_doc.xml",
@@ -24807,8 +23922,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001687221.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001687221."
   },
   {
     "id": "0001493152-26-004549:form15-12g.htm",
@@ -24835,8 +23949,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001819794.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001819794."
   },
   {
     "id": "0001493152-26-004380:form15-15d.htm",
@@ -24863,8 +23976,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002035964.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002035964."
   },
   {
     "id": "0001354457-26-000116:primary_doc.xml",
@@ -24891,8 +24003,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001721947.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001721947."
   },
   {
     "id": "0001213900-26-009863:ea0273930-01_15d.htm",
@@ -24919,8 +24030,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001861570.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001861570."
   },
   {
     "id": "0001213900-26-009685:ea0274763-15f12b_almacenes.htm",
@@ -24947,8 +24057,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001957146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001957146."
   },
   {
     "id": "0001193125-26-030616:d69670d1512g.htm",
@@ -24975,8 +24084,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000020520.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000020520."
   },
   {
     "id": "0001140361-26-002892:ef20064184_25.htm",
@@ -25003,8 +24111,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001409269.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001409269."
   },
   {
     "id": "0001104659-26-008634:tm262849d5_1512g.htm",
@@ -25031,8 +24138,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001388658.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001388658."
   },
   {
     "id": "0001104659-26-008613:tm264197d1_25.htm",
@@ -25059,8 +24165,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000901832.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000901832."
   },
   {
     "id": "0000950103-26-001349:dp240789_1512g.htm",
@@ -25087,8 +24192,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001792829.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001792829."
   },
   {
     "id": "0000929638-26-000414:taot2021d_1515d.htm",
@@ -25115,8 +24219,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001886967.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001886967."
   },
   {
     "id": "0000876661-26-000073:primary_doc.xml",
@@ -25143,8 +24246,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001509589.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001509589."
   },
   {
     "id": "0000876661-26-000071:primary_doc.xml",
@@ -25171,8 +24273,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001604174.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001604174."
   },
   {
     "id": "0001354457-26-000114:primary_doc.xml",
@@ -25199,8 +24300,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001547580.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001547580."
   },
   {
     "id": "0001354457-26-000112:primary_doc.xml",
@@ -25227,8 +24327,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001495240.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001495240."
   },
   {
     "id": "0001354457-26-000111:primary_doc.xml",
@@ -25255,8 +24354,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001587987.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001587987."
   },
   {
     "id": "0001079973-26-000133:ecia_15.htm",
@@ -25283,8 +24381,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000930775.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000930775."
   },
   {
     "id": "0000876661-26-000068:primary_doc.xml",
@@ -25311,8 +24408,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001487428.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001487428."
   },
   {
     "id": "0000876661-26-000066:primary_doc.xml",
@@ -25339,8 +24435,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001846510.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001846510."
   },
   {
     "id": "0001354457-26-000100:primary_doc.xml",
@@ -25367,8 +24462,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001808158.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001808158."
   },
   {
     "id": "0000876661-26-000063:primary_doc.xml",
@@ -25395,8 +24489,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001515816.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001515816."
   },
   {
     "id": "0001634293-26-000005:exdw_form15.htm",
@@ -25423,8 +24516,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001634293.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001634293."
   },
   {
     "id": "0001625297-26-000002:form15.htm",
@@ -25451,8 +24543,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001625297.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001625297."
   },
   {
     "id": "0001354457-26-000090:primary_doc.xml",
@@ -25479,8 +24570,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868."
   },
   {
     "id": "0001354457-26-000086:primary_doc.xml",
@@ -25507,8 +24597,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001454789.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001454789."
   },
   {
     "id": "0001193125-26-022736:d13419d1512g.htm",
@@ -25535,8 +24624,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000852772.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000852772."
   },
   {
     "id": "0001159167-26-000007:form15.htm",
@@ -25563,8 +24651,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001159167.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001159167."
   },
   {
     "id": "0001140361-26-002307:ef20063516_15-15d.htm",
@@ -25591,8 +24678,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001031623.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001031623."
   },
   {
     "id": "0001140361-26-002306:ef20063516_15-12g.htm",
@@ -25619,8 +24705,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001031623.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001031623."
   },
   {
     "id": "0000950103-26-000946:dp240418_1512g.htm",
@@ -25647,8 +24732,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001554859.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001554859."
   },
   {
     "id": "0001520138-26-000040:mbie-01232026_15g.htm",
@@ -25675,8 +24759,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001872066.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001872066."
   },
   {
     "id": "0001354457-26-000085:primary_doc.xml",
@@ -25703,8 +24786,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001022899.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001022899."
   },
   {
     "id": "0001354457-26-000084:primary_doc.xml",
@@ -25731,8 +24813,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000868278.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000868278."
   },
   {
     "id": "0001354457-26-000083:primary_doc.xml",
@@ -25759,8 +24840,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001758057.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001758057."
   },
   {
     "id": "0001354457-26-000081:primary_doc.xml",
@@ -25787,8 +24867,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0000846475.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0000846475."
   },
   {
     "id": "0001354457-26-000080:primary_doc.xml",
@@ -25815,8 +24894,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000846475.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000846475."
   },
   {
     "id": "0001354457-26-000079:primary_doc.xml",
@@ -25843,8 +24921,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001883788.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001883788."
   },
   {
     "id": "0001354457-26-000075:primary_doc.xml",
@@ -25871,8 +24948,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001454789.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001454789."
   },
   {
     "id": "0000876661-26-000060:primary_doc.xml",
@@ -25899,8 +24975,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000912463.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000912463."
   },
   {
     "id": "0000876661-26-000058:primary_doc.xml",
@@ -25927,8 +25002,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000097745.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000097745."
   },
   {
     "id": "0001437749-26-001762:lglg20260122_1512g.htm",
@@ -25955,8 +25029,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000061004.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000061004."
   },
   {
     "id": "0001354457-26-000071:primary_doc.xml",
@@ -25983,8 +25056,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001655589.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001655589."
   },
   {
     "id": "0001213900-26-006361:ea027342307-1512g_frontier.htm",
@@ -26011,8 +25083,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389125.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389125."
   },
   {
     "id": "0001213900-26-006360:ea027342306-1512g_frontier.htm",
@@ -26039,8 +25110,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001450722.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001450722."
   },
   {
     "id": "0001213900-26-006359:ea027342305-1512g_frontier.htm",
@@ -26067,8 +25137,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389128.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389128."
   },
   {
     "id": "0001213900-26-006358:ea027342304-1512g_frontier.htm",
@@ -26095,8 +25164,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389123.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389123."
   },
   {
     "id": "0001213900-26-006357:ea027342303-1512g_frontier.htm",
@@ -26123,8 +25191,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389124.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389124."
   },
   {
     "id": "0001213900-26-006356:ea027342302-1512g_frontier.htm",
@@ -26151,8 +25218,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001450720.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001450720."
   },
   {
     "id": "0001213900-26-006355:ea027342301-1512g_frontier.htm",
@@ -26179,8 +25245,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389122.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389122."
   },
   {
     "id": "0001354457-26-000067:primary_doc.xml",
@@ -26207,8 +25272,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001327318.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001327318."
   },
   {
     "id": "0001354457-26-000064:primary_doc.xml",
@@ -26235,8 +25299,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001744494.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001744494."
   },
   {
     "id": "0001354457-26-000062:primary_doc.xml",
@@ -26263,8 +25326,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001744494.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001744494."
   },
   {
     "id": "0001354457-26-000061:primary_doc.xml",
@@ -26291,8 +25353,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001915328.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001915328."
   },
   {
     "id": "0001354457-26-000060:primary_doc.xml",
@@ -26319,8 +25380,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001936255.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001936255."
   },
   {
     "id": "0001292814-26-000150:elp20260121_15-12g.htm",
@@ -26347,8 +25407,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001041792.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001041792."
   },
   {
     "id": "0001213900-26-005878:ea0273472-1512g_integrated.htm",
@@ -26375,8 +25434,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001854795.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001854795."
   },
   {
     "id": "0001193125-26-018150:d930301d1512g.htm",
@@ -26403,8 +25461,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001593222.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001593222."
   },
   {
     "id": "0001104659-26-005346:tm263423d1_1515d.htm",
@@ -26431,8 +25488,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001990353.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001990353."
   },
   {
     "id": "0000876661-26-000051:primary_doc.xml",
@@ -26459,8 +25515,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000097745.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000097745."
   },
   {
     "id": "0001944057-26-000015:form15-12g.htm",
@@ -26487,8 +25542,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001944057.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001944057."
   },
   {
     "id": "0001888524-26-000213:msc15c23_15-2026.htm",
@@ -26515,8 +25569,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001642727.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001642727."
   },
   {
     "id": "0001398987-26-000047:form15.htm",
@@ -26543,8 +25596,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001398987.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001398987."
   },
   {
     "id": "0001354457-26-000058:primary_doc.xml",
@@ -26571,8 +25623,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819395.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819395."
   },
   {
     "id": "0001354457-26-000054:primary_doc.xml",
@@ -26599,8 +25650,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000020520.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000020520."
   },
   {
     "id": "0001193125-26-016554:d44726d1512g.htm",
@@ -26627,8 +25677,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001658566.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001658566."
   },
   {
     "id": "0001193125-26-015973:d62076d15f12b.htm",
@@ -26655,8 +25704,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0000814052.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0000814052."
   },
   {
     "id": "0001193125-26-015970:d60324d15f12b.htm",
@@ -26683,8 +25731,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001406468.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001406468."
   },
   {
     "id": "0001193125-26-015967:d49271d15f15d.htm",
@@ -26711,8 +25758,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-15D Delisted filing. Registered CIK: 0001122529.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15F-15D Delisted filing. Registered CIK: 0001122529."
   },
   {
     "id": "0001193125-26-015957:d56540d1512g.htm",
@@ -26739,8 +25785,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001610618.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001610618."
   },
   {
     "id": "0001143362-26-000015:primary_doc.xml",
@@ -26767,8 +25812,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388."
   },
   {
     "id": "0001104659-26-004786:tm263065d1_1515d.htm",
@@ -26795,8 +25839,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001974913.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001974913."
   },
   {
     "id": "0000950103-26-000644:dp240098_25.htm",
@@ -26823,8 +25866,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001792829.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001792829."
   },
   {
     "id": "0001354457-26-000053:primary_doc.xml",
@@ -26851,8 +25893,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001031623.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001031623."
   },
   {
     "id": "0001354457-26-000052:primary_doc.xml",
@@ -26879,8 +25920,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001701963.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001701963."
   },
   {
     "id": "0001354457-26-000051:primary_doc.xml",
@@ -26907,8 +25947,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000852772.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000852772."
   },
   {
     "id": "0001354457-26-000049:primary_doc.xml",
@@ -26935,8 +25974,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001554859.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001554859."
   },
   {
     "id": "0001193125-26-014938:d40757d1515d.htm",
@@ -26963,8 +26001,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001883955.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001883955."
   },
   {
     "id": "0001193125-26-014663:d44631d1512g.htm",
@@ -26991,8 +26028,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001809122.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001809122."
   },
   {
     "id": "0001143362-26-000011:primary_doc.xml",
@@ -27019,8 +26055,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001667919.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001667919."
   },
   {
     "id": "0001104659-26-004556:tm263425d1_1512g.htm",
@@ -27047,8 +26082,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001442836.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001442836."
   },
   {
     "id": "0001354457-26-000045:primary_doc.xml",
@@ -27075,8 +26109,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001159167.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001159167."
   },
   {
     "id": "0001354457-26-000044:primary_doc.xml",
@@ -27103,8 +26136,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001889106.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001889106."
   },
   {
     "id": "0001354457-26-000043:primary_doc.xml",
@@ -27131,8 +26163,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001944212.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001944212."
   },
   {
     "id": "0000876661-26-000048:primary_doc.xml",
@@ -27159,8 +26190,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000914208.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000914208."
   },
   {
     "id": "0000876661-26-000046:primary_doc.xml",
@@ -27187,8 +26217,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000040704.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000040704."
   },
   {
     "id": "0001354457-26-000039:primary_doc.xml",
@@ -27215,8 +26244,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001348362.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001348362."
   },
   {
     "id": "0001104659-26-003475:tm2534163d8_1512g.htm",
@@ -27243,8 +26271,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001701051.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001701051."
   },
   {
     "id": "0000876661-26-000044:primary_doc.xml",
@@ -27271,8 +26298,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001398453.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001398453."
   },
   {
     "id": "0001999371-26-000728:hfmf-25_011326.htm",
@@ -27299,8 +26325,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001742912.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001742912."
   },
   {
     "id": "0001999371-26-000724:hfeq_form25-011326.htm",
@@ -27327,8 +26352,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001742912.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001742912."
   },
   {
     "id": "0001552781-26-000011:e26023_glbz-1512g.htm",
@@ -27355,8 +26379,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000890066.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000890066."
   },
   {
     "id": "0001829126-26-000250:frequencyhold_1512g.htm",
@@ -27383,8 +26406,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001624517.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001624517."
   },
   {
     "id": "0001537561-26-000002:form15arch_submission010926.txt",
@@ -27411,8 +26433,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001537561.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001537561."
   },
   {
     "id": "0001437749-26-001100:bfin20260103_1512g.htm",
@@ -27439,8 +26460,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001303942.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001303942."
   },
   {
     "id": "0001292814-26-000076:asai20260112_form15f.htm",
@@ -27467,8 +26487,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001834048.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001834048."
   },
   {
     "id": "0001140361-26-000924:ef20062698_1515d.htm",
@@ -27495,8 +26514,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001115055.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001115055."
   },
   {
     "id": "0001140361-26-000923:ef20062697_1512g.htm",
@@ -27523,8 +26541,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001115055.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001115055."
   },
   {
     "id": "0001140361-26-000922:ef20062696_1515d.htm",
@@ -27551,8 +26568,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0000018349.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0000018349."
   },
   {
     "id": "0001140361-26-000921:ef20062696_1515d.htm",
@@ -27579,8 +26595,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0000018349.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0000018349."
   },
   {
     "id": "0001140361-26-000920:ef20062695_1512g.htm",
@@ -27607,8 +26622,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000018349.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000018349."
   },
   {
     "id": "0000876661-26-000040:primary_doc.xml",
@@ -27635,8 +26649,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000885732.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000885732."
   },
   {
     "id": "0000876661-26-000038:primary_doc.xml",
@@ -27663,8 +26676,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000885731.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000885731."
   },
   {
     "id": "0000876661-26-000036:primary_doc.xml",
@@ -27691,8 +26703,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000312069.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000312069."
   },
   {
     "id": "0001888524-26-000126:csc15sa4_15-2026.htm",
@@ -27719,8 +26730,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001655153.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001655153."
   },
   {
     "id": "0001888524-26-000124:wcm15p02_15-2026.htm",
@@ -27747,8 +26757,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001659329.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001659329."
   },
   {
     "id": "0001609253-26-000008:berryform15a.htm",
@@ -27775,8 +26784,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001705873.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001705873."
   },
   {
     "id": "0001437749-26-001009:mpti20260109_1512g.htm",
@@ -27803,8 +26811,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001902314.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001902314."
   },
   {
     "id": "0001354457-26-000031:primary_doc.xml",
@@ -27831,8 +26838,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001424212.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001424212."
   },
   {
     "id": "0001193125-26-008212:d941422d1512g.htm",
@@ -27859,8 +26865,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001651311.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001651311."
   },
   {
     "id": "0000876661-26-000033:primary_doc.xml",
@@ -27887,8 +26892,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001015820.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001015820."
   },
   {
     "id": "0000876661-26-000029:primary_doc.xml",
@@ -27915,8 +26919,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001593222.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001593222."
   },
   {
     "id": "0000876661-26-000027:primary_doc.xml",
@@ -27943,8 +26946,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001593222.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001593222."
   },
   {
     "id": "0000876661-26-000024:primary_doc.xml",
@@ -27971,8 +26973,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001045609.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001045609."
   },
   {
     "id": "0000876661-26-000022:primary_doc.xml",
@@ -27999,8 +27000,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001045610.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001045610."
   },
   {
     "id": "0000876661-26-000020:primary_doc.xml",
@@ -28027,8 +27027,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001944057.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001944057."
   },
   {
     "id": "0000876661-26-000018:primary_doc.xml",
@@ -28055,8 +27054,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001398987.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001398987."
   },
   {
     "id": "0001900656-26-000003:fcaot2022-a15x15djanuary20.htm",
@@ -28083,8 +27081,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001900656.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001900656."
   },
   {
     "id": "0001354457-26-000023:primary_doc.xml",
@@ -28111,8 +27108,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001655589.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001655589."
   },
   {
     "id": "0001354457-26-000021:primary_doc.xml",
@@ -28139,8 +27135,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001499961.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001499961."
   },
   {
     "id": "0001193125-26-007168:d22004d25.htm",
@@ -28167,8 +27162,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000814052.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000814052."
   },
   {
     "id": "0001193125-26-006936:d75760d25.htm",
@@ -28195,8 +27189,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000814052.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000814052."
   },
   {
     "id": "0001193125-26-006931:d74630d25.htm",
@@ -28223,8 +27216,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001406468.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001406468."
   },
   {
     "id": "0000929638-26-000087:bmwlt2023-2_1515d.htm",
@@ -28251,8 +27243,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001991884.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001991884."
   },
   {
     "id": "0000876661-26-000016:primary_doc.xml",
@@ -28279,8 +27270,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001015820.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001015820."
   },
   {
     "id": "0000876661-26-000013:primary_doc.xml",
@@ -28307,8 +27297,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001783398.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001783398."
   },
   {
     "id": "0000772263-26-000002:nich_1512g.htm",
@@ -28335,8 +27324,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000772263.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000772263."
   },
   {
     "id": "0001801738-26-000003:form15-crvna2020xp1x010726.htm",
@@ -28363,8 +27351,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001801738.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001801738."
   },
   {
     "id": "0001354457-26-000017:primary_doc.xml",
@@ -28391,8 +27378,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001610618.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001610618."
   },
   {
     "id": "0001193125-26-005412:d57537d1512g.htm",
@@ -28419,8 +27405,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001539029.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001539029."
   },
   {
     "id": "0000876661-26-000011:primary_doc.xml",
@@ -28447,8 +27432,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001658566.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001658566."
   },
   {
     "id": "0001609253-26-000007:berryform15.htm",
@@ -28475,8 +27459,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001705873.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001705873."
   },
   {
     "id": "0001354457-26-000012:primary_doc.xml",
@@ -28503,8 +27486,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002076192.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002076192."
   },
   {
     "id": "0001354457-26-000010:primary_doc.xml",
@@ -28531,8 +27513,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001809122.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001809122."
   },
   {
     "id": "0001354457-26-000008:primary_doc.xml",
@@ -28559,8 +27540,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001442836.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001442836."
   },
   {
     "id": "0001213900-26-001496:ea0269646-1515d_nsworld.htm",
@@ -28587,8 +27567,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043041.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043041."
   },
   {
     "id": "0001213900-26-001495:ea0269645-1515d_kcm.htm",
@@ -28615,8 +27594,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043030.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043030."
   },
   {
     "id": "0001213900-26-001490:ea0269644-1515d_kmmi.htm",
@@ -28643,8 +27621,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043033.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043033."
   },
   {
     "id": "0001213900-26-001488:ea0269643-1515d_handa.htm",
@@ -28671,8 +27648,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043022.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043022."
   },
   {
     "id": "0001213900-26-001487:ea0269642-1515d_evolution.htm",
@@ -28699,8 +27675,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043020.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002043020."
   },
   {
     "id": "0001354457-26-000005:primary_doc.xml",
@@ -28727,8 +27702,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001849670.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001849670."
   },
   {
     "id": "0001354457-26-000004:primary_doc.xml",
@@ -28755,8 +27729,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001115055.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001115055."
   },
   {
     "id": "0001193125-26-002170:d23062d15f12b.htm",
@@ -28783,8 +27756,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001564538.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001564538."
   },
   {
     "id": "0000876661-26-000008:primary_doc.xml",
@@ -28811,8 +27783,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001475260.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001475260."
   },
   {
     "id": "0001437749-26-000015:omcc20251230_1512ga.htm",
@@ -28839,8 +27810,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001000045.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 15-12G/A Delisted filing. Registered CIK: 0001000045."
   },
   {
     "id": "0001354457-26-000002:primary_doc.xml",
@@ -28867,8 +27837,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001303942.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001303942."
   },
   {
     "id": "0001354457-26-000001:primary_doc.xml",
@@ -28895,8 +27864,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001115055.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001115055."
   },
   {
     "id": "0001213900-25-127165:ea0271152-1512g_sapiens.htm",
@@ -28923,8 +27891,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000885740.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000885740."
   },
   {
     "id": "0001193125-26-000373:d80085d1512g.htm",
@@ -28951,8 +27918,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001463361.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001463361."
   },
   {
     "id": "0001143362-26-000002:primary_doc.xml",
@@ -28979,8 +27945,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001848758.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001848758."
   },
   {
     "id": "0001140361-26-000152:ef20062265_1512g.htm",
@@ -29007,8 +27972,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001552800.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001552800."
   },
   {
     "id": "0001140361-26-000141:ef20061704_15-12g.htm",
@@ -29035,8 +27999,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001842718.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001842718."
   },
   {
     "id": "0001104659-26-000029:tm2534215d1_1512g.htm",
@@ -29063,8 +28026,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001954042.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001954042."
   },
   {
     "id": "0001062993-26-000002:form25.htm",
@@ -29091,8 +28053,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001833141.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001833141."
   },
   {
     "id": "0000876661-26-000005:primary_doc.xml",
@@ -29119,8 +28080,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000018349.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000018349."
   },
   {
     "id": "0000876661-26-000003:primary_doc.xml",
@@ -29147,8 +28107,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000720005.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000720005."
   },
   {
     "id": "0001477932-25-009274:frzt_1512g.htm",
@@ -29175,8 +28134,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001485074.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001485074."
   },
   {
     "id": "0001417835-25-000301:primary_doc.xml",
@@ -29203,8 +28161,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001919700.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001919700."
   },
   {
     "id": "0001193125-25-337830:d34278d25.htm",
@@ -29231,8 +28188,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001860434.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001860434."
   },
   {
     "id": "0001143313-25-000105:primary_doc.xml",
@@ -29259,8 +28215,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000061004.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000061004."
   },
   {
     "id": "0001140361-25-047095:ef20060572_15-12g.htm",
@@ -29287,8 +28242,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001708176.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001708176."
   },
   {
     "id": "0001140361-25-046932:ef20061613_15-12g.htm",
@@ -29315,8 +28269,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001840904.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001840904."
   },
   {
     "id": "0001104659-25-125663:tilt-20251231x1512g.htm",
@@ -29343,8 +28296,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001761510.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001761510."
   },
   {
     "id": "0001020242-25-000170:comm13ccre13_form15.htm",
@@ -29371,8 +28323,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001589804.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001589804."
   },
   {
     "id": "0001020242-25-000169:comm12lc4_form15.htm",
@@ -29399,8 +28350,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001543042.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001543042."
   },
   {
     "id": "0000876661-25-001028:primary_doc.xml",
@@ -29427,8 +28377,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001701051.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001701051."
   },
   {
     "id": "0000876661-25-001025:primary_doc.xml",
@@ -29455,8 +28404,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001298946.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001298946."
   },
   {
     "id": "0001354457-25-001301:primary_doc.xml",
@@ -29483,8 +28431,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002076192.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002076192."
   },
   {
     "id": "0001354457-25-001299:primary_doc.xml",
@@ -29511,8 +28458,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001651311.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001651311."
   },
   {
     "id": "0001354457-25-001298:primary_doc.xml",
@@ -29539,8 +28485,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001822791.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001822791."
   },
   {
     "id": "0001213900-25-126329:ea0270408-01_15d.htm",
@@ -29567,8 +28512,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001882961.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001882961."
   },
   {
     "id": "0001193125-25-336315:d95776d1512g.htm",
@@ -29595,8 +28539,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001403708.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001403708."
   },
   {
     "id": "0001193125-25-336277:cgcmt_2015-p1_-_form_15.htm",
@@ -29623,8 +28566,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001648439.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001648439."
   },
   {
     "id": "0001193125-25-336252:cgcmt_2014-gc23_-_form_1.htm",
@@ -29651,8 +28593,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001612518.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001612518."
   },
   {
     "id": "0001193125-25-336216:cgcmt_2015-gc27_-_form_1.htm",
@@ -29679,8 +28620,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001629716.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001629716."
   },
   {
     "id": "0001628280-25-059005:abl-form25.htm",
@@ -29707,8 +28647,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001814287.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001814287."
   },
   {
     "id": "0001628280-25-058879:crgy-form15.htm",
@@ -29735,8 +28674,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001528129.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001528129."
   },
   {
     "id": "0001437749-25-038832:modv20251227_1512g.htm",
@@ -29763,8 +28701,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001220754.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001220754."
   },
   {
     "id": "0001354457-25-001295:primary_doc.xml",
@@ -29791,8 +28728,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819989.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819989."
   },
   {
     "id": "0001213900-25-125577:ea0271078-1512g_bright.htm",
@@ -29819,8 +28755,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001696355.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001696355."
   },
   {
     "id": "0001193125-25-335295:d93502d1512g.htm",
@@ -29847,8 +28782,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001605607.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001605607."
   },
   {
     "id": "0001143362-25-000474:primary_doc.xml",
@@ -29875,8 +28809,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001807486.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001807486."
   },
   {
     "id": "0001143313-25-000103:primary_doc.xml",
@@ -29903,8 +28836,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001902314.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001902314."
   },
   {
     "id": "0001140361-25-046705:ef20061668_1512g.htm",
@@ -29931,8 +28863,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000066756.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000066756."
   },
   {
     "id": "0001104659-25-124760:tm2534390d1_1515d.htm",
@@ -29959,8 +28890,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001869889.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001869889."
   },
   {
     "id": "0001104659-25-124526:tm2534181d1_1512g.htm",
@@ -29987,8 +28917,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001417892.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001417892."
   },
   {
     "id": "0001104659-25-124513:tm2534191d1_1512g.htm",
@@ -30015,8 +28944,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001485003.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001485003."
   },
   {
     "id": "0000894189-25-019177:wbiyform25.htm",
@@ -30043,8 +28971,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001591939.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001591939."
   },
   {
     "id": "0000876661-25-001023:primary_doc.xml",
@@ -30071,8 +28998,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001754836.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001754836."
   },
   {
     "id": "0000876661-25-001021:primary_doc.xml",
@@ -30099,8 +29025,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001439124.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001439124."
   },
   {
     "id": "0000876661-25-001018:primary_doc.xml",
@@ -30127,8 +29052,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001041792.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001041792."
   },
   {
     "id": "0000876661-25-001014:primary_doc.xml",
@@ -30155,8 +29079,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001688568.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001688568."
   },
   {
     "id": "0000876661-25-001012:primary_doc.xml",
@@ -30183,8 +29106,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001119639.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001119639."
   },
   {
     "id": "0000876661-25-001009:primary_doc.xml",
@@ -30211,8 +29133,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001557157.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001557157."
   },
   {
     "id": "0001493152-25-029055:form15-12g.htm",
@@ -30239,8 +29160,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001664740.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001664740."
   },
   {
     "id": "0001493152-25-029016:form15-12g.htm",
@@ -30267,8 +29187,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000847942.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000847942."
   },
   {
     "id": "0001417835-25-000293:primary_doc.xml",
@@ -30295,8 +29214,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001796383.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001796383."
   },
   {
     "id": "0001417835-25-000291:primary_doc.xml",
@@ -30323,8 +29241,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663."
   },
   {
     "id": "0001417835-25-000289:primary_doc.xml",
@@ -30351,8 +29268,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388."
   },
   {
     "id": "0001354457-25-001294:primary_doc.xml",
@@ -30379,8 +29295,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868."
   },
   {
     "id": "0001354457-25-001293:primary_doc.xml",
@@ -30407,8 +29322,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001842718.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001842718."
   },
   {
     "id": "0001140361-25-046481:ef20061770_1515d.htm",
@@ -30435,8 +29349,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001974300.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001974300."
   },
   {
     "id": "0001140361-25-046479:ef20061772_15-15d.htm",
@@ -30463,8 +29376,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001878122.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001878122."
   },
   {
     "id": "0001929980-25-000786:fuxing_1512g.htm",
@@ -30491,8 +29403,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001954705.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001954705."
   },
   {
     "id": "0001929980-25-000785:fuxing_25.htm",
@@ -30519,8 +29430,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001954705.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001954705."
   },
   {
     "id": "0001552781-25-000467:e25461_glbz-25.htm",
@@ -30547,8 +29457,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000890066.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000890066."
   },
   {
     "id": "0001437749-25-038479:omcc20251218_25.htm",
@@ -30575,8 +29484,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001000045.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001000045."
   },
   {
     "id": "0001354457-25-001291:primary_doc.xml",
@@ -30603,8 +29511,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868."
   },
   {
     "id": "0001276531-25-000012:clean-form15-1222.htm",
@@ -30631,8 +29538,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001276531.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001276531."
   },
   {
     "id": "0001213900-25-124163:ea0270403-1512g_columbus1.htm",
@@ -30659,8 +29565,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002056263.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002056263."
   },
   {
     "id": "0001193125-25-328830:d75353d25.htm",
@@ -30687,8 +29592,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001811414.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001811414."
   },
   {
     "id": "0001193125-25-328707:d24914d1512g.htm",
@@ -30715,8 +29619,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001066605.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001066605."
   },
   {
     "id": "0001193125-25-327851:d73797d1512g.htm",
@@ -30743,8 +29646,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000055067.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000055067."
   },
   {
     "id": "0001193125-25-327599:d45344d1512g.htm",
@@ -30771,8 +29673,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001050825.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001050825."
   },
   {
     "id": "0001193125-25-327459:d55427d25.htm",
@@ -30799,8 +29700,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001564538.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001564538."
   },
   {
     "id": "0001104659-25-123531:tm2534073d2_15f12g.htm",
@@ -30827,8 +29727,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12G Delisted filing. Registered CIK: 0002048914.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15F-12G Delisted filing. Registered CIK: 0002048914."
   },
   {
     "id": "0000899140-25-001452:odpcorp_form15-122225.htm",
@@ -30855,8 +29754,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000800240.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000800240."
   },
   {
     "id": "0000876661-25-001004:primary_doc.xml",
@@ -30883,8 +29781,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001954042.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001954042."
   },
   {
     "id": "0000876661-25-001002:primary_doc.xml",
@@ -30911,8 +29808,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001219601.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001219601."
   },
   {
     "id": "0000008947-25-000201:azz-form15401kplan.htm",
@@ -30939,8 +29835,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0000008947.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0000008947."
   },
   {
     "id": "0001398344-25-022726:fp0096701-4_25.htm",
@@ -30967,8 +29862,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001414040.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001414040."
   },
   {
     "id": "0001398344-25-022724:fp0096701-3_25.htm",
@@ -30995,8 +29889,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001414040.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001414040."
   },
   {
     "id": "0001398344-25-022722:fp0096701-2_25.htm",
@@ -31023,8 +29916,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001414040.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001414040."
   },
   {
     "id": "0001398344-25-022719:fp0096701-1_25.htm",
@@ -31051,8 +29943,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001414040.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001414040."
   },
   {
     "id": "0001354457-25-001288:primary_doc.xml",
@@ -31079,8 +29970,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001823794.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001823794."
   },
   {
     "id": "0001193125-25-326766:d82605d1512g.htm",
@@ -31107,8 +29997,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001501756.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001501756."
   },
   {
     "id": "0001193125-25-326508:d45453d1512g.htm",
@@ -31135,8 +30024,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000894329.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000894329."
   },
   {
     "id": "0001193125-25-325857:d91514d1512g.htm",
@@ -31163,8 +30051,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001392972.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001392972."
   },
   {
     "id": "0001140361-25-046196:ef20056239_1512g.htm",
@@ -31191,8 +30078,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000095552.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000095552."
   },
   {
     "id": "0001140361-25-046189:ef20061504_15-12g.htm",
@@ -31219,8 +30105,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001744659.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001744659."
   },
   {
     "id": "0000876661-25-001000:primary_doc.xml",
@@ -31247,8 +30132,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819574.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819574."
   },
   {
     "id": "0000876661-25-000998:primary_doc.xml",
@@ -31275,8 +30159,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001605607.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001605607."
   },
   {
     "id": "0001354457-25-001285:primary_doc.xml",
@@ -31303,8 +30186,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001705873.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001705873."
   },
   {
     "id": "0001213900-25-123263:ea0270141-1512g_cantor.htm",
@@ -31331,8 +30213,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001865602.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001865602."
   },
   {
     "id": "0001193125-25-324804:d276726d1512g.htm",
@@ -31359,8 +30240,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001364885.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001364885."
   },
   {
     "id": "0001193125-25-324336:d77198d1515d.htm",
@@ -31387,8 +30267,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001839893.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001839893."
   },
   {
     "id": "0001143362-25-000467:primary_doc.xml",
@@ -31415,8 +30294,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663."
   },
   {
     "id": "0000876661-25-000996:primary_doc.xml",
@@ -31443,8 +30321,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001167583.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001167583."
   },
   {
     "id": "0000876661-25-000994:primary_doc.xml",
@@ -31471,8 +30348,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000313807.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000313807."
   },
   {
     "id": "0000876661-25-000991:primary_doc.xml",
@@ -31499,8 +30375,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001167583.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001167583."
   },
   {
     "id": "0000876661-25-000989:primary_doc.xml",
@@ -31527,8 +30402,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001627425.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001627425."
   },
   {
     "id": "0000876661-25-000987:primary_doc.xml",
@@ -31555,8 +30429,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000092103.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000092103."
   },
   {
     "id": "0001354457-25-001280:primary_doc.xml",
@@ -31583,8 +30456,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002057463.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002057463."
   },
   {
     "id": "0001354457-25-001278:primary_doc.xml",
@@ -31611,8 +30483,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001403708.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001403708."
   },
   {
     "id": "0001354457-25-001277:primary_doc.xml",
@@ -31639,8 +30510,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000885740.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000885740."
   },
   {
     "id": "0001143313-25-000101:primary_doc.xml",
@@ -31667,8 +30537,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000004281.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000004281."
   },
   {
     "id": "0001140361-25-045845:ef20061461_25.htm",
@@ -31695,8 +30564,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001552800.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001552800."
   },
   {
     "id": "0001133228-25-013492:aept-efp21323_25.htm",
@@ -31723,8 +30591,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001797318.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001797318."
   },
   {
     "id": "0000876661-25-000982:primary_doc.xml",
@@ -31751,8 +30618,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000732717.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000732717."
   },
   {
     "id": "0000876661-25-000980:primary_doc.xml",
@@ -31779,8 +30645,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001812173.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001812173."
   },
   {
     "id": "0001879747-25-000060:a2021-4form15121625.htm",
@@ -31807,8 +30672,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001879747.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001879747."
   },
   {
     "id": "0001493152-25-027980:form15-12g.htm",
@@ -31835,8 +30699,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001106838.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001106838."
   },
   {
     "id": "0001104659-25-121581:tm2533635d1_1512g.htm",
@@ -31863,8 +30726,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001840748.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001840748."
   },
   {
     "id": "0000876661-25-000978:primary_doc.xml",
@@ -31891,8 +30753,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001696355.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001696355."
   },
   {
     "id": "0001999371-25-020293:etf-form25_121525.htm",
@@ -31919,8 +30780,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001771146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001771146."
   },
   {
     "id": "0001999371-25-020292:etf-form25_121525.htm",
@@ -31947,8 +30807,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001771146.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001771146."
   },
   {
     "id": "0001354457-25-001271:primary_doc.xml",
@@ -31975,8 +30834,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001321741.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001321741."
   },
   {
     "id": "0001354457-25-001270:primary_doc.xml",
@@ -32003,8 +30861,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "High Quality Shell (Counsel Disclosed)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001560385.",
-    "auditor": "Crowe LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001560385."
   },
   {
     "id": "0001354457-25-001267:primary_doc.xml",
@@ -32031,8 +30888,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663."
   },
   {
     "id": "0001354457-25-001266:primary_doc.xml",
@@ -32059,8 +30915,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001877493.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001877493."
   },
   {
     "id": "0001354457-25-001265:primary_doc.xml",
@@ -32087,8 +30942,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001657201.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001657201."
   },
   {
     "id": "0001193125-25-319281:d55997d1512g.htm",
@@ -32115,8 +30969,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001971543.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001971543."
   },
   {
     "id": "0001143313-25-000099:primary_doc.xml",
@@ -32143,8 +30996,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001664740.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001664740."
   },
   {
     "id": "0001104659-25-121109:tm2533416d1_25.htm",
@@ -32171,8 +31023,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485003.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001485003."
   },
   {
     "id": "0000876661-25-000974:primary_doc.xml",
@@ -32199,8 +31050,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001556748.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001556748."
   },
   {
     "id": "0000876661-25-000973:primary_doc.xml",
@@ -32227,8 +31077,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000315293.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000315293."
   },
   {
     "id": "0000876661-25-000969:primary_doc.xml",
@@ -32255,8 +31104,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000892553.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000892553."
   },
   {
     "id": "0000876661-25-000967:primary_doc.xml",
@@ -32283,8 +31131,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000066756.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000066756."
   },
   {
     "id": "0000876661-25-000965:primary_doc.xml",
@@ -32311,8 +31158,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001488813.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001488813."
   },
   {
     "id": "0000876661-25-000963:primary_doc.xml",
@@ -32339,8 +31185,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001528129.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001528129."
   },
   {
     "id": "0000876661-25-000961:primary_doc.xml",
@@ -32367,8 +31212,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001417892.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001417892."
   },
   {
     "id": "0001929980-25-000770:hspo_25.htm",
@@ -32395,8 +31239,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001946021.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001946021."
   },
   {
     "id": "0001354457-25-001259:primary_doc.xml",
@@ -32423,8 +31266,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742927.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742927."
   },
   {
     "id": "0001354457-25-001258:primary_doc.xml",
@@ -32451,8 +31293,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001841675.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001841675."
   },
   {
     "id": "0001213900-25-121222:ea0269573-1515d_twenty.htm",
@@ -32479,8 +31320,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002070394.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002070394."
   },
   {
     "id": "0001104659-25-120653:tm2533222d4_1515d.htm",
@@ -32507,8 +31347,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001055160.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001055160."
   },
   {
     "id": "0001104659-25-120651:tm2533222d3_1515d.htm",
@@ -32535,8 +31374,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001055160.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001055160."
   },
   {
     "id": "0000939057-25-000330:secfedform1512925.htm",
@@ -32563,8 +31401,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000818677.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000818677."
   },
   {
     "id": "0001628280-25-056420:form25_20251211.htm",
@@ -32591,8 +31428,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001065059.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001065059."
   },
   {
     "id": "0001477932-25-008928:hpco_1512g.htm",
@@ -32619,8 +31455,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001892480.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001892480."
   },
   {
     "id": "0001143313-25-000096:primary_doc.xml",
@@ -32647,8 +31482,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001713863.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001713863."
   },
   {
     "id": "0001104659-25-120123:tm2533204d1_1512g.htm",
@@ -32675,8 +31509,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001359841.",
-    "auditor": "Crowe LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001359841."
   },
   {
     "id": "0000876661-25-000958:primary_doc.xml",
@@ -32703,8 +31536,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000055067.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000055067."
   },
   {
     "id": "0001354457-25-001250:primary_doc.xml",
@@ -32731,8 +31563,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819794.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819794."
   },
   {
     "id": "0001354457-25-001249:primary_doc.xml",
@@ -32759,8 +31590,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0002056263.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0002056263."
   },
   {
     "id": "0001354457-25-001242:primary_doc.xml",
@@ -32787,8 +31617,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001066605.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001066605."
   },
   {
     "id": "0001354457-25-001240:primary_doc.xml",
@@ -32815,8 +31644,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000800240.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000800240."
   },
   {
     "id": "0001104659-25-119848:tm2533009d1_1515d.htm",
@@ -32843,8 +31671,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001885500.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001885500."
   },
   {
     "id": "0000876661-25-000955:primary_doc.xml",
@@ -32871,8 +31698,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160106.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160106."
   },
   {
     "id": "0000876661-25-000952:primary_doc.xml",
@@ -32899,8 +31725,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001050825.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001050825."
   },
   {
     "id": "0001354457-25-001238:primary_doc.xml",
@@ -32927,8 +31752,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001937891.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001937891."
   },
   {
     "id": "0001354457-25-001236:primary_doc.xml",
@@ -32955,8 +31779,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001501756.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001501756."
   },
   {
     "id": "0001354457-25-001233:primary_doc.xml",
@@ -32983,8 +31806,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001744659.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001744659."
   },
   {
     "id": "0000876661-25-000950:primary_doc.xml",
@@ -33011,8 +31833,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001392972.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001392972."
   },
   {
     "id": "0001888524-25-021434:msc14c19_15-2025.htm",
@@ -33039,8 +31860,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001623916.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001623916."
   },
   {
     "id": "0001354457-25-001229:primary_doc.xml",
@@ -33067,8 +31887,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001865602.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001865602."
   },
   {
     "id": "0001354457-25-001228:primary_doc.xml",
@@ -33095,8 +31914,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001972459.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001972459."
   },
   {
     "id": "0001193125-25-311425:d24061d1512g.htm",
@@ -33123,8 +31941,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000051644.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000051644."
   },
   {
     "id": "0001193125-25-311382:d31807d1512g.htm",
@@ -33151,8 +31968,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001628369.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001628369."
   },
   {
     "id": "0001193125-25-311252:d59667d25.htm",
@@ -33179,8 +31995,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001539029.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001539029."
   },
   {
     "id": "0001193125-25-310720:d31424d1512g.htm",
@@ -33207,8 +32022,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001166388.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001166388."
   },
   {
     "id": "0001185185-25-001963:taitronf1512g112525.htm",
@@ -33235,8 +32049,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000942126.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000942126."
   },
   {
     "id": "0001143362-25-000444:primary_doc.xml",
@@ -33263,8 +32076,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001821080.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001821080."
   },
   {
     "id": "0001143362-25-000442:primary_doc.xml",
@@ -33291,8 +32103,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001873280.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001873280."
   },
   {
     "id": "0001140361-25-044854:ef20060042_25.htm",
@@ -33319,8 +32130,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001517413.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001517413."
   },
   {
     "id": "0001104659-25-119328:tm2532224d4_1512g.htm",
@@ -33347,8 +32157,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001285786.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001285786."
   },
   {
     "id": "0001104659-25-119319:tm2532957d1_1512g.htm",
@@ -33375,8 +32184,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001837686.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001837686."
   },
   {
     "id": "0001104659-25-119229:tm2532779d1_1512g.htm",
@@ -33403,8 +32211,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001821160.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001821160."
   },
   {
     "id": "0000943374-25-000501:form15_120825.htm",
@@ -33431,8 +32238,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001016178.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001016178."
   },
   {
     "id": "0000876661-25-000945:primary_doc.xml",
@@ -33459,8 +32265,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000879764.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000879764."
   },
   {
     "id": "0000876661-25-000941:primary_doc.xml",
@@ -33487,8 +32292,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001364885.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001364885."
   },
   {
     "id": "0000104169-25-000201:form25-december2025.htm",
@@ -33515,8 +32319,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000104169.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000104169."
   },
   {
     "id": "0001354457-25-001220:primary_doc.xml",
@@ -33543,8 +32346,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002056263.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002056263."
   },
   {
     "id": "0001354457-25-001216:primary_doc.xml",
@@ -33571,8 +32373,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001971543.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001971543."
   },
   {
     "id": "0001193125-25-309298:d62466d1512g.htm",
@@ -33599,8 +32400,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001577916.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001577916."
   },
   {
     "id": "0001143362-25-000437:primary_doc.xml",
@@ -33627,8 +32427,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001593547.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001593547."
   },
   {
     "id": "0001143362-25-000434:primary_doc.xml",
@@ -33655,8 +32454,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001597934.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001597934."
   },
   {
     "id": "0000876661-25-000939:primary_doc.xml",
@@ -33683,8 +32481,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001630805.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001630805."
   },
   {
     "id": "0001417835-25-000272:primary_doc.xml",
@@ -33711,8 +32508,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001719812.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001719812."
   },
   {
     "id": "0001417835-25-000270:primary_doc.xml",
@@ -33739,8 +32535,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663."
   },
   {
     "id": "0001354457-25-001215:primary_doc.xml",
@@ -33767,8 +32562,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001452477.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001452477."
   },
   {
     "id": "0001193125-25-308143:d922225d1512g.htm",
@@ -33795,8 +32589,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001804591.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001804591."
   },
   {
     "id": "0001140361-25-044255:ef20060493_15-12g.htm",
@@ -33823,8 +32616,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001922446.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001922446."
   },
   {
     "id": "0001493152-25-025891:form15-12g.htm",
@@ -33851,8 +32643,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001872812.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001872812."
   },
   {
     "id": "0001354457-25-001210:primary_doc.xml",
@@ -33879,8 +32670,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001823144.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001823144."
   },
   {
     "id": "0001193125-25-306810:d41661d1515d.htm",
@@ -33907,8 +32697,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001978414.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001978414."
   },
   {
     "id": "0000876661-25-000937:primary_doc.xml",
@@ -33935,8 +32724,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001845097.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001845097."
   },
   {
     "id": "0000876661-25-000932:primary_doc.xml",
@@ -33963,8 +32751,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001136893.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001136893."
   },
   {
     "id": "0001354457-25-001201:primary_doc.xml",
@@ -33991,8 +32778,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001106838.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001106838."
   },
   {
     "id": "0001104659-25-117614:tm2532184d1_1515d.htm",
@@ -34019,8 +32805,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001866796.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001866796."
   },
   {
     "id": "0000929638-25-004480:eart2021-1_1515d.htm",
@@ -34047,8 +32832,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001837985.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001837985."
   },
   {
     "id": "0001354457-25-001195:primary_doc.xml",
@@ -34075,8 +32859,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001970622.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001970622."
   },
   {
     "id": "0001193125-25-303957:d18024d25.htm",
@@ -34103,8 +32886,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001591588.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001591588."
   },
   {
     "id": "0001193125-25-303949:d827988d1512g.htm",
@@ -34131,8 +32913,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000924717.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000924717."
   },
   {
     "id": "0001104659-25-117063:tm2532425d1_1512g.htm",
@@ -34159,8 +32940,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001780531.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001780531."
   },
   {
     "id": "0000876661-25-000928:primary_doc.xml",
@@ -34187,8 +32967,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001359841.",
-    "auditor": "Crowe LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001359841."
   },
   {
     "id": "0000876661-25-000926:primary_doc.xml",
@@ -34215,8 +32994,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000014930.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000014930."
   },
   {
     "id": "0000876661-25-000924:primary_doc.xml",
@@ -34243,8 +33021,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001611702.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001611702."
   },
   {
     "id": "0001853620-25-000302:msc2014c16_15d_112025.htm",
@@ -34271,8 +33048,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001606442.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001606442."
   },
   {
     "id": "0001354457-25-001191:primary_doc.xml",
@@ -34299,8 +33075,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001544206.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001544206."
   },
   {
     "id": "0001354457-25-001190:primary_doc.xml",
@@ -34327,8 +33102,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001335105.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001335105."
   },
   {
     "id": "0001298946-25-000097:drhform25.htm",
@@ -34355,8 +33129,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001298946.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001298946."
   },
   {
     "id": "0001104659-25-116958:tm2532135d1_1512g.htm",
@@ -34383,8 +33156,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001868778.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001868778."
   },
   {
     "id": "0000943374-25-000491:form25_112825.htm",
@@ -34411,8 +33183,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001016178.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001016178."
   },
   {
     "id": "0000876661-25-000920:primary_doc.xml",
@@ -34439,8 +33210,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001628369.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001628369."
   },
   {
     "id": "0000876661-25-000918:primary_doc.xml",
@@ -34467,8 +33237,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000051644.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000051644."
   },
   {
     "id": "0000876661-25-000916:primary_doc.xml",
@@ -34495,8 +33264,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001821160.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001821160."
   },
   {
     "id": "0001417835-25-000261:primary_doc.xml",
@@ -34523,8 +33291,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000945908.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000945908."
   },
   {
     "id": "0001354457-25-001189:primary_doc.xml",
@@ -34551,8 +33318,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001166388.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001166388."
   },
   {
     "id": "0001193125-25-297751:d69780d1512g.htm",
@@ -34579,8 +33345,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001512717.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001512717."
   },
   {
     "id": "0000929638-25-004382:taot2021-c_1515d.htm",
@@ -34607,8 +33372,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001878610.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001878610."
   },
   {
     "id": "0001354457-25-001186:primary_doc.xml",
@@ -34635,8 +33399,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001577916.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001577916."
   },
   {
     "id": "0001104659-25-115956:tm2532144d1_25.htm",
@@ -34663,8 +33426,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001975218.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001975218."
   },
   {
     "id": "0000876661-25-000912:primary_doc.xml",
@@ -34691,8 +33453,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000038009.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000038009."
   },
   {
     "id": "0001354457-25-001176:primary_doc.xml",
@@ -34719,8 +33480,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001837686.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001837686."
   },
   {
     "id": "0001354457-25-001175:primary_doc.xml",
@@ -34747,8 +33507,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001837686.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001837686."
   },
   {
     "id": "0001193125-25-293644:d845078d1512g.htm",
@@ -34775,8 +33534,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000203596.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000203596."
   },
   {
     "id": "0001193125-25-292197:d659259d1512g.htm",
@@ -34803,8 +33561,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002040807.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002040807."
   },
   {
     "id": "0001185185-25-001844:taitf25112125.htm",
@@ -34831,8 +33588,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000942126.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000942126."
   },
   {
     "id": "0001143362-25-000419:primary_doc.xml",
@@ -34859,8 +33615,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001644419.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001644419."
   },
   {
     "id": "0001104659-25-115189:de-20251124x1515d.htm",
@@ -34887,8 +33642,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001911818.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001911818."
   },
   {
     "id": "0000876661-25-000910:primary_doc.xml",
@@ -34915,8 +33669,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001922446.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001922446."
   },
   {
     "id": "0001354457-25-001171:primary_doc.xml",
@@ -34943,8 +33696,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "High Quality Shell (Counsel Disclosed)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000072444.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000072444."
   },
   {
     "id": "0001354457-25-001170:primary_doc.xml",
@@ -34971,8 +33723,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001888151.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001888151."
   },
   {
     "id": "0001354457-25-001168:primary_doc.xml",
@@ -34999,8 +33750,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001840748.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001840748."
   },
   {
     "id": "0001354457-25-001167:primary_doc.xml",
@@ -35027,8 +33777,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001842939.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001842939."
   },
   {
     "id": "0001354457-25-001166:primary_doc.xml",
@@ -35055,8 +33804,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001899658.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001899658."
   },
   {
     "id": "0001193125-25-291543:d39105d1515d.htm",
@@ -35083,8 +33831,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001830976.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001830976."
   },
   {
     "id": "0001143362-25-000414:primary_doc.xml",
@@ -35111,8 +33858,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001845809.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001845809."
   },
   {
     "id": "0000876661-25-000907:primary_doc.xml",
@@ -35139,8 +33885,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001649373.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001649373."
   },
   {
     "id": "0000876661-25-000905:primary_doc.xml",
@@ -35167,8 +33912,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001780531.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001780531."
   },
   {
     "id": "0001757064-25-000023:form15fforadsderegistration.htm",
@@ -35195,8 +33939,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001757064.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001757064."
   },
   {
     "id": "0001354457-25-001165:primary_doc.xml",
@@ -35223,8 +33966,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001300734.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001300734."
   },
   {
     "id": "0001354457-25-001163:primary_doc.xml",
@@ -35251,8 +33993,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001815903.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001815903."
   },
   {
     "id": "0001193125-25-289744:d14142d15f12b.htm",
@@ -35279,8 +34020,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001815620.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001815620."
   },
   {
     "id": "0001143362-25-000412:primary_doc.xml",
@@ -35307,8 +34047,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001562565.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001562565."
   },
   {
     "id": "0001143362-25-000410:primary_doc.xml",
@@ -35335,8 +34074,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000945908.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000945908."
   },
   {
     "id": "0001354457-25-001154:primary_doc.xml",
@@ -35363,8 +34101,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000924717.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000924717."
   },
   {
     "id": "0000876661-25-000901:primary_doc.xml",
@@ -35391,8 +34128,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001653985.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001653985."
   },
   {
     "id": "0000876661-25-000899:primary_doc.xml",
@@ -35419,8 +34155,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000891478.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000891478."
   },
   {
     "id": "0000876661-25-000895:primary_doc.xml",
@@ -35447,8 +34182,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001907982.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001907982."
   },
   {
     "id": "0001493152-25-024060:form25.htm",
@@ -35475,8 +34209,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001721741.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001721741."
   },
   {
     "id": "0001437749-25-035520:ins20251117_1512g.htm",
@@ -35503,8 +34236,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000320340.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000320340."
   },
   {
     "id": "0001354457-25-001151:primary_doc.xml",
@@ -35531,8 +34263,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819796.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001819796."
   },
   {
     "id": "0001354457-25-001150:primary_doc.xml",
@@ -35559,8 +34290,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001821424.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001821424."
   },
   {
     "id": "0001104659-25-113297:tm2531508d1_1512g.htm",
@@ -35587,8 +34317,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001622879.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001622879."
   },
   {
     "id": "0000876661-25-000882:primary_doc.xml",
@@ -35615,8 +34344,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001868778.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001868778."
   },
   {
     "id": "0000876661-25-000880:primary_doc.xml",
@@ -35643,8 +34371,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000732717.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000732717."
   },
   {
     "id": "0000876661-25-000878:primary_doc.xml",
@@ -35671,8 +34398,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000040704.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000040704."
   },
   {
     "id": "0001354457-25-001147:primary_doc.xml",
@@ -35699,8 +34425,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001805077.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001805077."
   },
   {
     "id": "0001279695-25-000005:ubiform15.htm",
@@ -35727,8 +34452,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001279695.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001279695."
   },
   {
     "id": "0001193125-25-284713:d38039d1512g.htm",
@@ -35755,8 +34479,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001820302.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001820302."
   },
   {
     "id": "0001193125-25-283903:d231195d1512g.htm",
@@ -35783,8 +34506,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001439095.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001439095."
   },
   {
     "id": "0001104659-25-113278:tm2531490d4_1512g.htm",
@@ -35811,8 +34533,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001509223.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001509223."
   },
   {
     "id": "0000876661-25-000876:primary_doc.xml",
@@ -35839,8 +34560,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001833835.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001833835."
   },
   {
     "id": "0000876661-25-000874:primary_doc.xml",
@@ -35867,8 +34587,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000927653.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000927653."
   },
   {
     "id": "0000876661-25-000872:primary_doc.xml",
@@ -35895,8 +34614,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001725123.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001725123."
   },
   {
     "id": "0000876661-25-000870:primary_doc.xml",
@@ -35923,8 +34641,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001090727.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001090727."
   },
   {
     "id": "0001354457-25-001142:primary_doc.xml",
@@ -35951,8 +34668,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001778784.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001778784."
   },
   {
     "id": "0001354457-25-001140:primary_doc.xml",
@@ -35979,8 +34695,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000203596.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000203596."
   },
   {
     "id": "0001354457-25-001138:primary_doc.xml",
@@ -36007,8 +34722,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000320193.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000320193."
   },
   {
     "id": "0001354457-25-001137:primary_doc.xml",
@@ -36035,8 +34749,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000901832.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000901832."
   },
   {
     "id": "0001354457-25-001132:primary_doc.xml",
@@ -36063,8 +34776,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001879848.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001879848."
   },
   {
     "id": "0001354457-25-001131:primary_doc.xml",
@@ -36091,8 +34803,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001397047.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001397047."
   },
   {
     "id": "0001354457-25-001129:primary_doc.xml",
@@ -36119,8 +34830,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001946399.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001946399."
   },
   {
     "id": "0001354457-25-001127:primary_doc.xml",
@@ -36147,8 +34857,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001456772.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001456772."
   },
   {
     "id": "0001213900-25-111036:ea0265652-1515d_terrestrial.htm",
@@ -36175,8 +34884,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002027582.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002027582."
   },
   {
     "id": "0001104659-25-111913:tm2531121d1_25.htm",
@@ -36203,8 +34911,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001616543.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001616543."
   },
   {
     "id": "0001829126-25-009133:rigelresource_1512g.htm",
@@ -36231,8 +34938,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001860879.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001860879."
   },
   {
     "id": "0001493152-25-022180:form15-15d.htm",
@@ -36259,8 +34965,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002035156.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002035156."
   },
   {
     "id": "0001354457-25-001126:primary_doc.xml",
@@ -36287,8 +34992,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000883569.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000883569."
   },
   {
     "id": "0001354457-25-001124:primary_doc.xml",
@@ -36315,8 +35019,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002040807.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002040807."
   },
   {
     "id": "0001143313-25-000088:primary_doc.xml",
@@ -36343,8 +35046,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001285786.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001285786."
   },
   {
     "id": "0001104659-25-110847:tm2530966d1_1512g.htm",
@@ -36371,8 +35073,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001621227.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001621227."
   },
   {
     "id": "0000943374-25-000468:cfsbform15111325.htm",
@@ -36399,8 +35100,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001879103.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001879103."
   },
   {
     "id": "0001493152-25-021637:form15-12g.htm",
@@ -36427,8 +35127,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001064722.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001064722."
   },
   {
     "id": "0001354457-25-001123:primary_doc.xml",
@@ -36455,8 +35154,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001843477.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001843477."
   },
   {
     "id": "0001757064-25-000013:form25fordelisting.htm",
@@ -36483,8 +35181,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001757064.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001757064."
   },
   {
     "id": "0001193125-25-274239:d887264d25.htm",
@@ -36511,8 +35208,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000798354.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000798354."
   },
   {
     "id": "0001193125-25-273550:d71198d1512g.htm",
@@ -36539,8 +35235,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001794846.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001794846."
   },
   {
     "id": "0001193125-25-273377:d941582d25.htm",
@@ -36567,8 +35262,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001815620.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001815620."
   },
   {
     "id": "0001193125-25-273168:d61454d1512g.htm",
@@ -36595,8 +35289,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001785173.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001785173."
   },
   {
     "id": "0000947871-25-000972:ss5530498_15f12b.htm",
@@ -36623,8 +35316,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001825155.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 15F-12B Delisted filing. Registered CIK: 0001825155."
   },
   {
     "id": "0000876661-25-000857:primary_doc.xml",
@@ -36651,8 +35343,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000844150.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000844150."
   },
   {
     "id": "0000876661-25-000854:primary_doc.xml",
@@ -36679,8 +35370,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001704299.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001704299."
   },
   {
     "id": "0001888524-25-019580:wfc15nx3_15-2025.htm",
@@ -36707,8 +35397,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001652884.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001652884."
   },
   {
     "id": "0001104659-25-108340:tm2530610d1_1512g.htm",
@@ -36735,8 +35424,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001769617.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001769617."
   },
   {
     "id": "0001104659-25-108172:tm2529647d1_1512g.htm",
@@ -36763,8 +35451,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001827506.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001827506."
   },
   {
     "id": "0000876661-25-000849:primary_doc.xml",
@@ -36791,8 +35478,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000051143.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000051143."
   },
   {
     "id": "0000876661-25-000846:primary_doc.xml",
@@ -36819,8 +35505,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001439095.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001439095."
   },
   {
     "id": "0001493152-25-020902:form15-15d.htm",
@@ -36847,8 +35532,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001084475.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001084475."
   },
   {
     "id": "0001354457-25-001096:primary_doc.xml",
@@ -36875,8 +35559,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001690080.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001690080."
   },
   {
     "id": "0001213900-25-106464:ea0263992-1512g_gsr3acq.htm",
@@ -36903,8 +35586,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002029023.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002029023."
   },
   {
     "id": "0001104659-25-106630:tm2530081d1_1515d.htm",
@@ -36931,8 +35613,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001878872.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001878872."
   },
   {
     "id": "0000876661-25-000843:primary_doc.xml",
@@ -36959,8 +35640,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001809158.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001809158."
   },
   {
     "id": "0001477932-25-007890:rac_1515d.htm",
@@ -36987,8 +35667,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002032260.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002032260."
   },
   {
     "id": "0000876661-25-000838:primary_doc.xml",
@@ -37015,8 +35694,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001820302.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001820302."
   },
   {
     "id": "0001354457-25-001085:primary_doc.xml",
@@ -37043,8 +35721,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001760903.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001760903."
   },
   {
     "id": "0001354457-25-001079:primary_doc.xml",
@@ -37071,8 +35748,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001879103.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001879103."
   },
   {
     "id": "0001193125-25-262565:d33751d25.htm",
@@ -37099,8 +35775,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001494904.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001494904."
   },
   {
     "id": "0001193125-25-261592:d25411d1512g.htm",
@@ -37127,8 +35802,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001195734.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001195734."
   },
   {
     "id": "0001140361-25-040133:ef20058133_1512g.htm",
@@ -37155,8 +35829,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001501570.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001501570."
   },
   {
     "id": "0001140361-25-040081:ef20058082_1512g.htm",
@@ -37183,8 +35856,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001834494.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001834494."
   },
   {
     "id": "0000950157-25-000903:form25.htm",
@@ -37211,8 +35883,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000750004.",
-    "auditor": "Crowe LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0000750004."
   },
   {
     "id": "0000876661-25-000834:primary_doc.xml",
@@ -37239,8 +35910,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113."
   },
   {
     "id": "0000876661-25-000831:primary_doc.xml",
@@ -37267,8 +35937,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001517767.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001517767."
   },
   {
     "id": "0000876661-25-000829:primary_doc.xml",
@@ -37295,8 +35964,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000079879.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000079879."
   },
   {
     "id": "0000876661-25-000826:primary_doc.xml",
@@ -37323,8 +35991,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000312069.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000312069."
   },
   {
     "id": "0000797564-25-000005:hstglobalform15.htm",
@@ -37351,8 +36018,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000797564.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000797564."
   },
   {
     "id": "0001213900-25-104388:ea0262471-01_15d.htm",
@@ -37379,8 +36045,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001971638.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001971638."
   },
   {
     "id": "0001193125-25-260047:d50547d1512g.htm",
@@ -37407,8 +36072,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001876588.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001876588."
   },
   {
     "id": "0001140361-25-040031:ef20058119_1512g.htm",
@@ -37435,8 +36099,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001550695.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001550695."
   },
   {
     "id": "0000876661-25-000824:primary_doc.xml",
@@ -37463,8 +36126,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000845379.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000845379."
   },
   {
     "id": "0000876661-25-000822:primary_doc.xml",
@@ -37491,8 +36153,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001825155.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001825155."
   },
   {
     "id": "0000876661-25-000819:primary_doc.xml",
@@ -37519,8 +36180,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001703079.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001703079."
   },
   {
     "id": "0000876661-25-000817:primary_doc.xml",
@@ -37547,8 +36207,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000320340.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000320340."
   },
   {
     "id": "0001354457-25-001077:primary_doc.xml",
@@ -37575,8 +36234,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001783036.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001783036."
   },
   {
     "id": "0001354457-25-001073:primary_doc.xml",
@@ -37603,8 +36261,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001785173.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001785173."
   },
   {
     "id": "0001193125-25-258735:d92004d1512g.htm",
@@ -37631,8 +36288,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001434614.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001434614."
   },
   {
     "id": "0001143362-25-000378:primary_doc.xml",
@@ -37659,8 +36315,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000811030.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000811030."
   },
   {
     "id": "0001143362-25-000376:primary_doc.xml",
@@ -37687,8 +36342,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388."
   },
   {
     "id": "0001143362-25-000374:primary_doc.xml",
@@ -37715,8 +36369,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001552947.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001552947."
   },
   {
     "id": "0001143362-25-000372:primary_doc.xml",
@@ -37743,8 +36396,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001424958.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001424958."
   },
   {
     "id": "0000876661-25-000810:primary_doc.xml",
@@ -37771,8 +36423,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001794846.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001794846."
   },
   {
     "id": "0000876661-25-000808:primary_doc.xml",
@@ -37799,8 +36450,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000051143.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000051143."
   },
   {
     "id": "0001354457-25-001069:primary_doc.xml",
@@ -37827,8 +36477,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001776661.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001776661."
   },
   {
     "id": "0001143313-25-000082:primary_doc.xml",
@@ -37855,8 +36504,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001937441.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001937441."
   },
   {
     "id": "0001417835-25-000240:primary_doc.xml",
@@ -37883,8 +36531,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001924868."
   },
   {
     "id": "0001354457-25-001066:primary_doc.xml",
@@ -37911,8 +36558,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001827506.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001827506."
   },
   {
     "id": "0001193125-25-253587:d938748d1515d.htm",
@@ -37939,8 +36585,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001864913.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001864913."
   },
   {
     "id": "0001104659-25-103250:tm2529573d1_1512g.htm",
@@ -37967,8 +36612,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001501729.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001501729."
   },
   {
     "id": "0001104659-25-103215:tm2529533d2_25.htm",
@@ -37995,8 +36639,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001769617.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001769617."
   },
   {
     "id": "0001104659-25-102922:tm2529604d1_1512g.htm",
@@ -38023,8 +36666,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001633932.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001633932."
   },
   {
     "id": "0001104659-25-102828:tm2528948d4_25.htm",
@@ -38051,8 +36693,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001621227.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001621227."
   },
   {
     "id": "0001193125-25-251607:d837342d1512g.htm",
@@ -38079,8 +36720,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001865187.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001865187."
   },
   {
     "id": "0001193125-25-250607:d260977d1512g.htm",
@@ -38107,8 +36747,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001858257.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001858257."
   },
   {
     "id": "0001174947-25-001296:form1512g-34804_wns.htm",
@@ -38135,8 +36774,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001356570.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001356570."
   },
   {
     "id": "0001143362-25-000364:primary_doc.xml",
@@ -38163,8 +36801,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001452937.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001452937."
   },
   {
     "id": "0001143313-25-000078:primary_doc.xml",
@@ -38191,8 +36828,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001177162.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001177162."
   },
   {
     "id": "0001143313-25-000076:primary_doc.xml",
@@ -38219,8 +36855,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001177161.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001177161."
   },
   {
     "id": "0000876661-25-000805:primary_doc.xml",
@@ -38247,8 +36882,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000857949.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000857949."
   },
   {
     "id": "0001872446-25-000034:a2021-b15dsuspensionfiling.htm",
@@ -38275,8 +36909,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001872446.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001872446."
   },
   {
     "id": "0001143362-25-000360:primary_doc.xml",
@@ -38303,8 +36936,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742912.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001742912."
   },
   {
     "id": "0001104659-25-101998:tm2529150d2_1512g.htm",
@@ -38331,8 +36963,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001950246.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001950246."
   },
   {
     "id": "0000876661-25-000801:primary_doc.xml",
@@ -38359,8 +36990,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001834494.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001834494."
   },
   {
     "id": "0001354457-25-001054:primary_doc.xml",
@@ -38387,8 +37017,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001195734.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001195734."
   },
   {
     "id": "0001140361-25-039108:ef20057641_15-15d.htm",
@@ -38415,8 +37044,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001947427.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001947427."
   },
   {
     "id": "0000950157-25-000886:form15.htm",
@@ -38443,8 +37071,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001448597.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001448597."
   },
   {
     "id": "0001354457-25-001046:primary_doc.xml",
@@ -38471,8 +37098,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002075816.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002075816."
   },
   {
     "id": "0001354457-25-001045:primary_doc.xml",
@@ -38499,8 +37125,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001876588.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001876588."
   },
   {
     "id": "0001354457-25-001044:primary_doc.xml",
@@ -38527,8 +37152,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001550695.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE/A Delisted filing. Registered CIK: 0001550695."
   },
   {
     "id": "0001104659-25-101101:tm2529153d1_1512g.htm",
@@ -38555,8 +37179,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001769759.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001769759."
   },
   {
     "id": "0001354457-25-001037:primary_doc.xml",
@@ -38583,8 +37206,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001491978.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001491978."
   },
   {
     "id": "0001354457-25-001034:primary_doc.xml",
@@ -38611,8 +37233,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001876588.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001876588."
   },
   {
     "id": "0001354457-25-001033:primary_doc.xml",
@@ -38639,8 +37260,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001501570.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001501570."
   },
   {
     "id": "0001193125-25-243639:d939576d1512g.htm",
@@ -38667,8 +37287,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000850033.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000850033."
   },
   {
     "id": "0001193125-25-243557:d39011d25.htm",
@@ -38695,8 +37314,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001579157.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001579157."
   },
   {
     "id": "0001193125-25-243277:d931194d1512g.htm",
@@ -38723,8 +37341,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002018545.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002018545."
   },
   {
     "id": "0001143362-25-000349:primary_doc.xml",
@@ -38751,8 +37368,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001676326.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001676326."
   },
   {
     "id": "0001143362-25-000346:primary_doc.xml",
@@ -38779,8 +37395,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663."
   },
   {
     "id": "0000876661-25-000788:primary_doc.xml",
@@ -38807,8 +37422,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000910073.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000910073."
   },
   {
     "id": "0000876661-25-000786:primary_doc.xml",
@@ -38835,8 +37449,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001434614.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001434614."
   },
   {
     "id": "0001193125-25-242425:d25188d1512g.htm",
@@ -38863,8 +37476,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001604950.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001604950."
   },
   {
     "id": "0001193125-25-242207:d53168d1515d.htm",
@@ -38891,8 +37503,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001875229.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001875229."
   },
   {
     "id": "0001193125-25-242206:d85146d1515d.htm",
@@ -38919,8 +37530,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001905242.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001905242."
   },
   {
     "id": "0001104659-25-100312:tm2528922d1_1512g.htm",
@@ -38947,8 +37557,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001657312.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001657312."
   },
   {
     "id": "0000876661-25-000781:primary_doc.xml",
@@ -38975,8 +37584,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001356570.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001356570."
   },
   {
     "id": "0000046207-25-000009:hecoform1510-17x25pstermin.htm",
@@ -39003,8 +37611,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000046207.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000046207."
   },
   {
     "id": "0001867436-25-000049:a2021-3form15101625.htm",
@@ -39031,8 +37638,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001867436.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001867436."
   },
   {
     "id": "0001193125-25-240830:d41951d1512g.htm",
@@ -39059,8 +37665,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001602065.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001602065."
   },
   {
     "id": "0001104659-25-100101:tm2528764d1_1512g.htm",
@@ -39087,8 +37692,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001039828.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001039828."
   },
   {
     "id": "0001354457-25-001029:primary_doc.xml",
@@ -39115,8 +37719,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001776909.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001776909."
   },
   {
     "id": "0001354457-25-001023:primary_doc.xml",
@@ -39143,8 +37746,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001858257.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001858257."
   },
   {
     "id": "0000876661-25-000775:primary_doc.xml",
@@ -39171,8 +37773,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000032604.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000032604."
   },
   {
     "id": "0000876661-25-000773:primary_doc.xml",
@@ -39199,8 +37800,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000944695.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000944695."
   },
   {
     "id": "0000876661-25-000771:primary_doc.xml",
@@ -39227,8 +37827,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001865187.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001865187."
   },
   {
     "id": "0000876661-25-000769:primary_doc.xml",
@@ -39255,8 +37854,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000064670.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000064670."
   },
   {
     "id": "0000876661-25-000768:primary_doc.xml",
@@ -39283,8 +37881,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001613103.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001613103."
   },
   {
     "id": "0000876661-25-000767:primary_doc.xml",
@@ -39311,8 +37908,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001647572.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001647572."
   },
   {
     "id": "0000876661-25-000763:primary_doc.xml",
@@ -39339,8 +37935,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001305767.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001305767."
   },
   {
     "id": "0001829126-25-008099:titanpharma_15-12g.htm",
@@ -39367,8 +37962,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000910267.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000910267."
   },
   {
     "id": "0001417835-25-000229:primary_doc.xml",
@@ -39395,8 +37989,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001592900.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001592900."
   },
   {
     "id": "0001417835-25-000228:primary_doc.xml",
@@ -39423,8 +38016,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001415726.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001415726."
   },
   {
     "id": "0001417835-25-000227:primary_doc.xml",
@@ -39451,8 +38043,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137360.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137360."
   },
   {
     "id": "0001354457-25-001020:primary_doc.xml",
@@ -39479,8 +38070,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001143513.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001143513."
   },
   {
     "id": "0001193125-25-239001:d85253d1512g.htm",
@@ -39507,8 +38097,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001156388.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001156388."
   },
   {
     "id": "0001193125-25-238992:d94412d1512g.htm",
@@ -39535,8 +38124,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001865174.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001865174."
   },
   {
     "id": "0001193125-25-237842:d20123d1512g.htm",
@@ -39563,8 +38151,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001058867.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001058867."
   },
   {
     "id": "0001143362-25-000342:primary_doc.xml",
@@ -39591,8 +38178,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001500604.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001500604."
   },
   {
     "id": "0001104659-25-098861:tm2528631d1_1512g.htm",
@@ -39619,8 +38205,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001671284.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001671284."
   },
   {
     "id": "0000950142-25-002779:eh250691201_1512g.htm",
@@ -39647,8 +38232,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000933136.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000933136."
   },
   {
     "id": "0000876661-25-000761:primary_doc.xml",
@@ -39675,8 +38259,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000866095.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000866095."
   },
   {
     "id": "0000876661-25-000753:primary_doc.xml",
@@ -39703,8 +38286,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001950246.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001950246."
   },
   {
     "id": "0001731289-25-000071:nikola-form154915x7039x826.htm",
@@ -39731,8 +38313,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001731289.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001731289."
   },
   {
     "id": "0001370637-25-000085:form25.htm",
@@ -39759,8 +38340,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001370637.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001370637."
   },
   {
     "id": "0001354457-25-001014:primary_doc.xml",
@@ -39787,8 +38367,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001640043.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001640043."
   },
   {
     "id": "0001354457-25-001013:primary_doc.xml",
@@ -39815,8 +38394,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000017313.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000017313."
   },
   {
     "id": "0001354457-25-001012:primary_doc.xml",
@@ -39843,8 +38421,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001360214.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001360214."
   },
   {
     "id": "0001354457-25-001009:primary_doc.xml",
@@ -39871,8 +38448,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002029023.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002029023."
   },
   {
     "id": "0001143362-25-000339:primary_doc.xml",
@@ -39899,8 +38475,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722388."
   },
   {
     "id": "0001143362-25-000337:primary_doc.xml",
@@ -39927,8 +38502,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001485894.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001485894."
   },
   {
     "id": "0001104659-25-098454:tm2526955d1_1515d.htm",
@@ -39955,8 +38529,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001872327.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001872327."
   },
   {
     "id": "0001354457-25-001006:primary_doc.xml",
@@ -39983,8 +38556,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "High Quality Shell (Counsel Disclosed)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137883.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001137883."
   },
   {
     "id": "0001354457-25-001005:primary_doc.xml",
@@ -40011,8 +38583,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001633932.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001633932."
   },
   {
     "id": "0001888524-25-017763:jpc14c20_15-2025.htm",
@@ -40039,8 +38610,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001607484.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001607484."
   },
   {
     "id": "0001888524-25-017761:jpc14c21_15-2025.htm",
@@ -40067,8 +38637,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001610796.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001610796."
   },
   {
     "id": "0001888524-25-017759:wcm15c30_15-2025.htm",
@@ -40095,8 +38664,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001647587.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001647587."
   },
   {
     "id": "0001354457-25-001004:primary_doc.xml",
@@ -40123,8 +38691,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001360214.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001360214."
   },
   {
     "id": "0001959048-25-000050:fcalt2023-a15dseptember2025.htm",
@@ -40151,8 +38718,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001959048.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001959048."
   },
   {
     "id": "0001354457-25-000997:primary_doc.xml",
@@ -40179,8 +38745,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001769759.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001769759."
   },
   {
     "id": "0001354457-25-000996:primary_doc.xml",
@@ -40207,8 +38772,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001604950.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001604950."
   },
   {
     "id": "0001354457-25-000995:primary_doc.xml",
@@ -40235,8 +38799,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001657312.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001657312."
   },
   {
     "id": "0001493152-25-017074:form15-12g.htm",
@@ -40263,8 +38826,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001845022.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001845022."
   },
   {
     "id": "0001354457-25-000993:primary_doc.xml",
@@ -40291,8 +38853,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001718405.",
-    "auditor": "Crowe LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001718405."
   },
   {
     "id": "0001354457-25-000988:primary_doc.xml",
@@ -40319,8 +38880,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "High Quality Shell (Counsel Disclosed)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001859007.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001859007."
   },
   {
     "id": "0001354457-25-000985:primary_doc.xml",
@@ -40347,8 +38907,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "High Quality Shell (Counsel Disclosed)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001347242.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001347242."
   },
   {
     "id": "0001193125-25-232073:d80708d1512g.htm",
@@ -40375,8 +38934,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001959348.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001959348."
   },
   {
     "id": "0001143362-25-000330:primary_doc.xml",
@@ -40403,8 +38961,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000916490.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000916490."
   },
   {
     "id": "0001143362-25-000329:primary_doc.xml",
@@ -40431,8 +38988,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000916490.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000916490."
   },
   {
     "id": "0000876661-25-000744:primary_doc.xml",
@@ -40459,8 +39015,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001039828.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001039828."
   },
   {
     "id": "0001292814-25-003450:brf20251002_15.htm",
@@ -40487,8 +39042,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001122491.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001122491."
   },
   {
     "id": "0001193125-25-230300:d68589d25.htm",
@@ -40515,8 +39069,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001781730.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001781730."
   },
   {
     "id": "0001193125-25-230106:d62461d1512g.htm",
@@ -40543,8 +39096,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001413898.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001413898."
   },
   {
     "id": "0001683168-25-007363:altegris_15-12g.htm",
@@ -40571,8 +39123,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001198415.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001198415."
   },
   {
     "id": "0001354457-25-000978:primary_doc.xml",
@@ -40599,8 +39150,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001156388.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001156388."
   },
   {
     "id": "0001354457-25-000977:primary_doc.xml",
@@ -40627,8 +39177,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000910267.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000910267."
   },
   {
     "id": "0001104659-25-095893:tm2526694d1_1512g.htm",
@@ -40655,8 +39204,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000877422.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000877422."
   },
   {
     "id": "0000876661-25-000732:primary_doc.xml",
@@ -40683,8 +39231,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001671284.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001671284."
   },
   {
     "id": "0001354457-25-000973:primary_doc.xml",
@@ -40711,8 +39258,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001991946.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001991946."
   },
   {
     "id": "0001354457-25-000972:primary_doc.xml",
@@ -40739,8 +39285,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001220754.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001220754."
   },
   {
     "id": "0001354457-25-000971:primary_doc.xml",
@@ -40767,8 +39312,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001668010.",
-    "auditor": "PricewaterhouseCoopers LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001668010."
   },
   {
     "id": "0001354457-25-000970:primary_doc.xml",
@@ -40795,8 +39339,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000933136.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000933136."
   },
   {
     "id": "0001143313-25-000073:primary_doc.xml",
@@ -40823,8 +39366,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001915380.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001915380."
   },
   {
     "id": "0000876661-25-000730:primary_doc.xml",
@@ -40851,8 +39393,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001058867.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001058867."
   },
   {
     "id": "0001354457-25-000965:primary_doc.xml",
@@ -40879,8 +39420,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001816581.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001816581."
   },
   {
     "id": "0001213900-25-093410:ea0258107-01_15d.htm",
@@ -40907,8 +39447,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001867993.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001867993."
   },
   {
     "id": "0001143313-25-000071:primary_doc.xml",
@@ -40935,8 +39474,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001682220.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001682220."
   },
   {
     "id": "0001143313-25-000069:primary_doc.xml",
@@ -40963,8 +39501,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001388126.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001388126."
   },
   {
     "id": "0001104659-25-094627:tm2527467d1_15-12g.htm",
@@ -40991,8 +39528,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001842356.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001842356."
   },
   {
     "id": "0000876661-25-000724:primary_doc.xml",
@@ -41019,8 +39555,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001166258.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001166258."
   },
   {
     "id": "0001354457-25-000958:primary_doc.xml",
@@ -41047,8 +39582,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000832489.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000832489."
   },
   {
     "id": "0001354457-25-000956:primary_doc.xml",
@@ -41075,8 +39609,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001675033.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001675033."
   },
   {
     "id": "0001193125-25-221276:d854848d1512g.htm",
@@ -41103,8 +39636,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001888012.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001888012."
   },
   {
     "id": "0000876661-25-000720:primary_doc.xml",
@@ -41131,8 +39663,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001647572.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001647572."
   },
   {
     "id": "0000876661-25-000718:primary_doc.xml",
@@ -41159,8 +39690,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000064670.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000064670."
   },
   {
     "id": "0000876661-25-000716:primary_doc.xml",
@@ -41187,8 +39717,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001613103.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001613103."
   },
   {
     "id": "0000876661-25-000713:primary_doc.xml",
@@ -41215,8 +39744,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000895419.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000895419."
   },
   {
     "id": "0001417835-25-000207:primary_doc.xml",
@@ -41243,8 +39771,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559992.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559992."
   },
   {
     "id": "0001417835-25-000206:primary_doc.xml",
@@ -41271,8 +39798,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559992.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559992."
   },
   {
     "id": "0001417835-25-000205:primary_doc.xml",
@@ -41299,8 +39825,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559992.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559992."
   },
   {
     "id": "0001417835-25-000204:primary_doc.xml",
@@ -41327,8 +39852,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559992.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559992."
   },
   {
     "id": "0001104659-25-093587:tm2525998d10_1512g.htm",
@@ -41355,8 +39879,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001722964.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001722964."
   },
   {
     "id": "0001104659-25-093499:tm2525711d1_1515d.htm",
@@ -41383,8 +39906,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001902266.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001902266."
   },
   {
     "id": "0000894189-25-008942:roundhillnerd-form25.htm",
@@ -41411,8 +39933,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001683471.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001683471."
   },
   {
     "id": "0000876661-25-000707:primary_doc.xml",
@@ -41439,8 +39960,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001959348.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001959348."
   },
   {
     "id": "0001354457-25-000953:primary_doc.xml",
@@ -41467,8 +39987,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001512717.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001512717."
   },
   {
     "id": "0001143362-25-000306:primary_doc.xml",
@@ -41495,8 +40014,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001587982."
   },
   {
     "id": "0001140361-25-036075:ef20055900_1512g.htm",
@@ -41523,8 +40041,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001091748.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001091748."
   },
   {
     "id": "0001683168-25-007211:wilhelmina_form15.htm",
@@ -41551,8 +40068,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001013706.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001013706."
   },
   {
     "id": "0001354457-25-000944:primary_doc.xml",
@@ -41579,8 +40095,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413898.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413898."
   },
   {
     "id": "0001354457-25-000941:primary_doc.xml",
@@ -41607,8 +40122,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001649009.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001649009."
   },
   {
     "id": "0001354457-25-000938:primary_doc.xml",
@@ -41635,8 +40149,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001845022.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001845022."
   },
   {
     "id": "0001193125-25-215636:d936373d25.htm",
@@ -41663,8 +40176,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001853138.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001853138."
   },
   {
     "id": "0001437749-25-029644:faas20250922_25.htm",
@@ -41691,8 +40203,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001844981.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001844981."
   },
   {
     "id": "0001140361-25-035794:ef20055705_1512g.htm",
@@ -41719,8 +40230,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001431695.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001431695."
   },
   {
     "id": "0001104659-25-092203:tm2526674d1_1512g.htm",
@@ -41747,8 +40257,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001065837.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001065837."
   },
   {
     "id": "0000876661-25-000700:primary_doc.xml",
@@ -41775,8 +40284,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001122491.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001122491."
   },
   {
     "id": "0001354457-25-000931:primary_doc.xml",
@@ -41803,8 +40311,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000877422.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000877422."
   },
   {
     "id": "0001193125-25-209940:d15504d1512g.htm",
@@ -41831,8 +40338,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001082038.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001082038."
   },
   {
     "id": "0001140361-25-035705:ef20055654_25.htm",
@@ -41859,8 +40365,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001082324.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001082324."
   },
   {
     "id": "0000950142-25-002493:eh250674969_25.htm",
@@ -41887,8 +40392,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0002039497.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0002039497."
   },
   {
     "id": "0000950142-25-002492:eh250674966_25.htm",
@@ -41915,8 +40419,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001823144.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001823144."
   },
   {
     "id": "0000876661-25-000693:primary_doc.xml",
@@ -41943,8 +40446,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001606733.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001606733."
   },
   {
     "id": "0000876661-25-000691:primary_doc.xml",
@@ -41971,8 +40473,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001110649.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001110649."
   },
   {
     "id": "0000876661-25-000688:primary_doc.xml",
@@ -41999,8 +40500,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001547994.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001547994."
   },
   {
     "id": "0000876661-25-000686:primary_doc.xml",
@@ -42027,8 +40527,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001167581.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001167581."
   },
   {
     "id": "0001493152-25-014184:form15-12g.htm",
@@ -42055,8 +40554,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001625288.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001625288."
   },
   {
     "id": "0001493152-25-014143:form15-12g.htm",
@@ -42083,8 +40581,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001865468.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001865468."
   },
   {
     "id": "0001354457-25-000930:primary_doc.xml",
@@ -42111,8 +40608,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001527352.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001527352."
   },
   {
     "id": "0001104659-25-091688:tm2526360d1_1512g.htm",
@@ -42139,8 +40635,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001140465.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001140465."
   },
   {
     "id": "0001493152-25-014067:form15-12g.htm",
@@ -42167,8 +40662,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001643988.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001643988."
   },
   {
     "id": "0001417835-25-000197:primary_doc.xml",
@@ -42195,8 +40689,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001710607.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001710607."
   },
   {
     "id": "0001354457-25-000926:primary_doc.xml",
@@ -42223,8 +40716,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001259429.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001259429."
   },
   {
     "id": "0001354457-25-000923:primary_doc.xml",
@@ -42251,8 +40743,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001455684.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001455684."
   },
   {
     "id": "0001354457-25-000922:primary_doc.xml",
@@ -42279,8 +40770,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001136174.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001136174."
   },
   {
     "id": "0001354457-25-000921:primary_doc.xml",
@@ -42307,8 +40797,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001869601.",
-    "auditor": "Haynie & Company"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001869601."
   },
   {
     "id": "0001354457-25-000920:primary_doc.xml",
@@ -42335,8 +40824,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001842356.",
-    "auditor": "Grassi & Co., CPAs, P.C."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001842356."
   },
   {
     "id": "0001143362-25-000294:primary_doc.xml",
@@ -42363,8 +40851,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001860434.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001860434."
   },
   {
     "id": "0001140361-25-035399:ef20055669_1512g.htm",
@@ -42391,8 +40878,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000850209.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000850209."
   },
   {
     "id": "0000876661-25-000678:primary_doc.xml",
@@ -42419,8 +40905,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000842180.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000842180."
   },
   {
     "id": "0001354457-25-000913:primary_doc.xml",
@@ -42447,8 +40932,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001888012.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001888012."
   },
   {
     "id": "0001230992-25-000014:paas-magform15xrexfiled.htm",
@@ -42475,8 +40959,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001230992.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001230992."
   },
   {
     "id": "0001104659-25-090551:tm2526299d1_1512g.htm",
@@ -42503,8 +40986,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001157762.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001157762."
   },
   {
     "id": "0001417835-25-000191:primary_doc.xml",
@@ -42531,8 +41013,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001683471.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001683471."
   },
   {
     "id": "0001354457-25-000904:primary_doc.xml",
@@ -42559,8 +41040,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722964.",
-    "auditor": "UHY LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722964."
   },
   {
     "id": "0001193125-25-204858:d38622d1515d.htm",
@@ -42587,8 +41067,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001868834.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001868834."
   },
   {
     "id": "0001230992-25-000012:paas-magform15.htm",
@@ -42615,8 +41094,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15F-12G Delisted filing. Registered CIK: 0001230992.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15F-12G Delisted filing. Registered CIK: 0001230992."
   },
   {
     "id": "0001104659-25-089772:tm2525796d1_1512g.htm",
@@ -42643,8 +41121,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001600438.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001600438."
   },
   {
     "id": "0001096906-25-001512:wedg_1515da.htm",
@@ -42671,8 +41148,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D/A Delisted filing. Registered CIK: 0001580297.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D/A Delisted filing. Registered CIK: 0001580297."
   },
   {
     "id": "0000876661-25-000671:primary_doc.xml",
@@ -42699,8 +41175,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000038009.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000038009."
   },
   {
     "id": "0000876661-25-000669:primary_doc.xml",
@@ -42727,8 +41202,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000842180.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000842180."
   },
   {
     "id": "0000876661-25-000666:primary_doc.xml",
@@ -42755,8 +41229,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001091748.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001091748."
   },
   {
     "id": "0000876661-25-000664:primary_doc.xml",
@@ -42783,8 +41256,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001558368.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001558368."
   },
   {
     "id": "0000876661-25-000662:primary_doc.xml",
@@ -42811,8 +41283,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001091748.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001091748."
   },
   {
     "id": "0000876661-25-000659:primary_doc.xml",
@@ -42839,8 +41310,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000857855.",
-    "auditor": "EisnerAmper LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000857855."
   },
   {
     "id": "0001354457-25-000899:primary_doc.xml",
@@ -42867,8 +41337,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000893739.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000893739."
   },
   {
     "id": "0001354457-25-000898:primary_doc.xml",
@@ -42895,8 +41364,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001493580.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001493580."
   },
   {
     "id": "0001354457-25-000897:primary_doc.xml",
@@ -42923,8 +41391,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001976322."
   },
   {
     "id": "0001193125-25-202315:d43817d1512g.htm",
@@ -42951,8 +41418,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001028918.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001028918."
   },
   {
     "id": "0001104659-25-089579:tm2525912d1_1512g.htm",
@@ -42979,8 +41445,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000740971.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000740971."
   },
   {
     "id": "0001104659-25-089408:tm2525888d1_1512g.htm",
@@ -43007,8 +41472,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001049782.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001049782."
   },
   {
     "id": "0000950142-25-002430:eh250677680_1512g.htm",
@@ -43035,8 +41499,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001854401.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001854401."
   },
   {
     "id": "0000876661-25-000654:primary_doc.xml",
@@ -43063,8 +41526,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001065837.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001065837."
   },
   {
     "id": "0000876661-25-000652:primary_doc.xml",
@@ -43091,8 +41553,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001431695.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001431695."
   },
   {
     "id": "0000876661-25-000650:primary_doc.xml",
@@ -43119,8 +41580,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000007084.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000007084."
   },
   {
     "id": "0000876661-25-000648:primary_doc.xml",
@@ -43147,8 +41607,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113."
   },
   {
     "id": "0001354457-25-000885:primary_doc.xml",
@@ -43175,8 +41634,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001082038.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001082038."
   },
   {
     "id": "0001143313-25-000064:primary_doc.xml",
@@ -43203,8 +41661,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001498710.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001498710."
   },
   {
     "id": "0001104659-25-089108:tm2525827d1_1512g.htm",
@@ -43231,8 +41688,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001671941.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001671941."
   },
   {
     "id": "0001193125-25-199004:d58411d1512g.htm",
@@ -43259,8 +41715,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001850453.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001850453."
   },
   {
     "id": "0001140361-25-034418:ef20055361_1512g.htm",
@@ -43287,8 +41742,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001728205.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001728205."
   },
   {
     "id": "0001683168-25-006750:arowana_15-12g.htm",
@@ -43315,8 +41769,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001550222.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001550222."
   },
   {
     "id": "0001213900-25-085390:ea025531602-1515d_ydbio.htm",
@@ -43343,8 +41796,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002048877.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002048877."
   },
   {
     "id": "0001213900-25-085389:ea025531601-1512g_breeze.htm",
@@ -43371,8 +41823,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001817640.",
-    "auditor": "Deloitte & Touche LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001817640."
   },
   {
     "id": "0001193125-25-198101:d59662d1512g.htm",
@@ -43399,8 +41850,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618921.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618921."
   },
   {
     "id": "0001140361-25-034293:ef20054655_1512g.htm",
@@ -43427,8 +41877,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001808865.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001808865."
   },
   {
     "id": "0001104659-25-088196:tm2525244d1_1512g.htm",
@@ -43455,8 +41904,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001799208.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001799208."
   },
   {
     "id": "0001104659-25-088093:tm2525265d1_25.htm",
@@ -43483,8 +41931,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001140465.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001140465."
   },
   {
     "id": "0000876661-25-000643:primary_doc.xml",
@@ -43511,8 +41958,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000850209.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000850209."
   },
   {
     "id": "0000876661-25-000641:primary_doc.xml",
@@ -43539,8 +41985,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001346610.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001346610."
   },
   {
     "id": "0001193125-25-197138:d135948d1512g.htm",
@@ -43567,8 +42012,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389002.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001389002."
   },
   {
     "id": "0001437749-25-028378:ac20250904_1512g.htm",
@@ -43595,8 +42039,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001642122.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001642122."
   },
   {
     "id": "0001417835-25-000180:primary_doc.xml",
@@ -43623,8 +42066,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001683471.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001683471."
   },
   {
     "id": "0001143313-25-000062:primary_doc.xml",
@@ -43651,8 +42093,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001230992.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001230992."
   },
   {
     "id": "0000876661-25-000636:primary_doc.xml",
@@ -43679,8 +42120,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001600438.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001600438."
   },
   {
     "id": "0001193125-25-195063:d40871d1512g.htm",
@@ -43707,8 +42147,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000707388.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000707388."
   },
   {
     "id": "0000876661-25-000633:primary_doc.xml",
@@ -43735,8 +42174,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000732712.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000732712."
   },
   {
     "id": "0001354457-25-000862:primary_doc.xml",
@@ -43763,8 +42201,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000740971.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000740971."
   },
   {
     "id": "0001354457-25-000861:primary_doc.xml",
@@ -43791,8 +42228,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001049782.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001049782."
   },
   {
     "id": "0001354457-25-000860:primary_doc.xml",
@@ -43819,8 +42255,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001028918.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001028918."
   },
   {
     "id": "0001193125-25-193995:d20051d25.htm",
@@ -43847,8 +42282,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001826889.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001826889."
   },
   {
     "id": "0001193125-25-193591:d95300d1512g.htm",
@@ -43875,8 +42309,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001949543.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001949543."
   },
   {
     "id": "0001104659-25-086195:tm2525006d1_1512g.htm",
@@ -43903,8 +42336,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002003881.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002003881."
   },
   {
     "id": "0000919574-25-005516:d11975609_15-12g.htm",
@@ -43931,8 +42363,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001029145.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001029145."
   },
   {
     "id": "0000876661-25-000631:primary_doc.xml",
@@ -43959,8 +42390,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000753308.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000753308."
   },
   {
     "id": "0000876661-25-000629:primary_doc.xml",
@@ -43987,8 +42417,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001854401.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001854401."
   },
   {
     "id": "0000876661-25-000627:primary_doc.xml",
@@ -44015,8 +42444,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001167581.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001167581."
   },
   {
     "id": "0001999371-25-012285:crgx_1512g-082925.htm",
@@ -44043,8 +42471,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001966494.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001966494."
   },
   {
     "id": "0001417835-25-000176:primary_doc.xml",
@@ -44071,8 +42498,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559992.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001559992."
   },
   {
     "id": "0001354457-25-000859:primary_doc.xml",
@@ -44099,8 +42525,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001728205.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001728205."
   },
   {
     "id": "0001354457-25-000858:primary_doc.xml",
@@ -44127,8 +42552,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001828318.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001828318."
   },
   {
     "id": "0001354457-25-000857:primary_doc.xml",
@@ -44155,8 +42579,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001808865.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001808865."
   },
   {
     "id": "0001143362-25-000277:primary_doc.xml",
@@ -44183,8 +42606,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001452937.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001452937."
   },
   {
     "id": "0001143362-25-000275:primary_doc.xml",
@@ -44211,8 +42633,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001432353.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001432353."
   },
   {
     "id": "0001104659-25-085446:tm2524718d1_1515d.htm",
@@ -44239,8 +42660,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001853902.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001853902."
   },
   {
     "id": "0001641172-25-025821:form15-12g.htm",
@@ -44267,8 +42687,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001413909.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001413909."
   },
   {
     "id": "0001628280-25-041309:a15ffiling-terminationofre.htm",
@@ -44295,8 +42714,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001799983.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001799983."
   },
   {
     "id": "0001354457-25-000854:primary_doc.xml",
@@ -44323,8 +42741,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001618921.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001618921."
   },
   {
     "id": "0001193125-25-191294:d88233d1512g.htm",
@@ -44351,8 +42768,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002069692.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002069692."
   },
   {
     "id": "0001140361-25-033016:ef20054757_1512g.htm",
@@ -44379,8 +42795,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000915358.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000915358."
   },
   {
     "id": "0000876661-25-000623:primary_doc.xml",
@@ -44407,8 +42822,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001864290.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001864290."
   },
   {
     "id": "0000876661-25-000621:primary_doc.xml",
@@ -44435,8 +42849,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001258943.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001258943."
   },
   {
     "id": "0000876661-25-000619:primary_doc.xml",
@@ -44463,8 +42876,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001223026.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001223026."
   },
   {
     "id": "0001641172-25-025573:form15-12g.htm",
@@ -44491,8 +42903,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000096793.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000096793."
   },
   {
     "id": "0001493152-25-012330:form25.htm",
@@ -44519,8 +42930,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001113423.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001113423."
   },
   {
     "id": "0001143362-25-000272:primary_doc.xml",
@@ -44547,8 +42957,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001415995.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001415995."
   },
   {
     "id": "0001140361-25-032728:ef20054572_1512g.htm",
@@ -44575,8 +42984,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001814287.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001814287."
   },
   {
     "id": "0000876661-25-000617:primary_doc.xml",
@@ -44603,8 +43011,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001799208.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001799208."
   },
   {
     "id": "0001437749-25-027672:ac20250825_25.htm",
@@ -44631,8 +43038,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001642122.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001642122."
   },
   {
     "id": "0001193125-25-187814:d943324d1512g.htm",
@@ -44659,8 +43065,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000896262.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000896262."
   },
   {
     "id": "0001140361-25-032440:ef20054368_1512g.htm",
@@ -44687,8 +43092,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001496323.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001496323."
   },
   {
     "id": "0001437749-25-027567:strm20250822_1512g.htm",
@@ -44715,8 +43119,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001008586.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001008586."
   },
   {
     "id": "0001354457-25-000845:primary_doc.xml",
@@ -44743,8 +43146,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001645194.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001645194."
   },
   {
     "id": "0001354457-25-000844:primary_doc.xml",
@@ -44771,8 +43173,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001432353.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001432353."
   },
   {
     "id": "0001354457-25-000843:primary_doc.xml",
@@ -44799,8 +43200,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001981462.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001981462."
   },
   {
     "id": "0001354457-25-000840:primary_doc.xml",
@@ -44827,8 +43227,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001618500.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001618500."
   },
   {
     "id": "0001354457-25-000839:primary_doc.xml",
@@ -44855,8 +43254,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000707388.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000707388."
   },
   {
     "id": "0001213900-25-079885:ea0254358-1512g_xylotech.htm",
@@ -44883,8 +43281,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618500.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618500."
   },
   {
     "id": "0001143313-25-000059:primary_doc.xml",
@@ -44911,8 +43308,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001812360.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001812360."
   },
   {
     "id": "0001354457-25-000836:primary_doc.xml",
@@ -44939,8 +43335,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001792849.",
-    "auditor": "GreenGrowth CPAs"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001792849."
   },
   {
     "id": "0001193125-25-184743:d930633d1512g.htm",
@@ -44967,8 +43362,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001764974.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001764974."
   },
   {
     "id": "0001143362-25-000269:primary_doc.xml",
@@ -44995,8 +43389,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001506001.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001506001."
   },
   {
     "id": "0001143362-25-000267:primary_doc.xml",
@@ -45023,8 +43416,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663."
   },
   {
     "id": "0001143362-25-000265:primary_doc.xml",
@@ -45051,8 +43443,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001524513.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001524513."
   },
   {
     "id": "0001143362-25-000264:primary_doc.xml",
@@ -45079,8 +43470,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001524513.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001524513."
   },
   {
     "id": "0000876661-25-000613:primary_doc.xml",
@@ -45107,8 +43497,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001649373.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001649373."
   },
   {
     "id": "0000876661-25-000611:primary_doc.xml",
@@ -45135,8 +43524,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001949543.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001949543."
   },
   {
     "id": "0000876661-25-000609:primary_doc.xml",
@@ -45163,8 +43551,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001383951.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001383951."
   },
   {
     "id": "0001354457-25-000829:primary_doc.xml",
@@ -45191,8 +43578,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001029145.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001029145."
   },
   {
     "id": "0001213900-25-078769:ea0253697-1512g_enzo.htm",
@@ -45219,8 +43605,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000316253.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000316253."
   },
   {
     "id": "0001354457-25-000828:primary_doc.xml",
@@ -45247,8 +43632,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001966494.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001966494."
   },
   {
     "id": "0001213900-25-078587:ea0253688-1512g_chenghe2.htm",
@@ -45275,8 +43659,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002016420.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0002016420."
   },
   {
     "id": "0001193125-25-183467:d81242d1515d.htm",
@@ -45303,8 +43686,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001885053.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001885053."
   },
   {
     "id": "0000876661-25-000607:primary_doc.xml",
@@ -45331,8 +43713,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001703785.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001703785."
   },
   {
     "id": "0001354457-25-000822:primary_doc.xml",
@@ -45359,8 +43740,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001100663."
   },
   {
     "id": "0001193125-25-182675:d29541d25.htm",
@@ -45387,8 +43767,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001539638.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001539638."
   },
   {
     "id": "0001193125-25-182662:d53500d1512g.htm",
@@ -45415,8 +43794,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000813828.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000813828."
   },
   {
     "id": "0000876661-25-000604:primary_doc.xml",
@@ -45443,8 +43821,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000891478.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000891478."
   },
   {
     "id": "0000876661-25-000602:primary_doc.xml",
@@ -45471,8 +43848,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001799983.",
-    "auditor": "Pinnacle Accountancy Group of Utah"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001799983."
   },
   {
     "id": "0000876661-25-000598:primary_doc.xml",
@@ -45499,8 +43875,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001089113."
   },
   {
     "id": "0001641172-25-024284:form15-12g.htm",
@@ -45527,8 +43902,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001900402.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001900402."
   },
   {
     "id": "0001213900-25-077584:ea0253531-25_kindlymd.htm",
@@ -45555,8 +43929,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001946573.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0001946573."
   },
   {
     "id": "0001193125-25-181732:d98555d1512g.htm",
@@ -45583,8 +43956,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001071371.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001071371."
   },
   {
     "id": "0001193125-25-181729:d946263d1512g.htm",
@@ -45611,8 +43983,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001071371.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001071371."
   },
   {
     "id": "0001193125-25-181285:d785596d1512g.htm",
@@ -45639,8 +44010,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001827087.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001827087."
   },
   {
     "id": "0001143313-25-000057:primary_doc.xml",
@@ -45667,8 +44037,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000096793.",
-    "auditor": "RBSM LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000096793."
   },
   {
     "id": "0001641172-25-023876:form15-12g.htm",
@@ -45695,8 +44064,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001857855.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001857855."
   },
   {
     "id": "0001354457-25-000817:primary_doc.xml",
@@ -45723,8 +44091,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000896262.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000896262."
   },
   {
     "id": "0001354457-25-000816:primary_doc.xml",
@@ -45751,8 +44118,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000896262.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000896262."
   },
   {
     "id": "0001354457-25-000815:primary_doc.xml",
@@ -45779,8 +44145,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001814287.",
-    "auditor": "Sadler, Gibb & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001814287."
   },
   {
     "id": "0001354457-25-000814:primary_doc.xml",
@@ -45807,8 +44172,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001894176.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001894176."
   },
   {
     "id": "0001354457-25-000811:primary_doc.xml",
@@ -45835,8 +44199,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001496323.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001496323."
   },
   {
     "id": "0001213900-25-076844:ea0253124-1512g_nv5global.htm",
@@ -45863,8 +44226,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001532961.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001532961."
   },
   {
     "id": "0001213900-25-076836:ea0253267-1512g_cohen1.htm",
@@ -45891,8 +44253,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001894176.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001894176."
   },
   {
     "id": "0001213900-25-076665:ea0253374-1512g_bloom.htm",
@@ -45919,8 +44280,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001975931.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001975931."
   },
   {
     "id": "0001213900-25-076291:ea0253273-1512g_cosmos.htm",
@@ -45947,8 +44307,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001706509.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001706509."
   },
   {
     "id": "0001193125-25-180760:d39992d1512g.htm",
@@ -45975,8 +44334,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001800347.",
-    "auditor": "Turner, Stone & Company, L.L.P."
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001800347."
   },
   {
     "id": "0001417835-25-000169:primary_doc.xml",
@@ -46003,8 +44361,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001683471.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001683471."
   },
   {
     "id": "0000876661-25-000594:primary_doc.xml",
@@ -46031,8 +44388,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000010795.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000010795."
   },
   {
     "id": "0001354457-25-000807:primary_doc.xml",
@@ -46059,8 +44415,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001008586.",
-    "auditor": "KPMG LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001008586."
   },
   {
     "id": "0001213900-25-074796:ea0252849-1512g_heliogen.htm",
@@ -46087,8 +44442,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001840292.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001840292."
   },
   {
     "id": "0001213900-25-074671:ea0251950-1512g_global.htm",
@@ -46115,8 +44469,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000748790.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000748790."
   },
   {
     "id": "0001821268-25-000184:gcif2019t15j.htm",
@@ -46143,8 +44496,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618696.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618696."
   },
   {
     "id": "0001821268-25-000183:gcif2016t15j.htm",
@@ -46171,8 +44523,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618694.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618694."
   },
   {
     "id": "0001821268-25-000182:gugform1515j.htm",
@@ -46199,8 +44550,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618697.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001618697."
   },
   {
     "id": "0001683168-25-005902:thunder_form15.htm",
@@ -46227,8 +44577,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001524872.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001524872."
   },
   {
     "id": "0001354457-25-000800:primary_doc.xml",
@@ -46255,8 +44604,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001764974.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001764974."
   },
   {
     "id": "0001213900-25-074333:ea0252128-1515d_therasinc.htm",
@@ -46283,8 +44631,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002022953.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0002022953."
   },
   {
     "id": "0001193125-25-177392:d936224d1512g.htm",
@@ -46311,8 +44658,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001923840.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001923840."
   },
   {
     "id": "0001104659-25-076215:tm2523115d1_1512g.htm",
@@ -46339,8 +44685,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001597553.",
-    "auditor": "Baker Tilly US, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001597553."
   },
   {
     "id": "0000876661-25-000590:primary_doc.xml",
@@ -46367,8 +44712,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413329.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001413329."
   },
   {
     "id": "0000876661-25-000588:primary_doc.xml",
@@ -46395,8 +44739,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000312069.",
-    "auditor": "WithumSmith+Brown, PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000312069."
   },
   {
     "id": "0000876661-25-000586:primary_doc.xml",
@@ -46423,8 +44766,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160106.",
-    "auditor": "Moss Adams LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001160106."
   },
   {
     "id": "0001493152-25-011735:form15-12g.htm",
@@ -46451,8 +44793,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001416697.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001416697."
   },
   {
     "id": "0001354457-25-000798:primary_doc.xml",
@@ -46479,8 +44820,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001869974.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001869974."
   },
   {
     "id": "0001354457-25-000796:primary_doc.xml",
@@ -46507,8 +44847,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001381074.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001381074."
   },
   {
     "id": "0001354457-25-000795:primary_doc.xml",
@@ -46535,8 +44874,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001872812.",
-    "auditor": "M&K CPAs, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001872812."
   },
   {
     "id": "0001354457-25-000794:primary_doc.xml",
@@ -46563,8 +44901,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001293818.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001293818."
   },
   {
     "id": "0001354457-25-000793:primary_doc.xml",
@@ -46591,8 +44928,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001851182.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001851182."
   },
   {
     "id": "0001354457-25-000792:primary_doc.xml",
@@ -46619,8 +44955,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001866547.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001866547."
   },
   {
     "id": "0001354457-25-000791:primary_doc.xml",
@@ -46647,8 +44982,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001811623.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001811623."
   },
   {
     "id": "0001143362-25-000253:primary_doc.xml",
@@ -46675,8 +45009,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001944285.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001944285."
   },
   {
     "id": "0001143313-25-000054:primary_doc.xml",
@@ -46703,8 +45036,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002016420.",
-    "auditor": "Grant Thornton LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0002016420."
   },
   {
     "id": "0001104659-25-075683:tm2522501d1_1512g.htm",
@@ -46731,8 +45063,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000716605.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0000716605."
   },
   {
     "id": "0001104659-25-075595:tm2522613d1_1512g.htm",
@@ -46759,8 +45090,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001760542.",
-    "auditor": "Marcum LLP"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001760542."
   },
   {
     "id": "0001354457-25-000788:primary_doc.xml",
@@ -46787,8 +45117,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001633441.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001633441."
   },
   {
     "id": "0001354457-25-000787:primary_doc.xml",
@@ -46815,8 +45144,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001775085.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001775085."
   },
   {
     "id": "0001354457-25-000783:primary_doc.xml",
@@ -46843,8 +45171,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722969.",
-    "auditor": "BDO USA, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001722969."
   },
   {
     "id": "0001354457-25-000781:primary_doc.xml",
@@ -46871,8 +45198,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000813828.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0000813828."
   },
   {
     "id": "0000902664-25-003417:p25-1766form1512g.htm",
@@ -46899,8 +45225,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Prime Clean Shell (Top Opportunity)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001822250.",
-    "auditor": "Yusufali & Associates, LLC"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001822250."
   },
   {
     "id": "0001641172-25-022309:form15-15d.htm",
@@ -46927,8 +45252,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001477246.",
-    "auditor": "Ernst & Young LLP"
+    "details": "SEC EDGAR Form 15-15D Delisted filing. Registered CIK: 0001477246."
   },
   {
     "id": "0001477932-25-005521:gwso_1512g.htm",
@@ -46955,8 +45279,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Moderate Viability (Restructuring Candidate)",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001430300.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 15-12G Delisted filing. Registered CIK: 0001430300."
   },
   {
     "id": "0001354457-25-000778:primary_doc.xml",
@@ -46983,8 +45306,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001566826.",
-    "auditor": "BF Borgers CPA PC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001566826."
   },
   {
     "id": "0001354457-25-000776:primary_doc.xml",
@@ -47011,8 +45333,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001939696.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001939696."
   },
   {
     "id": "0001354457-25-000775:primary_doc.xml",
@@ -47039,8 +45360,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001944285.",
-    "auditor": "Not Available"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001944285."
   },
   {
     "id": "0001354457-25-000770:primary_doc.xml",
@@ -47067,8 +45387,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001463361.",
-    "auditor": "MaloneBailey, LLP"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001463361."
   },
   {
     "id": "0001354457-25-000769:primary_doc.xml",
@@ -47095,8 +45414,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001906133.",
-    "auditor": "Fruci & Associates II, PLLC"
+    "details": "SEC EDGAR Form 25-NSE Delisted filing. Registered CIK: 0001906133."
   },
   {
     "id": "0000947871-25-000722:ss5148920_25.htm",
@@ -47123,8 +45441,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "shellRating": "Standard Distressed Asset",
     "activities": [],
     "reminders": null,
-    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0002021938.",
-    "auditor": "Assurance Dimensions, Inc."
+    "details": "SEC EDGAR Form 25 Delisted filing. Registered CIK: 0002021938."
   },
   {
     "id": "lon-del-001",
@@ -47150,8 +45467,8 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "queued",
     "cleanShellScore": 94,
     "shellRating": "High Priority Cash Shell (Clean Register)",
-    "marketCap": "\u00a31.2M GBP",
-    "details": "Classified as an AIM Rule 15 cash shell with ~\u00a31.8M in cash reserves. Must execute an AIM Rule 14 Reverse Takeover (RTO) before Rule 41 cancellation.",
+    "marketCap": "£1.2M GBP",
+    "details": "Classified as an AIM Rule 15 cash shell with ~£1.8M in cash reserves. Must execute an AIM Rule 14 Reverse Takeover (RTO) before Rule 41 cancellation.",
     "notes": [
       {
         "text": "AIM Cash shell status verified. Nomad open to qualifying reverse takeover discussions.",
@@ -47166,8 +45483,7 @@ export const ALL_GLOBAL_ISSUERS = [
         "text": "Confirmed cash balance and clean registry.",
         "date": "2026-06-01"
       }
-    ],
-    "auditor": "KPMG Audit Plc"
+    ]
   },
   {
     "id": "lon-del-002",
@@ -47193,11 +45509,10 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 88,
     "shellRating": "Prime Clean Energy Shell",
-    "marketCap": "\u00a3850K GBP",
+    "marketCap": "£850K GBP",
     "details": "Shareholder vote approved cancellation. 100% clean capital structure with debt extinguished.",
     "notes": [],
-    "activities": [],
-    "auditor": "KPMG Audit Plc"
+    "activities": []
   },
   {
     "id": "lon-del-003",
@@ -47223,11 +45538,10 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 76,
     "shellRating": "EdTech Shell with Creditor Moratorium",
-    "marketCap": "\u00a32.4M GBP",
+    "marketCap": "£2.4M GBP",
     "details": "Main market listing suspended following board resignation. Opportunity for restructuring syndicate.",
     "notes": [],
-    "activities": [],
-    "auditor": "Crowe U.K. LLP"
+    "activities": []
   },
   {
     "id": "lon-del-004",
@@ -47253,7 +45567,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "contacted",
     "cleanShellScore": 82,
     "shellRating": "Resolved Takeover Entity",
-    "marketCap": "\u00a314.5M GBP",
+    "marketCap": "£14.5M GBP",
     "details": "Post-merger clean entity with secondary shareholder residual holdings.",
     "notes": [
       {
@@ -47269,8 +45583,7 @@ export const ALL_GLOBAL_ISSUERS = [
         "text": "Discussed clean asset ring-fencing with Ashurst.",
         "date": "2026-03-01"
       }
-    ],
-    "auditor": "Grant Thornton UK LLP"
+    ]
   },
   {
     "id": "lon-del-005",
@@ -47296,7 +45609,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "discussion",
     "cleanShellScore": 91,
     "shellRating": "Dual Market Arbitrage Vehicle",
-    "marketCap": "\u00a35.1M GBP",
+    "marketCap": "£5.1M GBP",
     "details": "Delisted from LSE to consolidate trading on Euronext Growth and OTC Pink.",
     "notes": [
       {
@@ -47312,8 +45625,7 @@ export const ALL_GLOBAL_ISSUERS = [
         "text": "Presented OTC Pink market-making proposal.",
         "date": "2026-02-14"
       }
-    ],
-    "auditor": "Grant Thornton UK LLP"
+    ]
   },
   {
     "id": "lon-del-006",
@@ -47339,11 +45651,10 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 95,
     "shellRating": "Top Tier Clean FinTech Shell",
-    "marketCap": "\u00a33.8M GBP",
+    "marketCap": "£3.8M GBP",
     "details": "Solvent balance sheet post-subsidiary divestment. Prime candidate for FinTech reverse takeover.",
     "notes": [],
-    "activities": [],
-    "auditor": "KPMG Audit Plc"
+    "activities": []
   },
   {
     "id": "fra-del-001",
@@ -47368,7 +45679,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "queued",
     "cleanShellScore": 79,
     "shellRating": "High-Profile Industrial Battery Shell",
-    "marketCap": "\u20ac82.0M EUR",
+    "marketCap": "€82.0M EUR",
     "details": "Capital reduction to zero pending court confirmation under StaRUG. Opportunity for industrial restructuring consortium.",
     "notes": [
       {
@@ -47384,8 +45695,7 @@ export const ALL_GLOBAL_ISSUERS = [
         "text": "Delivered secondary recapitalization thesis to investor relations.",
         "date": "2026-08-01"
       }
-    ],
-    "auditor": "PwC GmbH Wirtschaftspr\u00fcfungsgesellschaft"
+    ]
   },
   {
     "id": "fra-del-002",
@@ -47394,7 +45704,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "companyName": "Leoni AG",
     "exchange": "Frankfurt Stock Exchange (Regulierter Markt)",
     "delistDate": "2026-05-18",
-    "form": "StaRUG B\u00f6rsenr\u00fcckzug",
+    "form": "StaRUG Börsenrückzug",
     "eventType": "Going Private / Capital Reorganization",
     "secLandingPage": "https://www.leoni.com",
     "secFullText": "",
@@ -47405,12 +45715,12 @@ export const ALL_GLOBAL_ISSUERS = [
     "cfo": "Dr. Harald Nippel",
     "otcProfileUrl": "https://www.boerse-frankfurt.de",
     "legalCounsel": "Hengeler Mueller",
-    "designatedSponsor": "Hauck Aufh\u00e4user Lampe",
+    "designatedSponsor": "Hauck Aufhäuser Lampe",
     "shareRegistry": "Link Market Services Frankfurt",
     "status": "contacted",
     "cleanShellScore": 84,
     "shellRating": "Automotive Cable Harness Syndicate Shell",
-    "marketCap": "\u20ac45.2M EUR",
+    "marketCap": "€45.2M EUR",
     "details": "Post-StaRUG delisting executed. Clean operational entities separated from legacy holding vehicle.",
     "notes": [
       {
@@ -47426,8 +45736,7 @@ export const ALL_GLOBAL_ISSUERS = [
         "text": "Inquired on creditor claim settlement timeline.",
         "date": "2026-06-15"
       }
-    ],
-    "auditor": "Ebner Stolz"
+    ]
   },
   {
     "id": "fra-del-003",
@@ -47452,7 +45761,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "discussion",
     "cleanShellScore": 71,
     "shellRating": "Large Real Estate Debt Workout Vehicle",
-    "marketCap": "\u20ac112.0M EUR",
+    "marketCap": "€112.0M EUR",
     "details": "UK restructuring plan sanctioned by High Court. German listing withdrawn.",
     "notes": [
       {
@@ -47468,8 +45777,7 @@ export const ALL_GLOBAL_ISSUERS = [
         "text": "Reviewed senior unsecured notes valuation.",
         "date": "2026-04-02"
       }
-    ],
-    "auditor": "PwC GmbH Wirtschaftspr\u00fcfungsgesellschaft"
+    ]
   },
   {
     "id": "fra-del-004",
@@ -47485,7 +45793,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "location": "Niestetal, Germany",
     "email": "ir@sma.de",
     "phone": "+49 561 9522-0",
-    "ceo": "Dr. J\u00fcrgen Reinert",
+    "ceo": "Dr. Jürgen Reinert",
     "cfo": "Barbara Gregor",
     "otcProfileUrl": "https://www.boerse-frankfurt.de",
     "legalCounsel": "Gleiss Lutz",
@@ -47494,11 +45802,10 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 92,
     "shellRating": "Solvent Clean Tech Entity (Cost Optimization)",
-    "marketCap": "\u20ac580M EUR",
+    "marketCap": "€580M EUR",
     "details": "Voluntary downgrade of listing tier to save regulatory overhead.",
     "notes": [],
-    "activities": [],
-    "auditor": "PwC GmbH Wirtschaftspr\u00fcfungsgesellschaft"
+    "activities": []
   },
   {
     "id": "fra-del-005",
@@ -47523,11 +45830,10 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 89,
     "shellRating": "Pharma Commercial Shell",
-    "marketCap": "\u20ac18.4M EUR",
+    "marketCap": "€18.4M EUR",
     "details": "Delisted from German regulated market; maintains US NASDAQ/OTC active operational channel.",
     "notes": [],
-    "activities": [],
-    "auditor": "BDO AG Wirtschaftspr\u00fcfungsgesellschaft"
+    "activities": []
   },
   {
     "id": "fra-del-006",
@@ -47552,11 +45858,10 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 86,
     "shellRating": "High Tech Semiconductor Entity",
-    "marketCap": "\u20ac2.1B EUR",
+    "marketCap": "€2.1B EUR",
     "details": "Final cash compensation settlement proceedings for minority shares.",
     "notes": [],
-    "activities": [],
-    "auditor": "PwC GmbH Wirtschaftspr\u00fcfungsgesellschaft"
+    "activities": []
   },
   {
     "id": "asx-del-001",
@@ -47596,8 +45901,7 @@ export const ALL_GLOBAL_ISSUERS = [
         "text": "Checked deadline clock under ASX Listing Rule 17.12.",
         "date": "2026-06-10"
       }
-    ],
-    "auditor": "Grant Thornton Australia"
+    ]
   },
   {
     "id": "asx-del-002",
@@ -47624,8 +45928,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "marketCap": "$12.4M AUD",
     "details": "Deed of Company Arrangement (DOCA) proposal under review to restructure corporate shell for new asset injection.",
     "notes": [],
-    "activities": [],
-    "auditor": "Grant Thornton Australia"
+    "activities": []
   },
   {
     "id": "asx-del-003",
@@ -47665,8 +45968,7 @@ export const ALL_GLOBAL_ISSUERS = [
         "text": "Sent cross-border SEC market-making brief.",
         "date": "2026-04-15"
       }
-    ],
-    "auditor": "Ernst & Young Australia"
+    ]
   },
   {
     "id": "asx-del-004",
@@ -47693,8 +45995,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "marketCap": "$28.0B AUD",
     "details": "Internal scheme of arrangement capital restructuring.",
     "notes": [],
-    "activities": [],
-    "auditor": "Grant Thornton Australia"
+    "activities": []
   },
   {
     "id": "asx-del-005",
@@ -47721,8 +46022,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "marketCap": "$1.6B AUD",
     "details": "Spin-out vehicle creation and secondary exchange registration.",
     "notes": [],
-    "activities": [],
-    "auditor": "KPMG Australia"
+    "activities": []
   },
   {
     "id": "asx-del-006",
@@ -47749,8 +46049,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "marketCap": "$18.2M AUD",
     "details": "Preparing Chapter 1 and 2 re-compliance transaction prospectus.",
     "notes": [],
-    "activities": [],
-    "auditor": "PKF Melbourne"
+    "activities": []
   },
   {
     "id": "asx-del-007",
@@ -47777,8 +46076,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "marketCap": "$24.0M AUD",
     "details": "Biotech shell ready for reverse takeover or reverse merger structure.",
     "notes": [],
-    "activities": [],
-    "auditor": "Grant Thornton Australia"
+    "activities": []
   },
   {
     "id": "asx-del-008",
@@ -47805,8 +46103,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "marketCap": "$94.5M AUD",
     "details": "US OTC market cross-border trading structure established.",
     "notes": [],
-    "activities": [],
-    "auditor": "Grant Thornton Australia"
+    "activities": []
   },
   {
     "id": "asx-del-009",
@@ -47846,8 +46143,7 @@ export const ALL_GLOBAL_ISSUERS = [
         "text": "Confirmed scheme closing date and unlisted option settlement.",
         "date": "2026-06-05"
       }
-    ],
-    "auditor": "Grant Thornton Australia"
+    ]
   }
 ];
 
