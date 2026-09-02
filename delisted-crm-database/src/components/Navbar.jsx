@@ -161,7 +161,7 @@ export default function Navbar({
                 }`}
               >
                 <ClipboardCheck className="h-3.5 w-3.5 text-amber-400" />
-                <span>Auditor</span>
+                <span>Auditors</span>
               </button>
 
               <button
@@ -276,7 +276,7 @@ export default function Navbar({
             }`}
           >
             <ClipboardCheck className="h-4 w-4" />
-            <span>Auditor</span>
+            <span>Auditors</span>
           </button>
 
           <button
