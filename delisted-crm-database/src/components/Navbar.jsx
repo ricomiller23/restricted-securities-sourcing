@@ -20,21 +20,11 @@ export default function Navbar({
   setSearchTerm, 
   totalCount, 
   filteredCount,
-  activeRegion,
-  setActiveRegion,
   onOpenEmailRunner,
   onOpenExportModal,
   onLiveSync,
   isSyncing
 }) {
-  const REGION_OPTIONS = [
-    { id: "ALL", label: "Global All", flag: "🌐" },
-    { id: "US", label: "US (EDGAR)", flag: "🇺🇸" },
-    { id: "UK", label: "UK (AIM)", flag: "🇬🇧" },
-    { id: "DE", label: "Frankfurt", flag: "🇩🇪" },
-    { id: "AU", label: "ASX Shells", flag: "🇦🇺" }
-  ];
-
   return (
     <>
       {/* Top Header Bar */}
@@ -63,30 +53,9 @@ export default function Navbar({
                 </button>
               </div>
               <p className="text-[10px] sm:text-[11px] text-[#8892A6] line-clamp-1">
-                {totalCount} Delisted Issuers & Shells • SEC EDGAR, AIM, Frankfurt & ASX Verified
+                {totalCount} Delisted Issuers & Shells • SEC EDGAR Verified
               </p>
             </div>
-          </div>
-
-          {/* Region Switcher Pills (Desktop & Tablet) */}
-          <div className="hidden lg:flex items-center rounded-xl border border-[#1B2030] bg-[#0F1218] p-1 gap-1">
-            {REGION_OPTIONS.map((reg) => {
-              const isActive = activeRegion === reg.id;
-              return (
-                <button
-                  key={reg.id}
-                  onClick={() => setActiveRegion(reg.id)}
-                  className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
-                    isActive
-                      ? "bg-cyan-500/20 text-cyan-300 border border-cyan-400/30 shadow-sm"
-                      : "text-[#8892A6] hover:text-[#E8ECF4] hover:bg-[#1B2030]/40"
-                  }`}
-                >
-                  <span>{reg.flag}</span>
-                  <span>{reg.label}</span>
-                </button>
-              );
-            })}
           </div>
 
           {/* Desktop Search Bar */}

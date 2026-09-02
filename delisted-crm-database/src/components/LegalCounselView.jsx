@@ -103,7 +103,7 @@ export default function LegalCounselView({
           </div>
           <div>
             <h2 className="text-base font-extrabold tracking-tight text-[#E8ECF4]">
-              Global Securities Legal Counsel Directory
+              Securities Legal Counsel Directory
             </h2>
             <p className="text-xs text-[#8892A6]">
               {verifiedFirmsCount} Verified Securities Law Firms representing {issuers.length} Delisted Public Issuers
@@ -159,9 +159,6 @@ export default function LegalCounselView({
                         <h3 className={`text-sm font-black ${isUnknown ? "text-[#8892A6]" : "text-[#E8ECF4]"}`}>
                           {firm.firmName}
                         </h3>
-                        {Array.from(firm.regions).map(reg => (
-                          <span key={reg} className="text-xs" title={reg}>{getCountryFlag(reg)}</span>
-                        ))}
                       </div>
                       <p className="text-[11px] text-[#8892A6]">
                         {firm.representedIssuers.length} Delisted {firm.representedIssuers.length === 1 ? "Issuer" : "Issuers"} Represented • Avg Opportunity Score: <strong className="text-emerald-400 font-mono">{firm.avgScore}/100</strong>
@@ -195,7 +192,6 @@ export default function LegalCounselView({
                             <div className="space-y-1">
                               <div className="flex items-center justify-between">
                                 <div className="flex items-center gap-1.5">
-                                  <span>{getCountryFlag(issuer.region)}</span>
                                   <a 
                                     href={otcUrl}
                                     target="_blank"

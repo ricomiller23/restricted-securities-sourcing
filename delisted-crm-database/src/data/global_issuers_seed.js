@@ -45445,7 +45445,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "lon-del-001",
-    "region": "UK",
+    "region": "US",
     "ticker": "CYN",
     "companyName": "CyanConnode Holdings plc (AIM Rule 15 Cash Shell)",
     "exchange": "London Stock Exchange (AIM)",
@@ -45467,8 +45467,8 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "queued",
     "cleanShellScore": 94,
     "shellRating": "High Priority Cash Shell (Clean Register)",
-    "marketCap": "£1.2M GBP",
-    "details": "Classified as an AIM Rule 15 cash shell with ~£1.8M in cash reserves. Must execute an AIM Rule 14 Reverse Takeover (RTO) before Rule 41 cancellation.",
+    "marketCap": "\u00a31.2M GBP",
+    "details": "Classified as an AIM Rule 15 cash shell with ~\u00a31.8M in cash reserves. Must execute an AIM Rule 14 Reverse Takeover (RTO) before Rule 41 cancellation.",
     "notes": [
       {
         "text": "AIM Cash shell status verified. Nomad open to qualifying reverse takeover discussions.",
@@ -45487,7 +45487,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "lon-del-002",
-    "region": "UK",
+    "region": "US",
     "ticker": "BOIL",
     "companyName": "Baron Oil Plc (Re-flagged Shell)",
     "exchange": "London Stock Exchange (AIM)",
@@ -45509,14 +45509,14 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 88,
     "shellRating": "Prime Clean Energy Shell",
-    "marketCap": "£850K GBP",
+    "marketCap": "\u00a3850K GBP",
     "details": "Shareholder vote approved cancellation. 100% clean capital structure with debt extinguished.",
     "notes": [],
     "activities": []
   },
   {
     "id": "lon-del-003",
-    "region": "UK",
+    "region": "US",
     "ticker": "DEV",
     "companyName": "Dev Clever Holdings plc",
     "exchange": "LSE Main Market (Standard)",
@@ -45538,14 +45538,14 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 76,
     "shellRating": "EdTech Shell with Creditor Moratorium",
-    "marketCap": "£2.4M GBP",
+    "marketCap": "\u00a32.4M GBP",
     "details": "Main market listing suspended following board resignation. Opportunity for restructuring syndicate.",
     "notes": [],
     "activities": []
   },
   {
     "id": "lon-del-004",
-    "region": "UK",
+    "region": "US",
     "ticker": "AMER",
     "companyName": "Amerisur Resources Ltd (De-registered)",
     "exchange": "London Stock Exchange (AIM)",
@@ -45567,7 +45567,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "contacted",
     "cleanShellScore": 82,
     "shellRating": "Resolved Takeover Entity",
-    "marketCap": "£14.5M GBP",
+    "marketCap": "\u00a314.5M GBP",
     "details": "Post-merger clean entity with secondary shareholder residual holdings.",
     "notes": [
       {
@@ -45587,7 +45587,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "lon-del-005",
-    "region": "UK",
+    "region": "US",
     "ticker": "ZEN",
     "companyName": "Zenith Energy Ltd",
     "exchange": "LSE Main Market (Standard)",
@@ -45609,7 +45609,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "discussion",
     "cleanShellScore": 91,
     "shellRating": "Dual Market Arbitrage Vehicle",
-    "marketCap": "£5.1M GBP",
+    "marketCap": "\u00a35.1M GBP",
     "details": "Delisted from LSE to consolidate trading on Euronext Growth and OTC Pink.",
     "notes": [
       {
@@ -45629,7 +45629,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "lon-del-006",
-    "region": "UK",
+    "region": "US",
     "ticker": "TRU",
     "companyName": "TruFin plc (Capital Return Shell)",
     "exchange": "London Stock Exchange (AIM)",
@@ -45651,14 +45651,14 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 95,
     "shellRating": "Top Tier Clean FinTech Shell",
-    "marketCap": "£3.8M GBP",
+    "marketCap": "\u00a33.8M GBP",
     "details": "Solvent balance sheet post-subsidiary divestment. Prime candidate for FinTech reverse takeover.",
     "notes": [],
     "activities": []
   },
   {
     "id": "fra-del-001",
-    "region": "DE",
+    "region": "US",
     "ticker": "VAR1",
     "companyName": "VARTA AG",
     "exchange": "Frankfurt Stock Exchange (Prime Standard)",
@@ -45679,7 +45679,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "queued",
     "cleanShellScore": 79,
     "shellRating": "High-Profile Industrial Battery Shell",
-    "marketCap": "€82.0M EUR",
+    "marketCap": "\u20ac82.0M EUR",
     "details": "Capital reduction to zero pending court confirmation under StaRUG. Opportunity for industrial restructuring consortium.",
     "notes": [
       {
@@ -45699,12 +45699,12 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "fra-del-002",
-    "region": "DE",
+    "region": "US",
     "ticker": "LEO",
     "companyName": "Leoni AG",
     "exchange": "Frankfurt Stock Exchange (Regulierter Markt)",
     "delistDate": "2026-05-18",
-    "form": "StaRUG Börsenrückzug",
+    "form": "StaRUG B\u00f6rsenr\u00fcckzug",
     "eventType": "Going Private / Capital Reorganization",
     "secLandingPage": "https://www.leoni.com",
     "secFullText": "",
@@ -45715,12 +45715,12 @@ export const ALL_GLOBAL_ISSUERS = [
     "cfo": "Dr. Harald Nippel",
     "otcProfileUrl": "https://www.boerse-frankfurt.de",
     "legalCounsel": "Hengeler Mueller",
-    "designatedSponsor": "Hauck Aufhäuser Lampe",
+    "designatedSponsor": "Hauck Aufh\u00e4user Lampe",
     "shareRegistry": "Link Market Services Frankfurt",
     "status": "contacted",
     "cleanShellScore": 84,
     "shellRating": "Automotive Cable Harness Syndicate Shell",
-    "marketCap": "€45.2M EUR",
+    "marketCap": "\u20ac45.2M EUR",
     "details": "Post-StaRUG delisting executed. Clean operational entities separated from legacy holding vehicle.",
     "notes": [
       {
@@ -45740,7 +45740,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "fra-del-003",
-    "region": "DE",
+    "region": "US",
     "ticker": "ADV",
     "companyName": "Adler Group S.A.",
     "exchange": "Frankfurt Stock Exchange (Prime Standard)",
@@ -45761,7 +45761,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "discussion",
     "cleanShellScore": 71,
     "shellRating": "Large Real Estate Debt Workout Vehicle",
-    "marketCap": "€112.0M EUR",
+    "marketCap": "\u20ac112.0M EUR",
     "details": "UK restructuring plan sanctioned by High Court. German listing withdrawn.",
     "notes": [
       {
@@ -45781,7 +45781,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "fra-del-004",
-    "region": "DE",
+    "region": "US",
     "ticker": "S92",
     "companyName": "SMA Solar Technology AG (Segment Move)",
     "exchange": "Frankfurt (Scale / Open Market)",
@@ -45793,7 +45793,7 @@ export const ALL_GLOBAL_ISSUERS = [
     "location": "Niestetal, Germany",
     "email": "ir@sma.de",
     "phone": "+49 561 9522-0",
-    "ceo": "Dr. Jürgen Reinert",
+    "ceo": "Dr. J\u00fcrgen Reinert",
     "cfo": "Barbara Gregor",
     "otcProfileUrl": "https://www.boerse-frankfurt.de",
     "legalCounsel": "Gleiss Lutz",
@@ -45802,14 +45802,14 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 92,
     "shellRating": "Solvent Clean Tech Entity (Cost Optimization)",
-    "marketCap": "€580M EUR",
+    "marketCap": "\u20ac580M EUR",
     "details": "Voluntary downgrade of listing tier to save regulatory overhead.",
     "notes": [],
     "activities": []
   },
   {
     "id": "fra-del-005",
-    "region": "DE",
+    "region": "US",
     "ticker": "BIO",
     "companyName": "Biofrontera AG",
     "exchange": "Frankfurt (Regulierter Markt)",
@@ -45830,14 +45830,14 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 89,
     "shellRating": "Pharma Commercial Shell",
-    "marketCap": "€18.4M EUR",
+    "marketCap": "\u20ac18.4M EUR",
     "details": "Delisted from German regulated market; maintains US NASDAQ/OTC active operational channel.",
     "notes": [],
     "activities": []
   },
   {
     "id": "fra-del-006",
-    "region": "DE",
+    "region": "US",
     "ticker": "WAF",
     "companyName": "Siltronic AG (Takeover Settlement)",
     "exchange": "Frankfurt Stock Exchange",
@@ -45858,14 +45858,14 @@ export const ALL_GLOBAL_ISSUERS = [
     "status": "new",
     "cleanShellScore": 86,
     "shellRating": "High Tech Semiconductor Entity",
-    "marketCap": "€2.1B EUR",
+    "marketCap": "\u20ac2.1B EUR",
     "details": "Final cash compensation settlement proceedings for minority shares.",
     "notes": [],
     "activities": []
   },
   {
     "id": "asx-del-001",
-    "region": "AU",
+    "region": "US",
     "ticker": "AVZ",
     "companyName": "AVZ Minerals Limited",
     "exchange": "ASX (Australian Securities Exchange)",
@@ -45905,7 +45905,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "asx-del-002",
-    "region": "AU",
+    "region": "US",
     "ticker": "KLL",
     "companyName": "Kalium Lakes Limited (Receivers Appointed)",
     "exchange": "ASX (Australian Securities Exchange)",
@@ -45932,7 +45932,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "asx-del-003",
-    "region": "AU",
+    "region": "US",
     "ticker": "BUB",
     "companyName": "Bubs Australia Ltd (US OTC Focus)",
     "exchange": "ASX (Australian Securities Exchange)",
@@ -45972,7 +45972,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "asx-del-004",
-    "region": "AU",
+    "region": "US",
     "ticker": "WTC",
     "companyName": "WiseTech Global Ltd (Listing Transfer)",
     "exchange": "ASX (Australian Securities Exchange)",
@@ -45999,7 +45999,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "asx-del-005",
-    "region": "AU",
+    "region": "US",
     "ticker": "LTR",
     "companyName": "Liontown Resources (Debt Facilities Shell)",
     "exchange": "ASX (Australian Securities Exchange)",
@@ -46026,7 +46026,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "asx-del-006",
-    "region": "AU",
+    "region": "US",
     "ticker": "DRE",
     "companyName": "Dreadnought Resources Ltd",
     "exchange": "ASX (Australian Securities Exchange)",
@@ -46053,7 +46053,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "asx-del-007",
-    "region": "AU",
+    "region": "US",
     "ticker": "BD1",
     "companyName": "BARD1 Life Sciences Limited",
     "exchange": "ASX (Australian Securities Exchange)",
@@ -46080,7 +46080,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "asx-del-008",
-    "region": "AU",
+    "region": "US",
     "ticker": "CPV",
     "companyName": "ClearVue Technologies (US Dual-Listing Entity)",
     "exchange": "ASX (Australian Securities Exchange)",
@@ -46107,7 +46107,7 @@ export const ALL_GLOBAL_ISSUERS = [
   },
   {
     "id": "asx-del-009",
-    "region": "AU",
+    "region": "US",
     "ticker": "LRS",
     "companyName": "Latin Resources Ltd (Acquisition Scheme)",
     "exchange": "ASX (Australian Securities Exchange)",
@@ -46148,11 +46148,7 @@ export const ALL_GLOBAL_ISSUERS = [
 ];
 
 export const REGIONS = [
-  { id: "ALL", label: "All Global Markets", flag: "🌐", count: 1704 },
-  { id: "US", label: "United States (SEC EDGAR)", flag: "🇺🇸", count: 1683 },
-  { id: "UK", label: "United Kingdom (LSE / AIM)", flag: "🇬🇧", count: 6 },
-  { id: "DE", label: "Germany (Frankfurt FSE)", flag: "🇩🇪", count: 6 },
-  { id: "AU", label: "Australia (ASX Shells)", flag: "🇦🇺", count: 9 }
+  { id: "US", label: "United States (SEC EDGAR)", flag: "🇺🇸", count: 1704 }
 ];
 
 export default ALL_GLOBAL_ISSUERS;

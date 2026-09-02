@@ -16,7 +16,6 @@ export default function App() {
   const { issuers, setIssuers, isSyncing, triggerLiveSync } = useIssuersSync();
 
   const [activeView, setActiveView] = useState("table");
-  const [activeRegion, setActiveRegion] = useState("ALL");
   const [searchTerm, setSearchTerm] = useState("");
   const [formFilter, setFormFilter] = useState("all");
   const [statusFilter, setStatusFilter] = useState("all");
@@ -61,11 +60,6 @@ export default function App() {
     const baseList = searchTerm.trim() ? searchIndex.search(searchTerm) : issuers;
 
     return baseList.filter((item) => {
-      // Region filter
-      if (activeRegion !== "ALL") {
-        if ((item.region || "US") !== activeRegion) return false;
-      }
-
       // Reason category filter
       if (reasonFilter) {
         const cat = REASON_CATEGORIES.find(c => c.id === reasonFilter);
@@ -105,7 +99,7 @@ export default function App() {
 
       return true;
     });
-  }, [issuers, searchIndex, activeRegion, searchTerm, formFilter, statusFilter, exchangeFilter, scoreFilter, reasonFilter]);
+  }, [issuers, searchIndex, searchTerm, formFilter, statusFilter, exchangeFilter, scoreFilter, reasonFilter]);
 
   const handleUpdateStatus = (id, newStatus) => {
     setIssuers((prev) =>
@@ -170,8 +164,6 @@ export default function App() {
         setSearchTerm={setSearchTerm}
         totalCount={issuers.length}
         filteredCount={filteredIssuers.length}
-        activeRegion={activeRegion}
-        setActiveRegion={setActiveRegion}
         onOpenEmailRunner={() => setEmailModalIssuer(filteredIssuers[0] || issuers[0])}
         onOpenExportModal={() => setIsExportOpen(true)}
         onLiveSync={triggerLiveSync}
@@ -184,13 +176,13 @@ export default function App() {
         <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-[#1B2030] bg-[#0F1218] px-6 py-3 text-xs">
           <div className="flex items-center gap-6 flex-wrap">
             <div className="flex items-center gap-2">
-              <span className="text-[#8892A6]">Global Database:</span>
-              <strong className="text-cyan-400 font-mono font-bold text-sm">{issuers.length} Active Issuers & Shells</strong>
+              <span className="text-[#8892A6]">Master Database:</span>
+              <strong className="text-cyan-400 font-mono font-bold text-sm">{issuers.length} Verified Corporate Entities</strong>
             </div>
 
             <div className="hidden sm:flex items-center gap-2">
-              <span className="text-[#8892A6]">International Markets:</span>
-              <strong className="text-emerald-400 font-mono font-bold">🇺🇸 US • 🇬🇧 LSE • 🇩🇪 Frankfurt • 🇦🇺 ASX</strong>
+              <span className="text-[#8892A6]">Historical Filings:</span>
+              <strong className="text-emerald-400 font-mono font-bold">Form 15-12G & 25-NSE Tracked</strong>
             </div>
 
             <div className="hidden md:flex items-center gap-2">

@@ -446,12 +446,9 @@ export default function TableView({
                         {getScoreBadge(issuer.cleanShellScore)}
                       </td>
 
-                      {/* Ticker & Region */}
+                      {/* Ticker */}
                       <td className="p-3 whitespace-nowrap">
                         <div className="flex items-center gap-1.5">
-                          <span className="text-base" title={issuer.region || "US"}>
-                            {getCountryFlag(issuer.region)}
-                          </span>
                           <a
                             href={otcUrl}
                             target="_blank"
