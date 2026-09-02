@@ -33,11 +33,11 @@ export default function App() {
   const REASON_CATEGORIES = [
     { id: "merger", label: "Merger / Acquisition", keywords: ["merger", "acquisition", "acquir", "scheme"], color: "bg-violet-500/15 text-violet-400 border-violet-500/30 hover:bg-violet-500/25", icon: "🤝" },
     { id: "voluntary", label: "Voluntary De-registration", keywords: ["voluntary", "de-registration", "15-12g", "15-15d"], color: "bg-cyan-500/15 text-cyan-400 border-cyan-500/30 hover:bg-cyan-500/25", icon: "📋" },
-    { id: "redeemed", label: "Redeemed / Maturity", keywords: ["redeemed", "paid in full", "maturity"], color: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30 hover:bg-emerald-500/25", icon: "💰" },
+    { id: "redeemed", label: "Redeemed / Maturity", keywords: ["redeemed", "paid in full", "maturity", "redemption"], color: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30 hover:bg-emerald-500/25", icon: "💰" },
     { id: "compliance", label: "Compliance / Delist Rule", keywords: ["compliance", "listing standards", "bid price", "rule 17", "rule 41", "failure to meet"], color: "bg-red-500/15 text-red-400 border-red-500/30 hover:bg-red-500/25", icon: "⚠️" },
     { id: "shell", label: "Clean Cash Shell", keywords: ["cash shell", "rule 15", "reverse takeover", "clean shell"], color: "bg-teal-500/15 text-teal-400 border-teal-500/30 hover:bg-teal-500/25", icon: "💎" },
     { id: "private", label: "Going Private / Buyout", keywords: ["going private", "private", "buyout", "starug"], color: "bg-indigo-500/15 text-indigo-400 border-indigo-500/30 hover:bg-indigo-500/25", icon: "🏦" },
-    { id: "bankruptcy", label: "Bankruptcy / Restructuring", keywords: ["bankrupt", "chapter 11", "chapter 7", "receiver", "liquidat", "doca"], color: "bg-orange-500/15 text-orange-400 border-orange-500/30 hover:bg-orange-500/25", icon: "💥" }
+    { id: "bankruptcy", label: "Bankruptcy / Restructuring", keywords: ["bankrupt", "chapter 11", "chapter 7", "receiver", "liquidat", "doca", "restructuring"], color: "bg-orange-500/15 text-orange-400 border-orange-500/30 hover:bg-orange-500/25", icon: "💥" }
   ];
 
   // Compute reason category counts from the full issuers list
@@ -45,7 +45,7 @@ export default function App() {
     const counts = {};
     REASON_CATEGORIES.forEach(cat => {
       counts[cat.id] = issuers.filter(item => {
-        const det = `${item.details || ""} ${item.eventType || ""} ${item.form || ""}`.toLowerCase();
+        const det = `${item.delistReason || ""} ${item.details || ""} ${item.eventType || ""} ${item.form || ""}`.toLowerCase();
         return cat.keywords.some(kw => det.includes(kw));
       }).length;
     });
@@ -64,7 +64,7 @@ export default function App() {
       if (reasonFilter) {
         const cat = REASON_CATEGORIES.find(c => c.id === reasonFilter);
         if (cat) {
-          const det = `${item.details || ""} ${item.eventType || ""} ${item.form || ""}`.toLowerCase();
+          const det = `${item.delistReason || ""} ${item.details || ""} ${item.eventType || ""} ${item.form || ""}`.toLowerCase();
           const matches = cat.keywords.some(kw => det.includes(kw));
           if (!matches) return false;
         }

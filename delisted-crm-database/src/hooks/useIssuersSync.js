@@ -3,7 +3,7 @@ import { ALL_GLOBAL_ISSUERS } from "../data/global_issuers_seed";
 import { validateDelistedIssuer } from "../utils/schema_validator";
 import { getAllIssuersFromDB, saveAllIssuersToDB } from "../utils/db";
 
-const LOCAL_STORAGE_KEY = "DELISTED_CRM_DATABASE_V11_GLOBAL";
+const LOCAL_STORAGE_KEY = "DELISTED_CRM_DATABASE_V14_US_REASONS";
 const LAST_SYNC_KEY = "DELISTED_CRM_LAST_SYNC_TIMESTAMP";
 const SYNC_INTERVAL_MS = 24 * 60 * 60 * 1000; // 24 hours
 
@@ -21,7 +21,18 @@ export function useIssuersSync() {
       const stored = localStorage.getItem(LOCAL_STORAGE_KEY);
       if (stored) {
         const parsed = JSON.parse(stored);
-        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          const seedMap = new Map(ALL_GLOBAL_ISSUERS.map((i) => [i.id || i.cik, i]));
+          return parsed.map((item) => {
+            const seed = seedMap.get(item.id || item.cik);
+            return seed ? {
+              ...item,
+              region: "US",
+              delistReason: seed.delistReason || item.delistReason,
+              details: seed.details || item.details
+            } : item;
+          });
+        }
       }
     } catch (e) {
       console.warn("localStorage read warning:", e);
@@ -38,7 +49,18 @@ export function useIssuersSync() {
     getAllIssuersFromDB()
       .then((dbData) => {
         if (isMounted && dbData && Array.isArray(dbData) && dbData.length > 0) {
-          setIssuers(dbData);
+          const seedMap = new Map(ALL_GLOBAL_ISSUERS.map((i) => [i.id || i.cik, i]));
+          const enriched = dbData.map((item) => {
+            const seed = seedMap.get(item.id || item.cik);
+            return seed ? {
+              ...item,
+              region: "US",
+              delistReason: seed.delistReason || item.delistReason,
+              details: seed.details || item.details
+            } : item;
+          });
+          setIssuers(enriched);
+          saveAllIssuersToDB(enriched);
         } else if (isMounted && issuers && issuers.length > 0) {
           saveAllIssuersToDB(issuers);
         }
