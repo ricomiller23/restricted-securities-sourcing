@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/images/haven.jpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>THE ADU SUPPLY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>THE ADU MART</title>
     <script>
       (function() {
         var h = (window.location.hostname || '').toLowerCase();
-        if (h.includes('mart')) {
+        if (h.includes('store')) {
+          document.title = "THE ADU STORE";
+        } else if (h.includes('mart')) {
           document.title = "THE ADU MART";
         } else {
           document.title = "THE ADU SUPPLY";

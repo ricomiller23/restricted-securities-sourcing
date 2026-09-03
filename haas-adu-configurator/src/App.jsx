@@ -324,6 +324,18 @@ export default function App() {
   const brand = useMemo(() => {
     if (typeof window !== 'undefined') {
       const host = (window.location.hostname || '').toLowerCase();
+      if (host.includes('store')) {
+        return {
+          brandName: 'THE ADU STORE',
+          tagline: 'Premier ADU Marketplace & HaaS Solutions',
+          collectionTitle: 'The ADU Store Collection & Plans',
+          blueprintTitle: 'Official ADU Store CAD Blueprint Sheet',
+          copyright: '© 2026 THE ADU STORE • Housing-as-a-Service (HaaS) Infrastructure',
+          pageTitle: 'THE ADU STORE',
+          isStore: true,
+          isMart: false
+        };
+      }
       if (host.includes('mart')) {
         return {
           brandName: 'THE ADU MART',
@@ -332,6 +344,7 @@ export default function App() {
           blueprintTitle: 'Official ADU Mart CAD Blueprint Sheet',
           copyright: '© 2026 THE ADU MART • Housing-as-a-Service (HaaS) Infrastructure',
           pageTitle: 'THE ADU MART',
+          isStore: false,
           isMart: true
         };
       }
@@ -343,6 +356,7 @@ export default function App() {
       blueprintTitle: 'Official ADU Supply CAD Blueprint Sheet',
       copyright: '© 2026 THE ADU SUPPLY • Housing-as-a-Service (HaaS) Infrastructure',
       pageTitle: 'THE ADU SUPPLY',
+      isStore: false,
       isMart: false
     };
   }, []);
@@ -419,99 +433,59 @@ export default function App() {
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       
-      {/* Top Navbar */}
-      <header style={{
-        position: 'sticky',
-        top: 0,
-        zIndex: 50,
-        background: 'rgba(8, 12, 20, 0.92)',
-        backdropFilter: 'blur(16px)',
-        borderBottom: '1px solid var(--border-subtle)',
-        padding: '10px 16px'
-      }}>
+      {/* Top Navigation Bar */}
+      <header style={{ position: 'sticky', top: 0, zIndex: 50, background: 'rgba(8, 12, 20, 0.95)', backdropFilter: 'blur(16px)', borderBottom: '1px solid var(--border-subtle)', padding: '10px 16px' }}>
         <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
           <div className="app-header-container">
             
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <div style={{
-                  width: '36px',
-                  height: '36px',
-                  borderRadius: '8px',
-                  background: 'var(--gradient-brand)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  boxShadow: '0 0 15px rgba(59, 130, 246, 0.4)',
-                  flexShrink: 0
-                }}>
+            {/* Header Top Row (Brand + CTA) */}
+            <div className="header-top-row">
+              <div className="brand-badge-group">
+                <div className="brand-icon">
                   <Home size={18} color="#ffffff" />
                 </div>
                 <div>
-                  <div style={{ fontSize: '14px', fontWeight: 800, letterSpacing: '-0.02em', color: '#ffffff', lineHeight: 1.2 }}>
-                    {brand.brandName} <span style={{ color: '#3b82f6' }}>•</span> HaaS
+                  <div className="brand-title">
+                    {brand.brandName} <span className="brand-dot">•</span> HaaS
                   </div>
-                  <div style={{ fontSize: '9.5px', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                  <div className="brand-tagline">
                     {brand.tagline}
                   </div>
                 </div>
               </div>
 
               <button 
-                className="btn btn-emerald"
-                onClick={() => {
-                  setActiveTab('audit');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                style={{ padding: '6px 12px', fontSize: '11.5px', minHeight: '34px' }}
+                className="btn btn-emerald" 
+                onClick={() => { setActiveTab('audit'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                style={{ padding: '7px 14px', fontSize: '12px', minHeight: '34px' }}
               >
                 <Sparkles size={13} /> Free Audit
               </button>
             </div>
 
-            {/* Nav Tabs */}
+            {/* Navigation Tabs Bar */}
             <nav className="nav-tabs-container">
               <button 
-                className="btn" 
+                className={`btn tab-btn ${activeTab === 'configurator' ? 'tab-btn-active' : ''}`}
                 onClick={() => setActiveTab('configurator')}
-                style={{
-                  background: activeTab === 'configurator' ? 'rgba(59, 130, 246, 0.25)' : 'transparent',
-                  color: activeTab === 'configurator' ? '#60a5fa' : 'var(--text-secondary)',
-                  border: activeTab === 'configurator' ? '1px solid rgba(59, 130, 246, 0.4)' : '1px solid transparent'
-                }}
               >
                 <Sliders size={13} /> Configurator & ROI
               </button>
               <button 
-                className="btn" 
+                className={`btn tab-btn ${activeTab === 'audit' ? 'tab-btn-active' : ''}`}
                 onClick={() => setActiveTab('audit')}
-                style={{
-                  background: activeTab === 'audit' ? 'rgba(59, 130, 246, 0.25)' : 'transparent',
-                  color: activeTab === 'audit' ? '#60a5fa' : 'var(--text-secondary)',
-                  border: activeTab === 'audit' ? '1px solid rgba(59, 130, 246, 0.4)' : '1px solid transparent'
-                }}
               >
                 <Compass size={13} /> Site Audit
               </button>
               <button 
-                className="btn" 
+                className={`btn tab-btn ${activeTab === 'gallery' ? 'tab-btn-active' : ''}`}
                 onClick={() => setActiveTab('gallery')}
-                style={{
-                  background: activeTab === 'gallery' ? 'rgba(59, 130, 246, 0.25)' : 'transparent',
-                  color: activeTab === 'gallery' ? '#60a5fa' : 'var(--text-secondary)',
-                  border: activeTab === 'gallery' ? '1px solid rgba(59, 130, 246, 0.4)' : '1px solid transparent'
-                }}
               >
                 <Layers size={13} /> 9 Models & Plans
               </button>
               <button 
-                className="btn" 
+                className={`btn tab-btn ${activeTab === 'downloads' ? 'tab-btn-active-green' : ''}`}
                 onClick={() => setActiveTab('downloads')}
-                style={{
-                  background: activeTab === 'downloads' ? 'rgba(16, 185, 129, 0.25)' : 'transparent',
-                  color: activeTab === 'downloads' ? '#34d399' : 'var(--text-secondary)',
-                  border: activeTab === 'downloads' ? '1px solid rgba(16, 185, 129, 0.4)' : '1px solid transparent'
-                }}
               >
                 <Download size={13} /> Downloads
               </button>
@@ -531,37 +505,29 @@ export default function App() {
           <div className="configurator-grid">
             
             {/* Left Column: Visualizer & Selectors */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', minWidth: 0, width: '100%' }}>
               
               {/* Address Lot Feasibility Bar */}
               <div className="glass-panel" style={{ padding: '14px 16px' }}>
-                <form onSubmit={handleSimulateLotAudit} style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
-                  <div style={{ position: 'relative', flex: '1 1 240px' }}>
+                <form onSubmit={handleSimulateLotAudit} className="lot-search-form">
+                  <div className="lot-input-wrapper">
                     <MapPin size={16} color="#94a3b8" style={{ position: 'absolute', left: '10px', top: '12px' }} />
                     <input 
                       type="text" 
                       value={addressInput}
                       onChange={(e) => setAddressInput(e.target.value)}
                       placeholder="Enter address to audit lot..."
-                      style={{
-                        width: '100%',
-                        padding: '9px 12px 9px 32px',
-                        background: 'rgba(255, 255, 255, 0.05)',
-                        border: '1px solid var(--border-subtle)',
-                        borderRadius: '8px',
-                        color: '#ffffff',
-                        fontSize: '13px',
-                        outline: 'none'
-                      }}
+                      className="form-input"
+                      style={{ paddingLeft: '34px' }}
                     />
                   </div>
-                  <button type="submit" className="btn btn-primary" style={{ padding: '9px 16px', fontSize: '12.5px' }} disabled={isAuditingLot}>
+                  <button type="submit" className="btn btn-primary" style={{ padding: '10px 18px', fontSize: '13px', minHeight: '42px' }} disabled={isAuditingLot}>
                     {isAuditingLot ? 'Scanning...' : 'Scan Parcel'}
                   </button>
                 </form>
 
                 {/* Lot Audit Metrics */}
-                <div className="lot-audit-grid" style={{ marginTop: '12px', paddingTop: '10px', borderTop: '1px solid var(--border-subtle)' }}>
+                <div className="lot-audit-grid">
                   <div style={{ fontSize: '10.5px' }}>
                     <div style={{ color: 'var(--text-muted)' }}>LOT AREA</div>
                     <div style={{ fontWeight: 700, color: '#ffffff', fontSize: '12.5px' }}>{lotData.lotSqFt.toLocaleString()} sq ft</div>
@@ -581,21 +547,10 @@ export default function App() {
                 </div>
               </div>
 
-              {/* 3D Visualizer Viewport */}
-              <div className="glass-panel" style={{ overflow: 'hidden', position: 'relative' }}>
+              {/* 3D Visualizer Viewport Card */}
+              <div className="glass-panel visualizer-card">
                 
-                <div 
-                  className="visualizer-viewport-box"
-                  style={{ 
-                    height: '440px', 
-                    position: 'relative',
-                    background: activeView === 'floorplan' || activeView === 'blueprint' ? '#ffffff' : '#080c14',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    padding: activeView === 'floorplan' || activeView === 'blueprint' ? '12px' : '0'
-                  }}
-                >
+                <div className="visualizer-viewport-box">
                   <img 
                     src={
                       activeView === 'exterior' ? selectedModel.heroImage :
@@ -605,185 +560,104 @@ export default function App() {
                       selectedModel.blueprintImage
                     } 
                     alt={selectedModel.name}
-                    style={{ 
-                      width: '100%', 
-                      height: '100%', 
-                      objectFit: activeView === 'floorplan' || activeView === 'blueprint' ? 'contain' : 'cover'
-                    }}
+                    className={`visualizer-main-img ${activeView === 'floorplan' || activeView === 'blueprint' ? 'img-contain' : 'img-cover'}`}
                   />
 
                   {/* Gradient Overlay for Renders */}
                   {(activeView === 'exterior' || activeView === 'interior' || activeView === 'patio') && (
-                    <div style={{
-                      position: 'absolute',
-                      inset: 0,
-                      background: 'linear-gradient(180deg, rgba(8,12,20,0.2) 0%, rgba(8,12,20,0.85) 100%)',
-                      pointerEvents: 'none'
-                    }} />
+                    <div className="render-gradient-overlay" />
                   )}
 
                   {/* Responsive View Switcher */}
                   <div className="view-switcher-container">
                     <button 
-                      className="btn"
+                      className={`btn view-btn ${activeView === 'exterior' ? 'active-view' : ''}`}
                       onClick={() => setActiveView('exterior')}
-                      style={{
-                        background: activeView === 'exterior' ? '#2563eb' : 'transparent',
-                        color: '#ffffff'
-                      }}
                     >
                       Exterior
                     </button>
                     <button 
-                      className="btn"
+                      className={`btn view-btn ${activeView === 'interior' ? 'active-view' : ''}`}
                       onClick={() => setActiveView('interior')}
-                      style={{
-                        background: activeView === 'interior' ? '#2563eb' : 'transparent',
-                        color: '#ffffff'
-                      }}
                     >
                       Interior
                     </button>
                     <button 
-                      className="btn"
+                      className={`btn view-btn ${activeView === 'patio' ? 'active-view' : ''}`}
                       onClick={() => setActiveView('patio')}
-                      style={{
-                        background: activeView === 'patio' ? '#2563eb' : 'transparent',
-                        color: '#ffffff'
-                      }}
                     >
-                      Patio/Deck
+                      Patio
                     </button>
                     <button 
-                      className="btn"
+                      className={`btn view-btn plan-btn ${activeView === 'floorplan' ? 'active-view-plan' : ''}`}
                       onClick={() => setActiveView('floorplan')}
-                      style={{
-                        background: activeView === 'floorplan' ? '#10b981' : 'transparent',
-                        color: '#ffffff',
-                        fontWeight: 700
-                      }}
                     >
                       📐 Plan
                     </button>
                     <button 
-                      className="btn"
+                      className={`btn view-btn blueprint-btn ${activeView === 'blueprint' ? 'active-view-blueprint' : ''}`}
                       onClick={() => setActiveView('blueprint')}
-                      style={{
-                        background: activeView === 'blueprint' ? '#8b5cf6' : 'transparent',
-                        color: '#ffffff'
-                      }}
                     >
                       Blueprint
                     </button>
                   </div>
+                </div>
 
-                  {/* Model Floating Badge */}
-                  <div 
-                    className="model-badge-overlay"
-                    style={{ 
-                      position: 'absolute', 
-                      bottom: '16px', 
-                      left: '16px', 
-                      right: '16px', 
-                      display: 'flex', 
-                      justifyContent: 'space-between', 
-                      alignItems: 'flex-end',
-                      background: activeView === 'floorplan' || activeView === 'blueprint' ? 'rgba(15, 23, 42, 0.92)' : 'transparent',
-                      padding: activeView === 'floorplan' || activeView === 'blueprint' ? '8px 12px' : '0',
-                      borderRadius: '8px',
-                      border: activeView === 'floorplan' || activeView === 'blueprint' ? '1px solid rgba(255, 255, 255, 0.1)' : 'none'
-                    }}
-                  >
-                    <div>
-                      <div style={{ display: 'flex', gap: '6px', marginBottom: '3px', flexWrap: 'wrap' }}>
-                        <span className="badge badge-blue">{selectedModel.dimensions}</span>
-                        <span className="badge badge-green">{selectedModel.sqft} SQ FT</span>
-                        {selectedModel.category === 'estate' ? (
-                          <span className="badge" style={{ background: 'rgba(139, 92, 246, 0.25)', color: '#c084fc', border: '1px solid rgba(139, 92, 246, 0.4)' }}>
-                            🚗 2-Car Garage &bull; 2 Bed / 2 Bath
-                          </span>
-                        ) : (
-                          <span className="badge" style={{ background: 'rgba(59, 130, 246, 0.2)', color: '#93c5fd', border: '1px solid rgba(59, 130, 246, 0.4)' }}>
-                            🏡 Backyard ADU
-                          </span>
-                        )}
-                      </div>
-                      <h2 style={{ fontSize: '20px', color: '#ffffff', marginBottom: '2px' }}>{selectedModel.name}</h2>
-                      <div style={{ color: 'var(--text-secondary)', fontSize: '11.5px' }}>{selectedModel.tagline}</div>
+                {/* Model Floating Info Banner (Decoupled & Always 100% Legible) */}
+                <div className="model-info-banner">
+                  <div className="model-info-left">
+                    <div className="model-badge-row">
+                      <span className="badge badge-blue">{selectedModel.dimensions}</span>
+                      <span className="badge badge-green">{selectedModel.sqft} SQ FT</span>
+                      {selectedModel.category === 'estate' ? (
+                        <span className="badge badge-purple">
+                          🚗 2-Car Garage &bull; 2 Bed / 2 Bath
+                        </span>
+                      ) : (
+                        <span className="badge badge-subtle">
+                          🏡 Backyard ADU
+                        </span>
+                      )}
                     </div>
-                    <div style={{ textAlign: 'right', flexShrink: 0 }}>
-                      <div style={{ fontSize: '9.5px', color: 'var(--text-muted)', textTransform: 'uppercase' }}>Passive Split</div>
-                      <div style={{ fontSize: '18px', fontWeight: 800, color: '#34d399' }}>${calculations.homeownerMonthly}/mo</div>
-                    </div>
+                    <h2 className="model-name-title">{selectedModel.name}</h2>
+                    <div className="model-tagline-text">{selectedModel.tagline}</div>
+                  </div>
+                  <div className="model-info-right">
+                    <div className="passive-split-subtitle">Passive Split</div>
+                    <div className="passive-split-value">${calculations.homeownerMonthly}<span>/mo</span></div>
                   </div>
                 </div>
 
                 {/* Footprint Category Filter */}
-                <div style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'space-between',
-                  padding: '8px 12px',
-                  background: 'rgba(15, 23, 42, 0.85)',
-                  borderTop: '1px solid var(--border-subtle)',
-                  borderBottom: '1px solid var(--border-subtle)',
-                  flexWrap: 'wrap',
-                  gap: '6px'
-                }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
-                    <span style={{ fontSize: '10.5px', color: 'var(--text-muted)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-                      Footprint:
-                    </span>
+                <div className="footprint-filter-wrapper">
+                  <div className="footprint-buttons-scroll">
+                    <span className="footprint-label">Footprint:</span>
                     <button
-                      className="btn"
+                      className={`btn filter-pill ${modelCategoryFilter === 'all' ? 'pill-active-blue' : ''}`}
                       onClick={() => setModelCategoryFilter('all')}
-                      style={{
-                        padding: '3px 9px',
-                        fontSize: '11px',
-                        borderRadius: '20px',
-                        background: modelCategoryFilter === 'all' ? '#2563eb' : 'rgba(255, 255, 255, 0.05)',
-                        color: '#ffffff',
-                        border: modelCategoryFilter === 'all' ? '1px solid #3b82f6' : '1px solid transparent'
-                      }}
                     >
                       All (9)
                     </button>
                     <button
-                      className="btn"
+                      className={`btn filter-pill ${modelCategoryFilter === 'compact' ? 'pill-active-blue' : ''}`}
                       onClick={() => {
                         setModelCategoryFilter('compact');
                         if (selectedModel.category !== 'compact') setSelectedModelId('haven');
                       }}
-                      style={{
-                        padding: '3px 9px',
-                        fontSize: '11px',
-                        borderRadius: '20px',
-                        background: modelCategoryFilter === 'compact' ? '#2563eb' : 'rgba(255, 255, 255, 0.05)',
-                        color: '#ffffff',
-                        border: modelCategoryFilter === 'compact' ? '1px solid #3b82f6' : '1px solid transparent'
-                      }}
                     >
-                      🏡 Compact ADUs (5)
+                      🏡 Compact (5)
                     </button>
                     <button
-                      className="btn"
+                      className={`btn filter-pill ${modelCategoryFilter === 'estate' ? 'pill-active-green' : ''}`}
                       onClick={() => {
                         setModelCategoryFilter('estate');
                         if (selectedModel.category !== 'estate') setSelectedModelId('magnolia');
                       }}
-                      style={{
-                        padding: '3px 9px',
-                        fontSize: '11px',
-                        borderRadius: '20px',
-                        background: modelCategoryFilter === 'estate' ? '#10b981' : 'rgba(255, 255, 255, 0.05)',
-                        color: '#ffffff',
-                        border: modelCategoryFilter === 'estate' ? '1px solid #10b981' : '1px solid transparent'
-                      }}
                     >
-                      🏰 Estate Homes & 2-Car Garage (4)
+                      🏰 2-Car Garage (4)
                     </button>
                   </div>
-                  <span style={{ fontSize: '10.5px', color: 'var(--text-muted)' }}>
+                  <span className="models-count-text">
                     {filteredModels.length} models
                   </span>
                 </div>
@@ -794,26 +668,13 @@ export default function App() {
                     <button
                       key={m.id}
                       onClick={() => setSelectedModelId(m.id)}
-                      style={{
-                        padding: '8px 6px',
-                        borderRadius: '6px',
-                        background: selectedModelId === m.id ? 'rgba(59, 130, 246, 0.25)' : 'rgba(255, 255, 255, 0.03)',
-                        border: selectedModelId === m.id ? '1.5px solid #3b82f6' : '1px solid var(--border-subtle)',
-                        color: '#ffffff',
-                        cursor: 'pointer',
-                        textAlign: 'center',
-                        transition: 'all 0.2s ease',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        justifyContent: 'center',
-                        alignItems: 'center'
-                      }}
+                      className={`model-select-btn ${selectedModelId === m.id ? 'model-btn-selected' : ''}`}
                     >
-                      <div style={{ fontSize: '11.5px', fontWeight: 700, color: selectedModelId === m.id ? '#60a5fa' : '#ffffff' }}>{m.name}</div>
-                      <div style={{ fontSize: '9.5px', color: 'var(--text-muted)' }}>{m.sqft} sq ft</div>
+                      <div className="m-btn-name">{m.name}</div>
+                      <div className="m-btn-sqft">{m.sqft} sq ft</div>
                       {m.category === 'estate' && (
-                        <div style={{ fontSize: '8px', color: '#34d399', fontWeight: 700, marginTop: '2px', letterSpacing: '-0.02em' }}>
-                          🚗 2-CAR GARAGE
+                        <div className="m-btn-garage">
+                          🚗 2-CAR
                         </div>
                       )}
                     </button>
@@ -825,64 +686,60 @@ export default function App() {
               <div className="upgrades-grid">
                 
                 {/* Blueprint Highlights */}
-                <div className="glass-panel" style={{ padding: '16px' }}>
-                  <h3 style={{ fontSize: '14px', color: '#ffffff', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <div className="glass-panel card-padding">
+                  <h3 className="section-subheading">
                     <Layers size={15} color="#3b82f6" /> Blueprint Architectural Specs
                   </h3>
-                  <ul style={{ paddingLeft: '16px', fontSize: '11.5px', color: 'var(--text-secondary)', display: 'flex', flexDirection: 'column', gap: '5px' }}>
+                  <ul className="features-list">
                     {selectedModel.features.map((f, i) => (
                       <li key={i}>{f}</li>
                     ))}
                   </ul>
-                  <div style={{ marginTop: '12px', padding: '8px 10px', background: 'rgba(59, 130, 246, 0.08)', borderRadius: '6px', fontSize: '10.5px', color: '#93c5fd' }}>
+                  <div className="lot-min-banner">
                     <strong>Lot Minimum:</strong> Requires {selectedModel.minLotWidth}' parcel width for standard setback compliance.
                   </div>
                 </div>
 
                 {/* Interactive Upgrade Toggles */}
-                <div className="glass-panel" style={{ padding: '16px' }}>
-                  <h3 style={{ fontSize: '14px', color: '#ffffff', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <div className="glass-panel card-padding">
+                  <h3 className="section-subheading">
                     <Zap size={15} color="#f59e0b" /> Premium HaaS Upgrades
                   </h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                  <div className="upgrades-checklist">
                     
-                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', cursor: 'pointer' }}>
+                    <label className="upgrade-toggle-row">
                       <span>{selectedModel.category === 'estate' ? 'Dual Level-2 EV Garage Charger' : 'Rooftop Sky Lounge & Stairs'}</span>
                       <input 
                         type="checkbox" 
                         checked={upgrades.rooftopLounge}
                         onChange={(e) => setUpgrades(u => ({ ...u, rooftopLounge: e.target.checked }))}
-                        style={{ accentColor: '#3b82f6', width: '16px', height: '16px' }}
                       />
                     </label>
 
-                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', cursor: 'pointer' }}>
+                    <label className="upgrade-toggle-row">
                       <span>Solar PV + Tesla Powerwall</span>
                       <input 
                         type="checkbox" 
                         checked={upgrades.solarPowerwall}
                         onChange={(e) => setUpgrades(u => ({ ...u, solarPowerwall: e.target.checked }))}
-                        style={{ accentColor: '#3b82f6', width: '16px', height: '16px' }}
                       />
                     </label>
 
-                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', cursor: 'pointer' }}>
+                    <label className="upgrade-toggle-row">
                       <span>Scandinavian Luxury Finishes</span>
                       <input 
                         type="checkbox" 
                         checked={upgrades.scandinavianInterior}
                         onChange={(e) => setUpgrades(u => ({ ...u, scandinavianInterior: e.target.checked }))}
-                        style={{ accentColor: '#3b82f6', width: '16px', height: '16px' }}
                       />
                     </label>
 
-                    <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', cursor: 'pointer' }}>
+                    <label className="upgrade-toggle-row">
                       <span>Smart Keyless Security</span>
                       <input 
                         type="checkbox" 
                         checked={upgrades.smartAccess}
                         onChange={(e) => setUpgrades(u => ({ ...u, smartAccess: e.target.checked }))}
-                        style={{ accentColor: '#3b82f6', width: '16px', height: '16px' }}
                       />
                     </label>
 
@@ -894,36 +751,27 @@ export default function App() {
             </div>
 
             {/* Right Column: Financial ROI Engine */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', minWidth: 0, width: '100%' }}>
               
-              <div className="glass-panel" style={{ padding: '18px 16px', border: '1px solid rgba(59, 130, 246, 0.3)' }}>
+              <div className="glass-panel cashflow-panel">
                 
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
+                <div className="cashflow-header-row">
                   <span className="badge badge-green">Zero-CapEx HaaS</span>
-                  <span style={{ fontSize: '10.5px', color: 'var(--text-muted)' }}>30-Day Turnkey</span>
+                  <span className="turnkey-label">30-Day Turnkey</span>
                 </div>
 
-                <h3 style={{ fontSize: '16px', color: '#ffffff', marginBottom: '12px' }}>Monthly Cash Flow Engine</h3>
+                <h3 className="cashflow-title">Monthly Cash Flow Engine</h3>
 
                 {/* Metro Selector */}
-                <div style={{ marginBottom: '14px' }}>
-                  <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>Target Rental Metro</label>
+                <div className="metro-select-group">
+                  <label className="field-label">Target Rental Metro</label>
                   <select 
                     value={selectedMetro.name}
                     onChange={(e) => {
                       const m = METROS.find(item => item.name === e.target.value);
                       if (m) setSelectedMetro(m);
                     }}
-                    style={{
-                      width: '100%',
-                      padding: '8px 10px',
-                      background: '#0f172a',
-                      border: '1px solid var(--border-subtle)',
-                      borderRadius: '6px',
-                      color: '#ffffff',
-                      fontSize: '12.5px',
-                      outline: 'none'
-                    }}
+                    className="styled-select"
                   >
                     {METROS.map(m => (
                       <option key={m.name} value={m.name} style={{ background: '#0f172a' }}>{m.name}</option>
@@ -932,48 +780,48 @@ export default function App() {
                 </div>
 
                 {/* Big Metric Display */}
-                <div style={{ background: 'rgba(16, 185, 129, 0.08)', border: '1px solid rgba(16, 185, 129, 0.25)', borderRadius: '10px', padding: '14px', textAlign: 'center', marginBottom: '14px' }}>
-                  <div style={{ fontSize: '10.5px', color: '#34d399', textTransform: 'uppercase', fontWeight: 700, letterSpacing: '0.04em' }}>
+                <div className="passive-split-banner">
+                  <div className="split-headline">
                     Homeowner Guaranteed Passive Split
                   </div>
-                  <div style={{ fontSize: '28px', fontWeight: 800, color: '#34d399', margin: '2px 0' }}>
-                    ${calculations.homeownerMonthly} <span style={{ fontSize: '13px', fontWeight: 500, color: 'var(--text-secondary)' }}>/ mo</span>
+                  <div className="split-amount">
+                    ${calculations.homeownerMonthly} <span className="split-per-mo">/ mo</span>
                   </div>
-                  <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>
+                  <div className="split-annual">
                     ${(calculations.homeownerMonthly * 12).toLocaleString()} annual passive net revenue
                   </div>
                 </div>
 
                 {/* Breakdown List */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '11.5px', marginBottom: '16px' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '4px', borderBottom: '1px solid var(--border-subtle)' }}>
-                    <span style={{ color: 'var(--text-secondary)' }}>Projected Gross Rent:</span>
-                    <span style={{ fontWeight: 700, color: '#ffffff' }}>${calculations.monthlyGross} / mo</span>
+                <div className="breakdown-list">
+                  <div className="breakdown-row">
+                    <span className="row-label">Projected Gross Rent:</span>
+                    <span className="row-val val-white">${calculations.monthlyGross} / mo</span>
                   </div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '4px', borderBottom: '1px solid var(--border-subtle)' }}>
-                    <span style={{ color: 'var(--text-secondary)' }}>Operator Net Cash Flow:</span>
-                    <span style={{ fontWeight: 700, color: '#60a5fa' }}>${calculations.operatorMonthly} / mo</span>
+                  <div className="breakdown-row">
+                    <span className="row-label">Operator Net Cash Flow:</span>
+                    <span className="row-val val-blue">${calculations.operatorMonthly} / mo</span>
                   </div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '4px', borderBottom: '1px solid var(--border-subtle)' }}>
-                    <span style={{ color: 'var(--text-secondary)' }}>10-Year Cumulative Cash:</span>
-                    <span style={{ fontWeight: 700, color: '#34d399' }}>${calculations.tenYearHomeowner.toLocaleString()}</span>
+                  <div className="breakdown-row">
+                    <span className="row-label">10-Year Cumulative Cash:</span>
+                    <span className="row-val val-green">${calculations.tenYearHomeowner.toLocaleString()}</span>
                   </div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '4px', borderBottom: '1px solid var(--border-subtle)' }}>
-                    <span style={{ color: 'var(--text-secondary)' }}>Est. Property Equity Boost:</span>
-                    <span style={{ fontWeight: 700, color: '#f59e0b' }}>+${calculations.propertyAppreciation.toLocaleString()}</span>
+                  <div className="breakdown-row">
+                    <span className="row-label">Est. Property Equity Boost:</span>
+                    <span className="row-val val-amber">+${calculations.propertyAppreciation.toLocaleString()}</span>
                   </div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <span style={{ color: 'var(--text-secondary)' }}>Homeowner Upfront CapEx:</span>
-                    <span style={{ fontWeight: 800, color: '#34d399' }}>$0.00 (Zero Out-of-Pocket)</span>
+                  <div className="breakdown-row no-border">
+                    <span className="row-label">Homeowner Upfront CapEx:</span>
+                    <span className="row-val val-green-bold">$0.00 (Zero Out-of-Pocket)</span>
                   </div>
                 </div>
 
                 <button 
-                  className="btn btn-emerald" 
-                  style={{ width: '100%', padding: '11px', fontSize: '13px' }}
+                  className="btn btn-emerald reserve-cta-btn" 
                   onClick={() => {
                     setLeadForm(l => ({ ...l, targetModel: selectedModel.id }));
                     setActiveTab('audit');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
                 >
                   Reserve Model & Audit Yard <ArrowRight size={14} />
@@ -982,14 +830,14 @@ export default function App() {
               </div>
 
               {/* Quick Downloads Card */}
-              <div className="glass-panel" style={{ padding: '16px' }}>
-                <h4 style={{ fontSize: '12.5px', color: '#ffffff', marginBottom: '8px' }}>Executive Marketing Assets</h4>
+              <div className="glass-panel card-padding">
+                <h4 style={{ fontSize: '13px', color: '#ffffff', marginBottom: '8px' }}>Executive Marketing Assets</h4>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                  <a href="/downloads/ADU_HaaS_Portfolio.pptx" download className="btn btn-secondary" style={{ fontSize: '11.5px', justifyContent: 'flex-start' }}>
-                    <Download size={13} color="#3b82f6" /> Pitch Deck (.pptx)
+                  <a href="/downloads/ADU_HaaS_Portfolio.pptx" download className="btn btn-secondary" style={{ fontSize: '12px', justifyContent: 'flex-start', minHeight: '38px' }}>
+                    <Download size={14} color="#3b82f6" /> Pitch Deck (.pptx)
                   </a>
-                  <a href="/downloads/adu_marketing_catalog.pdf" download className="btn btn-secondary" style={{ fontSize: '11.5px', justifyContent: 'flex-start' }}>
-                    <FileText size={13} color="#10b981" /> Color Brochure (.pdf)
+                  <a href="/downloads/adu_marketing_catalog.pdf" download className="btn btn-secondary" style={{ fontSize: '12px', justifyContent: 'flex-start', minHeight: '38px' }}>
+                    <FileText size={14} color="#10b981" /> Color Brochure (.pdf)
                   </a>
                 </div>
               </div>
@@ -1016,87 +864,51 @@ export default function App() {
                     </p>
                   </div>
 
-                  <form onSubmit={handleLeadSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                  <form onSubmit={handleLeadSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
                     
                     <div className="form-two-col">
                       <div>
-                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Full Name</label>
+                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px', fontWeight: 600 }}>Full Name</label>
                         <input 
                           type="text" 
                           required
                           value={leadForm.fullName}
                           onChange={(e) => setLeadForm({ ...leadForm, fullName: e.target.value })}
                           placeholder="Jane Doe"
-                          style={{
-                            width: '100%',
-                            padding: '9px 10px',
-                            background: 'rgba(255, 255, 255, 0.05)',
-                            border: '1px solid var(--border-subtle)',
-                            borderRadius: '6px',
-                            color: '#ffffff',
-                            fontSize: '13px',
-                            outline: 'none'
-                          }}
+                          className="form-input"
                         />
                       </div>
                       <div>
-                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Email Address</label>
+                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px', fontWeight: 600 }}>Email Address</label>
                         <input 
                           type="email" 
                           required
                           value={leadForm.email}
                           onChange={(e) => setLeadForm({ ...leadForm, email: e.target.value })}
                           placeholder="jane@example.com"
-                          style={{
-                            width: '100%',
-                            padding: '9px 10px',
-                            background: 'rgba(255, 255, 255, 0.05)',
-                            border: '1px solid var(--border-subtle)',
-                            borderRadius: '6px',
-                            color: '#ffffff',
-                            fontSize: '13px',
-                            outline: 'none'
-                          }}
+                          className="form-input"
                         />
                       </div>
                     </div>
 
                     <div className="form-two-col">
                       <div>
-                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Phone Number</label>
+                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px', fontWeight: 600 }}>Phone Number</label>
                         <input 
                           type="tel" 
                           required
                           value={leadForm.phone}
                           onChange={(e) => setLeadForm({ ...leadForm, phone: e.target.value })}
                           placeholder="(310) 555-0199"
-                          style={{
-                            width: '100%',
-                            padding: '9px 10px',
-                            background: 'rgba(255, 255, 255, 0.05)',
-                            border: '1px solid var(--border-subtle)',
-                            borderRadius: '6px',
-                            color: '#ffffff',
-                            fontSize: '13px',
-                            outline: 'none'
-                          }}
+                          className="form-input"
                         />
                       </div>
                       <div>
-                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Preferred Model</label>
+                        <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px', fontWeight: 600 }}>Preferred Model</label>
                         <select 
                           value={leadForm.targetModel}
                           onChange={(e) => setLeadForm({ ...leadForm, targetModel: e.target.value })}
-                          style={{
-                            width: '100%',
-                            padding: '9px 10px',
-                            background: '#0f172a',
-                            border: '1px solid var(--border-subtle)',
-                            borderRadius: '6px',
-                            color: '#ffffff',
-                            fontSize: '12.5px',
-                            outline: 'none'
-                          }}
+                          className="styled-select"
                         >
                           <optgroup label="🏡 Compact Backyard ADUs (300 - 435 sq ft)">
                             {MODELS.filter(m => m.category === 'compact').map(m => (
@@ -1113,32 +925,24 @@ export default function App() {
                     </div>
 
                     <div>
-                      <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Property Address</label>
+                      <label style={{ fontSize: '10.5px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px', fontWeight: 600 }}>Property Address</label>
                       <input 
                         type="text" 
                         required
                         value={leadForm.address}
                         onChange={(e) => setLeadForm({ ...leadForm, address: e.target.value })}
-                        style={{
-                          width: '100%',
-                          padding: '9px 10px',
-                          background: 'rgba(255, 255, 255, 0.05)',
-                          border: '1px solid var(--border-subtle)',
-                          borderRadius: '6px',
-                          color: '#ffffff',
-                          fontSize: '13px',
-                          outline: 'none'
-                        }}
+                        placeholder="123 Palm Canyon Rd, Los Angeles, CA"
+                        className="form-input"
                       />
                     </div>
 
                     <div className="form-three-col">
                       <div>
-                        <label style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Side Yard Access</label>
+                        <label style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px', fontWeight: 600 }}>Side Yard Access</label>
                         <select 
                           value={leadForm.drivewayAccess}
                           onChange={(e) => setLeadForm({ ...leadForm, drivewayAccess: e.target.value })}
-                          style={{ width: '100%', padding: '8px', background: '#0f172a', border: '1px solid var(--border-subtle)', borderRadius: '6px', color: '#ffffff', fontSize: '11.5px' }}
+                          className="styled-select"
                         >
                           <option>Wide Driveway (10ft+)</option>
                           <option>Standard Gate (5-9ft)</option>
@@ -1147,11 +951,11 @@ export default function App() {
                       </div>
 
                       <div>
-                        <label style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Electrical Panel</label>
+                        <label style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px', fontWeight: 600 }}>Electrical Panel</label>
                         <select 
                           value={leadForm.electricalPanel}
                           onChange={(e) => setLeadForm({ ...leadForm, electricalPanel: e.target.value })}
-                          style={{ width: '100%', padding: '8px', background: '#0f172a', border: '1px solid var(--border-subtle)', borderRadius: '6px', color: '#ffffff', fontSize: '11.5px' }}
+                          className="styled-select"
                         >
                           <option>200 Amp (Modern)</option>
                           <option>100-150 Amp (Subpanel)</option>
@@ -1160,11 +964,11 @@ export default function App() {
                       </div>
 
                       <div>
-                        <label style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '3px' }}>Sewer / Water Distance</label>
+                        <label style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', display: 'block', marginBottom: '4px', fontWeight: 600 }}>Sewer / Water Distance</label>
                         <select 
                           value={leadForm.sewerDistance}
                           onChange={(e) => setLeadForm({ ...leadForm, sewerDistance: e.target.value })}
-                          style={{ width: '100%', padding: '8px', background: '#0f172a', border: '1px solid var(--border-subtle)', borderRadius: '6px', color: '#ffffff', fontSize: '11.5px' }}
+                          className="styled-select"
                         >
                           <option>Under 50 ft</option>
                           <option>50 – 100 ft</option>
@@ -1173,7 +977,7 @@ export default function App() {
                       </div>
                     </div>
 
-                    <button type="submit" className="btn btn-emerald" style={{ padding: '12px', fontSize: '13.5px', marginTop: '6px' }}>
+                    <button type="submit" className="btn btn-emerald" style={{ padding: '12px', fontSize: '13.5px', marginTop: '6px', minHeight: '44px' }}>
                       Submit Audit & Lock In Passive Split <ArrowRight size={15} />
                     </button>
 
@@ -1224,51 +1028,24 @@ export default function App() {
             </div>
 
             {/* Gallery Category Filter */}
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', margin: '4px 0 16px 0', flexWrap: 'wrap' }}>
+            <div className="gallery-filter-bar">
               <button
-                className="btn"
+                className={`btn filter-pill ${galleryCategoryFilter === 'all' ? 'pill-active-blue' : ''}`}
                 onClick={() => setGalleryCategoryFilter('all')}
-                style={{
-                  padding: '6px 14px',
-                  borderRadius: '20px',
-                  fontSize: '12px',
-                  fontWeight: 600,
-                  background: galleryCategoryFilter === 'all' ? '#2563eb' : 'rgba(255, 255, 255, 0.05)',
-                  color: '#ffffff',
-                  border: galleryCategoryFilter === 'all' ? '1px solid #3b82f6' : '1px solid var(--border-subtle)'
-                }}
               >
                 🌟 All Models (9)
               </button>
               <button
-                className="btn"
+                className={`btn filter-pill ${galleryCategoryFilter === 'compact' ? 'pill-active-blue' : ''}`}
                 onClick={() => setGalleryCategoryFilter('compact')}
-                style={{
-                  padding: '6px 14px',
-                  borderRadius: '20px',
-                  fontSize: '12px',
-                  fontWeight: 600,
-                  background: galleryCategoryFilter === 'compact' ? '#2563eb' : 'rgba(255, 255, 255, 0.05)',
-                  color: '#ffffff',
-                  border: galleryCategoryFilter === 'compact' ? '1px solid #3b82f6' : '1px solid var(--border-subtle)'
-                }}
               >
-                🏡 Compact ADUs (300–435 sq ft)
+                🏡 Compact ADUs (5)
               </button>
               <button
-                className="btn"
+                className={`btn filter-pill ${galleryCategoryFilter === 'estate' ? 'pill-active-green' : ''}`}
                 onClick={() => setGalleryCategoryFilter('estate')}
-                style={{
-                  padding: '6px 14px',
-                  borderRadius: '20px',
-                  fontSize: '12px',
-                  fontWeight: 600,
-                  background: galleryCategoryFilter === 'estate' ? '#10b981' : 'rgba(255, 255, 255, 0.05)',
-                  color: '#ffffff',
-                  border: galleryCategoryFilter === 'estate' ? '1px solid #10b981' : '1px solid var(--border-subtle)'
-                }}
               >
-                🏰 Estate Homes & 2-Car Garage (1,000–1,013 sq ft)
+                🏰 2-Car Garage (4)
               </button>
             </div>
 
