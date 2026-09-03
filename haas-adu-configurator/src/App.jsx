@@ -26,6 +26,7 @@ import {
 const MODELS = [
   {
     id: 'haven',
+    category: 'compact',
     name: 'The Haven',
     tagline: 'Modern Luxury with Rooftop Sky Lounge',
     dimensions: "14' × 29'-0\"",
@@ -51,6 +52,7 @@ const MODELS = [
   },
   {
     id: 'harmony',
+    category: 'compact',
     name: 'The Harmony',
     tagline: 'Charming Modern Craftsman Cottage',
     dimensions: "14' × 24'-0\"",
@@ -76,6 +78,7 @@ const MODELS = [
   },
   {
     id: 'sierra',
+    category: 'compact',
     name: 'The Sierra',
     tagline: 'Modern Mono-Pitch Shed with Loft',
     dimensions: "14' × 31'-6\"",
@@ -101,6 +104,7 @@ const MODELS = [
   },
   {
     id: 'meadow',
+    category: 'compact',
     name: 'The Meadow',
     tagline: 'Flagship Rooftop Terrace Entertainer',
     dimensions: "15' × 31'-9\"",
@@ -126,6 +130,7 @@ const MODELS = [
   },
   {
     id: 'cascade',
+    category: 'compact',
     name: 'The Cascade',
     tagline: 'Ultra-Compact 12-Foot Slimline Infill',
     dimensions: "12' × 27'-9\"",
@@ -148,6 +153,118 @@ const MODELS = [
     ],
     idealFor: 'Narrow side yards, urban infill parcels, highest density ROI per sq ft.',
     minLotWidth: 35
+  },
+  {
+    id: 'magnolia',
+    category: 'estate',
+    name: 'The Magnolia',
+    tagline: 'Classic Charm with Attached 2-Car Garage',
+    specs: '2 Bed | 2 Bath | 2-Car Garage | 1,013 Sq. Ft.',
+    dimensions: "36' × 42'-0\"",
+    sqft: 1013,
+    width: 36,
+    length: 42,
+    baseRent: 3850,
+    homeownerSplit: 1250,
+    heroImage: '/images/magnolia.jpg',
+    interiorImage: '/images/floorplan_magnolia.png',
+    patioImage: '/images/magnolia_patio.jpg',
+    floorplanImage: '/images/floorplan_magnolia.png',
+    blueprintImage: '/images/magnolia_sheet.jpg',
+    features: [
+      'Attached 2-car garage with direct secure interior home access',
+      'Warm, welcoming covered front porch with classic architectural charm',
+      'Spacious open-concept living and dining spaces with abundant natural light',
+      'Two full bedrooms and two bathrooms including private primary suite',
+      'Dedicated laundry utility room, walk-in closets, and generous storage'
+    ],
+    description: 'Warm, welcoming, and designed for everyday comfort, the Magnolia pairs classic charm with a smart, efficient layout. An open living space, two bedrooms, two bathrooms, ample storage, and an attached two-car garage make this a comfortable and versatile place to call home.',
+    idealFor: 'Full-size residential lots, multi-gen primary living, high-yield executive long-term rental.',
+    minLotWidth: 55
+  },
+  {
+    id: 'zinnia',
+    category: 'estate',
+    name: 'The Zinnia',
+    tagline: 'Contemporary Living with High Clerestory Windows',
+    specs: '2 Bed | 2 Bath | 2-Car Garage | 1,000 Sq. Ft.',
+    dimensions: "35' × 42'-0\"",
+    sqft: 1000,
+    width: 35,
+    length: 42,
+    baseRent: 3800,
+    homeownerSplit: 1200,
+    heroImage: '/images/zinnia.jpg',
+    interiorImage: '/images/floorplan_zinnia.png',
+    patioImage: '/images/zinnia_patio.jpg',
+    floorplanImage: '/images/floorplan_zinnia.png',
+    blueprintImage: '/images/zinnia_sheet.jpg',
+    features: [
+      'High-ceiling modern clerestory roofline with upper transom windows',
+      'Attached 2-car garage with oversized paver driveway apron',
+      'Open-concept Great Room with dedicated dining & chef peninsula kitchen',
+      'Primary bedroom retreat with luxury private bath & walk-in wardrobe',
+      'Private rear patio sliding door for seamless indoor-outdoor living'
+    ],
+    description: 'A thoughtfully designed home that blends comfort, function, and modern style. The Zinnia features an open-concept living space, two bedrooms, two bathrooms, generous storage, and an attached two-car garage—all within an efficient, easy-living floorplan.',
+    idealFor: 'Contemporary suburban estates, design-forward homeowners, high-ADR luxury rentals.',
+    minLotWidth: 55
+  },
+  {
+    id: 'iris',
+    category: 'estate',
+    name: 'The Iris',
+    tagline: 'Craftsman Porch Living with Gourmet Kitchen Island',
+    specs: '2 Bed | 2 Bath | 2-Car Garage | 1,013 Sq. Ft.',
+    dimensions: "36' × 42'-0\"",
+    sqft: 1013,
+    width: 36,
+    length: 42,
+    baseRent: 3850,
+    homeownerSplit: 1250,
+    heroImage: '/images/iris.jpg',
+    interiorImage: '/images/floorplan_iris.png',
+    patioImage: '/images/iris_patio.jpg',
+    floorplanImage: '/images/floorplan_iris.png',
+    blueprintImage: '/images/iris_sheet.jpg',
+    features: [
+      'Full-width craftsman covered front porch with stone masonry piers',
+      'Gourmet chef kitchen with expansive 8-foot island and bar seating',
+      'Attached 2-car garage with side utility passage door',
+      'Two spacious bedrooms, including primary suite with backyard patio walkout',
+      'Dedicated laundry utility room & abundant integrated storage'
+    ],
+    description: 'Designed with everyday living in mind, the Iris combines an inviting covered porch with a spacious, open-concept interior. Two bedrooms, two bathrooms, a generous kitchen island, dedicated laundry, and an attached two-car garage create a practical home with plenty of room to live comfortably.',
+    idealFor: 'Traditional suburban neighborhoods, family in-laws, premium extended-stay tenants.',
+    minLotWidth: 55
+  },
+  {
+    id: 'dahlia',
+    category: 'estate',
+    name: 'The Dahlia',
+    tagline: 'Sleek Contemporary Lines with Split Bedroom Privacy',
+    specs: '2 Bed | 2 Bath | 2-Car Garage | 1,006 Sq. Ft.',
+    dimensions: "35' × 42'-0\"",
+    sqft: 1006,
+    width: 35,
+    length: 42,
+    baseRent: 3820,
+    homeownerSplit: 1220,
+    heroImage: '/images/dahlia.jpg',
+    interiorImage: '/images/floorplan_dahlia.png',
+    patioImage: '/images/dahlia_patio.jpg',
+    floorplanImage: '/images/floorplan_dahlia.png',
+    blueprintImage: '/images/dahlia_sheet.jpg',
+    features: [
+      'Sleek contemporary mono-pitch slant roofline with natural stone pillars',
+      'Attached 2-car garage with modern dark flush-panel garage doors',
+      'Split bedroom layout maximizing acoustic privacy between suites',
+      'Dedicated laundry room and abundant hallway linen storage',
+      'Dual sliding patio glass doors connecting to rear garden terrace'
+    ],
+    description: 'Clean lines and contemporary style define the Dahlia, with a thoughtfully arranged interior designed for both comfort and privacy. Two bedrooms, two bathrooms, open living and dining spaces, dedicated laundry, and an attached two-car garage make modern living feel effortless.',
+    idealFor: 'Design-forward properties, high-density residential lots, luxury corporate housing.',
+    minLotWidth: 55
   }
 ];
 
@@ -167,6 +284,8 @@ export default function App() {
   const [selectedModelId, setSelectedModelId] = useState('haven');
   const [activeView, setActiveView] = useState('exterior'); // 'exterior' | 'interior' | 'patio' | 'floorplan' | 'blueprint'
   const [selectedMetro, setSelectedMetro] = useState(METROS[0]);
+  const [modelCategoryFilter, setModelCategoryFilter] = useState('all'); // 'all' | 'compact' | 'estate'
+  const [galleryCategoryFilter, setGalleryCategoryFilter] = useState('all'); // 'all' | 'compact' | 'estate'
   const [addressInput, setAddressInput] = useState('1428 Elmwood Ave, Los Angeles, CA 90038');
   const [isAuditingLot, setIsAuditingLot] = useState(false);
   const [modalImage, setModalImage] = useState(null);
@@ -238,16 +357,30 @@ export default function App() {
     return MODELS.find(m => m.id === selectedModelId) || MODELS[0];
   }, [selectedModelId]);
 
+  const filteredModels = useMemo(() => {
+    if (modelCategoryFilter === 'all') return MODELS;
+    return MODELS.filter(m => m.category === modelCategoryFilter);
+  }, [modelCategoryFilter]);
+
+  const galleryModels = useMemo(() => {
+    if (galleryCategoryFilter === 'all') return MODELS;
+    return MODELS.filter(m => m.category === galleryCategoryFilter);
+  }, [galleryCategoryFilter]);
+
   // Financial Calculations
   const calculations = useMemo(() => {
     let base = selectedModel.baseRent * selectedMetro.rentMult;
-    if (upgrades.rooftopLounge) base += 150;
-    if (upgrades.solarPowerwall) base += 100;
-    if (upgrades.scandinavianInterior) base += 120;
+    if (upgrades.rooftopLounge) base += (selectedModel.category === 'estate' ? 180 : 150);
+    if (upgrades.solarPowerwall) base += (selectedModel.category === 'estate' ? 160 : 100);
+    if (upgrades.scandinavianInterior) base += (selectedModel.category === 'estate' ? 180 : 120);
     if (upgrades.smartAccess) base += 50;
 
     const monthlyGross = Math.round(base);
-    const homeownerMonthly = Math.round(selectedModel.homeownerSplit * selectedMetro.rentMult + (upgrades.rooftopLounge ? 50 : 0) + (upgrades.solarPowerwall ? 30 : 0));
+    const homeownerMonthly = Math.round(
+      selectedModel.homeownerSplit * selectedMetro.rentMult + 
+      (upgrades.rooftopLounge ? (selectedModel.category === 'estate' ? 60 : 50) : 0) + 
+      (upgrades.solarPowerwall ? (selectedModel.category === 'estate' ? 50 : 30) : 0)
+    );
     const operatorMonthly = monthlyGross - homeownerMonthly;
     const tenYearHomeowner = homeownerMonthly * 12 * 10;
     const propertyAppreciation = Math.round(selectedMetro.appreciation * (selectedModel.sqft / 400));
@@ -369,7 +502,7 @@ export default function App() {
                   border: activeTab === 'gallery' ? '1px solid rgba(59, 130, 246, 0.4)' : '1px solid transparent'
                 }}
               >
-                <Layers size={13} /> 5 Models & Plans
+                <Layers size={13} /> 9 Models & Plans
               </button>
               <button 
                 className="btn" 
@@ -565,6 +698,15 @@ export default function App() {
                       <div style={{ display: 'flex', gap: '6px', marginBottom: '3px', flexWrap: 'wrap' }}>
                         <span className="badge badge-blue">{selectedModel.dimensions}</span>
                         <span className="badge badge-green">{selectedModel.sqft} SQ FT</span>
+                        {selectedModel.category === 'estate' ? (
+                          <span className="badge" style={{ background: 'rgba(139, 92, 246, 0.25)', color: '#c084fc', border: '1px solid rgba(139, 92, 246, 0.4)' }}>
+                            🚗 2-Car Garage &bull; 2 Bed / 2 Bath
+                          </span>
+                        ) : (
+                          <span className="badge" style={{ background: 'rgba(59, 130, 246, 0.2)', color: '#93c5fd', border: '1px solid rgba(59, 130, 246, 0.4)' }}>
+                            🏡 Backyard ADU
+                          </span>
+                        )}
                       </div>
                       <h2 style={{ fontSize: '20px', color: '#ffffff', marginBottom: '2px' }}>{selectedModel.name}</h2>
                       <div style={{ color: 'var(--text-secondary)', fontSize: '11.5px' }}>{selectedModel.tagline}</div>
@@ -576,9 +718,79 @@ export default function App() {
                   </div>
                 </div>
 
+                {/* Footprint Category Filter */}
+                <div style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  padding: '8px 12px',
+                  background: 'rgba(15, 23, 42, 0.85)',
+                  borderTop: '1px solid var(--border-subtle)',
+                  borderBottom: '1px solid var(--border-subtle)',
+                  flexWrap: 'wrap',
+                  gap: '6px'
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
+                    <span style={{ fontSize: '10.5px', color: 'var(--text-muted)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                      Footprint:
+                    </span>
+                    <button
+                      className="btn"
+                      onClick={() => setModelCategoryFilter('all')}
+                      style={{
+                        padding: '3px 9px',
+                        fontSize: '11px',
+                        borderRadius: '20px',
+                        background: modelCategoryFilter === 'all' ? '#2563eb' : 'rgba(255, 255, 255, 0.05)',
+                        color: '#ffffff',
+                        border: modelCategoryFilter === 'all' ? '1px solid #3b82f6' : '1px solid transparent'
+                      }}
+                    >
+                      All (9)
+                    </button>
+                    <button
+                      className="btn"
+                      onClick={() => {
+                        setModelCategoryFilter('compact');
+                        if (selectedModel.category !== 'compact') setSelectedModelId('haven');
+                      }}
+                      style={{
+                        padding: '3px 9px',
+                        fontSize: '11px',
+                        borderRadius: '20px',
+                        background: modelCategoryFilter === 'compact' ? '#2563eb' : 'rgba(255, 255, 255, 0.05)',
+                        color: '#ffffff',
+                        border: modelCategoryFilter === 'compact' ? '1px solid #3b82f6' : '1px solid transparent'
+                      }}
+                    >
+                      🏡 Compact ADUs (5)
+                    </button>
+                    <button
+                      className="btn"
+                      onClick={() => {
+                        setModelCategoryFilter('estate');
+                        if (selectedModel.category !== 'estate') setSelectedModelId('magnolia');
+                      }}
+                      style={{
+                        padding: '3px 9px',
+                        fontSize: '11px',
+                        borderRadius: '20px',
+                        background: modelCategoryFilter === 'estate' ? '#10b981' : 'rgba(255, 255, 255, 0.05)',
+                        color: '#ffffff',
+                        border: modelCategoryFilter === 'estate' ? '1px solid #10b981' : '1px solid transparent'
+                      }}
+                    >
+                      🏰 Estate Homes & 2-Car Garage (4)
+                    </button>
+                  </div>
+                  <span style={{ fontSize: '10.5px', color: 'var(--text-muted)' }}>
+                    {filteredModels.length} models
+                  </span>
+                </div>
+
                 {/* Model Selector Strip */}
                 <div className="model-selector-strip">
-                  {MODELS.map(m => (
+                  {filteredModels.map(m => (
                     <button
                       key={m.id}
                       onClick={() => setSelectedModelId(m.id)}
@@ -590,11 +802,20 @@ export default function App() {
                         color: '#ffffff',
                         cursor: 'pointer',
                         textAlign: 'center',
-                        transition: 'all 0.2s ease'
+                        transition: 'all 0.2s ease',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        alignItems: 'center'
                       }}
                     >
                       <div style={{ fontSize: '11.5px', fontWeight: 700, color: selectedModelId === m.id ? '#60a5fa' : '#ffffff' }}>{m.name}</div>
                       <div style={{ fontSize: '9.5px', color: 'var(--text-muted)' }}>{m.sqft} sq ft</div>
+                      {m.category === 'estate' && (
+                        <div style={{ fontSize: '8px', color: '#34d399', fontWeight: 700, marginTop: '2px', letterSpacing: '-0.02em' }}>
+                          🚗 2-CAR GARAGE
+                        </div>
+                      )}
                     </button>
                   ))}
                 </div>
@@ -626,7 +847,7 @@ export default function App() {
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                     
                     <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', cursor: 'pointer' }}>
-                      <span>Rooftop Sky Lounge & Stairs</span>
+                      <span>{selectedModel.category === 'estate' ? 'Dual Level-2 EV Garage Charger' : 'Rooftop Sky Lounge & Stairs'}</span>
                       <input 
                         type="checkbox" 
                         checked={upgrades.rooftopLounge}
@@ -877,9 +1098,16 @@ export default function App() {
                             outline: 'none'
                           }}
                         >
-                          {MODELS.map(m => (
-                            <option key={m.id} value={m.id}>{m.name} ({m.sqft} sq ft &bull; {m.dimensions})</option>
-                          ))}
+                          <optgroup label="🏡 Compact Backyard ADUs (300 - 435 sq ft)">
+                            {MODELS.filter(m => m.category === 'compact').map(m => (
+                              <option key={m.id} value={m.id}>{m.name} ({m.sqft} sq ft &bull; {m.dimensions})</option>
+                            ))}
+                          </optgroup>
+                          <optgroup label="🏰 Estate Homes with 2-Car Garage (1,000 - 1,013 sq ft)">
+                            {MODELS.filter(m => m.category === 'estate').map(m => (
+                              <option key={m.id} value={m.id}>{m.name} ({m.sqft} sq ft &bull; 2 Bed/2 Bath + 2-Car Garage)</option>
+                            ))}
+                          </optgroup>
                         </select>
                       </div>
                     </div>
@@ -995,8 +1223,57 @@ export default function App() {
               </p>
             </div>
 
+            {/* Gallery Category Filter */}
+            <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', margin: '4px 0 16px 0', flexWrap: 'wrap' }}>
+              <button
+                className="btn"
+                onClick={() => setGalleryCategoryFilter('all')}
+                style={{
+                  padding: '6px 14px',
+                  borderRadius: '20px',
+                  fontSize: '12px',
+                  fontWeight: 600,
+                  background: galleryCategoryFilter === 'all' ? '#2563eb' : 'rgba(255, 255, 255, 0.05)',
+                  color: '#ffffff',
+                  border: galleryCategoryFilter === 'all' ? '1px solid #3b82f6' : '1px solid var(--border-subtle)'
+                }}
+              >
+                🌟 All Models (9)
+              </button>
+              <button
+                className="btn"
+                onClick={() => setGalleryCategoryFilter('compact')}
+                style={{
+                  padding: '6px 14px',
+                  borderRadius: '20px',
+                  fontSize: '12px',
+                  fontWeight: 600,
+                  background: galleryCategoryFilter === 'compact' ? '#2563eb' : 'rgba(255, 255, 255, 0.05)',
+                  color: '#ffffff',
+                  border: galleryCategoryFilter === 'compact' ? '1px solid #3b82f6' : '1px solid var(--border-subtle)'
+                }}
+              >
+                🏡 Compact ADUs (300–435 sq ft)
+              </button>
+              <button
+                className="btn"
+                onClick={() => setGalleryCategoryFilter('estate')}
+                style={{
+                  padding: '6px 14px',
+                  borderRadius: '20px',
+                  fontSize: '12px',
+                  fontWeight: 600,
+                  background: galleryCategoryFilter === 'estate' ? '#10b981' : 'rgba(255, 255, 255, 0.05)',
+                  color: '#ffffff',
+                  border: galleryCategoryFilter === 'estate' ? '1px solid #10b981' : '1px solid var(--border-subtle)'
+                }}
+              >
+                🏰 Estate Homes & 2-Car Garage (1,000–1,013 sq ft)
+              </button>
+            </div>
+
             <div className="gallery-grid">
-              {MODELS.map(m => (
+              {galleryModels.map(m => (
                 <div key={m.id} className="glass-panel" style={{ overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
                   
                   {/* Image Grid: 3D Render + CAD Floorplan */}
@@ -1019,15 +1296,25 @@ export default function App() {
                       </div>
                     </div>
 
-                    <div style={{ position: 'absolute', top: '8px', left: '8px', display: 'flex', gap: '5px' }}>
+                    <div style={{ position: 'absolute', top: '8px', left: '8px', display: 'flex', gap: '5px', flexWrap: 'wrap' }}>
                       <span className="badge badge-blue">{m.dimensions}</span>
                       <span className="badge badge-green">{m.sqft} SQ FT</span>
+                      {m.category === 'estate' && (
+                        <span className="badge" style={{ background: 'rgba(139, 92, 246, 0.9)', color: '#ffffff' }}>
+                          🚗 2-Car Garage
+                        </span>
+                      )}
                     </div>
                   </div>
 
                   <div style={{ padding: '14px 16px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                     <div>
-                      <h3 style={{ fontSize: '16px', color: '#ffffff', marginBottom: '2px' }}>{m.name}</h3>
+                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '4px' }}>
+                        <h3 style={{ fontSize: '16px', color: '#ffffff', marginBottom: '2px' }}>{m.name}</h3>
+                        {m.specs && (
+                          <span style={{ fontSize: '10px', color: '#34d399', fontWeight: 600 }}>{m.specs}</span>
+                        )}
+                      </div>
                       <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginBottom: '10px' }}>{m.tagline}</div>
                       
                       <div style={{ display: 'flex', justifyContent: 'space-between', padding: '6px 10px', background: 'rgba(255, 255, 255, 0.04)', borderRadius: '6px', marginBottom: '10px' }}>
@@ -1131,6 +1418,25 @@ export default function App() {
                 </div>
                 <a href="/downloads/adu_marketing_catalog.pdf" download className="btn btn-emerald" style={{ width: '100%', fontSize: '11.5px' }}>
                   <Download size={13} /> Download Color Catalog (.pdf)
+                </a>
+              </div>
+
+              {/* Card 3: Estate & 2-Car Garage Portfolio */}
+              <div className="glass-panel" style={{ padding: '18px 16px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div>
+                  <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(139, 92, 246, 0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '10px' }}>
+                    <Home size={18} color="#8b5cf6" />
+                  </div>
+                  <h3 style={{ fontSize: '16px', color: '#ffffff', marginBottom: '4px' }}>Estate Homes & 2-Car Garage Portfolio</h3>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '11.5px', marginBottom: '10px' }}>
+                    Executive 5-page dossier featuring The Magnolia, Zinnia, Iris, and Dahlia models with 3D cutaway floorplans, exterior elevations, and HaaS yield models.
+                  </p>
+                  <div style={{ fontSize: '10.5px', color: 'var(--text-muted)', marginBottom: '14px' }}>
+                    &bull; High-resolution landscape PDF formatted for capital partners & clients.
+                  </div>
+                </div>
+                <a href="/downloads/Estate_Homes_2Car_Garage_Portfolio.pdf" download className="btn" style={{ width: '100%', fontSize: '11.5px', background: '#8b5cf6', color: '#ffffff', border: '1px solid rgba(139, 92, 246, 0.4)' }}>
+                  <Download size={13} /> Download Estate Dossier (.pdf)
                 </a>
               </div>
 
