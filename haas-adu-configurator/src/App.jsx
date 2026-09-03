@@ -444,13 +444,8 @@ export default function App() {
                 <div className="brand-icon">
                   <Home size={18} color="#ffffff" />
                 </div>
-                <div>
-                  <div className="brand-title">
-                    {brand.brandName} <span className="brand-dot">•</span> HaaS
-                  </div>
-                  <div className="brand-tagline">
-                    {brand.tagline}
-                  </div>
+                <div className="brand-title">
+                  {brand.brandName}
                 </div>
               </div>
 

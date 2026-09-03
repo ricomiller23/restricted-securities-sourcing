@@ -243,22 +243,12 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .brand-title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 800;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   color: #ffffff;
-  line-height: 1.2;
-}
-
-.brand-dot {
-  color: #3b82f6;
-}
-
-.brand-tagline {
-  font-size: 9.5px;
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .nav-tabs-container {
