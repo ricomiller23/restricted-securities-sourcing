@@ -1,5 +1,5 @@
-// Delisted CRM PWA Service Worker (V5 Network-First & Self-Clearing)
-const CACHE_NAME = "delisted-crm-cache-v5";
+// Delisted CRM PWA Service Worker (V6 Network-First & Self-Clearing)
+const CACHE_NAME = "delisted-crm-cache-v6";
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();

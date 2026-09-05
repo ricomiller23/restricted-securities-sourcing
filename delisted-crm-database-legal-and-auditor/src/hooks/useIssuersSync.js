@@ -12,6 +12,7 @@ const SYNC_INTERVAL_MS = 24 * 60 * 60 * 1000; // 24 hours
  * Features:
  * - High-capacity IndexedDB storage (unlimited scaling beyond 5MB).
  * - Transparent localStorage fallback and automatic migration.
+ * - Same-Origin /api/sync serverless proxy eliminating CORS barriers.
  * - Dedicated Web Worker background synchronization (zero UI thread freezing).
  * - Non-destructive field enrichment and schema guardrails.
  */
@@ -151,6 +152,7 @@ export function useIssuersSync() {
           });
           if (validated) {
             newItems.push(validated);
+            existingMap.set(normCik, validated); // Avoid duplicate adds within liveFetched
           }
         }
       });
@@ -200,9 +202,31 @@ export function useIssuersSync() {
     fallbackDirectSync();
   };
 
-  // Fallback direct async sync
+  // Fallback direct async sync using /api/sync first
   const fallbackDirectSync = async () => {
     try {
+      // Try /api/sync serverless route first
+      let syncedData = null;
+      try {
+        const proxyRes = await fetch("/api/sync");
+        if (proxyRes.ok) {
+          const json = await proxyRes.json();
+          if (json.success && Array.isArray(json.liveFetched)) {
+            syncedData = json;
+          }
+        }
+      } catch (e) {}
+
+      if (syncedData) {
+        handleLiveRecordsMerge(syncedData.liveFetched, syncedData.contactMapCik, syncedData.contactMapTicker);
+        try {
+          localStorage.setItem(LAST_SYNC_KEY, String(Date.now()));
+        } catch (e) {}
+        setIsSyncing(false);
+        return;
+      }
+
+      // If serverless proxy is unavailable (e.g. static dev), fetch directly
       let contactMapCik = {};
       let contactMapTicker = {};
 
@@ -221,10 +245,9 @@ export function useIssuersSync() {
 
       let liveFetched = [];
       let offset = 0;
-      const batchSize = 500;
       let hasMore = true;
 
-      while (hasMore && offset <= 5000) {
+      while (hasMore && offset <= 10000) {
         try {
           const res = await fetch(`https://edgar-insider-scout.vercel.app/api/signals/fallen-angels/delisted-issuers?from=${offset}&dateRange=all&exchange=all`);
           if (res.ok) {
@@ -233,7 +256,6 @@ export function useIssuersSync() {
             if (Array.isArray(batch) && batch.length > 0) {
               liveFetched = [...liveFetched, ...batch];
               offset += batch.length;
-              if (batch.length < batchSize) hasMore = false;
             } else {
               hasMore = false;
             }
