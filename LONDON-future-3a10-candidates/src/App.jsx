@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import RestructuringTable from './components/RestructuringTable';
 import CourtHearingCalendar from './components/CourtHearingCalendar';
@@ -86,12 +86,20 @@ export default function App() {
     document.body.removeChild(link);
   };
 
-  const handleSync = () => {
+    const handleSync = async () => {
     setIsSyncing(true);
-    setTimeout(() => {
+    try {
+      await fetch('/api/sync', { cache: 'no-store' });
+    } catch (e) {
+      console.warn("Sync error:", e);
+    } finally {
       setIsSyncing(false);
-    }, 1200);
+    }
   };
+
+  useEffect(() => {
+    fetch('/api/sync', { cache: 'no-store' }).catch(() => {});
+  }, []);
 
   return (
     <div className="min-h-screen flex flex-col bg-[#090e1a] text-slate-100">

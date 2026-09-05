@@ -18,7 +18,19 @@ export default function App() {
       const stored = localStorage.getItem(LOCAL_STORAGE_KEY);
       if (stored) {
         const parsed = JSON.parse(stored);
-        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          const parsedMap = new Map(parsed.map(item => [item.id || item.ticker, item]));
+          const merged = seedData.map(seedItem => {
+            const existing = parsedMap.get(seedItem.id || seedItem.ticker);
+            return existing ? { ...seedItem, ...existing } : seedItem;
+          });
+          parsed.forEach(item => {
+            if (!seedData.some(s => (s.id || s.ticker) === (item.id || item.ticker))) {
+              merged.push(item);
+            }
+          });
+          return merged;
+        }
       }
     } catch (e) {
       console.error("Failed loading local storage CRM state:", e);
@@ -44,6 +56,11 @@ export default function App() {
     }
   }, [issuers]);
 
+  // On-mount synchronization
+  useEffect(() => {
+    fetch('/api/sync', { cache: 'no-store' }).catch(() => {});
+  }, []);
+
   // Filter logic
   const filteredIssuers = useMemo(() => {
     return issuers.filter((item) => {
@@ -61,11 +78,17 @@ export default function App() {
     });
   }, [issuers, searchTerm, exchangeFilter, statusFilter]);
 
-  const handleSync = () => {
+  const handleSync = async () => {
     setIsSyncing(true);
-    setTimeout(() => {
+    try {
+      await fetch('/api/sync', { cache: 'no-store' });
+      localStorage.removeItem(LOCAL_STORAGE_KEY);
+      setIssuers(seedData);
+    } catch (e) {
+      console.warn("Manual sync error:", e);
+    } finally {
       setIsSyncing(false);
-    }, 1200);
+    }
   };
 
   return (

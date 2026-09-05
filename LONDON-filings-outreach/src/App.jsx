@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import CapitalDistressScreener from './components/CapitalDistressScreener';
 import Section656AlertsView from './components/Section656AlertsView';
@@ -89,12 +89,20 @@ export default function App() {
     document.body.removeChild(link);
   };
 
-  const handleSync = () => {
+    const handleSync = async () => {
     setIsSyncing(true);
-    setTimeout(() => {
+    try {
+      await fetch('/api/sync', { cache: 'no-store' });
+    } catch (e) {
+      console.warn("Sync error:", e);
+    } finally {
       setIsSyncing(false);
-    }, 1200);
+    }
   };
+
+  useEffect(() => {
+    fetch('/api/sync', { cache: 'no-store' }).catch(() => {});
+  }, []);
 
   return (
     <div className="min-h-screen flex flex-col bg-[#0b0f19] text-slate-100">
