@@ -1,11 +1,37 @@
 // SEC EDGAR Background Synchronization Web Worker
-// Processes thousands of SEC filings off the main UI thread to guarantee 60fps silky smooth scrolling.
+// Synchronizes latest delisting notices and contacts off the main UI thread.
 
 self.onmessage = async (e) => {
-  const { type, existingCiks = [] } = e.data || {};
+  const { type } = e.data || {};
 
   if (type === "START_SYNC") {
     try {
+      // 1. First attempt same-origin /api/sync (zero CORS restriction)
+      let syncedData = null;
+      try {
+        const proxyRes = await fetch("/api/sync");
+        if (proxyRes.ok) {
+          const json = await proxyRes.json();
+          if (json.success && Array.isArray(json.liveFetched)) {
+            syncedData = json;
+          }
+        }
+      } catch (proxyErr) {
+        console.warn("[WORKER] /api/sync proxy failed, checking direct fallback:", proxyErr.message);
+      }
+
+      if (syncedData) {
+        self.postMessage({
+          type: "SYNC_SUCCESS",
+          liveFetched: syncedData.liveFetched,
+          contactMapCik: syncedData.contactMapCik || {},
+          contactMapTicker: syncedData.contactMapTicker || {},
+          timestamp: Date.now()
+        });
+        return;
+      }
+
+      // 2. Fallback to direct client fetch if proxy is not reachable
       let contactMapCik = {};
       let contactMapTicker = {};
 
@@ -21,15 +47,14 @@ self.onmessage = async (e) => {
           }
         }
       } catch (err) {
-        console.warn("[WORKER] Warning fetching contacts map:", err);
+        console.warn("[WORKER] Warning fetching contacts map:", err.message);
       }
 
       let liveFetched = [];
       let offset = 0;
-      const batchSize = 500;
       let hasMore = true;
 
-      while (hasMore && offset <= 5000) {
+      while (hasMore && offset <= 10000) {
         try {
           const res = await fetch(`https://edgar-insider-scout.vercel.app/api/signals/fallen-angels/delisted-issuers?from=${offset}&dateRange=all&exchange=all`);
           if (res.ok) {
@@ -38,7 +63,6 @@ self.onmessage = async (e) => {
             if (Array.isArray(batch) && batch.length > 0) {
               liveFetched = [...liveFetched, ...batch];
               offset += batch.length;
-              if (batch.length < batchSize) hasMore = false;
             } else {
               hasMore = false;
             }

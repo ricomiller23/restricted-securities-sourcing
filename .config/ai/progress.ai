@@ -8,6 +8,12 @@
   - **Validation**: Re-ran `npm audit` confirming 0 vulnerabilities found.
 - **Specification Release 0.001**: Created `specs/0/0.001-fishdev-bootstrap-and-security-audit/`.
 - **Pull Request**: PR #1 merged into `main`.
+## 2026-09-05 - Delisted CRM CORS Fix, 1,704 Cap Removal, and Live 1,778 Issuers
+- **CORS Barrier Eliminated**: Added Vercel serverless function `api/sync.js` to proxy SEC delisting notices and contacts server-side, bypassing browser Same-Origin Policy.
+- **1,704 Ceiling Removed**: Updated `useIssuersSync.js` and `secSyncWorker.js` to page dynamically without any hardcoded 1,704 record cap.
+- **Dataset Refreshed to 1,778 Verified Entities**: Ingested all fresh SEC EDGAR Form 15-12G and 25-NSE filings up to September 4, 2026 (e.g. GIPR, LPSN, RMAX).
+- **Vercel Cloud Deployment & Verification**: Deployed live to `https://delisted-crm-database-legal-and-auditor.vercel.app` (Deployment ID `rnjhpra6o`). Verified in browser subagent: count successfully updated from 1,704 to 1,778 with 0 CORS errors.
+- **Export Policy**: Saved diagnostic report and verification screenshot to `~/Downloads/`.
 
 ## 2026-08-31 - Feature 0.002: Automated Daily Morning Data Update Engine
 - **Engine Implementation**: Created `scripts/morning_sync.js` to handle SEC Form 144 daily index ingestion, contact enrichment, scoring, and regional apps sync.

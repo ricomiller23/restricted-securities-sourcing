@@ -278,22 +278,10 @@ export function useIssuersSync() {
     }
   };
 
-  // 24-Hour Automated Synchronization Lifecycle
+  // Instant On-Mount Fresh Sync: Forces a live background check on every page visit
   useEffect(() => {
-    const checkAndSync = () => {
-      try {
-        const lastSync = localStorage.getItem(LAST_SYNC_KEY);
-        const now = Date.now();
-        if (!lastSync || now - parseInt(lastSync, 10) >= SYNC_INTERVAL_MS) {
-          triggerLiveSync();
-        }
-      } catch (e) {
-        triggerLiveSync();
-      }
-    };
-
-    checkAndSync();
-    const timer = setInterval(checkAndSync, 60 * 60 * 1000);
+    triggerLiveSync();
+    const timer = setInterval(triggerLiveSync, 30 * 60 * 1000);
     return () => {
       clearInterval(timer);
       if (workerRef.current) {
