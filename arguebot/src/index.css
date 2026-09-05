@@ -531,3 +531,82 @@ h1, h2, h3, h4, .font-heading {
     max-width: 95%;
   }
 }
+
+/* Step-by-Step Q&A Wizard Styles */
+.qa-stepper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 24px;
+  gap: 8px;
+}
+
+.qa-step-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  transition: all 0.2s ease;
+}
+
+.qa-step-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.qa-step-active {
+  background: rgba(6, 182, 212, 0.12) !important;
+  border-color: #06b6d4 !important;
+  box-shadow: 0 0 16px rgba(6, 182, 212, 0.2);
+}
+
+.qa-step-completed {
+  border-color: rgba(16, 185, 129, 0.4);
+}
+
+.qa-step-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.qa-step-active .qa-step-circle {
+  background: var(--gradient-brand);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.6);
+}
+
+.qa-step-completed .qa-step-circle {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.qa-question-card {
+  animation: slideStepIn 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideStepIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .qa-stepper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
